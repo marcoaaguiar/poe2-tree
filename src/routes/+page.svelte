@@ -14,6 +14,12 @@
 
 	let searchTerm = $state('');
 	let searchResults: string[] = $state([]);
+
+	let isDragging = $state(false);
+	let startX = 0;
+	let startY = 0;
+	let scrollLeft = 0;
+	let scrollTop = 0;
 	$effect(() => {
 		handleSearch(searchTerm);
 	});
@@ -63,6 +69,35 @@
 			)
 			.map(([key, _]) => key);
 	}
+
+	function handleDragStart(event: MouseEvent) {
+		if (!imageEl) return;
+
+		isDragging = true;
+		startX = event.pageX - imageEl.offsetLeft;
+		startY = event.pageY - imageEl.offsetTop;
+		scrollLeft = imageEl.parentElement?.scrollLeft || 0;
+		scrollTop = imageEl.parentElement?.scrollTop || 0;
+
+		event.preventDefault();
+	}
+
+	function handleDragMove(event: MouseEvent) {
+		if (!isDragging || !imageEl) return;
+
+		const x = event.pageX - imageEl.offsetLeft;
+		const y = event.pageY - imageEl.offsetTop;
+
+		const walkX = x - startX;
+		const walkY = y - startY;
+
+		imageEl.parentElement!.scrollLeft = scrollLeft - walkX;
+		imageEl.parentElement!.scrollTop = scrollTop - walkY;
+	}
+
+	function handleDragEnd() {
+		isDragging = false;
+	}
 </script>
 
 <div style="padding-left: 16px;">
@@ -79,7 +114,13 @@
 	<span> > Search results: {searchResults.length}</span>
 </div>
 
-<div class="image-container">
+<div 
+	class="image-container"
+	onmousedown={handleDragStart}
+	onmousemove={handleDragMove}
+	onmouseup={handleDragEnd}
+	onmouseleave={handleDragEnd}
+>
 	<img bind:this={imageEl} onload={handleImageLoad} src="{base}/skill-tree.png" alt="Interactive" />
 
 	<!-- Display hoverable regions with lighter color -->
@@ -118,8 +159,16 @@
 
 <style>
 	.image-container {
+		width: 100%;
+		height: 100%;
 		position: relative;
 		display: inline-block;
+		overflow: hidden;
+		cursor: grab; 
+	}
+
+	.image-container:active {
+		cursor: grabbing;
 	}
 
 	.notable {
