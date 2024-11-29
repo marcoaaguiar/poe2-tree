@@ -1829,8 +1829,9 @@
     },
     {
       "id": "N343",
-      "x": 0.31018181818181817,
-      "y": 0.5848463687150838
+    "name": "Aftershocks",
+    "stats": [
+      "40% increased Aftershock Area of Effect"
     },
     {
       "id": "N344",
