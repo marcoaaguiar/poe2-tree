@@ -20,16 +20,19 @@
 		"stats": []
 	},
 	"K6": {
-		"name": "K6",
-		"stats": []
+		"name": "Ancestral Bond",
+		"stats": ["Unlimited number of Summoned Totems", "Totems reserve 100 Spirit each"]
 	},
 	"K7": {
 		"name": "K7",
 		"stats": []
 	},
 	"K8": {
-		"name": "K8",
-		"stats": []
+		"name": "Zealot's Oath",
+		"stats": [
+			"Excess Life Recovery from Regeneration is applied to Energy Shield",
+			"Energy Shield does not Recharge"
+		]
 	},
 	"K9": {
 		"name": "K9",
@@ -446,8 +449,8 @@
 		"stats": []
 	},
 	"N81": {
-		"name": "N81",
-		"stats": []
+		"name": "Calibration",
+		"stats": ["30% increased maximum Energy Shield", "5% increased maximum Mana"]
 	},
 	"N82": {
 		"name": "N82",
@@ -612,8 +615,8 @@
 		"stats": []
 	},
 	"N121": {
-		"name": "N121",
-		"stats": []
+		"name": "Restless Dead",
+		"stats": ["Minions Revive 25% faster"]
 	},
 	"N122": {
 		"name": "N122",
@@ -672,12 +675,14 @@
 		"stats": []
 	},
 	"N136": {
-		"name": "N136",
-		"stats": []
+		"name": "Adamant Recovery",
+		"stats": [
+			"Increases and Reductions to Armour also apply to Energy Shield Recharge Rate at 40% of their value"
+		]
 	},
 	"N137": {
-		"name": "N137",
-		"stats": []
+		"name": "Ancient Aegis",
+		"stats": ["Recover Energy Shield equal to 1% of Armour when you Block"]
 	},
 	"N138": {
 		"name": "N138",
@@ -878,12 +883,16 @@
 		"stats": []
 	},
 	"N186": {
-		"name": "N186",
-		"stats": []
+		"name": "Spiral into Depression",
+		"stats": [
+			"3% increased Movement Speed",
+			"25% increased Armour",
+			"25% increased maximum Energy Shield"
+		]
 	},
 	"N187": {
-		"name": "N187",
-		"stats": []
+		"name": "Spiral into Mania",
+		"stats": ["10% increased Cast Speed", "+7% to Chaos Resistance"]
 	},
 	"N188": {
 		"name": "N188",
@@ -910,8 +919,8 @@
 		"stats": []
 	},
 	"N194": {
-		"name": "N194",
-		"stats": []
+		"name": "Spiral into Insanity",
+		"stats": ["29% increased Chaos Damage", "10% increased Global Defences"]
 	},
 	"N195": {
 		"name": "N195",
@@ -950,8 +959,11 @@
 		"stats": []
 	},
 	"N204": {
-		"name": "N204",
-		"stats": []
+		"name": "Reinforced Barrier",
+		"stats": [
+			"20% increased maximum Energy Shield",
+			"Defend with 120% of Armour while not on Low Energy Shield"
+		]
 	},
 	"N205": {
 		"name": "N205",
@@ -974,16 +986,19 @@
 		"stats": []
 	},
 	"N210": {
-		"name": "N210",
-		"stats": []
+		"name": "Fleshcrafting",
+		"stats": ["Minions gain 15% of their Maximum Life as Extra Maximum Energy Shield"]
 	},
 	"N211": {
 		"name": "N211",
 		"stats": []
 	},
 	"N212": {
-		"name": "N212",
-		"stats": []
+		"name": "Covering Ward",
+		"stats": [
+			"25% increased Energy Shield Recharge Rate",
+			"10% chance for Energy Shield Recharge to start when you Block"
+		]
 	},
 	"N213": {
 		"name": "N213",
@@ -1034,8 +1049,8 @@
 		"stats": []
 	},
 	"N225": {
-		"name": "N225",
-		"stats": []
+		"name": "Bolstering Presence",
+		"stats": ["20% increased effect of Auras from your Skills"]
 	},
 	"N226": {
 		"name": "N226",
@@ -1074,8 +1089,8 @@
 		"stats": []
 	},
 	"N235": {
-		"name": "N235",
-		"stats": []
+		"name": "Resolution",
+		"stats": ["10% increased Global Defences", "25% increased Stun Threshold"]
 	},
 	"N236": {
 		"name": "N236",
@@ -1122,8 +1137,12 @@
 		"stats": []
 	},
 	"N247": {
-		"name": "N247",
-		"stats": []
+		"name": "Supportive Ancestors",
+		"stats": [
+			"25% increased Damage while you have a Totem",
+			"Totems have 2% increased Cast Speed per Summoned Totem",
+			"Totems have 2% increased Attack Speed per Summoned Totem"
+		]
 	},
 	"N248": {
 		"name": "N248",

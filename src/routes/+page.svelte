@@ -91,6 +91,7 @@
 				<div
 					class:notable={node.id.startsWith('N')}
 					class:keystone={node.id.startsWith('K')}
+					class:unidentified={nodesDesc[node.id].name === node.id}
 					class:search-result={searchResults.includes(node.id)}
 					style="
         left: {node.x * imageEl?.width - 10}px;
@@ -129,14 +130,22 @@
 		background-color: rgba(255, 255, 0, 0.2);
 		pointer-events: auto; /* Allow mouse events */
 	}
+	.notable.unidentified {
+		background-color: rgba(255, 100, 100, 0.2);
+	}
+
 	.keystone {
 		position: absolute;
 		width: 25px;
 		height: 25px;
 		border-radius: 50%;
-		background-color: rgba(255, 0, 255, 0.2);
+		background-color: rgba(100, 255, 100, 0.2);
 		pointer-events: auto; /* Allow mouse events */
 	}
+	.keystone.unidentified {
+		background-color: rgba(255, 0, 100, 0.2);
+	}
+
 	.search-result {
 		border: 2px solid rgba(255, 0, 0, 0.8);
 	}
