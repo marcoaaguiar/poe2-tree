@@ -9,7 +9,7 @@
 	},
 	"K3": {
 		"name": "Eldritch Battery",
-		"stats": ["Converts all Energy Shield to Mana"]
+		"stats": ["Converts all Energy Shield to Mana", "Confirmed to not be this in EA"]
 	},
 	"K4": {
 		"name": "Chaos Inoculation",
@@ -146,10 +146,9 @@
 		"stats": []
 	},
 	"N7": {
-		"name": "N7 - Title missing",
+		"name": "Burnout",
 		"stats": [
-			"Ignites you inflict deal Damage 15% faster"
-		]
+			"Ignites you inflict deal Damage 15% faster"]
 	},
 	"N8": {
 		"name": "N8",
@@ -172,8 +171,10 @@
 		"stats": ["60% increased maximum Energy Shield", "20% slower start of Energy Shield Recharge"]
 	},
 	"N13": {
-		"name": "N13",
-		"stats": []
+		"name": "Electric Amplification",
+		"stats": [
+		"Damage Penetrates 18% Lightning Resistance",
+		"25% increased Lightning Exposure Effect"]
 	},
 	"N14": {
 		"name": "N14",
@@ -878,8 +879,7 @@
 		"name": "Power of the Dead",
 		"stats": [
 			"Minions deal 15% increased Damage",
-			"Minions have 3% increased Attack and Cast Speed"
-		]
+			"Minions have 3% increased Attack and Cast Speed"]
 	},
 	"N177": {
 		"name": "N177",
@@ -1087,9 +1087,8 @@
 	"N222": {
 		"name": "Flow State",
 		"stats": [
-			"15% increased Mana Regeneration Rate",
-			"5% increased Attack and Cast Speed"			
-		]
+		"15% increased Mana Regeneration Rate",
+		"5% increased Attack and Cast Speed"]
 	},
 	"N223": {
 		"name": "N223",
@@ -1189,8 +1188,7 @@
 		"name": "Flow Like Water",
 		"stats": [
 			"8% increased Attack and Cast Speed",
-			"+5 to Dexterity and Intelligence"
-		]
+			"+5 to Dexterity and Intelligence"]
 	},
 	"N246": {
 		"name": "Primal Growth",
@@ -1439,8 +1437,10 @@
 		"stats": ["15% increased Evasion Rating", "15% increased maximum Energy Shield"]
 	},
 	"N299": {
-		"name": "N299",
-		"stats": []
+		"name": "Blinding Strike",
+		"stats": [
+			"24% increased Attack Damage",
+			"10% chance to Blind Enemies on Hit with Attacks"]
 	},
 	"N300": {
 		"name": "N300",
@@ -1924,11 +1924,10 @@
 		"stats": ["20% more Damage against Heavy Stunned Enemies with Maces"]
 	},
 	"N411": {
-		"name": "N411 - Title Missing",
+		"name": "Death from Afar",
 		"stats": [
-			"Projectiles have 25% increased Critical Hit Chance against Enemies further than 6m.",
-			"Projectiles deal 25% increased Damage with Hits against Enemies further than 6m."
-		]
+			"Projectiles have 25% increased Critical Hit Chance against Enemies further then 6m",
+			"Projectiles deal 25% increased Damage with Hits against Enemies further then 6m"]
 	},
 	"N412": {
 		"name": "Vigilance",
@@ -1989,11 +1988,10 @@
 		"stats": []
 	},
 	"N425": {
-		"name": "N425 - Title Missing",
+		"name": "Stand and Deliver",
 		"stats": [
 			"Projectiles have 40% increased Critical Damage Bonus against Enemies within 2m",
-			"Projectiles deal 25% increased Damage with Hits against Enemies within 2m"
-		]
+			"Projectiles deal 25% increased Damage with Hits against Enemies within 2m"]
 	},
 	"N426": {
 		"name": "Back in Action",
@@ -2507,8 +2505,9 @@
 		"stats": []
 	},
 	"N539": {
-		"name": "N539",
-		"stats": []
+		"name": "Advanced Munitions",
+		"stats": [
+			"25% increased chance to inflict Ailments with Projectiles"]
 	},
 	"N540": {
 		"name": "N540",
