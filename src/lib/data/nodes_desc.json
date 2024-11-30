@@ -173,8 +173,8 @@
 	"N13": {
 		"name": "Electric Amplification",
 		"stats": [
-		"Damage Penetrates 18% Lightning Resistance",
-		"25% increased Lightning Exposure Effect"]
+			"Damage Penetrates 18% Lightning Resistance",
+			"25% increased Lightning Exposure Effect"]
 	},
 	"N14": {
 		"name": "N14",
@@ -879,7 +879,8 @@
 		"name": "Power of the Dead",
 		"stats": [
 			"Minions deal 15% increased Damage",
-			"Minions have 3% increased Attack and Cast Speed"]
+			"Minions have 3% increased Attack and Cast Speed"
+		]
 	},
 	"N177": {
 		"name": "N177",
@@ -1087,8 +1088,9 @@
 	"N222": {
 		"name": "Flow State",
 		"stats": [
-		"15% increased Mana Regeneration Rate",
-		"5% increased Attack and Cast Speed"]
+			"15% increased Mana Regeneration Rate",
+			"5% increased Attack and Cast Speed"
+		]
 	},
 	"N223": {
 		"name": "N223",
@@ -1188,7 +1190,8 @@
 		"name": "Flow Like Water",
 		"stats": [
 			"8% increased Attack and Cast Speed",
-			"+5 to Dexterity and Intelligence"]
+			"+5 to Dexterity and Intelligence"
+		]
 	},
 	"N246": {
 		"name": "Primal Growth",
