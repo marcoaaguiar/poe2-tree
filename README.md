@@ -61,6 +61,10 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
 
 - [Str/Dex Area](https://www.youtube.com/watch?v=Ec_06V4NOWc)
 
+## Blupa Figma Tree
+
+- [Figma Tree](https://www.figma.com/design/RDJYoGyidY3Xsc21HjcY31/Figma-basics)
+
 # Sources to map
 
 ## Dreamcore Youtube
