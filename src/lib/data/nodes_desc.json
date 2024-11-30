@@ -146,8 +146,10 @@
 		"stats": []
 	},
 	"N7": {
-		"name": "N7",
-		"stats": []
+		"name": "N7 - Title missing",
+		"stats": [
+			"Ignites you inflict deal Damage 15% faster"
+		]
 	},
 	"N8": {
 		"name": "N8",
@@ -965,8 +967,10 @@
 		"stats": []
 	},
 	"N198": {
-		"name": "N198",
-		"stats": []
+		"name": "N198 - Title Missing",
+		"stats": [
+			"6% of Damage taken Recouped as Life"
+		]
 	},
 	"N199": {
 		"name": "N199",
@@ -1046,8 +1050,10 @@
 		"stats": []
 	},
 	"N216": {
-		"name": "N216",
-		"stats": []
+		"name": "N216 - Title Missing",
+		"stats": [
+			"15% increased Area of Effect for Staff Attacks"
+		]
 	},
 	"N217": {
 		"name": "N217",
@@ -1071,7 +1077,10 @@
 	},
 	"N222": {
 		"name": "N222",
-		"stats": []
+		"stats": [
+			"15% increased Mana Regeneration Rate",
+			"5% increased Attack and Cast Speed"
+		]
 	},
 	"N223": {
 		"name": "N223",
@@ -1162,8 +1171,11 @@
 		"stats": []
 	},
 	"N245": {
-		"name": "N245",
-		"stats": []
+		"name": "N245 - Title Missing",
+		"stats": [
+			"8% increased Attack and Cast Speed.",
+			"+5 to Dexterity and Intelligence."
+		]
 	},
 	"N246": {
 		"name": "Primal Growth",
@@ -1189,8 +1201,11 @@
 		"stats": []
 	},
 	"N250": {
-		"name": "N250",
-		"stats": []
+		"name": "N250 - Title Missing",
+		"stats": [
+			"10% faster start of Energy Shield Recharge.",
+			"50% increased Evasion Rating if Energy Shield Recharge has started in the past 2 seconds."
+		]
 	},
 	"N251": {
 		"name": "N251",
@@ -1201,8 +1216,13 @@
 		"stats": []
 	},
 	"N253": {
-		"name": "N253",
-		"stats": []
+		"name": "N253 - Title Missing",
+		"stats": [
+			"4% increased Movement Speed.",
+			"14% increased Evasion Rating.",
+			"14% increased maximum Energy Shield.",
+			"+5 to Dexterity and Intelligence."
+		]
 	},
 	"N254": {
 		"name": "N254",
@@ -1879,8 +1899,11 @@
 		"stats": ["20% more Damage against Heavy Stunned Enemies with Maces"]
 	},
 	"N411": {
-		"name": "N411",
-		"stats": []
+		"name": "N411 - Title Missing",
+		"stats": [
+			"Projectiles have 25% increased Critical Hit Chance against Enemies further than 6m.",
+			"Projectiles deal 25% increased Damage with Hits against Enemies further than 6m."
+		]
 	},
 	"N412": {
 		"name": "Vigilance",
@@ -1941,8 +1964,11 @@
 		"stats": []
 	},
 	"N425": {
-		"name": "N425",
-		"stats": []
+		"name": "N425 - Title Missing",
+		"stats": [
+			"Projectiles have 40% increased Critical Damage Bonus against Enemies within 2m",
+			"Projectiles deal 25% increased Damage with Hits against Enemies within 2m"
+		]
 	},
 	"N426": {
 		"name": "Back in Action",
