@@ -2661,5 +2661,37 @@
 	"N573": {
 		"name": "Stance Breaker",
 		"stats": ["50% reduced Enemy Chance to Block Sword Attacks"]
+	},
+	"N574": {
+		"name": "Dark Entries",
+		"stats": ["+1 to Level of all Chaos Skills"]
+	},
+	"N575": {
+		"name": "Building Toxins",
+		"stats": ["25% reduced Poison Duration", "Can Poison enemies an additional time"]
+	},
+	"N576": {
+		"name": "Escalating Toxins",
+		"stats": ["10% increased Poison Duration for each Poison you have inflicted Recently, up to a maximum of 100%"]
+	},
+	"N577": {
+		"name": "N577",
+		"stats": []
+	},
+	"N578": {
+		"name": "N578",
+		"stats": []
+	},
+	"N579": {
+		"name": "N579",
+		"stats": []
+	},
+	"N580": {
+		"name": "N580",
+		"stats": []
+	},
+	"N581": {
+		"name": "N581",
+		"stats": []
 	}
 }
