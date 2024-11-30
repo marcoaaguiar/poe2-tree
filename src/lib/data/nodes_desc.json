@@ -2588,7 +2588,7 @@
 		]
 	},
 	"N557": {
-		"name": "Metabolism",
+		"name": "Fast Metabolism",
 		"stats": ["Life Leech effects are not removed when Unreserved Life is Filled"]
 	},
 	"N558": {
