@@ -40,7 +40,7 @@
 	// State for filters
 	let highlightKeystones = false;
 	let highlightNotables = false;
-	let hideUnidentified = false;
+	let hideUnidentified = true;
 
 	// Reactive statement for search
 	$: handleSearch(searchTerm);
