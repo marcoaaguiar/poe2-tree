@@ -59,7 +59,6 @@
 	let highlightKeystones = false;
 	let highlightNotables = false;
 	let hideUnidentified = true;
-<<<<<<< HEAD
 
 	// State for selected nodes display
 	let showSelectedNodesDisplay = false;
@@ -74,8 +73,6 @@
 
 	let searchResultsDisplayEl: HTMLDivElement | null = null;
 	let searchResultsSpanEl: HTMLSpanElement | null = null;
-=======
->>>>>>> origin/main
 
 	// Reactive statement for search
 	$: handleSearch(searchTerm);
