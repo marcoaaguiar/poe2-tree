@@ -355,8 +355,11 @@
 		"stats": []
 	},
 	"N54": {
-		"name": "N54",
-		"stats": []
+		"name": "Wither Away",
+		"stats": [
+			"Unwithered enemies are Withered for 8 seconds when they enter your Presence",
+			"20% increased Effect of Withered"
+		]
 	},
 	"N55": {
 		"name": "N55",
@@ -1119,8 +1122,11 @@
 		"stats": ["25% increased Effect of Ignite", "+10 to Strength"]
 	},
 	"N228": {
-		"name": "N228",
-		"stats": []
+		"name": "Leeching Toxins",
+		"stats": [
+			"30% increased Effect of Poison",
+			"Recover 2% of Life on Killing a Poisoned Enemy"
+		]
 	},
 	"N229": {
 		"name": "N229",

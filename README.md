@@ -70,6 +70,10 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
 
 - [Mixed Area](https://www.youtube.com/watch?v=ZpIbaTXJD4g&t=1356s)
 
+## Moxsy YouTube
+
+- [Int/Dex Area](https://youtu.be/LRL30Ib9RIU?si=EWwrFOF-s8jizDtI&t=1149)
+
 # Sources to map
 
 ## Dreamcore Youtube
