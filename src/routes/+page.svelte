@@ -3,6 +3,19 @@
 	import { type NodePosition, type TooltipContent, loadData } from '$lib';
 	import { onMount, tick } from 'svelte';
 
+	import en from '../lib/data/nodes_desc.json';
+	import sv from '../locales/sv.json';
+	import { addMessages, getLocaleFromNavigator, init, t } from 'svelte-i18n';
+	// Load translation messages
+	addMessages('en', en);
+	addMessages('sv', sv);
+
+	// Initialize i18n
+	init({
+		fallbackLocale: 'en',
+		initialLocale: getLocaleFromNavigator()
+	});
+
 	let { positions: nodes, nodesDescription: nodesDesc } = loadData();
 
 	let containerEl: HTMLDivElement | null = null;
@@ -12,6 +25,7 @@
 	let hasLoaded = false;
 
 	let tooltipContent: TooltipContent | null = null;
+	let tooltipId: string | null = null;
 	let tooltipX = 0;
 	let tooltipY = 0;
 
@@ -46,6 +60,7 @@
 	$: handleSearch(searchTerm);
 
 	async function activateTooltip(node: NodePosition) {
+		tooltipId = node.id;
 		tooltipContent = nodesDesc[node.id];
 
 		if (!imageEl || !containerEl) return;
@@ -118,6 +133,8 @@
 			panOffsetX = event.clientX - panStartX;
 			panOffsetY = event.clientY - panStartY;
 			clampPanOffsets();
+			tooltipId = null;
+			tooltipContent = null;
 		}
 	}
 
@@ -135,6 +152,7 @@
 
 	function handleMouseLeave() {
 		if (!isPanning) {
+			tooltipId = null;
 			tooltipContent = null;
 		}
 	}
@@ -355,11 +373,11 @@
 	{#if tooltipContent != null}
 		<div bind:this={tooltipEl} class="tooltip" style="left: {tooltipX}px; top: {tooltipY}px;">
 			<div class="title" style={`background-image: url('${base}/tooltip-header.png');`}>
-				{tooltipContent.name}
+				{$t(`${tooltipId}.name`)}
 			</div>
 			<div class="body">
-				{#each tooltipContent.stats as stat}
-					<p class="stat-line">{stat}</p>
+				{#each tooltipContent.stats as stat, i}
+					<p class="stat-line">{$t(`${tooltipId}.stats.${i}`)}</p>
 				{/each}
 			</div>
 		</div>
