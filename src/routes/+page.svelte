@@ -358,9 +358,9 @@
 <div class="top-bar">
 	<!-- GitHub link to the top-right corner -->
 	<div class="github-text">
-		<p>Check out the Github repository</p>
-		<p>to see how to contribute to this project</p>
+		<p>本项目来自GitHub开源<br>汉化文本来源于chat-gpt4.0（施工者：超昂蓝莓）<br>如果愿意提供更好的汉化文本或建议可以随时联系我</p>
 	</div>
+
 	<div class="github-link">
 		<a href="https://github.com/marcoaaguiar/poe2-tree" target="_blank" rel="noopener noreferrer">
 			<!-- GitHub SVG Icon -->
@@ -380,32 +380,41 @@
 		</a>
 	</div>
 
-	<h1>Path of Exile 2 Skill Tree Preview</h1>
+	<div class="wechat-link">
+		<svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 0 50 50" width="32" aria-hidden="true">
+			<path d="M 19 6 C 9.625 6 2 12.503906 2 20.5 C 2 24.769531 4.058594 28.609375 7.816406 31.390625 L 5.179688 39.304688 L 13.425781 34.199219 C 15.714844 34.917969 18.507813 35.171875 21.203125 34.875 C 23.390625 39.109375 28.332031 42 34 42 C 35.722656 42 37.316406 41.675781 38.796875 41.234375 L 45.644531 45.066406 L 43.734375 38.515625 C 46.3125 36.375 48 33.394531 48 30 C 48 23.789063 42.597656 18.835938 35.75 18.105469 C 34.40625 11.152344 27.367188 6 19 6 Z M 13 14 C 14.101563 14 15 14.898438 15 16 C 15 17.101563 14.101563 18 13 18 C 11.898438 18 11 17.101563 11 16 C 11 14.898438 11.898438 14 13 14 Z M 25 14 C 26.101563 14 27 14.898438 27 16 C 27 17.101563 26.101563 18 25 18 C 23.898438 18 23 17.101563 23 16 C 23 14.898438 23.898438 14 25 14 Z M 34 20 C 40.746094 20 46 24.535156 46 30 C 46 32.957031 44.492188 35.550781 42.003906 37.394531 L 41.445313 37.8125 L 42.355469 40.933594 L 39.105469 39.109375 L 38.683594 39.25 C 37.285156 39.71875 35.6875 40 34 40 C 27.253906 40 22 35.464844 22 30 C 22 24.535156 27.253906 20 34 20 Z M 29.5 26 C 28.699219 26 28 26.699219 28 27.5 C 28 28.300781 28.699219 29 29.5 29 C 30.300781 29 31 28.300781 31 27.5 C 31 26.699219 30.300781 26 29.5 26 Z M 38.5 26 C 37.699219 26 37 26.699219 37 27.5 C 37 28.300781 37.699219 29 38.5 29 C 39.300781 29 40 28.300781 40 27.5 C 40 26.699219 39.300781 26 38.5 26 Z"></path>
+		</svg>
+		<img class="wechat-hover-image" src="wechat121.png" alt="WeChat QR Code">
+	</div>
+
+
+
+	<h1>流放之路2 技能树预览</h1>
 
 	<!-- Filters -->
 	<div class="filters">
-		<p><b>Highlight:</b></p>
-		<label><input type="checkbox" bind:checked={highlightKeystones} />Keystones</label>
-		<label><input type="checkbox" bind:checked={highlightNotables} />Notables</label>
-		<label><input type="checkbox" bind:checked={highlightSmalls} />Smalls</label>
+		<p><b>高亮筛选:</b></p>
+		<label><input type="checkbox" bind:checked={highlightKeystones} />基石天赋</label>
+		<label><input type="checkbox" bind:checked={highlightNotables} />大天赋</label>
+		<label><input type="checkbox" bind:checked={highlightSmalls} />小天赋</label>
 	</div>
 	<div class="filters">
-		<p><b>Hide:</b></p>
-		<label><input type="checkbox" bind:checked={hideUnidentified} />Unidentified</label>
-		<label><input type="checkbox" bind:checked={hideUnselected} />Unselected</label>
-		<label><input type="checkbox" bind:checked={hideSmall} />Smalls</label>
+		<p><b>勾选隐藏:</b></p>
+		<label><input type="checkbox" bind:checked={hideUnidentified} />未收录</label>
+		<label><input type="checkbox" bind:checked={hideUnselected} />未选中</label>
+		<label><input type="checkbox" bind:checked={hideSmall} />小天赋</label>
 	</div>
 </div>
 
 <!-- Search and Filter Section -->
 <div class="search-bar">
-	<input type="text" placeholder="Search..." bind:value={searchTerm} />
+	<input type="text" placeholder="搜索..." bind:value={searchTerm} />
 	<span
 		bind:this={searchResultsSpanEl}
 		onmouseenter={handleSearchResultsMouseEnter}
 		onmouseleave={handleSearchResultsMouseLeave}
 		onclick={handleSearchResultsClick}
-		style="cursor: pointer; margin-right: 10px;">Search Results: {searchResults.length}</span
+		style="cursor: pointer; margin-right: 10px;">搜索结果: {searchResults.length}</span
 	>
 
 	<!-- Search Results Display -->
@@ -435,14 +444,14 @@
 		onmouseenter={handleSelectedNodesMouseEnter}
 		onmouseleave={handleSelectedNodesMouseLeave}
 		onclick={handleSelectedNodesClick}
-		style="cursor: pointer;">Selected Nodes: {selectedNodes.length}/122</span
+		style="cursor: pointer;">已选节点: {selectedNodes.length}/122</span
 	>
 
 	<!-- Selected Nodes Display -->
 	{#if showSelectedNodesDisplay}
 		<div class="info-display" bind:this={selectedNodesDisplayEl}>
 			{#if selectedNodes.length > 0}
-				<button onclick={clearSelectedNodes}>Clear Selected Nodes</button>
+				<button onclick={clearSelectedNodes}>清除已选节点</button>
 				<ul>
 					<!-- Only display non small nodes -->
 					{#each selectedNodes as nodeId}
@@ -565,6 +574,7 @@
 		padding: 10px;
 		background-color: #000;
 		color: #fff;
+			font-family: "微软雅黑", "Arial", sans-serif;
 	}
 
 	.top-bar h1 {
@@ -584,15 +594,46 @@
 		top: 10px;
 		right: 10px;
 		text-wrap: balance;
+		font-family: "微软雅黑", "Arial", sans-serif;
+		text-align: right;
 	}
 
 	.github-link {
 		position: absolute;
-		top: 80px;
-		right: 140px;
+		top: 85px;
+		right: 20px;
 	}
 
-	.github-link a {
+  .wechat-link {
+      position: absolute;
+      top: 85px;
+      right: 70px;
+  }
+  .wechat-link svg {
+      fill: #fff;
+      transition: fill 0.3s;
+  }
+
+  .wechat-link:hover svg {
+      fill: #FF4500; /* 这是橙色 */
+  }
+
+  .wechat-hover-image {
+      display: none;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 358px;  /* 调整为图片的宽度 */
+      height: 485px; /* 调整为图片的高度 */
+      z-index: 1000;
+  }
+
+  .wechat-link:hover .wechat-hover-image {
+      display: block;
+  }
+
+
+  .github-link a {
 		color: #fff;
 		text-decoration: none;
 	}

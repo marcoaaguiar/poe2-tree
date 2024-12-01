@@ -1,154 +1,153 @@
 {
 	"K1": {
-		"name": "Whispers of Doom",
-		"stats": ["You can apply an additional Curse", "Double Activation Delay of Curses"]
+		"name": "灭世之语",
+		"stats": ["你可以施加一个额外的诅咒", "诅咒的激活延迟翻倍"]
 	},
 	"K2": {
-		"name": "Necromantic Talisman",
-		"stats": ["All bonuses from an Equipped Amulet apply to your Minions instead of you"]
+		"name": "死灵魔符",
+		"stats": ["装备的护身符上所有的加成效果将作用于你的仆从，而不是你自己"]
 	},
 	"K3": {
-		"name": "Eldritch Battery",
-		"stats": ["Converts all Energy Shield to Mana", "Confirmed to not be this in EA"]
+		"name": "邪术电池",
+		"stats": ["将所有能量护盾转化为魔力", "确认在EA中不是这样"]
 	},
 	"K4": {
-		"name": "Chaos Inoculation",
-		"stats": ["Maximum Life becomes 1, Immune to Chaos Damage"]
+		"name": "混沌免疫",
+		"stats": ["最大生命值变为1，对混沌伤害免疫"]
 	},
 	"K5": {
-		"name": "Conduit",
-		"stats": ["If you would gain a Charge, Allies in your Presence gain that Charge instead"]
+		"name": "共享能量",
+		"stats": ["如果你获得一个充能，那么你周围的盟友将代替你获得该充能"]
 	},
 	"K6": {
-		"name": "Ancestral Bond",
-		"stats": ["Unlimited number of Summoned Totems", "Totems reserve 100 Spirit each"]
+		"name": "祖灵羁绊",
+		"stats": ["召唤图腾的数量无限", "每个图腾占用100点灵力"]
 	},
 	"K7": {
-		"name": "Mind Over Matter",
-		"stats": ["All Damage is taken from Mana before Life", "50% less Mana Recovery Rate"]
+		"name": "灵魂超物",
+		"stats": ["所有伤害先从魔力抵消，然后才是生命", "魔力恢复速度降低50%"]
 	},
 	"K8": {
-		"name": "Zealot's Oath",
+		"name": "狂热誓言",
 		"stats": [
-			"Excess Life Recovery from Regeneration is applied to Energy Shield",
-			"Energy Shield does not Recharge"
+			"超出的生命恢复会转化为能量护盾的恢复",
+			"能量护盾不再自我恢复"
 		]
 	},
 	"K9": {
-		"name": "Resonance",
+		"name": "共鸣",
 		"stats": [
-			"Gain Power Charges instead of Frenzy Charges",
-			"Gain Frenzy Charges instead of Endurance Charges",
-			"Gain Endurance Charges instead of Power Charges"
+			"获得力量充能代替狂怒充能",
+			"获得狂怒充能代替耐力充能",
+			"获得耐力充能代替力量充能"
 		]
 	},
 	"K10": {
-		"name": "Eternal Youth",
+		"name": "永恒青春",
 		"stats": [
-			"Life Recharges instead of Energy Shield",
-			"Life Recovery from Flasks applies to Energy Shield instead"
+			"生命值代替能量护盾进行恢复",
+			"药瓶的生命恢复效果应用于能量护盾"
 		]
 	},
 	"K11": {
-		"name": "Pain Attunement",
+		"name": "痛苦调和",
 		"stats": [
-			"30% less Critical Damage Bonus when on Full Life",
-			"30% more Critical Damage Bonus when on Low Life"
+			"满血时，暴击伤害加成减少30%",
+			"低血时，暴击伤害加成增加30%"
 		]
 	},
 	"K12": {
-		"name": "Heartstopper",
+		"name": "止心",
 		"stats": [
-			"Take 75% less Damage over Time if you've started taking Damage over Time in the past second",
-			"Take 50% more Damage over Time if you've haven't started taking Damage over Time in the past second"
+			"如果你在过去的一秒内开始承受持续伤害，那么你受到的持续伤害减少75%",
+			"如果你在过去的一秒内没有开始承受持续伤害，那么你受到的持续伤害增加50%"
 		]
 	},
 	"K13": {
-		"name": "Bloodmagic",
-		"stats": ["Removes all Mana", "Skills Cost Life instead of Mana"]
+		"name": "血魔法",
+		"stats": ["移除所有魔力", "技能消耗生命值代替魔力"]
 	},
 	"K14": {
-		"name": "Acrobatics",
-		"stats": ["Can Evade all Hits", "50% less Evasion Rating"]
+		"name": "杂技",
+		"stats": ["可以闪避所有攻击", "闪避评级减少50%"]
 	},
 	"K15": {
-		"name": "Resolute Technique",
-		"stats": ["Your Hits can´t be Evaded", "Never deal Critical Hits"]
+		"name": "坚定技巧",
+		"stats": ["你的攻击不能被闪避", "永远不会造成暴击"]
 	},
 	"K16": {
-		"name": "Avatar of Fire",
-		"stats": ["75% of Damage Converted to Fire Damage", "Deal no Non-Fire Damage"]
+		"name": "火之化身",
+		"stats": ["75%的伤害转化为火焰伤害", "不会造成非火焰伤害"]
 	},
 	"K17": {
-		"name": "Oasis",
-		"stats": ["Cannot use Charms", "30% more Recovery from Flasks"]
+		"name": "绿洲",
+		"stats": ["不能使用魔符", "药瓶恢复效果增加30%"]
 	},
 	"K18": {
-		"name": "Elemental Equilibrium",
+		"name": "元素均衡",
 		"stats": [
-			"Hits that deal Fire Damage remove Fire Exposure and inflict Lightning Exposure",
-			"Hits that deal Cold Damage remove Cold Exposure and inflict Fire Exposure",
-			"Hits that deal Lightning Damage remove Lightning Exposure and inflict Cold Exposure"
+			"造成火焰伤害的攻击会移除火焰曝露效果并施加闪电曝露效果",
+			"造成冰冷伤害的攻击会移除冰冷曝露效果并施加火焰曝露效果",
+			"造成闪电伤害的攻击会移除闪电曝露效果并施加冰冷曝露效果"
 		]
 	},
 	"K19": {
-		"name": "Unwavering Stance",
-		"stats": ["Your Stun Threshold is doubled", "Cannot Dodge Roll"]
+		"name": "坚定立场",
+		"stats": ["你的眩晕阈值翻倍", "不能进行闪避滚动"]
 	},
 	"K20": {
-		"name": "Giant's Blood",
+		"name": "巨人之血",
 		"stats": [
-			"You Can wield Two-Handed Axes, Maces and Swords in one hand",
-			"Double Attribute requirements of weapons"
+			"你可以单手装备双手斧、锤和剑",
+			"武器的属性要求翻倍"
 		]
 	},
 	"K21": {
-		"name": "Glancing Blows",
-		"stats": ["Block Chance is doubled", "You take 50% of Damage from Blocked Hits"]
+		"name": "擦肩而过",
+		"stats": ["格挡几率翻倍", "你会承受来自被格挡攻击的50%伤害"]
 	},
 	"K22": {
-		"name": "Vaal Pact",
-		"stats": ["Life Leech is Instant", "Cannot use Life Flasks"]
+		"name": "瓦尔契约",
+		"stats": ["生命偷取立即生效", "不能使用生命药瓶"]
 	},
 	"K23": {
-		"name": "Iron Reflexes",
-		"stats": ["Converts all Evasion Rating to Armour"]
+		"name": "铁骨",
+		"stats": ["所有闪避评级转化为护甲值"]
 	},
 	"K24": {
-		"name": "Bulwark",
+		"name": "壁垒",
 		"stats": [
-			"Dodge Roll cannot Avoid Damage",
-			"Take 30% less Damage from Hits while Dodge Rolling"
+			"闪避滚动不能避免伤害",
+			"在闪避滚动时受到的攻击伤害减少30%"
 		]
 	},
 	"N1": {
-		"name": "Pure Power",
-		"stats": ["2% increased Lightning Damage per 10 Intelligence"]
+		"name": "纯粹力量",
+		"stats": ["每10点智力增加2%的闪电伤害"]
 	},
 	"N2": {
 		"name": "N2",
 		"stats": []
 	},
 	"N3": {
-		"name": "Lord of Horrors",
-		"stats": ["Minions have 12% reduced Reservation"]
+		"name": "恐怖之主",
+		"stats": ["仆从的预留效果降低12%"]
 	},
 	"N4": {
 		"name": "N4",
 		"stats": []
 	},
 	"N5": {
-		"name": "Endless Blizzard",
-		"stats": ["+1 to Level of all Cold Skills"]
+		"name": "无尽冰雪",
+		"stats": ["所有冷却技能等级+1"]
 	},
 	"N6": {
 		"name": "N6",
 		"stats": []
 	},
 	"N7": {
-		"name": "Burnout",
-		"stats": [
-			"Ignites you inflict deal Damage 15% faster"]
+		"name": "燃烧耗尽",
+		"stats": ["你造成的点燃效果伤害速度加快15%"]
 	},
 	"N8": {
 		"name": "N8",
@@ -167,39 +166,40 @@
 		"stats": []
 	},
 	"N12": {
-		"name": "Patient Barrier",
-		"stats": ["60% increased maximum Energy Shield", "20% slower start of Energy Shield Recharge"]
+		"name": "耐心屏障",
+		"stats": ["能量护盾最大值增加60%", "能量护盾开始回复的速度降低20%"]
 	},
 	"N13": {
-		"name": "Electric Amplification",
+		"name": "电流放大",
 		"stats": [
-			"Damage Penetrates 18% Lightning Resistance",
-			"25% increased Lightning Exposure Effect"]
+			"伤害穿透18%的闪电抗性",
+			"闪电曝露效果增加25%"
+		]
 	},
 	"N14": {
 		"name": "N14",
 		"stats": []
 	},
 	"N15": {
-		"name": "Enhanced Barrier",
-		"stats": ["25% increased maximum Energy Shield", "+1% to all maximum Elemental Resistances"]
+		"name": "强化屏障",
+		"stats": ["能量护盾最大值增加25%", "所有元素抗性上限+1%"]
 	},
 	"N16": {
 		"name": "N16",
 		"stats": []
 	},
 	"N17": {
-		"name": "Right Hand of Darkness",
+		"name": "黑暗的右手",
 		"stats": [
-			"Minions have 20% increased Area of Effect",
-			"Minions have 10% chance to inflict Withered on Hit"
+			"仆从的效果范围增加20%",
+			"仆从有10%的几率在击中时施加凋零效果"
 		]
 	},
 	"N18": {
-		"name": "Left Hand of Darkness",
+		"name": "黑暗的左手",
 		"stats": [
-			"Minions have 20% additional Physical Damage Reduction",
-			"Minions have +23% to Chaos Resistance"
+			"仆从额外减少20%的物理伤害",
+			"仆从的混沌抗性+23%"
 		]
 	},
 	"N19": {
@@ -211,14 +211,14 @@
 		"stats": []
 	},
 	"N21": {
-		"name": "Arcane Intensity",
-		"stats": ["3% increased Spell Damage per 100 maximum Mana"]
+		"name": "奥术强度",
+		"stats": ["每100点最大法力增加3%的法术伤害"]
 	},
 	"N22": {
-		"name": "Refocus",
+		"name": "重新聚焦",
 		"stats": [
-			"30% increased Energy Shield Recharge Rate",
-			"10% chance for Energy Shield Recharge to start when you use a Skill"
+			"能量护盾回复速度增加30%",
+			"使用技能时有10%的几率开始回复能量护盾"
 		]
 	},
 	"N23": {
@@ -226,19 +226,19 @@
 		"stats": []
 	},
 	"N24": {
-		"name": "Energise",
-		"stats": ["35% chance for Trigger skills to refund half of Energy Spent"]
+		"name": "能量激发",
+		"stats": ["触发技能有35%的几率返还一半的消耗能量"]
 	},
 	"N25": {
-		"name": "Eldritch Will",
+		"name": "邪术意志",
 		"stats": [
-			"3% increased maximum Life, Mana and Energy Shield",
-			"Gain 20% of maximum Energy Shield as additional Stun Threshold"
+			"最大生命值、法力值和能量护盾增加3%",
+			"获得最大能量护盾的20%作为额外的眩晕阈值"
 		]
 	},
 	"N26": {
-		"name": "Raw Mana",
-		"stats": ["18% increased maximum Mana", "10% increased Mana Cost of Skills"]
+		"name": "原始法力",
+		"stats": ["最大法力值增加18%", "技能的法力消耗增加10%"]
 	},
 	"N27": {
 		"name": "N27",
@@ -261,10 +261,10 @@
 		"stats": []
 	},
 	"N32": {
-		"name": "Convalescence",
+		"name": "恢复",
 		"stats": [
-			"15% reduced Energy Shield Recharge Rate",
-			"40% faster start of Energy Shield Recharge"
+			"能量护盾回复速度减少15%",
+			"能量护盾开始回复的速度提高40%"
 		]
 	},
 	"N33": {
@@ -316,10 +316,10 @@
 		"stats": []
 	},
 	"N45": {
-		"name": "Climate Change",
+		"name": "气候变迁",
 		"stats": [
-			"20% increased Freeze Buildup",
-			"Gain 25% of Cold Damage as Extra Fire Damage against Frozen Enemies"
+			"冰冻效果积累速度提高20%",
+			"对冰冻敌人的冷伤害中，额外获得25%转化为火属性伤害"
 		]
 	},
 	"N46": {
@@ -355,10 +355,10 @@
 		"stats": []
 	},
 	"N54": {
-		"name": "Wither Away",
+		"name": "凋零消逝",
 		"stats": [
-			"Unwithered enemies are Withered for 8 seconds when they enter your Presence",
-			"20% increased Effect of Withered"
+			"未被凋零的敌人在进入你的存在范围时会被凋零8秒",
+			"凋零效果增强20%"
 		]
 	},
 	"N55": {
@@ -374,10 +374,10 @@
 		"stats": []
 	},
 	"N58": {
-		"name": "Dependable Ward",
+		"name": "可靠的守护",
 		"stats": [
-			"25% increased Energy Shield Recharge Rate",
-			"25% faster start of Energy Shield Recharge"
+			"能量护盾回复速度增加25%",
+			"能量护盾开始回复的速度提高25%"
 		]
 	},
 	"N59": {
@@ -385,8 +385,8 @@
 		"stats": []
 	},
 	"N60": {
-		"name": "Ice Walls",
-		"stats": ["200% increased Ice Crystal Life"]
+		"name": "冰墙",
+		"stats": ["冰晶生命值增加200%"]
 	},
 	"N61": {
 		"name": "N61",
@@ -469,18 +469,18 @@
 		"stats": []
 	},
 	"N81": {
-		"name": "Calibration",
-		"stats": ["30% increased maximum Energy Shield", "5% increased maximum Mana"]
+		"name": "校准",
+		"stats": ["能量护盾最大值增加30%", "魔法值最大值增加5%"]
 	},
 	"N82": {
 		"name": "N82",
 		"stats": []
 	},
 	"N83": {
-		"name": "Hallowed",
+		"name": "神圣",
 		"stats": [
-			"20% increased Stun and Block Recovery",
-			"Gain 20% of maximum Energy Shield as additional Stun Threshold"
+			"昏厥和格挡恢复速度增加20%",
+			"获得等同于20%最大能量护盾的额外昏厥阈值"
 		]
 	},
 	"N84": {
@@ -544,8 +544,8 @@
 		"stats": []
 	},
 	"N99": {
-		"name": "Heavy Buffer",
-		"stats": ["40% increased maximum Energy Shield", "10% reduced maximum Life"]
+		"name": "重型缓冲",
+		"stats": ["能量护盾最大值增加40%", "生命值最大值降低10%"]
 	},
 	"N100": {
 		"name": "N100",
@@ -564,15 +564,15 @@
 		"stats": []
 	},
 	"N104": {
-		"name": "Psychic Fragmentation",
-		"stats": ["24% chance for Spell Skills to fire 2 additional Projectiles"]
+		"name": "心灵破碎",
+		"stats": ["法术技能有24%的几率额外发射2个投射物"]
 	},
 	"N105": {
-		"name": "Inner Faith",
+		"name": "内在信仰",
 		"stats": [
-			"20% increased Evasion Rating",
-			"20% increased maximum Energy Shield",
-			"25% reduced Effect of Curses on you"
+			"闪避评级增加20%",
+			"能量护盾最大值增加20%",
+			"诅咒对你的效果减少25%"
 		]
 	},
 	"N106": {
@@ -616,21 +616,21 @@
 		"stats": []
 	},
 	"N116": {
-		"name": "Breath of Lightning",
+		"name": "闪电之息",
 		"stats": [
-			"Damage Penetrates 15% Lightning Resistance",
-			"+10 to Intelligence"
+			"伤害穿透15%的闪电抗性",
+			"智力+10"
 		]
 	},
 	"N117": {
-		"name": "Spectral Ward",
-		"stats": ["+1 to Maximum Energy Shield per 12 Evasion Rating on Equipped Body Armour"]
+		"name": "幽灵守卫",
+		"stats": ["每12点装备的身体护甲的闪避评级，能量护盾最大值+1"]
 	},
 	"N118": {
-		"name": "Self Mortification",
+		"name": "自我苦行",
 		"stats": [
-			"Gain 20% of maximum Energy Shield as additional Stun Threshold",
-			"20% increased Stun Threshold while on full Life"
+			"获得等同于20%最大能量护盾的额外昏厥阈值",
+			"满血时昏厥阈值增加20%"
 		]
 	},
 	"N119": {
@@ -642,8 +642,8 @@
 		"stats": []
 	},
 	"N121": {
-		"name": "Restless Dead",
-		"stats": ["Minions Revive 25% faster"]
+		"name": "不安的亡者",
+		"stats": ["召唤物复活速度提高25%"]
 	},
 	"N122": {
 		"name": "N122",
@@ -666,13 +666,13 @@
 		"stats": []
 	},
 	"N127": {
-		"name": "Spaghettification",
+		"name": "面条化",
 		"stats": [
-			"3% increased Movement Speed",
-			"29% increased Chaos Damage",
-			"-13% to Chaos Resistance",
-			"23% reduced Light Radius",
-			"7% increased attributes"
+			"移动速度提高3%",
+			"混沌伤害提高29%",
+			"混沌抗性降低13%",
+			"光照半径减少23%",
+			"属性提高7%"
 		]
 	},
 	"N128": {
@@ -680,10 +680,10 @@
 		"stats": []
 	},
 	"N129": {
-		"name": "Breath of Cold",
+		"name": "冷气之息",
 		"stats": [
-			"Damage Penetrates 15% Cold Resistance",
-			"+10 to Dexterity"
+			"伤害穿透15%的冰冷抗性",
+			"敏捷+10"
 		]
 	},
 	"N130": {
@@ -691,8 +691,8 @@
 		"stats": []
 	},
 	"N131": {
-		"name": "Slippery Ice",
-		"stats": ["25% reduced Effect of Chill on you", "Unaffected by Chill during Dodge Roll"]
+		"name": "滑冰者",
+		"stats": ["减少25%受到的冰冻效果", "在进行闪避滚动时不受冰冻影响"]
 	},
 	"N132": {
 		"name": "N132",
@@ -711,14 +711,14 @@
 		"stats": []
 	},
 	"N136": {
-		"name": "Adamant Recovery",
+		"name": "坚毅回复",
 		"stats": [
-			"Increases and Reductions to Armour also apply to Energy Shield Recharge Rate at 40% of their value"
+			"护甲的增减也以其40%的数值影响能量护盾的恢复速度"
 		]
 	},
 	"N137": {
-		"name": "Ancient Aegis",
-		"stats": ["Recover Energy Shield equal to 1% of Armour when you Block"]
+		"name": "古代护盾",
+		"stats": ["当你格挡时，恢复相当于1%护甲的能量护盾"]
 	},
 	"N138": {
 		"name": "N138",
@@ -737,8 +737,8 @@
 		"stats": []
 	},
 	"N142": {
-		"name": "Breath of Fire",
-		"stats": ["Damage Penetrates 15% Fire Resistance", "+10 to Strength"]
+		"name": "火焰之息",
+		"stats": ["伤害穿透15%的火焰抗性", "力量+10"]
 	},
 	"N143": {
 		"name": "N143",
@@ -757,8 +757,8 @@
 		"stats": []
 	},
 	"N147": {
-		"name": "Core of the Guardian",
-		"stats": ["100% increased Defences from Equipped Shield"]
+		"name": "守护者之核",
+		"stats": ["装备的盾牌提供的防御效果提高100%"]
 	},
 	"N148": {
 		"name": "N148",
@@ -789,10 +789,10 @@
 		"stats": []
 	},
 	"N155": {
-		"name": "Heart Tissue",
+		"name": "心脏组织",
 		"stats": [
-			"6% of Damage taken Recouped as Life",
-			"Regenerate 0.8% of Life per second if you have been Hit Recently"
+			"受到的6%伤害转化为生命恢复",
+			"如果近期内你受到过伤害，每秒回复0.8%的生命"
 		]
 	},
 	"N156": {
@@ -804,8 +804,8 @@
 		"stats": []
 	},
 	"N158": {
-		"name": "Thickened Arteries",
-		"stats": ["5% reduced Movement Speed", "Regenerate 2% of Life per second while stationary"]
+		"name": "增厚动脉",
+		"stats": ["移动速度降低5%", "静止时每秒回复2%的生命"]
 	},
 	"N159": {
 		"name": "N159",
@@ -828,12 +828,12 @@
 		"stats": []
 	},
 	"N164": {
-		"name": "Guttural Roar",
-		"stats": ["30% increased Warcry Speed", "Warcry Skills have 30% increased Area of Effect"]
+		"name": "深沉咆哮",
+		"stats": ["战吼速度增加30%", "战吼技能的影响范围增加30%"]
 	},
 	"N165": {
-		"name": "Essence Infusion",
-		"stats": ["40% increased Energy Shield Recharge Rate", "+10 to Intelligence"]
+		"name": "精华灌注",
+		"stats": ["能量护盾恢复速度增加40%", "智力+10"]
 	},
 	"N166": {
 		"name": "N166",
@@ -844,10 +844,10 @@
 		"stats": []
 	},
 	"N168": {
-		"name": "Deafening Cries",
+		"name": "震耳欲聋的呼喊",
 		"stats": [
-			"25% increased Warcry Cooldown Recovery Rate",
-			"8% increased Damage for each time you've Warcried Recently"
+			"战吼冷却恢复速度增加25%",
+			"近期内每次使用战吼后，伤害增加8%"
 		]
 	},
 	"N169": {
@@ -859,8 +859,8 @@
 		"stats": []
 	},
 	"N171": {
-		"name": "Melding",
-		"stats": ["40% increased maximum Energy Shield", "10% reduced maximum Mana"]
+		"name": "融合",
+		"stats": ["能量护盾上限增加40%", "最大魔力降低10%"]
 	},
 	"N172": {
 		"name": "N172",
@@ -871,24 +871,24 @@
 		"stats": []
 	},
 	"N174": {
-		"name": "Dampening Shield",
+		"name": "缓冲护盾",
 		"stats": [
-			"28% increased maximum Energy Shield",
-			"Gain 12% of maximum Energy Shield as additional Stun Threshold"
+			"能量护盾上限增加28%",
+			"获得相当于最大能量护盾12%的额外眩晕阈值"
 		]
 	},
 	"N175": {
-		"name": "Rapid Recharge",
+		"name": "快速回充",
 		"stats": [
-			"25% increased Energy Shield Recharge Rate",
-			"25% faster start of Energy Shield Recharge"
+			"能量护盾恢复速度增加25%",
+			"能量护盾开始恢复的速度提高25%"
 		]
 	},
 	"N176": {
-		"name": "Power of the Dead",
+		"name": "亡者之力",
 		"stats": [
-			"Minions deal 15% increased Damage",
-			"Minions have 3% increased Attack and Cast Speed"
+			"召唤物造成的伤害增加15%",
+			"召唤物的攻击和施法速度增加3%"
 		]
 	},
 	"N177": {
@@ -900,8 +900,8 @@
 		"stats": []
 	},
 	"N179": {
-		"name": "Mana Blessing",
-		"stats": ["+20 to maximum Mana", "6% increased maximum Mana"]
+		"name": "魔力祝福",
+		"stats": ["最大魔力+20", "最大魔力增加6%"]
 	},
 	"N180": {
 		"name": "N180",
@@ -916,8 +916,8 @@
 		"stats": []
 	},
 	"N183": {
-		"name": "Wild Storm",
-		"stats": ["15% more Maximum Lightning Damage"]
+		"name": "狂野风暴",
+		"stats": ["闪电伤害上限增加15%"]
 	},
 	"N184": {
 		"name": "N184",
@@ -928,16 +928,16 @@
 		"stats": []
 	},
 	"N186": {
-		"name": "Spiral into Depression",
+		"name": "深陷绝望",
 		"stats": [
-			"3% increased Movement Speed",
-			"25% increased Armour",
-			"25% increased maximum Energy Shield"
+			"移动速度增加3%",
+			"护甲增加25%",
+			"能量护盾上限增加25%"
 		]
 	},
 	"N187": {
-		"name": "Spiral into Mania",
-		"stats": ["10% increased Cast Speed", "+7% to Chaos Resistance"]
+		"name": "狂热螺旋",
+		"stats": ["施法速度增加10%", "混沌抗性+7%"]
 	},
 	"N188": {
 		"name": "N188",
@@ -960,16 +960,16 @@
 		"stats": []
 	},
 	"N193": {
-		"name": "Rattling Ball",
-		"stats": ["25% increased Damage with Flails"]
+		"name": "震颤球体",
+		"stats": ["连枷类武器伤害增加25%"]
 	},
 	"N194": {
-		"name": "Spiral into Insanity",
-		"stats": ["29% increased Chaos Damage", "10% increased Global Defences"]
+		"name": "疯狂螺旋",
+		"stats": ["混沌伤害增加29%", "全局防御增加10%"]
 	},
 	"N195": {
-		"name": "Briny Carapace",
-		"stats": ["60% increased Stun Threshold for each time you've been Stunned Recently"]
+		"name": "咸水甲壳",
+		"stats": ["每次最近被晕眩，晕眩阈值增加60%"]
 	},
 	"N196": {
 		"name": "N196",
@@ -980,17 +980,15 @@
 		"stats": []
 	},
 	"N198": {
-		"name": "N198 - Title Missing",
-		"stats": [
-			"6% of Damage taken Recouped as Life"
-		]
+		"name": "N198 - 缺失标题",
+		"stats": ["承受的伤害的6%将转化为生命恢复"]
 	},
 	"N199": {
-		"name": "Moment of Truth",
+		"name": "真理时刻",
 		"stats": [
-            "25% increased Critical Damage Bonus if you've dealt a Non-Critical Hit Recently",
-            "20% increased Critical Hit Chance"
-        ]
+			"如果你最近打出了非暴击，暴击伤害加成增加25%",
+			"暴击几率增加20%"
+		]
 	},
 	"N200": {
 		"name": "N200",
@@ -1005,21 +1003,21 @@
 		"stats": []
 	},
 	"N203": {
-		"name": "Spiked Whip",
-		"stats": ["25% increased Damage with Flails"]
+		"name": "刺鞭",
+		"stats": ["连枷类武器伤害增加25%"]
 	},
 	"N204": {
-		"name": "Reinforced Barrier",
+		"name": "加固屏障",
 		"stats": [
-			"20% increased maximum Energy Shield",
-			"Defend with 120% of Armour while not on Low Energy Shield"
+			"能量护盾最大值增加20%",
+			"当能量护盾不处于低位时，以120%的护甲值进行防御"
 		]
 	},
 	"N205": {
-		"name": "Morning Star",
+		"name": "晨星",
 		"stats": [
-			"30% increased Critical Hit Chance with Flails",
-			"20% increased Critical Damage Bonus with Flails"
+			"连枷类武器的暴击几率增加30%",
+			"连枷类武器的暴击伤害加成增加20%"
 		]
 	},
 	"N206": {
@@ -1039,18 +1037,18 @@
 		"stats": []
 	},
 	"N210": {
-		"name": "Fleshcrafting",
-		"stats": ["Minions gain 15% of their Maximum Life as Extra Maximum Energy Shield"]
+		"name": "肉身塑造",
+		"stats": ["召唤生物获得其最大生命值的15%作为额外的最大能量护盾"]
 	},
 	"N211": {
 		"name": "N211",
 		"stats": []
 	},
 	"N212": {
-		"name": "Covering Ward",
+		"name": "护卫罩",
 		"stats": [
-			"25% increased Energy Shield Recharge Rate",
-			"10% chance for Energy Shield Recharge to start when you Block"
+			"能量护盾回充速度增加25%",
+			"格挡时有10%的几率开始回充能量护盾"
 		]
 	},
 	"N213": {
@@ -1066,28 +1064,26 @@
 		"stats": []
 	},
 	"N216": {
-		"name": "N216 - Title Missing",
-		"stats": [
-			"15% increased Area of Effect for Staff Attacks"
-		]
+		"name": "N216 - 缺少标题",
+		"stats": ["法杖攻击的效果范围增加15%"]
 	},
 	"N217": {
-		"name": "Finesse",
+		"name": "灵巧",
 		"stats": [
-            "10% increased Global Accuracy Rating",
-            "Gain Accuracy Rating equal to your Intelligence"
-        ]
+			"全局命中评分增加10%",
+			"获得等同于你智力值的命中评分"
+		]
 	},
 	"N218": {
 		"name": "N218",
 		"stats": []
 	},
-  "N219": {
-    "name": "First Strike",
-    "stats": [
-      "50% increased Damage with Daggers against Enemies that are on Full Life"
-    ]
-  },
+	"N219": {
+		"name": "先发制人",
+		"stats": [
+			"对满血敌人，匕首的伤害增加50%"
+		]
+	},
 	"N220": {
 		"name": "N220",
 		"stats": []
@@ -1097,10 +1093,10 @@
 		"stats": []
 	},
 	"N222": {
-		"name": "Flow State",
+		"name": "流动状态",
 		"stats": [
-			"15% increased Mana Regeneration Rate",
-			"5% increased Attack and Cast Speed"
+			"魔力回复速度增加15%",
+			"攻击和施法速度增加5%"
 		]
 	},
 	"N223": {
@@ -1112,46 +1108,44 @@
 		"stats": []
 	},
 	"N225": {
-		"name": "Bolstering Presence",
-		"stats": ["20% increased effect of Auras from your Skills"]
+		"name": "强化存在",
+		"stats": ["你的技能释放的光环效果增加20%"]
 	},
 	"N226": {
-		"name": "Harmonic Generator",
-		"stats": ["20% chance to gain a Power Charge when you Shock a Chilled enemy"]
+		"name": "和谐发生器",
+		"stats": ["冰冻敌人时有20%的几率获得一个暴击球"]
 	},
 	"N227": {
-		"name": "Immolation",
-		"stats": ["25% increased Effect of Ignite", "+10 to Strength"]
+		"name": "献祭",
+		"stats": ["点燃效果增加25%", "力量+10"]
 	},
 	"N228": {
-		"name": "Leeching Toxins",
+		"name": "吸血毒素",
 		"stats": [
-			"30% increased Effect of Poison",
-			"Recover 2% of Life on Killing a Poisoned Enemy"
+			"毒素效果增加30%",
+			"杀死被毒素影响的敌人时回复2%的生命值"
 		]
 	},
-  "N229": {
-    "name": "Life from Death",
-    "stats": [
-      "Recover 3% of Life on Kill"
-    ]
-  },
+	"N229": {
+		"name": "死亡生命",
+		"stats": ["杀死敌人时回复3%的生命值"]
+	},
 	"N230": {
 		"name": "N230",
 		"stats": []
 	},
-  "N231": {
-    "name": "Unbroken Concentration",
-    "stats": [
-      "40% increased Stun Threshold if you haven't been stunned recently"
-    ]
-  },
-	"N232": {
-		"name": "Immaterial",
+	"N231": {
+		"name": "坚定专注",
 		"stats": [
-            "50% increased Evasion Rating if Energy Shield Recharge has started in the past 2 seconds",
-            "30% increased Evasion Rating while you have Energy Shield"
-        ]
+			"如果你最近没有被晕眩，晕眩门槛提高40%"
+		]
+	},
+	"N232": {
+		"name": "无形",
+		"stats": [
+			"如果能量护盾在过去的2秒内开始回复，闪避评分增加50%",
+			"当你有能量护盾时，闪避评分增加30%"
+		]
 	},
 	"N233": {
 		"name": "N233",
@@ -1162,8 +1156,8 @@
 		"stats": []
 	},
 	"N235": {
-		"name": "Resolution",
-		"stats": ["10% increased Global Defences", "25% increased Stun Threshold"]
+		"name": "决心",
+		"stats": ["全局防御增加10%", "晕眩门槛提高25%"]
 	},
 	"N236": {
 		"name": "N236",
@@ -1182,11 +1176,11 @@
 		"stats": []
 	},
 	"N240": {
-		"name": "Shimmering",
+		"name": "闪耀",
 		"stats": [
-            "20% increased Energy Shield Recovery Rate if you haven't been Hit Recently",
-            "5% increased Movement Speed while you have Energy Shield"
-        ]
+			"如果你最近没有被击中，能量护盾恢复速度提高20%",
+			"当你有能量护盾时，移动速度提高5%"
+		]
 	},
 	"N241": {
 		"name": "N241",
@@ -1205,41 +1199,41 @@
 		"stats": []
 	},
 	"N245": {
-		"name": "Flow Like Water",
+		"name": "水行无阻",
 		"stats": [
-			"8% increased Attack and Cast Speed",
-			"+5 to Dexterity and Intelligence"
+			"攻击和施法速度提高8%",
+			"敏捷和智力+5"
 		]
 	},
 	"N246": {
-		"name": "Primal Growth",
+		"name": "原始成长",
 		"stats": [
-			"20% increased Area of Effect if you've Killed Recently",
-			"10% increased Area of Effect for Attacks"
+			"如果你最近杀死过敌人，范围效果提高20%",
+			"攻击的范围效果提高10%"
 		]
 	},
 	"N247": {
-		"name": "Supportive Ancestors",
+		"name": "祖灵支援",
 		"stats": [
-			"25% increased Damage while you have a Totem",
-			"Totems have 2% increased Cast Speed per Summoned Totem",
-			"Totems have 2% increased Attack Speed per Summoned Totem"
+			"当你有图腾时，伤害提高25%",
+			"每召唤一个图腾，图腾的施法速度提高2%",
+			"每召唤一个图腾，图腾的攻击速度提高2%"
 		]
 	},
 	"N248": {
-		"name": "Cold Nature",
-		"stats": ["25% increased Cold Damage", "25% increased Chill Duration on Enemies"]
+		"name": "冰寒本性",
+		"stats": ["冷伤害提高25%", "敌人的寒冷效果持续时间增加25%"]
 	},
 	"N249": {
 		"name": "N249",
 		"stats": []
 	},
 	"N250": {
-		"name": "Mystic Stance",
+		"name": "秘术姿态",
 		"stats": [
-            "30% faster start of Energy Shield Recharge",
-            "30% increased Stun Threshold while on full Life"
-        ]
+			"能量护盾开始恢复的速度提高30%",
+			"满血时眩晕门槛提高30%"
+		]
 	},
 	"N251": {
 		"name": "N251",
@@ -1249,33 +1243,33 @@
 		"name": "N252",
 		"stats": []
 	},
-  "N253": {
-    "name": "Step Like Mist",
-    "stats": [
-      "4% increased Movement Speed",
-      "14% increased Evasion Rating",
-      "14% increased maximum Energy Shield",
-      "+5 to Dexterity and Intelligence"
-    ]
-  },
-	"N254": {
-		"name": "Lust for Power",
+	"N253": {
+		"name": "雾影步伐",
 		"stats": [
-            "10% chance that if you would gain Power Charges, you instead gain up to your maximum number of Power Charges",
-            "+1 to Maximum Power Charges"
-        ]
+			"移动速度提高4%",
+			"闪避值提高14%",
+			"最大能量护盾提高14%",
+			"敏捷和智力+5"
+		]
+	},
+	"N254": {
+		"name": "力量渴望",
+		"stats": [
+			"10%的几率在你获得暴击球时，直接获得最大数目的暴击球",
+			"最大暴击球数量+1"
+		]
 	},
 	"N255": {
-		"name": "Projectile Bulwark",
-		"stats": ["30% increased Armour", "Defend with 120% of Armour against Projectile Attacks"]
+		"name": "弹幕壁垒",
+		"stats": ["护甲值提高30%", "用120%的护甲值对抗投射物攻击"]
 	},
 	"N256": {
 		"name": "N256",
 		"stats": []
 	},
 	"N257": {
-		"name": "Unbound Forces",
-		"stats": ["50% increased Duration of Elemental Ailments on Enemies","50% increased Effect of Chill","15% increased Effect of Shock"]
+		"name": "无缚之力",
+		"stats": ["敌人身上元素异常状态的持续时间增加50%","寒冷效果增加50%","感电效果增加15%"]
 	},
 	"N258": {
 		"name": "N258",
@@ -1286,27 +1280,27 @@
 		"stats": []
 	},
 	"N260": {
-		"name": "Sigil of Fire",
-		"stats": ["30% increased Damage with Hits against Ignited Enemies"]
+		"name": "火焰印记",
+		"stats": ["对点燃的敌人的伤害增加30%"]
 	},
 	"N261": {
-		"name": "Essence of the Mountain",
+		"name": "山脉之魂",
 		"stats": [
-            "20% increased Freeze Buildup",
-            "Gain 5% of Damage as Extra Cold Damage"
-        ]
+			"冻结积累增加20%",
+			"伤害的5%额外转化为冰冷伤害"
+		]
 	},
 	"N262": {
-		"name": "In Your Face",
-		"stats": ["40% increased Melee Damage with Hits at Close Range"]
+		"name": "近战领域",
+		"stats": ["近距离的近战伤害增加40%"]
 	},
 	"N263": {
 		"name": "N263",
 		"stats": []
 	},
 	"N264": {
-		"name": "Serrated Edges",
-		"stats": ["30% increased Attack Damage"]
+		"name": "锯齿刃缘",
+		"stats": ["攻击伤害提高30%"]
 	},
 	"N265": {
 		"name": "N265",
@@ -1329,8 +1323,8 @@
 		"stats": []
 	},
 	"N270": {
-		"name": "Cold Penetration",
-		"stats": ["Damage Penetrates 10% Cold Resistance"]
+		"name": "冰寒穿透",
+		"stats": ["伤害穿透敌人10%的冰冷抗性"]
 	},
 	"N271": {
 		"name": "N271",
@@ -1357,10 +1351,10 @@
 		"stats": []
 	},
 	"N277": {
-		"name": "Siphon",
+		"name": "吸能",
 		"stats": [
-			"Recover 2% of Mana on Kill",
-			"25% increased amount of Mana Leeched"
+			"击杀敌人时回复2%的魔力",
+			"吸取魔力量增加25%"
 		]
 	},
 	"N278": {
@@ -1376,14 +1370,14 @@
 		"stats": []
 	},
 	"N281": {
-		"name": "Defensive Reflexes",
-		"stats": ["12% increased Chance to Block", "2 Mana gained when you Block"]
+		"name": "防御反射",
+		"stats": ["格挡几率提高12%", "每次格挡获得2点魔力"]
 	},
 	"N282": {
-		"name": "Manifold Method",
+		"name": "多元法则",
 		"stats": [
-			"50% increased amount of Mana Leeched",
-			"30% increased chance to inflict Ailments against Rare or Unique Enemies"
+			"吸取魔力量增加50%",
+			"对稀有或独特敌人的异常状态触发几率提高30%"
 		]
 	},
 	"N283": {
@@ -1391,21 +1385,21 @@
 		"stats": []
 	},
 	"N284": {
-		"name": "One with the Storm",
+		"name": "风暴合一",
 		"stats": [
-			"Querterstaff Skills that consume Power Charges count as consuming an additional Power Charge"]
+			"使用消耗能量充能的长杖技能视为额外消耗一个能量充能"]
 	},
 	"N285": {
 		"name": "N285",
 		"stats": []
 	},
 	"N286": {
-		"name": "Life on Kill Notable",
-		"stats": ["Gain 20 Life per Enemy Killed"]
+		"name": "杀戮生机",
+		"stats": ["每杀死一个敌人获得20点生命"]
 	},
 	"N287": {
-		"name": "Critical Damage Bonus Notable",
-		"stats": ["15% increased Critical Damage Bonus"]
+		"name": "暴击伤害加成",
+		"stats": ["暴击伤害加成提高15%"]
 	},
 	"N288": {
 		"name": "N288",
@@ -1416,22 +1410,22 @@
 		"stats": []
 	},
 	"N290": {
-		"name": "Heartstopper",
+		"name": "心脏停止",
 		"stats": [
-			"Take 75% less Damage over Time if you've started taking Damage over Time in the past second",
-			"Take 50% more Damage over Time if you haven't started taking Damage over Time in the past second"
+			"如果在过去的一秒内开始受到持续伤害，那么你受到的持续伤害降低75%",
+			"如果在过去的一秒内未开始受到持续伤害，那么你受到的持续伤害增加50%"
 		]
 	},
 	"N291": {
-		"name": "Stand Ground",
+		"name": "坚守阵地",
 		"stats": [
-			"Regenerate 2% of Life per second while affected by any Damaging Ailment",
-			"Regenerate 2% of Life per second while stationary"
+			"在受到任何伤害性异常状态影响时，每秒回复2%的生命",
+			"在静止状态下，每秒回复2%的生命"
 		]
 	},
 	"N292": {
-		"name": "Armor Break",
-		"stats": ["Overwhelm 10% Physical Damage Reduction"]
+		"name": "破甲",
+		"stats": ["压制敌人10%的物理伤害减免"]
 	},
 	"N293": {
 		"name": "N293",
@@ -1454,26 +1448,26 @@
 		"stats": []
 	},
 	"N298": {
-		"name": "Evasion and Energy Shield",
-		"stats": ["15% increased Evasion Rating", "15% increased maximum Energy Shield"]
+		"name": "闪避与能量护盾",
+		"stats": ["闪避值提高15%", "最大能量护盾提高15%"]
 	},
 	"N299": {
-		"name": "Blinding Strike",
+		"name": "致盲打击",
 		"stats": [
-			"24% increased Attack Damage",
-			"10% chance to Blind Enemies on Hit with Attacks"]
+			"攻击伤害提高24%",
+			"攻击命中敌人有10%的几率使其致盲"]
 	},
 	"N300": {
 		"name": "N300",
 		"stats": []
 	},
 	"N301": {
-		"name": "Prism Guard",
-		"stats": ["+1% to all maximum Elemental Resistances", "+5% to all Elemental Resistances"]
+		"name": "棱彩护卫",
+		"stats": ["所有元素抗性的最大值+1%", "所有元素抗性+5%"]
 	},
 	"N302": {
-		"name": "Low Tolerance",
-		"stats": ["60% increased Effect of Poison against Enemies that are not Poisoned"]
+		"name": "低容忍度",
+		"stats": ["对未中毒的敌人，毒素效果增加60%"]
 	},
 	"N303": {
 		"name": "N303",
@@ -1492,104 +1486,104 @@
 		"stats": []
 	},
 	"N307": {
-		"name": "Honed Instincts",
-		"stats": ["8% increased Attack Speed","6% increased Global Accuracy Rating","+10 to Dexterity"]
+		"name": "磨炼直觉",
+		"stats": ["攻击速度提高8%","全局命中值提高6%","+10 敏捷"]
 	},
 	"N308": {
-		"name": "Smash",
-		"stats": ["20% increased Melee Damage", "40% increased Melee Damage against Heavy Stunned ennemies"]
+		"name": "猛击",
+		"stats": ["近战伤害提高20%", "对重度眩晕的敌人，近战伤害提高40%"]
 	},
 	"N309": {
 		"name": "N309",
 		"stats": []
 	},
 	"N310": {
-		"name": "Impact Force",
-		"stats": ["20% increased Stun Buildup", "25% increased Attack Area Damage"]
+		"name": "冲击力量",
+		"stats": ["眩晕积累速度提高20%", "攻击范围伤害提高25%"]
 	},
 	"N311": {
 		"name": "N311",
 		"stats": []
 	},
 	"N312": {
-		"name": "Brutal",
-		"stats": ["10% increased Stun Buildup", "10% increased Melee Damage", "+10 to Strength"]
+		"name": "野蛮",
+		"stats": ["眩晕积累速度提高10%", "近战伤害提高10%", "+10 力量"]
 	},
 	"N313": {
-		"name": "Master Fletcher",
-		"stats": ["8% increased Projectile Speed","8% increased Attack Speed with Bows","8% increased Attack Speed with Crossbows"]
+		"name": "箭术大师",
+		"stats": ["投射物速度提高8%","使用弓的攻击速度提高8%","使用弩的攻击速度提高8%"]
 	},
 	"N314": {
-		"name": "Shattering Blow",
-		"stats": ["Break 50% of Armour on Heavy Stunning an Enemy"]
+		"name": "破碎一击",
+		"stats": ["重击眩晕敌人时，破坏其50%的护甲"]
 	},
 	"N315": {
 		"name": "N315",
 		"stats": []
 	},
 	"N316": {
-		"name": "Elemental Notable",
-		"stats": ["25% increased Elemental Damage"]
+		"name": "元素显赫",
+		"stats": ["元素伤害提高25%"]
 	},
 	"N317": {
-		"name": "Falcon Technique",
-		"stats": ["1% increased Attack Speed per 15 Dexterity"]
+		"name": "猎鹰技巧",
+		"stats": ["每15点敏捷增加1%的攻击速度"]
 	},
 	"N318": {
-		"name": "Wellspring",
-		"stats": ["25% increased Mana Recovery from Flasks"]
+		"name": "活泉",
+		"stats": ["从药瓶恢复的魔力提高25%"]
 	},
 	"N319": {
-		"name": "Bolstering Yell",
-		"stats": ["Empowered Attacks deal 30% increased Damage" ,"Warcry Skills have 30% increased Area of Effect"]
+		"name": "强化呐喊",
+		"stats": ["强化攻击伤害提高30%" ,"战吼技能的影响范围增加30%"]
 	},
 	"N320": {
 		"name": "N320",
 		"stats": []
 	},
 	"N321": {
-		"name": "Flip the Script",
-		"stats": ["Recover 50% of Life when you Heavy Stun a Rare of Unique Enemy"]
+		"name": "逆转剧本",
+		"stats": ["重击眩晕稀有或独特敌人时，恢复50%的生命值"]
 	},
 	"N322": {
-		"name": "Sweep and Slice",
-		"stats": ["12% increased Damage with One Handed Weapons","12% increased Area of Effect for Attacks"]
+		"name": "扫荡斩击",
+		"stats": ["单手武器伤害提高12%","攻击的影响范围提高12%"]
 	},
 	"N323": {
-		"name": "No Escape",
-		"stats": ["30% increased Skill Effect Duration"]
+		"name": "无处逃脱",
+		"stats": ["技能效果持续时间提高30%"]
 	},
 	"N324": {
-		"name": "Blur",
-		"stats": ["4% increased Movement Speed","16% increased Evasion Rating","+10 to Dexterity"]
+		"name": "模糊",
+		"stats": ["移动速度提高4%","闪避值提高16%","+10 敏捷"]
 	},
 	"N325": {
-		"name": "Hale Traveller",
-		"stats": ["25% increased Life Recovery from Flasks"]
+		"name": "健康旅者",
+		"stats": ["从药瓶恢复的生命值提高25%"]
 	},
 	"N326": {
-		"name": "Admonisher",
-		"stats": ["25% increased Warcry Speed", "25% increased Warcry Cooldown Recovery Rate"]
+		"name": "警告者",
+		"stats": ["战吼速度提高25%", "战吼冷却恢复速度提高25%"]
 	},
 	"N327": {
-		"name": "Reverberating Impact",
-		"stats": ["Break 25% increased Armour", "16% increased Area of Effect for Attacks"]
+		"name": "回荡冲击",
+		"stats": ["破坏增加25%的护甲", "攻击的影响范围提高16%"]
 	},
 	"N328": {
 		"name": "N328",
 		"stats": []
 	},
 	"N329": {
-		"name": "Sturdy Metal",
-		"stats": ["80% increased Armour from Equipped Body Armour"]
+		"name": "坚固金属",
+		"stats": ["装备的身体护甲提供的护甲增加80%"]
 	},
 	"N330": {
 		"name": "N330",
 		"stats": []
 	},
 	"N331": {
-		"name": "Ranged",
-		"stats": ["40% increased Projectile Damage"]
+		"name": "远程",
+		"stats": ["投射物伤害提高40%"]
 	},
 	"N332": {
 		"name": "N332",
@@ -1600,20 +1594,20 @@
 		"stats": []
 	},
 	"N334": {
-		"name": "Hold Focus",
-		"stats": ["12% increased Effect of your Marks"]
+		"name": "保持专注",
+		"stats": ["你的印记效果增加12%"]
 	},
 	"N335": {
 		"name": "N335",
 		"stats": []
 	},
 	"N336": {
-		"name": "Outmanouver",
-		"stats": ["20% increased Stun buildup","20% increased Freeze Buildup"]
+		"name": "出其不意",
+		"stats": ["眩晕积累速度提高20%","冻结积累速度提高20%"]
 	},
 	"N337": {
-		"name": "Relentless",
-		"stats": ["15% increased Armour" ,"Regenerate 1% of life per second" ,"+10 to Strength"]
+		"name": "无尽",
+		"stats": ["护甲提高15%" ,"每秒回复1%的生命值" ,"+10 力量"]
 	},
 	"N338": {
 		"name": "N338",
@@ -1624,20 +1618,20 @@
 		"stats": []
 	},
 	"N340": {
-		"name": "Break Focus",
-		"stats": ["12% increased Effect of your Marks"]
+		"name": "打破专注",
+		"stats": ["你的印记效果增加12%"]
 	},
 	"N341": {
 		"name": "N341",
 		"stats": []
 	},
 	"N342": {
-		"name": "Hunker Down",
-		"stats": ["Recover 20 Life when you Block", "80% less Knockback Distance for Blocked Hits"]
+		"name": "坚守阵地",
+		"stats": ["当你格挡时恢复20点生命值", "格挡击中的击退距离减少80%"]
 	},
 	"N343": {
-		"name": "Aftershocks",
-		"stats": ["40% increased Aftershock Area of Effect"]
+		"name": "余震",
+		"stats": ["余震的影响范围增加40%"]
 	},
 	"N344": {
 		"name": "N344",
@@ -1648,8 +1642,8 @@
 		"stats": []
 	},
 	"N346": {
-		"name": "Defender's Resolve",
-		"stats": ["12% increased Chance to Block" ,"Stagger empties 50% faster while your Shield is lowered"]
+		"name": "防御者的决心",
+		"stats": ["格挡几率提高12%" ,"当你的盾牌降低时，晕眩效果消退速度加快50%"]
 	},
 	"N347": {
 		"name": "N347",
@@ -1672,14 +1666,14 @@
 		"stats": []
 	},
 	"N352": {
-		"name": "Stacking Toxins",
-		"stats": ["Can Poison enemies an additional time", "20% reduced Effect of Poison"]
+		"name": "毒素堆积",
+		"stats": ["可以额外再次毒化敌人", "毒素效果降低20%"]
 	},
 	"N353": {
-		"name": "Impair",
+		"name": "削弱",
 		"stats": [
-			"25% increased Damage with One Handed Weapons",
-			"Attacks have 10% chance to Maim on Hit"
+			"单手武器伤害提高25%",
+			"攻击有10%的几率在命中时造成残废效果"
 		]
 	},
 	"N354": {
@@ -1687,10 +1681,10 @@
 		"stats": []
 	},
 	"N355": {
-		"name": "Guts",
+		"name": "胆气",
 		"stats": [
-			"Recovery 5% of Life for each Endurance Charge consumed",
-			"+1 to Maximum Endurance Charges"
+			"每消耗一个耐力充能恢复5%的生命值",
+			"最大耐力充能+1"
 		]
 	},
 	"N356": {
@@ -1702,36 +1696,36 @@
 		"stats": []
 	},
 	"N358": {
-		"name": "Reaving",
-		"stats": ["8% increased Attack Speed with One Handed Weapons", "+15 to Dexterity"]
+		"name": "掠夺",
+		"stats": ["单手武器攻击速度提高8%", "敏捷+15"]
 	},
 	"N359": {
 		"name": "N359",
 		"stats": []
 	},
 	"N360": {
-		"name": "Titan's Determination",
-		"stats": ["25% increased Stun Threshold" ,"Regenerate 1,5% of Life per second while moving"]
+		"name": "巨人的决心",
+		"stats": ["晕眩门槛提高25%" ,"移动时每秒回复1.5%的生命"]
 	},
 	"N361": {
-		"name": "Battle-hardened",
+		"name": "战斗硬化",
 		"stats": [
-			"Hits against you have 20% reduced Critical Damage Bonus",
-			"20% increased Armour and Evasion Rating",
-			"+5 to Strength and Dexterity"
+			"对你的击中暴击伤害降低20%",
+			"护甲和闪避等级提高20%",
+			"力量和敏捷+5"
 		]
 	},
 	"N362": {
-		"name": "Remorseless",
+		"name": "无情",
 		"stats": [
-			"15% increased Projectile Damage",
-			"30% increased Stun Buildup against enemies within 2 metres",
-			"+5 Strength and Dexterity"
+			"投射物伤害提高15%",
+			"对2米内的敌人晕眩积累提高30%",
+			"力量和敏捷+5"
 		]
 	},
 	"N363": {
-		"name": "Flashy Deflection",
-		"stats": ["Prevent +3% of Deflected Attack Damage", "20% increased chance to Deflect"]
+		"name": "闪耀偏转",
+		"stats": ["防止+3%的偏转攻击伤害", "偏转几率提高20%"]
 	},
 	"N364": {
 		"name": "N364",
@@ -1742,60 +1736,60 @@
 		"stats": []
 	},
 	"N366": {
-		"name": "Mass Rejuvenation",
-		"stats": ["Regenarate 1% of Life per second" ,"Allies in your Presence Regenerate 2% of your Maximum Life per second"]
+		"name": "群体复苏",
+		"stats": ["每秒回复1%的生命" ,"你的存在让盟友每秒回复等于你最大生命值2%的生命"]
 	},
 	"N367": {
-		"name": "Honourless",
+		"name": "无荣耀",
 		"stats": [
-			"25% increased Armour if you've Hit an Enemy with a Melee Attack Recently",
-			"50% increased Melee Damage against Immobilised Enemies"
+			"如果你近期内用近战攻击命中过敌人，护甲提高25%",
+			"对定身的敌人近战伤害提高50%"
 		]
 	},
 	"N368": {
-		"name": "Feel No Pain",
-		"stats": ["20% increased Armour and Evasion Rating", "20% increased Stun Threshold"]
+		"name": "无痛感",
+		"stats": ["护甲和闪避等级提高20%", "晕眩门槛提高20%"]
 	},
 	"N369": {
 		"name": "N369",
 		"stats": []
 	},
 	"N370": {
-		"name": "Careful Aim",
-		"stats": ["16% increased Projectile Damage", "+5 to Dexterity"]
+		"name": "精准瞄准",
+		"stats": ["投射物伤害提高16%", "敏捷+5"]
 	},
 	"N371": {
-		"name": "Unbending",
-		"stats": ["3% increased Maximum Life", "30% increased Stun Threshold"]
+		"name": "不屈",
+		"stats": ["最大生命值提高3%", "晕眩门槛提高30%"]
 	},
 	"N372": {
-		"name": "Polished Iron",
+		"name": "磨光铁皮",
 		"stats": [
-			"25% increased Armour",
-			"50% of Base Armour from Equipment also added to Stun Threshold"
+			"护甲提高25%",
+			"装备的基础护甲的50%也加到晕眩门槛上"
 		]
 	},
 	"N373": {
-		"name": "Heavy Ammunition",
-		"stats": ["15% increased Stun Buildup"]
+		"name": "重弹药",
+		"stats": ["晕眩积累提高15%"]
 	},
 	"N374": {
 		"name": "N374",
 		"stats": []
 	},
 	"N375": {
-		"name": "Unforgiving",
-		"stats": ["+4 to Maximum Rage", "Inherent Rage Loss starts 1 second later"]
+		"name": "无情",
+		"stats": ["最大怒气+4", "固有的怒气损失延迟1秒开始"]
 	},
 	"N376": {
-		"name": "Evasion Notable",
-		"stats": ["25% increased Evasion Rating"]
+		"name": "闪避显赫",
+		"stats": ["闪避等级提高25%"]
 	},
 	"N377": {
-		"name": "Breaking Blows",
+		"name": "破击",
 		"stats": [
-			"30% increased Stun Buildup",
-			"15% increased Area of Effect if you have Stunned an Enemy Recently"
+			"晕眩积累提高30%",
+			"如果你近期内晕眩过敌人，范围效果提高15%"
 		]
 	},
 	"N378": {
@@ -1807,8 +1801,8 @@
 		"stats": []
 	},
 	"N380": {
-		"name": "Flask Charges Gained Notable",
-		"stats": ["25% increased Flask Charges gained"]
+		"name": "药瓶充能显赫",
+		"stats": ["获得的药瓶充能提高25%"]
 	},
 	"N381": {
 		"name": "N381",
@@ -1831,16 +1825,16 @@
 		"stats": []
 	},
 	"N386": {
-		"name": "Unerring Impact",
+		"name": "精准冲击",
 		"stats": [
-			"10% increased Accuracy Rating with One Handed Melee Weapons",
-			"10% increased Accuracy Rating with Two Handed Melee Weapons",
-			"+2 to Melee Strike Range"
+			"单手近战武器的命中值提高10%",
+			"双手近战武器的命中值提高10%",
+			"近战攻击范围+2"
 		]
 	},
 	"N387": {
-		"name": "Blade Catcher",
-		"stats": ["Defend with 200% of Armour against Critical Hits", "+15 to Strength"]
+		"name": "刀锋捕捉",
+		"stats": ["受到暴击时以200%的护甲进行防御", "力量+15"]
 	},
 	"N388": {
 		"name": "N388",
@@ -1851,55 +1845,55 @@
 		"stats": []
 	},
 	"N390": {
-		"name": "Cacophony",
-		"stats": ["5% chance to deal Double Damage if you've Warcried in the past 8 seconds" ,"40% increased Damage with Warcry"]
+		"name": "混乱",
+		"stats": ["如果你在过去8秒内使用过战吼，有5%的几率造成双倍伤害" ,"战吼造成的伤害提高40%"]
 	},
 	"N391": {
-		"name": "Singular Purpose",
-		"stats": ["5% reduced Attack Speed" ,"20% increased Stun Buildup" ,"40% increased Damage with Two Handed Weapons"]
+		"name": "独一无二",
+		"stats": ["攻击速度降低5%" ,"晕眩积累提高20%" ,"双手武器的伤害提高40%"]
 	},
 	"N392": {
-		"name": "Shockwaves",
-		"stats": ["30% increased Area of Effect if you've Stunned an enemy with a Two Handed Melee Weapon Recently"]
+		"name": "震波",
+		"stats": ["如果你近期内用双手近战武器晕眩过敌人，范围效果提高30%"]
 	},
 	"N393": {
-		"name": "Devastation",
-		"stats": ["15% increased Attack Area Damage" ,"15% increased Area of Effect for Attacks"]
+		"name": "毁灭",
+		"stats": ["攻击范围伤害提高15%" ,"攻击的范围效果提高15%"]
 	},
 	"N394": {
 		"name": "N394",
 		"stats": []
 	},
 	"N395": {
-		"name": "Heavy Weaponry",
+		"name": "重型武器",
 		"stats": [
-			"15% increased Melee Damage",
-			"15% increased Stun Buildup with Melee Damage",
-			"+15 to Strength"
+			"近战伤害提高15%",
+			"近战伤害的晕眩积累提高15%",
+			"力量+15"
 		]
 	},
 	"N396": {
-		"name": "Exposed Wounds",
+		"name": "裸露伤口",
 		"stats": [
-			"32% increased chance to inflict Ailments",
-			"Break 30% increased Armour on enemies affected by Ailments"
+			"造成异常状态的几率提高32%",
+			"破坏受到异常状态影响的敌人的护甲提高30%"
 		]
 	},
 	"N397": {
-		"name": "Hard to Kill",
-		"stats": ["40% increased Flask Life Recovery rate", "Regenerate 1.5% of Life per second"]
+		"name": "难以杀死",
+		"stats": ["药瓶生命恢复速度提高40%", "每秒回复1.5%的生命"]
 	},
 	"N398": {
-		"name": "Volatile Catalyst",
-		"stats": ["10% increased Area of Effect", "10% increased Cooldown Recovery Rate"]
+		"name": "易爆催化剂",
+		"stats": ["范围效果提高10%", "冷却恢复速度提高10%"]
 	},
 	"N399": {
 		"name": "N399",
 		"stats": []
 	},
 	"N400": {
-		"name": "Vocal Empowerment",
-		"stats": ["Warcries Empower an additional Attack"]
+		"name": "声波增强",
+		"stats": ["战吼额外增强一次攻击"]
 	},
 	"N401": {
 		"name": "N401",
@@ -1910,49 +1904,50 @@
 		"stats": []
 	},
 	"N403": {
-		"name": "Bloodletting",
-		"stats": ["40% increased Bleeding Duration", "20% chance to inflict Bleeding on Hit"]
+		"name": "放血",
+		"stats": ["流血持续时间提高40%", "攻击有20%的几率造成流血"]
 	},
 	"N404": {
-		"name": "Evasion Notable",
-		"stats": ["25% increased Evasion Rating"]
+		"name": "闪避显赫",
+		"stats": ["闪避值提高25%"]
 	},
 	"N405": {
-		"name": "Grit",
-		"stats": ["5% chance that if you would gain Endurance Charges, you instead gain up to maximum Endurance Charges" ,"+1 to Maximum Endurance Charges"]
+		"name": "坚毅",
+		"stats": ["有5%的几率在你获得耐力球时，直接获得最大数量的耐力球" , "最大耐力球数量+1"]
 	},
 	"N406": {
-		"name": "Fortifying Blood",
+		"name": "坚固之血",
 		"stats": [
-			"20% increased amount of Life Leeched",
-			"40% increased Armour and Evasion Rating while Leeching"
+			"生命偷取量提高20%",
+			"在偷取生命时护甲和闪避值提高40%"
 		]
 	},
 	"N407": {
-		"name": "Heavy Armour",
-		"stats": ["100% of Strength Requirements from Boots, Gloves and Helmets also added to Armour"]
+		"name": "重型护甲",
+		"stats": ["靴子、手套和头盔的力量需求也增加相应的护甲值"]
 	},
 	"N408": {
-		"name": "Carved Earth",
-		"stats": ["20 increased Totem Damage" ,"6% increased Attack and Cast Speed if you've summoned a Totem Recently"]
+		"name": "雕刻大地",
+		"stats": ["图腾伤害增加20" ,"如果你近期内召唤过图腾，攻击和施法速度提高6%"]
 	},
 	"N409": {
 		"name": "N409",
 		"stats": []
 	},
 	"N410": {
-		"name": "Skullcrusher",
-		"stats": ["20% more Damage against Heavy Stunned Enemies with Maces"]
+		"name": "碎颅者",
+		"stats": ["对重度晕眩的敌人，使用锤类武器的伤害增加20%"]
 	},
 	"N411": {
-		"name": "Death from Afar",
+		"name": "远离死亡",
 		"stats": [
-			"Projectiles have 25% increased Critical Hit Chance against Enemies further then 6m",
-			"Projectiles deal 25% increased Damage with Hits against Enemies further then 6m"]
+			"对超过6米距离的敌人，投射物的暴击几率提高25%",
+			"对超过6米距离的敌人，投射物的伤害提高25%"
+		]
 	},
 	"N412": {
-		"name": "Vigilance",
-		"stats": ["12% increased Chance to Block", "10 Life gained when you Block"]
+		"name": "警戒",
+		"stats": ["格挡几率提高12%", "每次格挡时获得10点生命"]
 	},
 	"N413": {
 		"name": "N413",
@@ -1967,33 +1962,32 @@
 		"stats": []
 	},
 	"N416": {
-		"name": "Desperate Times",
-		"stats": ["Regenerate 3% of Life per second while on Low Life" ,"40% increased Life Recovery from Flasks used when on Low Life"]
+		"name": "危急时刻",
+		"stats": ["当生命值低时，每秒回复3%的生命" ,"当生命值低时，药瓶恢复的生命值提高40%"]
 	},
 	"N417": {
 		"name": "N417",
 		"stats": []
 	},
 	"N418": {
-		"name": "Prolonged Fury",
-		"stats": ["Inherent loss of Rage is 25% slower"]
+		"name": "持久狂怒",
+		"stats": ["狂怒值的固有损失速度降低25%"]
 	},
 	"N419": {
 		"name": "N419",
 		"stats": []
 	},
 	"N420": {
-		"name": "Heavy Draught",
+		"name": "重负",
 		"stats": [
-			"5% reduced Movement Speed during any Flask Effect",
-			"Guard Flasks applied to you have 40% increased Effect"
+			"在任何药瓶效果期间移动速度降低5%",
+			"对你使用的守护药瓶效果提高40%"
 		]
 	},
 	"N421": {
-		"name": "Made to Last",
+		"name": "持久制造",
 		"stats": [
-			"0.5% of Physical Damage prevented from Hits in the past",
-			"10 seconds is Regenerated as Life per second"
+			"过去10秒防止的物理伤害的0.5%每秒转化为生命回复"
 		]
 	},
 	"N422": {
@@ -2009,39 +2003,40 @@
 		"stats": []
 	},
 	"N425": {
-		"name": "Stand and Deliver",
+		"name": "立地而战",
 		"stats": [
-			"Projectiles have 40% increased Critical Damage Bonus against Enemies within 2m",
-			"Projectiles deal 25% increased Damage with Hits against Enemies within 2m"]
+			"对2米内的敌人，投射物的暴击伤害加成提高40%",
+			"对2米内的敌人，投射物的伤害提高25%"
+		]
 	},
 	"N426": {
-		"name": "Back in Action",
-		"stats": ["80% increased Stun and Block Recovery"]
+		"name": "重返战场",
+		"stats": ["晕眩和格挡恢复速度提高80%"]
 	},
 	"N427": {
-		"name": "Catalysis",
+		"name": "催化",
 		"stats": [
-			"20% increased Elemental Damage with Attack Skills",
-			"5% of Physical Damage from Hits taken as Damage of a Random Element"
+			"攻击技能的元素伤害提高20%",
+			"受到的物理伤害的5%转化为随机元素伤害"
 		]
 	},
 	"N428": {
-		"name": "Voracious",
-		"stats": ["20% of Leech is Instant"]
+		"name": "贪婪",
+		"stats": ["偷取的20%立即生效"]
 	},
 	"N429": {
-		"name": "Internal Bleeding",
-		"stats": ["25% chance to Aggravate Bleedind on targets you Hit with Empowered Attacks" ,"Empowered Attacks deal 35% increased Damage"]
+		"name": "内出血",
+		"stats": ["使用强化攻击击中目标时，有25%的几率加重其流血效果" ,"强化攻击的伤害提高35%"]
 	},
 	"N430": {
 		"name": "N430",
 		"stats": []
 	},
 	"N431": {
-		"name": "Colossal Weapon",
+		"name": "巨型武器",
 		"stats": [
-			"20% increased Area of Effect while wielding a Two Handed Melee Weapon",
-			"+10 to Strength"
+			"持有双手近战武器时，范围效果提高20%",
+			"力量+10"
 		]
 	},
 	"N432": {
@@ -2049,10 +2044,10 @@
 		"stats": []
 	},
 	"N433": {
-		"name": "Split the Earth",
+		"name": "撕裂大地",
 		"stats": [
-			"15% chance to Aftershock for Slam Skills you use with Maces",
-			"15% chance to Aftershock for Strike Skills you use with Maces"
+			"使用锤类武器施放破地攻击技能有15%的几率触发余震",
+			"使用锤类武器施放打击技能有15%的几率触发余震"
 		]
 	},
 	"N434": {
@@ -2084,26 +2079,26 @@
 		"stats": []
 	},
 	"N441": {
-		"name": "Blade Flurry",
+		"name": "剑刃狂舞",
 		"stats": [
-			"6% increased Attack Speed while Dual Wielding",
-			"15% increased Attack Critical Hit Chance while Dual Wielding"
+			"双持时攻击速度提高6%",
+			"双持时攻击暴击率提高15%"
 		]
 	},
 	"N442": {
-		"name": "Cross Strike",
+		"name": "交叉打击",
 		"stats": [
-			"20% increased Accuracy Rating while Dual Wielding",
-			"3% increased Movement Speed while Dual Wielding"
+			"双持时命中值提高20%",
+			"双持时移动速度提高3%"
 		]
 	},
 	"N443": {
-		"name": "Irreparable",
-		"stats": ["100% increased Armour Break Duration"]
+		"name": "无法修复",
+		"stats": ["护甲破裂持续时间提高100%"]
 	},
 	"N444": {
-		"name": "Curved Weapon",
-		"stats": ["20% increased Accuracy Rating with Two Handed Melee Weapons", "+10 to Dexterity"]
+		"name": "曲刃武器",
+		"stats": ["双手近战武器的命中值提高20%", "敏捷+10"]
 	},
 	"N445": {
 		"name": "N445",
@@ -2122,11 +2117,11 @@
 		"stats": []
 	},
 	"N449": {
-		"name": "Overwhelm",
+		"name": "压倒",
 		"stats": [
-			"5% reduced Attack Speed",
-			"20% increased Stun Buildup",
-			"40% increased Damage with Two Handed Weapons"
+			"攻击速度降低5%",
+			"晕眩累积提高20%",
+			"双手武器的伤害提高40%"
 		]
 	},
 	"N450": {
@@ -2134,8 +2129,8 @@
 		"stats": []
 	},
 	"N451": {
-		"name": "Lay Siege",
-		"stats": ["1% increased Damage per 1% Chance to Block"]
+		"name": "围困",
+		"stats": ["每1%的格挡几率提高1%的伤害"]
 	},
 	"N452": {
 		"name": "N452",
@@ -2146,18 +2141,18 @@
 		"stats": []
 	},
 	"N454": {
-		"name": "Heatproofing",
-		"stats": ["25% of Armour also applies to Fire Damage taken from Hits"]
+		"name": "防火处理",
+		"stats": ["25%的护甲值同样应用于受到的火焰伤害"]
 	},
 	"N455": {
-		"name": "Quick-change Act",
-		"stats": ["50% increased Weapon Swap Speed"]
+		"name": "快速换装",
+		"stats": ["武器切换速度提高50%"]
 	},
 	"N456": {
-		"name": "Clear Space",
+		"name": "清空区域",
 		"stats": [
-			"20% increased Knockback Distance",
-			"20% chance to Knock Enemies Back with Hits at Close Range"
+			"击退距离提高20%",
+			"近距离击中敌人有20%的几率将其击退"
 		]
 	},
 	"N457": {
@@ -2165,8 +2160,8 @@
 		"stats": []
 	},
 	"N458": {
-		"name": "Pile On",
-		"stats": ["60% increased Damage against Enemies with Fully Broken Armour"]
+		"name": "痛下杀手",
+		"stats": ["对护甲完全破裂的敌人伤害提高60%"]
 	},
 	"N459": {
 		"name": "N459",
@@ -2213,27 +2208,27 @@
 		"stats": []
 	},
 	"N470": {
-		"name": "Coated Arms",
+		"name": "涂层武器",
 		"stats": [
-			"25% increased Damage with One Handed Weapons",
-			"25% increased Chance to apply Ailments with One-Handed Attacks"
+			"单手武器的伤害提高25%",
+			"单手攻击造成异常状态的几率提高25%"
 		]
 	},
 	"N471": {
-		"name": "Grenadier",
-		"stats": ["Grenade Skills have +1 Cooldown Use"]
+		"name": "榴弹手",
+		"stats": ["榴弹技能的冷却次数+1"]
 	},
 	"N472": {
-		"name": "Cluster Bombs",
-		"stats": ["Grenade Skills Fire an additional Projectile"]
+		"name": "集束炸弹",
+		"stats": ["榴弹技能额外发射一枚投射物"]
 	},
 	"N473": {
 		"name": "N473",
 		"stats": []
 	},
 	"N474": {
-		"name": "Falcon Dive",
-		"stats": ["1% increased Attack Speed per 250 Accuracy Rating"]
+		"name": "猎鹰俯冲",
+		"stats": ["每250点命中值提高1%的攻击速度"]
 	},
 	"N475": {
 		"name": "N475",
@@ -2244,12 +2239,12 @@
 		"stats": []
 	},
 	"N477": {
-		"name": "Spike Pit",
-		"stats": ["Jagged Ground you create applies 10% increased Damage taken to Enemies"]
+		"name": "尖刺陷阱",
+		"stats": ["你创造的锯齿地面使敌人受到的伤害提高10%"]
 	},
 	"N478": {
-		"name": "Whirling Onslaught",
-		"stats": ["50% chance to gain Onslaught on Killing Blow with Axes"]
+		"name": "旋风突袭",
+		"stats": ["用斧头击杀敌人有50%的几率获得猛攻状态"]
 	},
 	"N479": {
 		"name": "N479",
@@ -2264,12 +2259,12 @@
 		"stats": []
 	},
 	"N482": {
-		"name": "Close Confines",
-		"stats": ["25% chance for Projectiles to Pierce Enemies within 3m distance of you"]
+		"name": "近距穿刺",
+		"stats": ["在你3米内的敌人，投射物有25%的几率穿透"]
 	},
 	"N483": {
-		"name": "Unexpected Finesse",
-		"stats": ["10% increased Attack Damage", "Gain Accuracy Rating equal to your Strength"]
+		"name": "意外的灵巧",
+		"stats": ["攻击伤害提高10%", "获得等同于你力量值的命中值"]
 	},
 	"N484": {
 		"name": "N484",
@@ -2284,17 +2279,17 @@
 		"stats": []
 	},
 	"N487": {
-		"name": "Initiative",
+		"name": "主动出击",
 		"stats": [
-			"30% increased Melee Damage when on Full Life",
-			"16% increased Attack Speed if you haven't Attacked Recently"
+			"满血时近战伤害提高30%",
+			"如果你最近没有进行过攻击，攻击速度提高16%"
 		]
 	},
 	"N488": {
-		"name": "Presence Present",
+		"name": "在场之力",
 		"stats": [
-			"Allies in your PResence have +100 to Accuracy Rating",
-			"35% increased Attack Damage while you have an Ally in your Presence"
+			"在你的在场范围内的盟友命中值+100",
+			"如果你的在场范围内有盟友，攻击伤害提高35%"
 		]
 	},
 	"N489": {
@@ -2310,8 +2305,8 @@
 		"stats": []
 	},
 	"N492": {
-		"name": "Enraged Reaver",
-		"stats": ["+10 to Maximum Rage while wielding an Axe"]
+		"name": "暴怒掠夺者",
+		"stats": ["持斧时最大怒气+10"]
 	},
 	"N493": {
 		"name": "N493",
@@ -2334,8 +2329,8 @@
 		"stats": []
 	},
 	"N498": {
-		"name": "Deadly Flourish",
-		"stats": ["20% increased Melee Critical Hit Chance"]
+		"name": "致命繁花",
+		"stats": ["近战暴击率提高20%"]
 	},
 	"N499": {
 		"name": "N499",
@@ -2350,22 +2345,22 @@
 		"stats": []
 	},
 	"N502": {
-		"name": "Multitasking",
-		"stats": ["15% increased Skill Effect Duration", "12% increased Cooldown Recovery Rate"]
+		"name": "超负荷",
+		"stats": ["技能效果持续时间增加15%", "冷却恢复速度提高12%"]
 	},
 	"N503": {
-		"name": "Bloodthirsty",
-		"stats": ["25% increased amount of Life Leeched", "Leech Life 25% faster"]
+		"name": "嗜血狂魔",
+		"stats": ["吸血量增加25%", "吸血速度提高25%"]
 	},
 	"N504": {
 		"name": "N504",
 		"stats": []
 	},
 	"N505": {
-		"name": "Adrenaline Rush",
+		"name": "肾上腺激素冲刺",
 		"stats": [
-			"4% increased Movement Speed if you've killed Recently",
-			"8% increased Attack Speed if you've Killed Recently"
+			"如果你最近击杀过敌人，移动速度提高4%",
+			"如果你最近击杀过敌人，攻击速度提高8%"
 		]
 	},
 	"N506": {
@@ -2389,28 +2384,28 @@
 		"stats": []
 	},
 	"N511": {
-		"name": "Versatile Arms",
+		"name": "武器大师",
 		"stats": [
-			"6% increased Attack Speed with One Handed Melee Weapons",
-			"15% increased Accuracy Rating with One Handed Melee Weapons",
-			"+10 to Strength and Dexterity"
+			"单手近战武器攻击速度提高6%",
+			"单手近战武器命中值提高15%",
+			"力量和敏捷+10"
 		]
 	},
 	"N512": {
-		"name": "Hefty Unit",
-		"stats": ["+3 to Stun Threshold per Strength"]
+		"name": "重型单位",
+		"stats": ["每点力量增加3点击晕门槛"]
 	},
 	"N513": {
 		"name": "N513",
 		"stats": []
 	},
 	"N514": {
-		"name": "Emboldened Avatar",
+		"name": "英勇化身",
 		"stats": [
-			"30% increased chance to Ignite",
-			"30% increased Freeze Buildup",
-			"30% increased chance to Shock",
-			"20% increased Electrocute Buildup"
+			"点燃几率增加30%",
+			"冰冻积累增加30%",
+			"感电几率增加30%",
+			"电击积累增加20%"
 		]
 	},
 	"N515": {
@@ -2422,18 +2417,18 @@
 		"stats": []
 	},
 	"N517": {
-		"name": "Unnatural Resilience",
-		"stats": ["2% to Maximum fire Resistance for each 40% Uncapped Fire Resistance"]
+		"name": "超自然韧性",
+		"stats": ["每40%未上限火焰抗性提供2%最大火焰抗性"]
 	},
 	"N518": {
-		"name": "Crystal Elixir",
-		"stats": ["40% increased Elemental Damage with Attack Skills during any Flask Effect"]
+		"name": "水晶药剂",
+		"stats": ["在任何药剂效果期间，攻击技能的元素伤害增加40%"]
 	},
 	"N519": {
-		"name": "Distracting Presence",
+		"name": "分散注意的存在",
 		"stats": [
-			"10% increased Cooldown Recovery Rate",
-			"Enemies in your Presence have 10% reduced Cooldown Recovery Rate"
+			"冷却恢复速度提高10%",
+			"你的存在使敌人的冷却恢复速度降低10%"
 		]
 	},
 	"N520": {
@@ -2441,14 +2436,14 @@
 		"stats": []
 	},
 	"N521": {
-		"name": "Forces of Nature",
-		"stats": ["Attack Damage Penetrates 15% of Enemy Elemental Resistances"]
+		"name": "自然之力",
+		"stats": ["攻击伤害穿透敌人15%的元素抗性"]
 	},
 	"N522": {
-		"name": "Perfect Opportunity",
+		"name": "完美机会",
 		"stats": [
-			"25% increased Stun Buildup",
-			"Damage with Hits is Lucky against Heavy Stunned Enemies"
+			"晕眩积累增加25%",
+			"对重度晕眩的敌人进行的伤害幸运值提高"
 		]
 	},
 	"N523": {
@@ -2476,8 +2471,8 @@
 		"stats": []
 	},
 	"N529": {
-		"name": "Strong Chin",
-		"stats": ["Gain Stun Threshold equal to the lowest of Evasion and Armour on your Helmet"]
+		"name": "坚硬下巴",
+		"stats": ["获得等同于头盔上闪避和护甲中较低者的晕眩阈值"]
 	},
 	"N530": {
 		"name": "N530",
@@ -2492,33 +2487,33 @@
 		"stats": []
 	},
 	"N533": {
-		"name": "Insulated Treads",
-		"stats": ["Gain Ailment Threshold equal to the lowest of Evasion and Armour on your Boots"]
+		"name": "绝缘步履",
+		"stats": ["获得等同于靴子上闪避和护甲中较低者的异常状态阈值"]
 	},
 	"N534": {
-		"name": "Shrapnel",
+		"name": "散射",
 		"stats": [
-			"30% chance to Pierce an Enemy",
-			"Projectiles have 30% chance to Chain an additional time from terrain"
+			"30%的机会穿透敌人",
+			"投射物有30%的机会从地形额外连锁一次"
 		]
 	},
 	"N535": {
-		"name": "Spiked Shield",
+		"name": "尖刺盾牌",
 		"stats": [
-			"50% increased Defences from Equipped Shield",
-			"1% increased Attack Damge per 75 Armour or Evasion Rating on Shield"
+			"装备的盾牌提供的防御增加50%",
+			"盾牌上每75点护甲或闪避等级提高1%的攻击伤害"
 		]
 	},
 	"N536": {
-		"name": "Shield Expertise",
-		"stats": ["12% increased Chance to Block", "40% increased Block Recovery"]
+		"name": "盾牌专精",
+		"stats": ["格挡几率增加12%", "格挡恢复增加40%"]
 	},
 	"N537": {
-		"name": "Urgent Call",
+		"name": "紧急呼唤",
 		"stats": [
-			"Recover 3% of Life and Mana when you use a Warcry",
-			"24% increased Warcry Speed",
-			"18% increased Warcry Cooldown Recovery Rate"
+			"使用战吼时恢复3%的生命和魔法",
+			"战吼速度提高24%",
+			"战吼冷却恢复速度提高18%"
 		]
 	},
 	"N538": {
@@ -2526,9 +2521,9 @@
 		"stats": []
 	},
 	"N539": {
-		"name": "Advanced Munitions",
+		"name": "高级弹药",
 		"stats": [
-			"25% increased chance to inflict Ailments with Projectiles"]
+			"投射物造成异常状态的机会增加25%"]
 	},
 	"N540": {
 		"name": "N540",
@@ -2543,8 +2538,8 @@
 		"stats": []
 	},
 	"N543": {
-		"name": "Crushing Judgement",
-		"stats": ["25% increased Armour Break Duration", "25% increased Attack Area Damage"]
+		"name": "毁灭审判",
+		"stats": ["护甲破裂持续时间增加25%", "攻击范围伤害增加25%"]
 	},
 	"N544": {
 		"name": "N544",
@@ -2563,78 +2558,78 @@
 		"stats": []
 	},
 	"N548": {
-		"name": "Authority",
-		"stats": ["20% increased Area of Effect for Attacks", "10% increased Cooldown Recovery Rate"]
+		"name": "权威",
+		"stats": ["攻击的效果范围增加20%", "冷却恢复速度提高10%"]
 	},
 	"N549": {
-		"name": "Blinding Flash",
-		"stats": ["20% increased Blind Effect", "Blind Enemies when they Stun you"]
+		"name": "炫目闪光",
+		"stats": ["致盲效果增加20%", "当敌人晕眩你时使其致盲"]
 	},
 	"N550": {
-		"name": "Levitation",
-		"stats": ["Unaffected by Enemy Ground Effects for 1 second after stepping on them"]
+		"name": "悬浮术",
+		"stats": ["在踩到敌人的地面效果后的1秒内，对其免疫"]
 	},
 	"N551": {
 		"name": "N551",
 		"stats": []
 	},
 	"N552": {
-		"name": "Against All Odds",
-		"stats": ["2% increased Attack Speed per Enemy in Close Range"]
+		"name": "逆境挑战",
+		"stats": ["每个近战范围内的敌人增加2%的攻击速度"]
 	},
 	"N553": {
-		"name": "Refills",
-		"stats": ["Life Flasks gain 0.4 charges per Second"]
+		"name": "快速补给",
+		"stats": ["生命药剂每秒获得0.4充能"]
 	},
 	"N554": {
-		"name": "Bleeding Out",
+		"name": "出血淋漓",
 		"stats": [
-			"+250 to Accuracy against Bleeding Enemies",
-			"Bleeding you inflict deals Damage 10% faster"
+			"对出血的敌人增加+250命中",
+			"你造成的出血伤害加速10%"
 		]
 	},
 	"N555": {
-		"name": "Pinpoint Shot",
-		"stats": ["Attacks gain increased Accuracy Rating equal to their Critical Hit Chance"]
+		"name": "精准射击",
+		"stats": ["攻击获得等同于其暴击几率的命中等级"]
 	},
 	"N556": {
-		"name": "Goring",
+		"name": "血洗沙场",
 		"stats": [
-			"5% reduced maximum Life",
-			"50% increased amount of Life Leeched",
-			"50% increased Physical Damage"
+			"最大生命值降低5%",
+			"生命吸取量增加50%",
+			"物理伤害增加50%"
 		]
 	},
 	"N557": {
-		"name": "Fast Metabolism",
-		"stats": ["Life Leech effects are not removed when Unreserved Life is Filled"]
+		"name": "快速新陈代谢",
+		"stats": ["当未预留的生命值满时，生命吸取效果不会消失"]
 	},
 	"N558": {
 		"name": "N558",
 		"stats": []
 	},
 	"N559": {
-		"name": "Apocalypse",
-		"stats": ["40% reduced Damage", "Herald Skills deal 200% increased Damage"]
+		"name": "末日降临",
+		"stats": ["伤害降低40%", "苍穹之力技能的伤害增加200%"]
 	},
 	"N560": {
-		"name": "Fate Finding",
-		"stats": ["15% reduced Reservation of Herald Skills"]
+		"name": "命运眷顾",
+		"stats": ["苍穹之力技能的预留减少15%"]
 	},
 	"N561": {
-		"name": "Repeating Explosives",
-		"stats": ["Grenades have 20% change to activate a second time"]
+		"name": "连环爆破",
+		"stats": ["手榴弹有20%的几率再次激活"]
 	},
 	"N562": {
-		"name": "Reusable Ammunition",
-		"stats": ["25% chance for Crossbow Attacks to not consume a bolt"]
+		"name": "再利用弹药",
+		"stats": ["弩的攻击有25%的几率不消耗箭矢"]
 	},
 	"N563": {
-		"name": "Giantslayer",
+		"name": "巨人杀手",
 		"stats": [
-			"25% increased Damage with Hits against Rare and Unique Enemies",
-			"20% increased Accuracy Rating against Rare or Unique Enemies",
-			"20% increased chance to inflict Ailments against Rare or Unique Enemies"
+			"对稀有和独特敌人的伤害增加25%",
+			"对稀有或独特敌人的命中等级增加20%",
+			"对稀有或独特敌人造成异常状态的几率增加20%"
 		]
 	},
 	"N564": {
@@ -2642,55 +2637,55 @@
 		"stats": []
 	},
 	"N565": {
-		"name": "Cull the Hordes",
-		"stats": ["25% increased Culling Strike Threshold"]
+		"name": "群体斩杀",
+		"stats": ["斩杀生命阈值增加25%"]
 	},
 	"N566": {
-		"name": "Titan Bindings",
-		"stats": ["Gain 15% of Maximum Life as Armour"]
+		"name": "巨人束缚",
+		"stats": ["获得等于15%最大生命值的护甲"]
 	},
 	"N567": {
-		"name": "Leather Bound Gauntlets",
-		"stats": ["+1 to Evasion Rating per 1 Armour on Equipped Gloves"]
+		"name": "镶皮手套",
+		"stats": ["装备的手套每1点护甲增加1点闪避等级"]
 	},
 	"N568": {
-		"name": "Power Shots",
+		"name": "力量射击",
 		"stats": [
-			"10% reduced Attack Speed with Crossbows",
-			"80% increased Critical Damage Bonus with Crossbows"
+			"弩的攻击速度降低10%",
+			"弩的暴击伤害加成增加80%"
 		]
 	},
 	"N569": {
-		"name": "Heavy Blade",
-		"stats": ["25% increased Damage with Swords"]
+		"name": "重剑出击",
+		"stats": ["剑的伤害增加25%"]
 	},
 	"N570": {
-		"name": "Polymathy",
-		"stats": ["10% increased Attributes"]
+		"name": "全能者",
+		"stats": ["属性增加10%"]
 	},
 	"N571": {
-		"name": "Jack of All Trades",
-		"stats": ["2% increased Damage per 5 of your lowest Attribute"]
+		"name": "全能高手",
+		"stats": ["每5点你的最低属性增加2%的伤害"]
 	},
 	"N572": {
-		"name": "Ripping Blade",
-		"stats": ["25% increased Damage with Swords"]
+		"name": "撕裂之刃",
+		"stats": ["剑的伤害增加25%"]
 	},
 	"N573": {
-		"name": "Stance Breaker",
-		"stats": ["50% reduced Enemy Chance to Block Sword Attacks"]
+		"name": "立场破坏者",
+		"stats": ["敌人格挡剑攻击的几率降低50%"]
 	},
 	"N574": {
-		"name": "Dark Entries",
-		"stats": ["+1 to Level of all Chaos Skills"]
+		"name": "黑暗入侵",
+		"stats": ["所有混沌技能等级+1"]
 	},
 	"N575": {
-		"name": "Building Toxins",
-		"stats": ["25% reduced Poison Duration", "Can Poison enemies an additional time"]
+		"name": "毒药叠加",
+		"stats": ["毒药持续时间减少25%", "可以使敌人额外中毒一次"]
 	},
 	"N576": {
-		"name": "Escalating Toxins",
-		"stats": ["10% increased Poison Duration for each Poison you have inflicted Recently, up to a maximum of 100%"]
+		"name": "毒药延时",
+		"stats": ["每次你最近造成的中毒效果，毒药持续时间增加10%，最多增加100%"]
 	},
 	"N577": {
 		"name": "N577",
@@ -2713,8 +2708,8 @@
 		"stats": []
 	},
 	"N582": {
-		"name": "Savoured Blood",
-		"stats": ["50% increased amount of Life Leeched", "Leech Life 20% slower"]
+		"name": "血液珍藏",
+		"stats": ["生命吸取量增加50%", "生命吸取速度降低20%"]
 	},
   "S1": {
     "name": "S1",
