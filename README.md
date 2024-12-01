@@ -50,28 +50,16 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
 
 # Mapped Sources
 
-## Dreamcore YouTube
-
-- [Int Area](https://www.youtube.com/watch?v=tI0xJb1HEYw)
-- [Int/Dex Area](https://www.youtube.com/watch?v=aTi9fF6fU24)
-- [Str/Int Area](https://www.youtube.com/watch?v=XfriM2XvruQb)
-- [Dex Area](https://www.youtube.com/watch?v=WmAI31iog94)
-- [Dex/Str Area](https://www.youtube.com/watch?v=YOQlMiDNpyQ)
-
-## Bajheera Youtube
-
-- [Str/Dex Area](https://www.youtube.com/watch?v=Ec_06V4NOWc)
-
-## Path of Exile 2: Endgame Content Reveal
-
-- [Mixed Area](https://www.youtube.com/watch?v=ZpIbaTXJD4g&t=1356s)
-
-## Moxsy YouTube
-
-- [Int/Dex Area](https://youtu.be/LRL30Ib9RIU?si=EWwrFOF-s8jizDtI&t=1149)
-
-# Sources to map
-
-## Dreamcore Youtube
-
-- [Str Area](https://www.youtube.com/watch?v=yPh98i0-oHs)
+- [Dreamcore - Int Area](https://www.youtube.com/watch?v=tI0xJb1HEYw)
+- [Dreamcore - Int/Dex Area](https://www.youtube.com/watch?v=aTi9fF6fU24)
+- [Dreamcore - Str Area](https://www.youtube.com/watch?v=yPh98i0-oHs)
+- [Dreamcore - Str/Int Area](https://www.youtube.com/watch?v=XfriM2XvruQb)
+- [Dreamcore - Dex Area](https://www.youtube.com/watch?v=WmAI31iog94)
+- [Dreamcore - Dex/Str Area](https://www.youtube.com/watch?v=YOQlMiDNpyQ)
+- [Bajheera - Str/Dex Area](https://www.youtube.com/watch?v=Ec_06V4NOWc)
+- [Blupa - Figma Tree](https://www.figma.com/design/RDJYoGyidY3Xsc21HjcY31/Figma-basics)
+- [Moxsy - Int/Dex Area](https://youtu.be/LRL30Ib9RIU?si=EWwrFOF-s8jizDtI&t=1149)
+- [Ziggyd - Mercenary Showcase](https://www.youtube.com/watch?v=fLP1oODaZTE)
+- [Open World Games - Reveal](https://www.youtube.com/watch?v=-v2UqGMmldc)
+- [GGG - Endgame Reveal](https://www.youtube.com/watch?v=ZpIbaTXJD4g&t=1356s)
+- [GGG - Exilecon](https://www.youtube.com/watch?v=y8OL9qqnhDo)

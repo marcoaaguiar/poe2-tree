@@ -1,8 +1,16 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import { type NodePosition, type TooltipContent, loadData } from '$lib';
+	import { type TreeNode, loadData } from '$lib';
 	import { onMount, tick } from 'svelte';
+	import { browser } from '$app/environment';
 
+	let { nodes } = loadData();
+
+	let containerEl: HTMLDivElement | null = null;
+	let imageEl: HTMLImageElement | null = null;
+	let imageWrapperEl: HTMLDivElement | null = null; // Reference to the image wrapper
+	let tooltipEl: HTMLDivElement | null = null; // Reference to the tooltip element
+	let hasLoaded = false;
 	import en from '../lib/data/nodes_desc.json';
 	import sv from '../locales/sv.json';
 	import { addMessages, getLocaleFromNavigator, init, t } from 'svelte-i18n';
@@ -13,19 +21,9 @@
 	// Initialize i18n
 	init({
 		fallbackLocale: 'en',
-		initialLocale: getLocaleFromNavigator()
+		initialLocale: 'sv'
 	});
-
-	let { positions: nodes, nodesDescription: nodesDesc } = loadData();
-
-	let containerEl: HTMLDivElement | null = null;
-	let imageEl: HTMLImageElement | null = null;
-	let imageWrapperEl: HTMLDivElement | null = null; // Reference to the image wrapper
-	let tooltipEl: HTMLDivElement | null = null; // Reference to the tooltip element
-	let hasLoaded = false;
-
-	let tooltipContent: TooltipContent | null = null;
-	let tooltipId: string | null = null;
+	let tooltipNode: TreeNode | null = null;
 	let tooltipX = 0;
 	let tooltipY = 0;
 
@@ -51,23 +49,88 @@
 	// State for selected nodes
 	let selectedNodes: string[] = [];
 
+	// Load saved selected nodes from localStorage on component initialization
+	if (browser) {
+		const savedSelectedNodes = localStorage.getItem('selectedSkillNodes');
+
+		if (savedSelectedNodes) {
+			try {
+				selectedNodes = JSON.parse(savedSelectedNodes);
+			} catch (error) {
+				console.error('Error parsing saved selected nodes:', error);
+			}
+		}
+	}
+
+	// Reactive statement to save selected nodes to localStorage whenever they change
+	$: if (browser) {
+		localStorage.setItem('selectedSkillNodes', JSON.stringify(selectedNodes));
+	}
+
 	// State for filters
 	let highlightKeystones = false;
 	let highlightNotables = false;
-	let hideUnidentified = true;
+	let highlightSmalls = false;
+	let hideUnidentified = false;
+	let hideUnselected = false;
+	let hideSmall = false;
+
+	// State for selected nodes display
+	let showSelectedNodesDisplay = false;
+	let isSelectedNodesDisplayPinned = false;
+
+	let selectedNodesDisplayEl: HTMLDivElement | null = null;
+	let selectedNodesSpanEl: HTMLSpanElement | null = null;
+
+	// State for search results display
+	let showSearchResultsDisplay = false;
+	let isSearchResultsDisplayPinned = false;
+
+	let searchResultsDisplayEl: HTMLDivElement | null = null;
+	let searchResultsSpanEl: HTMLSpanElement | null = null;
 
 	// Reactive statement for search
 	$: handleSearch(searchTerm);
 
-	async function activateTooltip(node: NodePosition) {
-		tooltipId = node.id;
-		tooltipContent = nodesDesc[node.id];
+	// composable filter functions
+	function filterSmallNodes(node: TreeNode) {
+		return !hideSmall || node.type !== 'small';
+	}
+
+	function filterUnselectedNodes(node: TreeNode) {
+		return !hideUnselected || !selectedNodes.includes(node.id);
+	}
+
+	function filterUnidentifiedNodes(node: TreeNode) {
+		return !hideUnidentified || node.description.length > 0;
+	}
+
+	const filterFns = [filterSmallNodes, filterUnselectedNodes, filterUnidentifiedNodes];
+
+	// filter nodes using active filters
+	function filterNodes(node: TreeNode) {
+		return filterFns.every((filterFn) => filterFn(node));
+	}
+
+	const NODE_SIZE = {
+		notable: 20,
+		small: 10,
+		keystone: 24
+	};
+
+	// calculate node size in pixels based on type
+	function getNodeSize(node: TreeNode) {
+		return NODE_SIZE[node.type];
+	}
+
+	async function activateTooltip(node: TreeNode) {
+		tooltipNode = node;
 
 		if (!imageEl || !containerEl) return;
 
 		// Calculate node position relative to the container, accounting for pan offsets
-		const nodeX = node.x * imageEl.naturalWidth * scale + panOffsetX;
-		const nodeY = node.y * imageEl.naturalHeight * scale + panOffsetY;
+		const nodeX = node.position.x * imageEl.naturalWidth * scale + panOffsetX;
+		const nodeY = node.position.y * imageEl.naturalHeight * scale + panOffsetY;
 
 		// Initial tooltip position
 		tooltipX = nodeX + 20; // Adjust as needed
@@ -118,7 +181,7 @@
 		}
 	}
 
-	function toggleNodeSelection(node: NodePosition) {
+	function toggleNodeSelection(node: TreeNode) {
 		if (selectedNodes.includes(node.id)) {
 			// Deselect node
 			selectedNodes = selectedNodes.filter((id) => id !== node.id);
@@ -133,8 +196,6 @@
 			panOffsetX = event.clientX - panStartX;
 			panOffsetY = event.clientY - panStartY;
 			clampPanOffsets();
-			tooltipId = null;
-			tooltipContent = null;
 		}
 	}
 
@@ -144,7 +205,7 @@
 		}
 	}
 
-	function handleMouseEnter(node: NodePosition) {
+	function handleMouseEnter(node: TreeNode) {
 		if (!isPanning) {
 			activateTooltip(node);
 		}
@@ -152,8 +213,7 @@
 
 	function handleMouseLeave() {
 		if (!isPanning) {
-			tooltipId = null;
-			tooltipContent = null;
+			tooltipNode = null;
 		}
 	}
 
@@ -206,11 +266,11 @@
 
 		const search = text.toLowerCase();
 
-		searchResults = Object.entries(nodesDesc)
+		searchResults = Object.entries(nodes)
 			.filter(
 				([_, values]) =>
 					values.name.toLowerCase().includes(search) ||
-					values.stats.some((value) => value.toLowerCase().includes(search))
+					values.description.some((value) => value.toLowerCase().includes(search))
 			)
 			.map(([key, _]) => key);
 	}
@@ -239,6 +299,15 @@
 		}
 	}
 
+	function clearSelectedNodes() {
+		selectedNodes = [];
+
+		// Clear localStorage when all nodes are cleared
+		if (browser) {
+			localStorage.removeItem('selectedSkillNodes');
+		}
+	}
+
 	// Add event listeners for global mouse events to handle panning
 	onMount(() => {
 		const handleMove = (event: MouseEvent) => {
@@ -256,16 +325,86 @@
 		window.addEventListener('mousemove', handleMove);
 		window.addEventListener('mouseup', handleUp);
 
+		// Handle clicks outside the selected nodes and search results display
+		const handleClickOutside = (event: MouseEvent) => {
+			const clickedOutsideSelectedNodes =
+				isSelectedNodesDisplayPinned &&
+				!selectedNodesDisplayEl?.contains(event.target as Node) &&
+				!selectedNodesSpanEl?.contains(event.target as Node);
+
+			const clickedOutsideSearchResults =
+				isSearchResultsDisplayPinned &&
+				!searchResultsDisplayEl?.contains(event.target as Node) &&
+				!searchResultsSpanEl?.contains(event.target as Node);
+
+			if (clickedOutsideSelectedNodes) {
+				isSelectedNodesDisplayPinned = false;
+				showSelectedNodesDisplay = false;
+			}
+
+			if (clickedOutsideSearchResults) {
+				isSearchResultsDisplayPinned = false;
+				showSearchResultsDisplay = false;
+			}
+		};
+
+		document.addEventListener('click', handleClickOutside);
+
 		return () => {
 			window.removeEventListener('mousemove', handleMove);
 			window.removeEventListener('mouseup', handleUp);
+			document.removeEventListener('click', handleClickOutside);
 		};
 	});
+
+	function handleSelectedNodesMouseEnter() {
+		showSelectedNodesDisplay = true;
+	}
+
+	function handleSelectedNodesMouseLeave() {
+		if (!isSelectedNodesDisplayPinned) {
+			showSelectedNodesDisplay = false;
+		}
+	}
+
+	function handleSelectedNodesClick(event: MouseEvent) {
+		isSelectedNodesDisplayPinned = !isSelectedNodesDisplayPinned;
+		if (!isSelectedNodesDisplayPinned) {
+			showSelectedNodesDisplay = false;
+		} else {
+			showSelectedNodesDisplay = true;
+		}
+		event.stopPropagation();
+	}
+
+	function handleSearchResultsMouseEnter() {
+		showSearchResultsDisplay = true;
+	}
+
+	function handleSearchResultsMouseLeave() {
+		if (!isSearchResultsDisplayPinned) {
+			showSearchResultsDisplay = false;
+		}
+	}
+
+	function handleSearchResultsClick(event: MouseEvent) {
+		isSearchResultsDisplayPinned = !isSearchResultsDisplayPinned;
+		if (!isSearchResultsDisplayPinned) {
+			showSearchResultsDisplay = false;
+		} else {
+			showSearchResultsDisplay = true;
+		}
+		event.stopPropagation();
+	}
 </script>
 
 <!-- Top Bar Section -->
 <div class="top-bar">
-	<!-- Moved the GitHub link to the top-right corner -->
+	<!-- GitHub link to the top-right corner -->
+	<div class="github-text">
+		<p>Check out the Github repository</p>
+		<p>to see how to contribute to this project</p>
+	</div>
 	<div class="github-link">
 		<a href="https://github.com/marcoaaguiar/poe2-tree" target="_blank" rel="noopener noreferrer">
 			<!-- GitHub SVG Icon -->
@@ -286,20 +425,88 @@
 	</div>
 
 	<h1>Path of Exile 2 Skill Tree Preview</h1>
-	<p>Check out the Github repository for how to contribute to this project.</p>
+
 	<!-- Filters -->
 	<div class="filters">
-		<label><input type="checkbox" bind:checked={highlightKeystones} /> Highlight Keystones</label>
-		<label><input type="checkbox" bind:checked={highlightNotables} /> Highlight Notables</label>
-		<label><input type="checkbox" bind:checked={hideUnidentified} /> Hide Unidentified</label>
+		<p><b>Highlight:</b></p>
+		<label><input type="checkbox" bind:checked={highlightKeystones} />Keystones</label>
+		<label><input type="checkbox" bind:checked={highlightNotables} />Notables</label>
+		<label><input type="checkbox" bind:checked={highlightSmalls} />Smalls</label>
+	</div>
+	<div class="filters">
+		<p><b>Hide:</b></p>
+		<label><input type="checkbox" bind:checked={hideUnidentified} />Unidentified</label>
+		<label><input type="checkbox" bind:checked={hideUnselected} />Unselected</label>
+		<label><input type="checkbox" bind:checked={hideSmall} />Smalls</label>
 	</div>
 </div>
 
 <!-- Search and Filter Section -->
 <div class="search-bar">
 	<input type="text" placeholder="Search..." bind:value={searchTerm} />
-	<span>Search results: {searchResults.length}</span>
-	<span>Selected Nodes: {selectedNodes.length}</span>
+	<span
+		bind:this={searchResultsSpanEl}
+		onmouseenter={handleSearchResultsMouseEnter}
+		onmouseleave={handleSearchResultsMouseLeave}
+		onclick={handleSearchResultsClick}
+		style="cursor: pointer; margin-right: 10px;">Search Results: {searchResults.length}</span
+	>
+
+	<!-- Search Results Display -->
+	{#if showSearchResultsDisplay}
+		<div class="info-display" bind:this={searchResultsDisplayEl}>
+			{#if searchResults.length > 0}
+				<ul>
+					{#each searchResults as nodeId}
+						<li>
+							<strong>{nodes[nodeId].name}</strong>
+							<ul>
+								{#each nodes[nodeId].description as description}
+									<li>{description}</li>
+								{/each}
+							</ul>
+						</li>
+					{/each}
+				</ul>
+			{:else}
+				<p>No search results.</p>
+			{/if}
+		</div>
+	{/if}
+
+	<span
+		bind:this={selectedNodesSpanEl}
+		onmouseenter={handleSelectedNodesMouseEnter}
+		onmouseleave={handleSelectedNodesMouseLeave}
+		onclick={handleSelectedNodesClick}
+		style="cursor: pointer;">Selected Nodes: {selectedNodes.length}/122</span
+	>
+
+	<!-- Selected Nodes Display -->
+	{#if showSelectedNodesDisplay}
+		<div class="info-display" bind:this={selectedNodesDisplayEl}>
+			{#if selectedNodes.length > 0}
+				<button onclick={clearSelectedNodes}>Clear Selected Nodes</button>
+				<ul>
+					<!-- Only display non small nodes -->
+					{#each selectedNodes as nodeId}
+						{#if !nodeId.startsWith('S')}
+							<li>
+								<strong>{nodes[nodeId].name}</strong>
+								<ul>
+									{#each nodes[nodeId].description as description}
+										<li>{description}</li>
+									{/each}
+								</ul>
+							</li>
+						{/if}
+					{/each}
+				</ul>
+			{:else}
+				<p>No nodes selected.</p>
+			{/if}
+		</div>
+	{/if}
 </div>
 
 <!-- Skill Tree Container -->
@@ -339,46 +546,47 @@
 
 		<!-- Display hoverable regions with lighter color -->
 		{#if hasLoaded}
-			{#each ['notables', 'keystones'] as kind}
-				{#each nodes[kind] as node}
-					{#if !(hideUnidentified && nodesDesc[node.id].name === node.id)}
-						<!-- svelte-ignore a11y_no_static_element_interactions -->
-						<!-- svelte-ignore a11y_click_events_have_key_events -->
-						<div
-							class:notable={node.id.startsWith('N')}
-							class:keystone={node.id.startsWith('K')}
-							class:unidentified={nodesDesc[node.id].name === node.id}
-							class:search-result={searchResults.includes(node.id)}
-							class:selected={selectedNodes.includes(node.id)}
-							class:highlighted-keystone={highlightKeystones && node.id.startsWith('K')}
-							class:highlighted-notable={highlightNotables && node.id.startsWith('N')}
-							style="
-								  width: {(baseNodeSize + node.id.startsWith('K') * 4) * scale}px;
-								  height: {(baseNodeSize + node.id.startsWith('K') * 4) * scale}px;
-								  left: {node.x * imageEl.naturalWidth * scale - (baseNodeSize * scale) / 2}px;
-								  top: {node.y * imageEl.naturalHeight * scale - (baseNodeSize * scale) / 2}px;
-							  "
-							onmousedown={(event) => event.stopPropagation()}
-							onclick={() => toggleNodeSelection(node)}
-							onmouseenter={() => handleMouseEnter(node)}
-							onmouseleave={handleMouseLeave}
-						></div>
-					{/if}
-				{/each}
+			{#each Object.values(nodes).filter(filterNodes) as node}
+				<!-- svelte-ignore a11y_no_static_element_interactions -->
+				<!-- svelte-ignore a11y_click_events_have_key_events -->
+				<div
+					class:keystone={node.type === 'keystone'}
+					class:notable={node.type === 'notable'}
+					class:small={node.type === 'small'}
+					class:unidentified={node.description.length === 0}
+					class:search-result={searchResults.includes(node.id)}
+					class:selected={selectedNodes.includes(node.id)}
+					class:highlighted-keystone={highlightKeystones && node.type === 'keystone'}
+					class:highlighted-notable={highlightNotables && node.type === 'notable'}
+					class:highlighted-small={highlightSmalls && node.type === 'small'}
+					style="
+						height: {getNodeSize(node) * scale}px;
+						width: {getNodeSize(node) * scale}px;
+						left: {node.position.x * imageEl.naturalWidth * scale - (getNodeSize(node) * scale) / 2}px;
+						top: {node.position.y * imageEl.naturalHeight * scale - (getNodeSize(node) * scale) / 2}px;
+					"
+					onmousedown={(event) => event.stopPropagation()}
+					onclick={() => toggleNodeSelection(node)}
+					onmouseenter={() => handleMouseEnter(node)}
+					onmouseleave={handleMouseLeave}
+				></div>
 			{/each}
 		{/if}
 	</div>
 
 	<!-- Tooltip displayed when a region is hovered -->
-	{#if tooltipContent != null}
+	{#if tooltipNode != null}
 		<div bind:this={tooltipEl} class="tooltip" style="left: {tooltipX}px; top: {tooltipY}px;">
 			<div class="title" style={`background-image: url('${base}/tooltip-header.png');`}>
-				{$t(`${tooltipId}.name`)}
+				{$t(`${tooltipNode.id}.name`)}
 			</div>
 			<div class="body">
-				{#each tooltipContent.stats as stat, i}
-					<p class="stat-line">{$t(`${tooltipId}.stats.${i}`)}</p>
+				{#each tooltipNode.description as _, i}
+					<p class="description-line">{$t(`${tooltipNode.id}.stats.${i}`)}</p>
 				{/each}
+			</div>
+			<div class="footer">
+				<span class="node-id">{tooltipNode.id}</span>
 			</div>
 		</div>
 	{/if}
@@ -404,10 +612,17 @@
 		text-align: center;
 	}
 
-	.github-link {
+	.github-text {
 		position: absolute;
 		top: 10px;
 		right: 10px;
+		text-wrap: balance;
+	}
+
+	.github-link {
+		position: absolute;
+		top: 80px;
+		right: 140px;
 	}
 
 	.github-link a {
@@ -427,6 +642,11 @@
 	.search-bar {
 		text-align: center;
 		margin-bottom: 10px;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
 	}
 
 	.search-bar input {
@@ -435,13 +655,14 @@
 	}
 
 	.search-bar span {
-		margin-left: 10px;
 		font-size: 16px;
+		cursor: pointer;
+		position: relative;
 	}
 
 	.filters {
 		display: inline-block;
-		margin-top: 20px;
+		margin-top: 10px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -467,6 +688,7 @@
 		left: 0;
 	}
 
+	.small,
 	.notable,
 	.keystone {
 		position: absolute;
@@ -492,12 +714,25 @@
 		border-color: rgba(255, 0, 100, 1);
 	}
 
+	.small {
+		background-color: rgba(255, 255, 255, 0.2);
+	}
+
+	.small.unidentified {
+		background-color: rgba(255, 255, 255, 0.2);
+		border-color: rgba(255, 100, 100, 1);
+	}
+
 	.notable.selected {
 		background-color: rgba(255, 255, 0, 0.6);
 	}
 
 	.keystone.selected {
 		background-color: rgba(0, 255, 0, 0.6);
+	}
+
+	.small.selected {
+		background-color: rgba(255, 255, 255, 0.6);
 	}
 
 	.highlighted-keystone {
@@ -507,7 +742,9 @@
 	.highlighted-notable {
 		border: 1px solid yellow;
 	}
-
+	.highlighted-small {
+		border: 1px solid yellow;
+	}
 	@keyframes glow {
 		0% {
 			box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
@@ -521,7 +758,7 @@
 	}
 
 	.search-result {
-		border: 4px solid rgba(255, 0, 0, 0.8);
+		border: 3px solid rgba(255, 0, 0, 0.8);
 		animation: glow 2s infinite;
 	}
 
@@ -541,7 +778,7 @@
 			font-size: 1.5rem;
 			color: #f0e7e5; /* Light gold for the title text */
 			text-align: center;
-			margin-bottom: 15px;
+			margin-bottom: 8px;
 			background-size: cover; /* Ensure the image covers the entire title area */
 			background-position: center; /* Center the background image */
 			border-radius: 8px; /* Rounded corners */
@@ -557,12 +794,90 @@
 			font-size: 16px;
 			line-height: 1.5; /* Improve readability */
 			color: #7d7aad; /* Light blue for body text */
-			margin-bottom: 15px; /* Spacing below body */
-			padding: 10px 20px;
+			margin-bottom: 8px; /* Spacing below body */
+			padding: 8px 20px 0;
 
-			.stat-line {
+			.description-line {
 				margin: 0 auto;
 			}
 		}
+
+		.footer {
+			display: flex;
+			font-family: 'Fontin SmallCaps', sans-serif;
+			color: #7d7aad;
+			margin-bottom: 8px;
+			margin-left: 8px;
+			margin-right: 8px;
+
+			.node-id {
+				color: #888;
+				font-size: 12px;
+				margin-left: auto;
+			}
+		}
+	}
+
+	.info-display {
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		transform: translateX(-50%);
+		background-color: rgba(0, 0, 0, 0.9);
+		border: 1px solid #444;
+		z-index: 100;
+		padding: 10px;
+		max-height: 300px;
+		overflow-y: auto;
+		width: 300px;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+		color: #fff;
+		border-radius: 8px;
+	}
+
+	.info-display ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.info-display li {
+		margin-bottom: 10px;
+	}
+
+	.info-display strong {
+		font-size: 16px;
+		color: #f0e7e5;
+	}
+
+	.info-display ul ul {
+		margin-top: 5px;
+		margin-left: 15px;
+	}
+
+	.info-display ul ul li {
+		font-size: 14px;
+		color: #7d7aad;
+	}
+
+	.info-display p {
+		color: #7d7aad;
+		font-size: 14px;
+	}
+
+	/* Style for the clear button */
+	.info-display button {
+		background-color: rgba(0, 0, 0, 0.9);
+		color: white;
+		border: 1px solid #444;
+		padding: 5px 10px;
+		margin-bottom: 10px;
+		cursor: pointer;
+		border-radius: 4px;
+		font-family: 'Fontin SmallCaps', sans-serif;
+	}
+
+	.info-display button:hover {
+		background-color: #c9302c;
 	}
 </style>

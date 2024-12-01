@@ -132,7 +132,7 @@ def main():
             }
             for (index, circle) in enumerate(notables, start=1)
         ],
-        "small": [
+        "smalls": [
             {
                 "id": f"S{index}",
                 "x": circle.x / width,
@@ -146,6 +146,7 @@ def main():
     # save nodes position
     with open("output/nodes.json", mode="w") as file:
         json.dump(data, file, indent=2)
+    print("Generated output/nodes.json")
 
     # prime nodes description
     with open("output/nodes_desc.json", mode="w") as file:
@@ -157,10 +158,15 @@ def main():
             | {
                 f"N{index}": {"name": f"N{index}", "stats": []}
                 for index in range(1, len(notables) + 1)
+            }
+            | {
+                f"S{index}": {"name": f"S{index}", "stats": []}
+                for index in range(1, len(small_nodes) + 1)
             },
             file,
             indent=2,
         )
+    print("Generated output/nodes_desc.json")
 
 
 if __name__ == "__main__":

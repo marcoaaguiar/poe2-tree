@@ -147,8 +147,7 @@
 	},
 	"N7": {
 		"name": "Burnout",
-		"stats": [
-			"Ignites you inflict deal Damage 15% faster"]
+		"stats": ["Ignites you inflict deal Damage 15% faster"]
 	},
 	"N8": {
 		"name": "N8",
@@ -174,7 +173,8 @@
 		"name": "Electric Amplification",
 		"stats": [
 			"Damage Penetrates 18% Lightning Resistance",
-			"25% increased Lightning Exposure Effect"]
+			"25% increased Lightning Exposure Effect"
+		]
 	},
 	"N14": {
 		"name": "N14",
@@ -335,8 +335,8 @@
 		"stats": []
 	},
 	"N49": {
-		"name": "N49",
-		"stats": []
+		"name": "Crushing Storms",
+		"stats": ["16% increased Elemental Damage", "Damage Penetrates 5% Elemental Resistances"]
 	},
 	"N50": {
 		"name": "N50",
@@ -370,8 +370,8 @@
 		"stats": []
 	},
 	"N57": {
-		"name": "N57",
-		"stats": []
+		"name": "Shattered Crystal",
+		"stats": ["60% reduced Ice Crystal Life"]
 	},
 	"N58": {
 		"name": "Dependable Ward",
@@ -417,8 +417,11 @@
 		"stats": []
 	},
 	"N68": {
-		"name": "N68",
-		"stats": []
+		"name": "Sudden Escalation",
+		"stats": [
+			"16% increased Critical Hit Chance for Spells",
+			"8% increased Cast Speed if you've dealt a Critical Hit Recently"
+		]
 	},
 	"N69": {
 		"name": "N69",
@@ -500,8 +503,12 @@
 		"stats": []
 	},
 	"N88": {
-		"name": "N88",
-		"stats": []
+		"name": "Explosive Impact",
+		"stats": [
+			"15% increased Area of Effect",
+			"Burning Ennemies you kill have 5% chance to Explode, dealing a tenth of their maximum Life as",
+			"Fire Damage"
+		]
 	},
 	"N89": {
 		"name": "N89",
@@ -548,12 +555,12 @@
 		"stats": ["40% increased maximum Energy Shield", "10% reduced maximum Life"]
 	},
 	"N100": {
-		"name": "N100",
-		"stats": []
+		"name": "Mana Bloom",
+		"stats": ["25% increased maximum Mana"]
 	},
 	"N101": {
-		"name": "N101",
-		"stats": []
+		"name": "Arcane Blossom",
+		"stats": ["16% increased Mana Recovery rate"]
 	},
 	"N102": {
 		"name": "N102",
@@ -617,10 +624,7 @@
 	},
 	"N116": {
 		"name": "Breath of Lightning",
-		"stats": [
-			"Damage Penetrates 15% Lightning Resistance",
-			"+10 to Intelligence"
-		]
+		"stats": ["Damage Penetrates 15% Lightning Resistance", "+10 to Intelligence"]
 	},
 	"N117": {
 		"name": "Spectral Ward",
@@ -681,10 +685,7 @@
 	},
 	"N129": {
 		"name": "Breath of Cold",
-		"stats": [
-			"Damage Penetrates 15% Cold Resistance",
-			"+10 to Dexterity"
-		]
+		"stats": ["Damage Penetrates 15% Cold Resistance", "+10 to Dexterity"]
 	},
 	"N130": {
 		"name": "N130",
@@ -695,8 +696,8 @@
 		"stats": ["25% reduced Effect of Chill on you", "Unaffected by Chill during Dodge Roll"]
 	},
 	"N132": {
-		"name": "N132",
-		"stats": []
+		"name": "Exploit the Elements",
+		"stats": ["40% increased Damage with Hits agains Enemies affected by Elemental Ailments"]
 	},
 	"N133": {
 		"name": "N133",
@@ -796,12 +797,15 @@
 		]
 	},
 	"N156": {
-		"name": "N156",
-		"stats": []
+		"name": "Critical Overload",
+		"stats": [
+			"10% increased Critical Hit Chance for Spells",
+			"15% increased Spell Damage if you've dealt a Critical Strike Recently"
+		]
 	},
 	"N157": {
-		"name": "N157",
-		"stats": []
+		"name": "Poison Damage Notable",
+		"stats": ["25% increased Effect of Poison"]
 	},
 	"N158": {
 		"name": "Thickened Arteries",
@@ -816,8 +820,8 @@
 		"stats": []
 	},
 	"N161": {
-		"name": "N161",
-		"stats": []
+		"name": "Darkness",
+		"stats": ["25% increased Chaos Damage"]
 	},
 	"N162": {
 		"name": "N162",
@@ -863,12 +867,12 @@
 		"stats": ["40% increased maximum Energy Shield", "10% reduced maximum Mana"]
 	},
 	"N172": {
-		"name": "N172",
-		"stats": []
+		"name": "Jagged Shards",
+		"stats": ["15% increased Critical Hit Chance for Spells", "18% increased Physical Damage"]
 	},
 	"N173": {
-		"name": "N173",
-		"stats": []
+		"name": "Entropy",
+		"stats": ["18% increased Chaos Damage", "15% increased Skill Effect Duration"]
 	},
 	"N174": {
 		"name": "Dampening Shield",
@@ -896,8 +900,8 @@
 		"stats": []
 	},
 	"N178": {
-		"name": "N178",
-		"stats": []
+		"name": "Spell Haste",
+		"stats": ["10% increased Cast Speed"]
 	},
 	"N179": {
 		"name": "Mana Blessing",
@@ -908,8 +912,8 @@
 		"stats": []
 	},
 	"N181": {
-		"name": "N181",
-		"stats": []
+		"name": "Spellblade",
+		"stats": ["32% increased Spell Damage"]
 	},
 	"N182": {
 		"name": "N182",
@@ -944,8 +948,8 @@
 		"stats": []
 	},
 	"N189": {
-		"name": "N189",
-		"stats": []
+		"name": "Immortal Infamy",
+		"stats": ["Recover 2% of Life on Kill"]
 	},
 	"N190": {
 		"name": "N190",
@@ -956,8 +960,8 @@
 		"stats": []
 	},
 	"N192": {
-		"name": "N192",
-		"stats": []
+		"name": "Immortal Thirst",
+		"stats": ["25% increased ammount of Mana Leeched"]
 	},
 	"N193": {
 		"name": "Rattling Ball",
@@ -980,15 +984,15 @@
 		"stats": []
 	},
 	"N198": {
-		"name": "N198",
-		"stats": []
+		"name": "N198 - Title Missing",
+		"stats": ["6% of Damage taken Recouped as Life"]
 	},
 	"N199": {
 		"name": "Moment of Truth",
 		"stats": [
-            "25% increased Critical Damage Bonus if you've dealt a Non-Critical Hit Recently",
-            "20% increased Critical Hit Chance"
-        ]
+			"25% increased Critical Damage Bonus if you've dealt a Non-Critical Hit Recently",
+			"20% increased Critical Hit Chance"
+		]
 	},
 	"N200": {
 		"name": "N200",
@@ -1021,16 +1025,20 @@
 		]
 	},
 	"N206": {
-		"name": "N206",
-		"stats": []
+		"name": "Raw Destruction",
+		"stats": [
+			"16% increased Spell Damage",
+			"Minions deal 16% increased Damage",
+			"+10 to Intelligence"
+		]
 	},
 	"N207": {
 		"name": "N207",
 		"stats": []
 	},
 	"N208": {
-		"name": "N208",
-		"stats": []
+		"name": "Killer Instinct",
+		"stats": ["25% increased Attack Damage"]
 	},
 	"N209": {
 		"name": "N209",
@@ -1041,8 +1049,8 @@
 		"stats": ["Minions gain 15% of their Maximum Life as Extra Maximum Energy Shield"]
 	},
 	"N211": {
-		"name": "N211",
-		"stats": []
+		"name": "Open Mind",
+		"stats": ["25% increase Mana Regeneration Rate"]
 	},
 	"N212": {
 		"name": "Covering Ward",
@@ -1056,31 +1064,31 @@
 		"stats": []
 	},
 	"N214": {
-		"name": "N214",
-		"stats": []
+		"name": "Tenfold Attack",
+		"stats": ["10% increased Attack speed"]
 	},
 	"N215": {
 		"name": "N215",
 		"stats": []
 	},
 	"N216": {
-		"name": "N216",
-		"stats": []
+		"name": "Resonating Impact",
+		"stats": ["15% increased Area of Effect for Staff Attacks"]
 	},
 	"N217": {
 		"name": "Finesse",
 		"stats": [
-            "10% increased Global Accuracy Rating",
-            "Gain Accuracy Rating equal to your Intelligence"
-        ]
+			"10% increased Global Accuracy Rating",
+			"Gain Accuracy Rating equal to your Intelligence"
+		]
 	},
 	"N218": {
 		"name": "N218",
 		"stats": []
 	},
 	"N219": {
-		"name": "N219",
-		"stats": []
+		"name": "First Strike",
+		"stats": ["50% increased Damage with Daggers against Enemies that are on Full Life"]
 	},
 	"N220": {
 		"name": "N220",
@@ -1092,10 +1100,7 @@
 	},
 	"N222": {
 		"name": "Flow State",
-		"stats": [
-			"15% increased Mana Regeneration Rate",
-			"5% increased Attack and Cast Speed"
-		]
+		"stats": ["15% increased Mana Regeneration Rate", "5% increased Attack and Cast Speed"]
 	},
 	"N223": {
 		"name": "N223",
@@ -1119,29 +1124,26 @@
 	},
 	"N228": {
 		"name": "Leeching Toxins",
-		"stats": [
-			"30% increased Effect of Poison",
-			"Recover 2% of Life on Killing a Poisoned Enemy"
-		]
+		"stats": ["30% increased Effect of Poison", "Recover 2% of Life on Killing a Poisoned Enemy"]
 	},
 	"N229": {
-		"name": "N229",
-		"stats": []
+		"name": "Life from Death",
+		"stats": ["Recover 3% of Life on Kill"]
 	},
 	"N230": {
 		"name": "N230",
 		"stats": []
 	},
 	"N231": {
-		"name": "N231",
-		"stats": []
+		"name": "Unbroken Concentration",
+		"stats": ["40% increased Stun Threshold if you haven't been stunned recently"]
 	},
 	"N232": {
 		"name": "Immaterial",
 		"stats": [
-            "50% increased Evasion Rating if Energy Shield Recharge has started in the past 2 seconds",
-            "30% increased Evasion Rating while you have Energy Shield"
-        ]
+			"50% increased Evasion Rating if Energy Shield Recharge has started in the past 2 seconds",
+			"30% increased Evasion Rating while you have Energy Shield"
+		]
 	},
 	"N233": {
 		"name": "N233",
@@ -1174,9 +1176,9 @@
 	"N240": {
 		"name": "Shimmering",
 		"stats": [
-            "20% increased Energy Shield Recovery Rate if you haven't been Hit Recently",
-            "5% increased Movement Speed while you have Energy Shield"
-        ]
+			"20% increased Energy Shield Recovery Rate if you haven't been Hit Recently",
+			"5% increased Movement Speed while you have Energy Shield"
+		]
 	},
 	"N241": {
 		"name": "N241",
@@ -1196,10 +1198,7 @@
 	},
 	"N245": {
 		"name": "Flow Like Water",
-		"stats": [
-			"8% increased Attack and Cast Speed",
-			"+5 to Dexterity and Intelligence"
-		]
+		"stats": ["8% increased Attack and Cast Speed", "+5 to Dexterity and Intelligence"]
 	},
 	"N246": {
 		"name": "Primal Growth",
@@ -1227,9 +1226,9 @@
 	"N250": {
 		"name": "Mystic Stance",
 		"stats": [
-            "30% faster start of Energy Shield Recharge",
-            "30% increased Stun Threshold while on full Life"
-        ]
+			"30% faster start of Energy Shield Recharge",
+			"30% increased Stun Threshold while on full Life"
+		]
 	},
 	"N251": {
 		"name": "N251",
@@ -1240,15 +1239,20 @@
 		"stats": []
 	},
 	"N253": {
-		"name": "N253",
-		"stats": []
+		"name": "Step Like Mist",
+		"stats": [
+			"4% increased Movement Speed",
+			"14% increased Evasion Rating",
+			"14% increased maximum Energy Shield",
+			"+5 to Dexterity and Intelligence"
+		]
 	},
 	"N254": {
 		"name": "Lust for Power",
 		"stats": [
-            "10% chance that if you would gain Power Charges, you instead gain up to your maximum number of Power Charges",
-            "+1 to Maximum Power Charges"
-        ]
+			"10% chance that if you would gain Power Charges, you instead gain up to your maximum number of Power Charges",
+			"+1 to Maximum Power Charges"
+		]
 	},
 	"N255": {
 		"name": "Projectile Bulwark",
@@ -1260,7 +1264,11 @@
 	},
 	"N257": {
 		"name": "Unbound Forces",
-		"stats": ["50% increased Duration of Elemental Ailments on Enemies","50% increased Effect of Chill","15% increased Effect of Shock"]
+		"stats": [
+			"50% increased Duration of Elemental Ailments on Enemies",
+			"50% increased Effect of Chill",
+			"15% increased Effect of Shock"
+		]
 	},
 	"N258": {
 		"name": "N258",
@@ -1276,18 +1284,15 @@
 	},
 	"N261": {
 		"name": "Essence of the Mountain",
-		"stats": [
-            "20% increased Freeze Buildup",
-            "Gain 5% of Damage as Extra Cold Damage"
-        ]
+		"stats": ["20% increased Freeze Buildup", "Gain 5% of Damage as Extra Cold Damage"]
 	},
 	"N262": {
 		"name": "In Your Face",
 		"stats": ["40% increased Melee Damage with Hits at Close Range"]
 	},
 	"N263": {
-		"name": "N263",
-		"stats": []
+		"name": "Accuracy",
+		"stats": ["10% increased Global Accuracy Rating"]
 	},
 	"N264": {
 		"name": "Serrated Edges",
@@ -1306,8 +1311,8 @@
 		"stats": []
 	},
 	"N268": {
-		"name": "N268",
-		"stats": []
+		"name": "Martial Artistry",
+		"stats": ["+25% to Critical Strike Multiplier with Staves"]
 	},
 	"N269": {
 		"name": "N269",
@@ -1343,10 +1348,7 @@
 	},
 	"N277": {
 		"name": "Siphon",
-		"stats": [
-			"Recover 2% of Mana on Kill",
-			"25% increased amount of Mana Leeched"
-		]
+		"stats": ["Recover 2% of Mana on Kill", "25% increased amount of Mana Leeched"]
 	},
 	"N278": {
 		"name": "N278",
@@ -1378,7 +1380,8 @@
 	"N284": {
 		"name": "One with the Storm",
 		"stats": [
-			"Querterstaff Skills that consume Power Charges count as consuming an additional Power Charge"]
+			"Querterstaff Skills that consume Power Charges count as consuming an additional Power Charge"
+		]
 	},
 	"N285": {
 		"name": "N285",
@@ -1444,9 +1447,7 @@
 	},
 	"N299": {
 		"name": "Blinding Strike",
-		"stats": [
-			"24% increased Attack Damage",
-			"10% chance to Blind Enemies on Hit with Attacks"]
+		"stats": ["24% increased Attack Damage", "10% chance to Blind Enemies on Hit with Attacks"]
 	},
 	"N300": {
 		"name": "N300",
@@ -1478,11 +1479,14 @@
 	},
 	"N307": {
 		"name": "Honed Instincts",
-		"stats": ["8% increased Attack Speed","6% increased Global Accuracy Rating","+10 to Dexterity"]
+		"stats": ["8% increased Projectile Seed", "8% increased Attack Speed", "+10 to Dexterity"]
 	},
 	"N308": {
 		"name": "Smash",
-		"stats": ["20% increased Melee Damage", "40% increased Melee Damage against Heavy Stunned ennemies"]
+		"stats": [
+			"20% increased Melee Damage",
+			"40% increased Melee Damage against Heavy Stunned ennemies"
+		]
 	},
 	"N309": {
 		"name": "N309",
@@ -1501,8 +1505,8 @@
 		"stats": ["10% increased Stun Buildup", "10% increased Melee Damage", "+10 to Strength"]
 	},
 	"N313": {
-		"name": "Master Fletcher",
-		"stats": ["8% increased Projectile Speed","8% increased Attack Speed with Bows","8% increased Attack Speed with Crossbows"]
+		"name": "Clean Shot",
+		"stats": ["15% chance to Pierce an Enemy", "15% increased Projectile Damage"]
 	},
 	"N314": {
 		"name": "Shattering Blow",
@@ -1526,11 +1530,14 @@
 	},
 	"N319": {
 		"name": "Bolstering Yell",
-		"stats": ["Empowered Attacks deal 30% increased Damage" ,"Warcry Skills have 30% increased Area of Effect"]
+		"stats": [
+			"Empowered Attacks deal 30% increased Damage",
+			"Warcry Skills have 30% increased Area of Effect"
+		]
 	},
 	"N320": {
-		"name": "N320",
-		"stats": []
+		"name": "Retaliation",
+		"stats": ["75% of Damage taken reflected to Melee Attackers"]
 	},
 	"N321": {
 		"name": "Flip the Script",
@@ -1538,7 +1545,10 @@
 	},
 	"N322": {
 		"name": "Sweep and Slice",
-		"stats": ["12% increased Damage with One Handed Weapons","12% increased Area of Effect for Attacks"]
+		"stats": [
+			"12% increased Damage with One Handed Weapons",
+			"12% increased Area of Effect for Attacks"
+		]
 	},
 	"N323": {
 		"name": "No Escape",
@@ -1546,7 +1556,7 @@
 	},
 	"N324": {
 		"name": "Blur",
-		"stats": ["4% increased Movement Speed","16% increased Evasion Rating","+10 to Dexterity"]
+		"stats": ["4% increased Movement Speed", "16% increased Evasion Rating", "+10 to Dexterity"]
 	},
 	"N325": {
 		"name": "Hale Traveller",
@@ -1585,8 +1595,8 @@
 		"stats": []
 	},
 	"N334": {
-		"name": "Hold Focus",
-		"stats": ["12% increased Effect of your Marks"]
+		"name": "Mark Cast Speed",
+		"stats": ["Mark Skills have 10% increased Cast Speed"]
 	},
 	"N335": {
 		"name": "N335",
@@ -1594,11 +1604,11 @@
 	},
 	"N336": {
 		"name": "Outmanouver",
-		"stats": ["20% increased Stun buildup","20% increased Freeze Buildup"]
+		"stats": ["20% increased Stun buildup", "20% increased Freeze Buildup"]
 	},
 	"N337": {
-		"name": "Recentless",
-		"stats": ["15% increased Armour" ,"Regenerate 1% of life per second" ,"+10 to Strength"]
+		"name": "Relentless",
+		"stats": ["15% increased Armour", "Regenerate 1% of life per second", "+10 to Strength"]
 	},
 	"N338": {
 		"name": "N338",
@@ -1610,7 +1620,7 @@
 	},
 	"N340": {
 		"name": "Break Focus",
-		"stats": ["12% increased Effect of your Marks"]
+		"stats": ["Enemies you Mark have 15% reduced Accuracy Rating"]
 	},
 	"N341": {
 		"name": "N341",
@@ -1634,7 +1644,10 @@
 	},
 	"N346": {
 		"name": "Defender's Resolve",
-		"stats": ["12% increased Chance to Block" ,"Stagger empties 50% faster while your Shield is lowered"]
+		"stats": [
+			"12% increased Chance to Block",
+			"Stagger empties 50% faster while your Shield is lowered"
+		]
 	},
 	"N347": {
 		"name": "N347",
@@ -1696,7 +1709,7 @@
 	},
 	"N360": {
 		"name": "Titan's Determination",
-		"stats": ["25% increased Stun Threshold" ,"Regenerate 1,5% of Life per second while moving"]
+		"stats": ["25% increased Stun Threshold", "Regenerate 1,5% of Life per second while moving"]
 	},
 	"N361": {
 		"name": "Battle-hardened",
@@ -1728,7 +1741,10 @@
 	},
 	"N366": {
 		"name": "Mass Rejuvenation",
-		"stats": ["Regenarate 1% of Life per second" ,"Allies in your Presence Regenerate 2% of your Maximum Life per second"]
+		"stats": [
+			"Regenarate 1% of Life per second",
+			"Allies in your Presence Regenerate 2% of your Maximum Life per second"
+		]
 	},
 	"N367": {
 		"name": "Honourless",
@@ -1792,8 +1808,8 @@
 		"stats": []
 	},
 	"N380": {
-		"name": "Flask Charges Gained Notable",
-		"stats": ["25% increased Flask Charges gained"]
+		"name": "Lasting Concoctions",
+		"stats": ["25% increased Flask Effect Duration", "25% increased Flask Charges gained"]
 	},
 	"N381": {
 		"name": "N381",
@@ -1837,19 +1853,28 @@
 	},
 	"N390": {
 		"name": "Cacophony",
-		"stats": ["5% chance to deal Double Damage if you've Warcried in the past 8 seconds" ,"40% increased Damage with Warcry"]
+		"stats": [
+			"5% chance to deal Double Damage if you've Warcried in the past 8 seconds",
+			"40% increased Damage with Warcry"
+		]
 	},
 	"N391": {
 		"name": "Singular Purpose",
-		"stats": ["5% reduced Attack Speed" ,"20% increased Stun Buildup" ,"40% increased Damage with Two Handed Weapons"]
+		"stats": [
+			"5% reduced Attack Speed",
+			"20% increased Stun Buildup",
+			"40% increased Damage with Two Handed Weapons"
+		]
 	},
 	"N392": {
 		"name": "Shockwaves",
-		"stats": ["30% increased Area of Effect if you've Stunned an enemy with a Two Handed Melee Weapon Recently"]
+		"stats": [
+			"30% increased Area of Effect if you've Stunned an enemy with a Two Handed Melee Weapon Recently"
+		]
 	},
 	"N393": {
 		"name": "Devastation",
-		"stats": ["15% increased Attack Area Damage" ,"15% increased Area of Effect for Attacks"]
+		"stats": ["15% increased Attack Area Damage", "15% increased Area of Effect for Attacks"]
 	},
 	"N394": {
 		"name": "N394",
@@ -1879,8 +1904,11 @@
 		"stats": ["10% increased Area of Effect", "10% increased Cooldown Recovery Rate"]
 	},
 	"N399": {
-		"name": "N399",
-		"stats": []
+		"name": "Ricochet",
+		"stats": [
+			"20% increased Projectile Damage",
+			"Projectiles have 20% chance to Chain an additional time from terrain"
+		]
 	},
 	"N400": {
 		"name": "Vocal Empowerment",
@@ -1904,7 +1932,10 @@
 	},
 	"N405": {
 		"name": "Grit",
-		"stats": ["5% chance that if you would gain Endurance Charges, you instead gain up to maximum Endurance Charges" ,"+1 to Maximum Endurance Charges"]
+		"stats": [
+			"5% chance that if you would gain Endurance Charges, you instead gain up to maximum Endurance Charges",
+			"+1 to Maximum Endurance Charges"
+		]
 	},
 	"N406": {
 		"name": "Fortifying Blood",
@@ -1919,7 +1950,10 @@
 	},
 	"N408": {
 		"name": "Carved Earth",
-		"stats": ["20 increased Totem Damage" ,"6% increased Attack and Cast Speed if you've summoned a Totem Recently"]
+		"stats": [
+			"20 increased Totem Damage",
+			"6% increased Attack and Cast Speed if you've summoned a Totem Recently"
+		]
 	},
 	"N409": {
 		"name": "N409",
@@ -1933,7 +1967,8 @@
 		"name": "Death from Afar",
 		"stats": [
 			"Projectiles have 25% increased Critical Hit Chance against Enemies further then 6m",
-			"Projectiles deal 25% increased Damage with Hits against Enemies further then 6m"]
+			"Projectiles deal 25% increased Damage with Hits against Enemies further then 6m"
+		]
 	},
 	"N412": {
 		"name": "Vigilance",
@@ -1953,7 +1988,10 @@
 	},
 	"N416": {
 		"name": "Desperate Times",
-		"stats": ["Regenerate 3% of Life per second while on Low Life" ,"40% increased Life Recovery from Flasks used when on Low Life"]
+		"stats": [
+			"Regenerate 3% of Life per second while on Low Life",
+			"40% increased Life Recovery from Flasks used when on Low Life"
+		]
 	},
 	"N417": {
 		"name": "N417",
@@ -1997,7 +2035,8 @@
 		"name": "Stand and Deliver",
 		"stats": [
 			"Projectiles have 40% increased Critical Damage Bonus against Enemies within 2m",
-			"Projectiles deal 25% increased Damage with Hits against Enemies within 2m"]
+			"Projectiles deal 25% increased Damage with Hits against Enemies within 2m"
+		]
 	},
 	"N426": {
 		"name": "Back in Action",
@@ -2016,7 +2055,10 @@
 	},
 	"N429": {
 		"name": "Internal Bleeding",
-		"stats": ["25% chance to Aggravate Bleedind on targets you Hit with Empowered Attacks" ,"Empowered Attacks deal 35% increased Damage"]
+		"stats": [
+			"25% chance to Aggravate Bleedind on targets you Hit with Empowered Attacks",
+			"Empowered Attacks deal 35% increased Damage"
+		]
 	},
 	"N430": {
 		"name": "N430",
@@ -2170,8 +2212,8 @@
 		"stats": []
 	},
 	"N463": {
-		"name": "N463",
-		"stats": []
+		"name": "Vengeance",
+		"stats": ["60% of Damage taken reflected to Melee Attackers"]
 	},
 	"N464": {
 		"name": "N464",
@@ -2210,7 +2252,7 @@
 	},
 	"N472": {
 		"name": "Cluster Bombs",
-		"stats": ["Grenade Skills Fire an additional Projectile"]
+		"stats": ["50% increased Grenade Duration", "Grenade Skills Fire an additional Projectile"]
 	},
 	"N473": {
 		"name": "N473",
@@ -2291,8 +2333,8 @@
 		"stats": []
 	},
 	"N491": {
-		"name": "N491",
-		"stats": []
+		"name": "Hale Heart",
+		"stats": ["15% increased Life Recovery rate"]
 	},
 	"N492": {
 		"name": "Enraged Reaver",
@@ -2358,8 +2400,8 @@
 		"stats": []
 	},
 	"N507": {
-		"name": "N507",
-		"stats": []
+		"name": "Volatile Grenades",
+		"stats": ["25% reduced Grenade Duration"]
 	},
 	"N508": {
 		"name": "N508",
@@ -2432,7 +2474,7 @@
 	"N522": {
 		"name": "Perfect Opportunity",
 		"stats": [
-			"25% increased Stun Buildup",
+			"30% increased Stun Buildup",
 			"Damage with Hits is Lucky against Heavy Stunned Enemies"
 		]
 	},
@@ -2512,8 +2554,7 @@
 	},
 	"N539": {
 		"name": "Advanced Munitions",
-		"stats": [
-			"25% increased chance to inflict Ailments with Projectiles"]
+		"stats": ["25% increased chance to inflict Ailments with Projectiles"]
 	},
 	"N540": {
 		"name": "N540",
@@ -2595,8 +2636,11 @@
 		"stats": ["Life Leech effects are not removed when Unreserved Life is Filled"]
 	},
 	"N558": {
-		"name": "N558",
-		"stats": []
+		"name": "Full Salvo",
+		"stats": [
+			"25% Increased Damage with Crossbows for each type of Ammunition fired in the past 10",
+			"secondes"
+		]
 	},
 	"N559": {
 		"name": "Apocalypse",
@@ -2608,7 +2652,7 @@
 	},
 	"N561": {
 		"name": "Repeating Explosives",
-		"stats": ["Grenades have 20% change to activate a second time"]
+		"stats": ["Grenades have 15% change to activate a second time"]
 	},
 	"N562": {
 		"name": "Reusable Ammunition",
@@ -2675,15 +2719,17 @@
 	},
 	"N576": {
 		"name": "Escalating Toxins",
-		"stats": ["10% increased Poison Duration for each Poison you have inflicted Recently, up to a maximum of 100%"]
+		"stats": [
+			"10% increased Poison Duration for each Poison you have inflicted Recently, up to a maximum of 100%"
+		]
 	},
 	"N577": {
-		"name": "N577",
-		"stats": []
+		"name": "Quaterstaff Speed Notable",
+		"stats": ["10% increased Attack Speed with Staves"]
 	},
 	"N578": {
-		"name": "N578",
-		"stats": []
+		"name": "Quarterstaff Damage Notable",
+		"stats": ["25% increased Damage with Staves"]
 	},
 	"N579": {
 		"name": "N579",
@@ -2695,6 +2741,7682 @@
 	},
 	"N581": {
 		"name": "N581",
+		"stats": []
+	},
+	"N582": {
+		"name": "Savoured Blood",
+		"stats": ["50% increased amount of Life Leeched", "Leech Life 20% slower"]
+	},
+	"S1": {
+		"name": "Lightning Damage",
+		"stats": ["12% increased Lightning Damage"]
+	},
+	"S2": {
+		"name": "Lightning Damage",
+		"stats": ["12% increased Lightning Damage"]
+	},
+	"S3": {
+		"name": "S3",
+		"stats": []
+	},
+	"S4": {
+		"name": "Lightning Damage",
+		"stats": ["12% increased Lightning Damage"]
+	},
+	"S5": {
+		"name": "S5",
+		"stats": []
+	},
+	"S6": {
+		"name": "S6",
+		"stats": []
+	},
+	"S7": {
+		"name": "Cold Damage",
+		"stats": ["12% increased Cold Damage"]
+	},
+	"S8": {
+		"name": "S8",
+		"stats": []
+	},
+	"S9": {
+		"name": "S9",
+		"stats": []
+	},
+	"S10": {
+		"name": "S10",
+		"stats": []
+	},
+	"S11": {
+		"name": "S11",
+		"stats": []
+	},
+	"S12": {
+		"name": "S12",
+		"stats": []
+	},
+	"S13": {
+		"name": "S13",
+		"stats": []
+	},
+	"S14": {
+		"name": "S14",
+		"stats": []
+	},
+	"S15": {
+		"name": "Ignite Effect",
+		"stats": ["10% increased Effect of Ignite"]
+	},
+	"S16": {
+		"name": "Cold Damage",
+		"stats": ["12% increased Cold Damage"]
+	},
+	"S17": {
+		"name": "Lightning Damage",
+		"stats": ["12% increased Lightning Damage"]
+	},
+	"S18": {
+		"name": "S18",
+		"stats": []
+	},
+	"S19": {
+		"name": "S19",
+		"stats": []
+	},
+	"S20": {
+		"name": "S20",
+		"stats": []
+	},
+	"S21": {
+		"name": "S21",
+		"stats": []
+	},
+	"S22": {
+		"name": "S22",
+		"stats": []
+	},
+	"S23": {
+		"name": "S23",
+		"stats": []
+	},
+	"S24": {
+		"name": "S24",
+		"stats": []
+	},
+	"S25": {
+		"name": "Ignite Effect",
+		"stats": ["10% increased Effect of Ignite"]
+	},
+	"S26": {
+		"name": "S26",
+		"stats": []
+	},
+	"S27": {
+		"name": "S27",
+		"stats": []
+	},
+	"S28": {
+		"name": "S28",
+		"stats": []
+	},
+	"S29": {
+		"name": "Ignite Effect",
+		"stats": ["10% increased Effect of Ignite"]
+	},
+	"S30": {
+		"name": "S30",
+		"stats": []
+	},
+	"S31": {
+		"name": "S31",
+		"stats": []
+	},
+	"S32": {
+		"name": "S32",
+		"stats": []
+	},
+	"S33": {
+		"name": "S33",
+		"stats": []
+	},
+	"S34": {
+		"name": "Lightning Damage",
+		"stats": ["12% increased Lightning Damage"]
+	},
+	"S35": {
+		"name": "S35",
+		"stats": []
+	},
+	"S36": {
+		"name": "Ignite Chance",
+		"stats": ["20% increased chance to Ignite"]
+	},
+	"S37": {
+		"name": "Fire Damage",
+		"stats": ["12% increased Fire Damage"]
+	},
+	"S38": {
+		"name": "Cold Damage",
+		"stats": ["12% increased Cold Damage"]
+	},
+	"S39": {
+		"name": "S39",
+		"stats": []
+	},
+	"S40": {
+		"name": "S40",
+		"stats": []
+	},
+	"S41": {
+		"name": "S41",
+		"stats": []
+	},
+	"S42": {
+		"name": "S42",
+		"stats": []
+	},
+	"S43": {
+		"name": "S43",
+		"stats": []
+	},
+	"S44": {
+		"name": "S44",
+		"stats": []
+	},
+	"S45": {
+		"name": "S45",
+		"stats": []
+	},
+	"S46": {
+		"name": "S46",
+		"stats": []
+	},
+	"S47": {
+		"name": "S47",
+		"stats": []
+	},
+	"S48": {
+		"name": "S48",
+		"stats": []
+	},
+	"S49": {
+		"name": "S49",
+		"stats": []
+	},
+	"S50": {
+		"name": "S50",
+		"stats": []
+	},
+	"S51": {
+		"name": "S51",
+		"stats": []
+	},
+	"S52": {
+		"name": "S52",
+		"stats": []
+	},
+	"S53": {
+		"name": "S53",
+		"stats": []
+	},
+	"S54": {
+		"name": "S54",
+		"stats": []
+	},
+	"S55": {
+		"name": "S55",
+		"stats": []
+	},
+	"S56": {
+		"name": "S56",
+		"stats": []
+	},
+	"S57": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S58": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S59": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S60": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S61": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S62": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S63": {
+		"name": "S63",
+		"stats": []
+	},
+	"S64": {
+		"name": "S64",
+		"stats": []
+	},
+	"S65": {
+		"name": "S65",
+		"stats": []
+	},
+	"S66": {
+		"name": "S66",
+		"stats": []
+	},
+	"S67": {
+		"name": "S67",
+		"stats": []
+	},
+	"S68": {
+		"name": "S68",
+		"stats": []
+	},
+	"S69": {
+		"name": "S69",
+		"stats": []
+	},
+	"S70": {
+		"name": "S70",
+		"stats": []
+	},
+	"S71": {
+		"name": "S71",
+		"stats": []
+	},
+	"S72": {
+		"name": "S72",
+		"stats": []
+	},
+	"S73": {
+		"name": "S73",
+		"stats": []
+	},
+	"S74": {
+		"name": "S74",
+		"stats": []
+	},
+	"S75": {
+		"name": "S75",
+		"stats": []
+	},
+	"S76": {
+		"name": "S76",
+		"stats": []
+	},
+	"S77": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S78": {
+		"name": "S78",
+		"stats": []
+	},
+	"S79": {
+		"name": "S79",
+		"stats": []
+	},
+	"S80": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S81": {
+		"name": "S81",
+		"stats": []
+	},
+	"S82": {
+		"name": "S82",
+		"stats": []
+	},
+	"S83": {
+		"name": "S83",
+		"stats": []
+	},
+	"S84": {
+		"name": "S84",
+		"stats": []
+	},
+	"S85": {
+		"name": "S85",
+		"stats": []
+	},
+	"S86": {
+		"name": "S86",
+		"stats": []
+	},
+	"S87": {
+		"name": "S87",
+		"stats": []
+	},
+	"S88": {
+		"name": "S88",
+		"stats": []
+	},
+	"S89": {
+		"name": "S89",
+		"stats": []
+	},
+	"S90": {
+		"name": "S90",
+		"stats": []
+	},
+	"S91": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S92": {
+		"name": "S92",
+		"stats": []
+	},
+	"S93": {
+		"name": "S93",
+		"stats": []
+	},
+	"S94": {
+		"name": "S94",
+		"stats": []
+	},
+	"S95": {
+		"name": "Physical Damage",
+		"stats": ["10% increased Physical Damage"]
+	},
+	"S96": {
+		"name": "S96",
+		"stats": []
+	},
+	"S97": {
+		"name": "S97",
+		"stats": []
+	},
+	"S98": {
+		"name": "S98",
+		"stats": []
+	},
+	"S99": {
+		"name": "Overwhelm Physical",
+		"stats": ["Overwhelm 5% Physical Damage Reduction"]
+	},
+	"S100": {
+		"name": "S100",
+		"stats": []
+	},
+	"S101": {
+		"name": "S101",
+		"stats": []
+	},
+	"S102": {
+		"name": "S102",
+		"stats": []
+	},
+	"S103": {
+		"name": "S103",
+		"stats": []
+	},
+	"S104": {
+		"name": "S104",
+		"stats": []
+	},
+	"S105": {
+		"name": "S105",
+		"stats": []
+	},
+	"S106": {
+		"name": "S106",
+		"stats": []
+	},
+	"S107": {
+		"name": "S107",
+		"stats": []
+	},
+	"S108": {
+		"name": "S108",
+		"stats": []
+	},
+	"S109": {
+		"name": "S109",
+		"stats": []
+	},
+	"S110": {
+		"name": "S110",
+		"stats": []
+	},
+	"S111": {
+		"name": "S111",
+		"stats": []
+	},
+	"S112": {
+		"name": "S112",
+		"stats": []
+	},
+	"S113": {
+		"name": "Physical Damage",
+		"stats": ["10% increased Physical Damage"]
+	},
+	"S114": {
+		"name": "Curse Effect",
+		"stats": ["6% increased Effect of your Curses"]
+	},
+	"S115": {
+		"name": "S115",
+		"stats": []
+	},
+	"S116": {
+		"name": "S116",
+		"stats": []
+	},
+	"S117": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S118": {
+		"name": "S118",
+		"stats": []
+	},
+	"S119": {
+		"name": "Physical Damage",
+		"stats": ["10% increased Physical Damage"]
+	},
+	"S120": {
+		"name": "S120",
+		"stats": []
+	},
+	"S121": {
+		"name": "S121",
+		"stats": []
+	},
+	"S122": {
+		"name": "S122",
+		"stats": []
+	},
+	"S123": {
+		"name": "Physical Damage",
+		"stats": ["10% increased Physical Damage"]
+	},
+	"S124": {
+		"name": "S124",
+		"stats": []
+	},
+	"S125": {
+		"name": "S125",
+		"stats": []
+	},
+	"S126": {
+		"name": "S126",
+		"stats": []
+	},
+	"S127": {
+		"name": "S127",
+		"stats": []
+	},
+	"S128": {
+		"name": "S128",
+		"stats": []
+	},
+	"S129": {
+		"name": "S129",
+		"stats": []
+	},
+	"S130": {
+		"name": "S130",
+		"stats": []
+	},
+	"S131": {
+		"name": "S131",
+		"stats": []
+	},
+	"S132": {
+		"name": "S132",
+		"stats": []
+	},
+	"S133": {
+		"name": "S133",
+		"stats": []
+	},
+	"S134": {
+		"name": "S134",
+		"stats": []
+	},
+	"S135": {
+		"name": "S135",
+		"stats": []
+	},
+	"S136": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S137": {
+		"name": "S137",
+		"stats": []
+	},
+	"S138": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S139": {
+		"name": "S139",
+		"stats": []
+	},
+	"S140": {
+		"name": "Elemental Damage",
+		"stats": ["10% increased Elemental Damage"]
+	},
+	"S141": {
+		"name": "Elemental Damage",
+		"stats": ["10% increased Elemental Damage"]
+	},
+	"S142": {
+		"name": "S142",
+		"stats": []
+	},
+	"S143": {
+		"name": "S143",
+		"stats": []
+	},
+	"S144": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S145": {
+		"name": "S145",
+		"stats": []
+	},
+	"S146": {
+		"name": "S146",
+		"stats": []
+	},
+	"S147": {
+		"name": "S147",
+		"stats": []
+	},
+	"S148": {
+		"name": "S148",
+		"stats": []
+	},
+	"S149": {
+		"name": "S149",
+		"stats": []
+	},
+	"S150": {
+		"name": "S150",
+		"stats": []
+	},
+	"S151": {
+		"name": "S151",
+		"stats": []
+	},
+	"S152": {
+		"name": "S152",
+		"stats": []
+	},
+	"S153": {
+		"name": "S153",
+		"stats": []
+	},
+	"S154": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S155": {
+		"name": "S155",
+		"stats": []
+	},
+	"S156": {
+		"name": "S156",
+		"stats": []
+	},
+	"S157": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S158": {
+		"name": "S158",
+		"stats": []
+	},
+	"S159": {
+		"name": "S159",
+		"stats": []
+	},
+	"S160": {
+		"name": "S160",
+		"stats": []
+	},
+	"S161": {
+		"name": "S161",
+		"stats": []
+	},
+	"S162": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S163": {
+		"name": "S163",
+		"stats": []
+	},
+	"S164": {
+		"name": "S164",
+		"stats": []
+	},
+	"S165": {
+		"name": "S165",
+		"stats": []
+	},
+	"S166": {
+		"name": "S166",
+		"stats": []
+	},
+	"S167": {
+		"name": "S167",
+		"stats": []
+	},
+	"S168": {
+		"name": "S168",
+		"stats": []
+	},
+	"S169": {
+		"name": "S169",
+		"stats": []
+	},
+	"S170": {
+		"name": "S170",
+		"stats": []
+	},
+	"S171": {
+		"name": "S171",
+		"stats": []
+	},
+	"S172": {
+		"name": "S172",
+		"stats": []
+	},
+	"S173": {
+		"name": "S173",
+		"stats": []
+	},
+	"S174": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S175": {
+		"name": "S175",
+		"stats": []
+	},
+	"S176": {
+		"name": "S176",
+		"stats": []
+	},
+	"S177": {
+		"name": "S177",
+		"stats": []
+	},
+	"S178": {
+		"name": "S178",
+		"stats": []
+	},
+	"S179": {
+		"name": "Elemental Damage",
+		"stats": ["10% increased Elemental Damage"]
+	},
+	"S180": {
+		"name": "S180",
+		"stats": []
+	},
+	"S181": {
+		"name": "S181",
+		"stats": []
+	},
+	"S182": {
+		"name": "S182",
+		"stats": []
+	},
+	"S183": {
+		"name": "S183",
+		"stats": []
+	},
+	"S184": {
+		"name": "S184",
+		"stats": []
+	},
+	"S185": {
+		"name": "S185",
+		"stats": []
+	},
+	"S186": {
+		"name": "S186",
+		"stats": []
+	},
+	"S187": {
+		"name": "S187",
+		"stats": []
+	},
+	"S188": {
+		"name": "S188",
+		"stats": []
+	},
+	"S189": {
+		"name": "S189",
+		"stats": []
+	},
+	"S190": {
+		"name": "S190",
+		"stats": []
+	},
+	"S191": {
+		"name": "S191",
+		"stats": []
+	},
+	"S192": {
+		"name": "S192",
+		"stats": []
+	},
+	"S193": {
+		"name": "S193",
+		"stats": []
+	},
+	"S194": {
+		"name": "S194",
+		"stats": []
+	},
+	"S195": {
+		"name": "S195",
+		"stats": []
+	},
+	"S196": {
+		"name": "S196",
+		"stats": []
+	},
+	"S197": {
+		"name": "S197",
+		"stats": []
+	},
+	"S198": {
+		"name": "S198",
+		"stats": []
+	},
+	"S199": {
+		"name": "S199",
+		"stats": []
+	},
+	"S200": {
+		"name": "S200",
+		"stats": []
+	},
+	"S201": {
+		"name": "S201",
+		"stats": []
+	},
+	"S202": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S203": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S204": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S205": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S206": {
+		"name": "S206",
+		"stats": []
+	},
+	"S207": {
+		"name": "S207",
+		"stats": []
+	},
+	"S208": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S209": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S210": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S211": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S212": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S213": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S214": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S215": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S216": {
+		"name": "S216",
+		"stats": []
+	},
+	"S217": {
+		"name": "S217",
+		"stats": []
+	},
+	"S218": {
+		"name": "S218",
+		"stats": []
+	},
+	"S219": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S220": {
+		"name": "S220",
+		"stats": []
+	},
+	"S221": {
+		"name": "S221",
+		"stats": []
+	},
+	"S222": {
+		"name": "S222",
+		"stats": []
+	},
+	"S223": {
+		"name": "S223",
+		"stats": []
+	},
+	"S224": {
+		"name": "S224",
+		"stats": []
+	},
+	"S225": {
+		"name": "S225",
+		"stats": []
+	},
+	"S226": {
+		"name": "S226",
+		"stats": []
+	},
+	"S227": {
+		"name": "S227",
+		"stats": []
+	},
+	"S228": {
+		"name": "S228",
+		"stats": []
+	},
+	"S229": {
+		"name": "S229",
+		"stats": []
+	},
+	"S230": {
+		"name": "S230",
+		"stats": []
+	},
+	"S231": {
+		"name": "S231",
+		"stats": []
+	},
+	"S232": {
+		"name": "S232",
+		"stats": []
+	},
+	"S233": {
+		"name": "S233",
+		"stats": []
+	},
+	"S234": {
+		"name": "S234",
+		"stats": []
+	},
+	"S235": {
+		"name": "S235",
+		"stats": []
+	},
+	"S236": {
+		"name": "Physical Damage",
+		"stats": ["10% increased Physical Damage"]
+	},
+	"S237": {
+		"name": "Chaos Damage",
+		"stats": ["10% increased Chaos Damage"]
+	},
+	"S238": {
+		"name": "S238",
+		"stats": []
+	},
+	"S239": {
+		"name": "S239",
+		"stats": []
+	},
+	"S240": {
+		"name": "S240",
+		"stats": []
+	},
+	"S241": {
+		"name": "S241",
+		"stats": []
+	},
+	"S242": {
+		"name": "S242",
+		"stats": []
+	},
+	"S243": {
+		"name": "S243",
+		"stats": []
+	},
+	"S244": {
+		"name": "S244",
+		"stats": []
+	},
+	"S245": {
+		"name": "S245",
+		"stats": []
+	},
+	"S246": {
+		"name": "S246",
+		"stats": []
+	},
+	"S247": {
+		"name": "S247",
+		"stats": []
+	},
+	"S248": {
+		"name": "S248",
+		"stats": []
+	},
+	"S249": {
+		"name": "S249",
+		"stats": []
+	},
+	"S250": {
+		"name": "S250",
+		"stats": []
+	},
+	"S251": {
+		"name": "S251",
+		"stats": []
+	},
+	"S252": {
+		"name": "S252",
+		"stats": []
+	},
+	"S253": {
+		"name": "S253",
+		"stats": []
+	},
+	"S254": {
+		"name": "S254",
+		"stats": []
+	},
+	"S255": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S256": {
+		"name": "S256",
+		"stats": []
+	},
+	"S257": {
+		"name": "S257",
+		"stats": []
+	},
+	"S258": {
+		"name": "S258",
+		"stats": []
+	},
+	"S259": {
+		"name": "S259",
+		"stats": []
+	},
+	"S260": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S261": {
+		"name": "S261",
+		"stats": []
+	},
+	"S262": {
+		"name": "S262",
+		"stats": []
+	},
+	"S263": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S264": {
+		"name": "S264",
+		"stats": []
+	},
+	"S265": {
+		"name": "S265",
+		"stats": []
+	},
+	"S266": {
+		"name": "S266",
+		"stats": []
+	},
+	"S267": {
+		"name": "S267",
+		"stats": []
+	},
+	"S268": {
+		"name": "S268",
+		"stats": []
+	},
+	"S269": {
+		"name": "S269",
+		"stats": []
+	},
+	"S270": {
+		"name": "S270",
+		"stats": []
+	},
+	"S271": {
+		"name": "S271",
+		"stats": []
+	},
+	"S272": {
+		"name": "S272",
+		"stats": []
+	},
+	"S273": {
+		"name": "S273",
+		"stats": []
+	},
+	"S274": {
+		"name": "S274",
+		"stats": []
+	},
+	"S275": {
+		"name": "S275",
+		"stats": []
+	},
+	"S276": {
+		"name": "S276",
+		"stats": []
+	},
+	"S277": {
+		"name": "S277",
+		"stats": []
+	},
+	"S278": {
+		"name": "S278",
+		"stats": []
+	},
+	"S279": {
+		"name": "S279",
+		"stats": []
+	},
+	"S280": {
+		"name": "S280",
+		"stats": []
+	},
+	"S281": {
+		"name": "S281",
+		"stats": []
+	},
+	"S282": {
+		"name": "S282",
+		"stats": []
+	},
+	"S283": {
+		"name": "S283",
+		"stats": []
+	},
+	"S284": {
+		"name": "S284",
+		"stats": []
+	},
+	"S285": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S286": {
+		"name": "S286",
+		"stats": []
+	},
+	"S287": {
+		"name": "S287",
+		"stats": []
+	},
+	"S288": {
+		"name": "S288",
+		"stats": []
+	},
+	"S289": {
+		"name": "S289",
+		"stats": []
+	},
+	"S290": {
+		"name": "S290",
+		"stats": []
+	},
+	"S291": {
+		"name": "S291",
+		"stats": []
+	},
+	"S292": {
+		"name": "S292",
+		"stats": []
+	},
+	"S293": {
+		"name": "S293",
+		"stats": []
+	},
+	"S294": {
+		"name": "S294",
+		"stats": []
+	},
+	"S295": {
+		"name": "S295",
+		"stats": []
+	},
+	"S296": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S297": {
+		"name": "S297",
+		"stats": []
+	},
+	"S298": {
+		"name": "S298",
+		"stats": []
+	},
+	"S299": {
+		"name": "S299",
+		"stats": []
+	},
+	"S300": {
+		"name": "S300",
+		"stats": []
+	},
+	"S301": {
+		"name": "S301",
+		"stats": []
+	},
+	"S302": {
+		"name": "S302",
+		"stats": []
+	},
+	"S303": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S304": {
+		"name": "S304",
+		"stats": []
+	},
+	"S305": {
+		"name": "S305",
+		"stats": []
+	},
+	"S306": {
+		"name": "S306",
+		"stats": []
+	},
+	"S307": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S308": {
+		"name": "S308",
+		"stats": []
+	},
+	"S309": {
+		"name": "S309",
+		"stats": []
+	},
+	"S310": {
+		"name": "S310",
+		"stats": []
+	},
+	"S311": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S312": {
+		"name": "S312",
+		"stats": []
+	},
+	"S313": {
+		"name": "S313",
+		"stats": []
+	},
+	"S314": {
+		"name": "S314",
+		"stats": []
+	},
+	"S315": {
+		"name": "S315",
+		"stats": []
+	},
+	"S316": {
+		"name": "S316",
+		"stats": []
+	},
+	"S317": {
+		"name": "S317",
+		"stats": []
+	},
+	"S318": {
+		"name": "S318",
+		"stats": []
+	},
+	"S319": {
+		"name": "S319",
+		"stats": []
+	},
+	"S320": {
+		"name": "S320",
+		"stats": []
+	},
+	"S321": {
+		"name": "S321",
+		"stats": []
+	},
+	"S322": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S323": {
+		"name": "S323",
+		"stats": []
+	},
+	"S324": {
+		"name": "S324",
+		"stats": []
+	},
+	"S325": {
+		"name": "S325",
+		"stats": []
+	},
+	"S326": {
+		"name": "S326",
+		"stats": []
+	},
+	"S327": {
+		"name": "S327",
+		"stats": []
+	},
+	"S328": {
+		"name": "S328",
+		"stats": []
+	},
+	"S329": {
+		"name": "S329",
+		"stats": []
+	},
+	"S330": {
+		"name": "S330",
+		"stats": []
+	},
+	"S331": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S332": {
+		"name": "S332",
+		"stats": []
+	},
+	"S333": {
+		"name": "S333",
+		"stats": []
+	},
+	"S334": {
+		"name": "S334",
+		"stats": []
+	},
+	"S335": {
+		"name": "S335",
+		"stats": []
+	},
+	"S336": {
+		"name": "S336",
+		"stats": []
+	},
+	"S337": {
+		"name": "S337",
+		"stats": []
+	},
+	"S338": {
+		"name": "S338",
+		"stats": []
+	},
+	"S339": {
+		"name": "S339",
+		"stats": []
+	},
+	"S340": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S341": {
+		"name": "S341",
+		"stats": []
+	},
+	"S342": {
+		"name": "S342",
+		"stats": []
+	},
+	"S343": {
+		"name": "S343",
+		"stats": []
+	},
+	"S344": {
+		"name": "S344",
+		"stats": []
+	},
+	"S345": {
+		"name": "S345",
+		"stats": []
+	},
+	"S346": {
+		"name": "S346",
+		"stats": []
+	},
+	"S347": {
+		"name": "S347",
+		"stats": []
+	},
+	"S348": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S349": {
+		"name": "S349",
+		"stats": []
+	},
+	"S350": {
+		"name": "S350",
+		"stats": []
+	},
+	"S351": {
+		"name": "S351",
+		"stats": []
+	},
+	"S352": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S353": {
+		"name": "S353",
+		"stats": []
+	},
+	"S354": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S355": {
+		"name": "S355",
+		"stats": []
+	},
+	"S356": {
+		"name": "S356",
+		"stats": []
+	},
+	"S357": {
+		"name": "S357",
+		"stats": []
+	},
+	"S358": {
+		"name": "S358",
+		"stats": []
+	},
+	"S359": {
+		"name": "S359",
+		"stats": []
+	},
+	"S360": {
+		"name": "S360",
+		"stats": []
+	},
+	"S361": {
+		"name": "S361",
+		"stats": []
+	},
+	"S362": {
+		"name": "Minion Attack and Cast Speed",
+		"stats": ["Minions have 4% increased Attack and Cast Speed"]
+	},
+	"S363": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S364": {
+		"name": "S364",
+		"stats": []
+	},
+	"S365": {
+		"name": "S365",
+		"stats": []
+	},
+	"S366": {
+		"name": "S366",
+		"stats": []
+	},
+	"S367": {
+		"name": "S367",
+		"stats": []
+	},
+	"S368": {
+		"name": "S368",
+		"stats": []
+	},
+	"S369": {
+		"name": "Minion Attack and Cast Speed",
+		"stats": ["Minions have 4% increased Attack and Cast Speed"]
+	},
+	"S370": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S371": {
+		"name": "S371",
+		"stats": []
+	},
+	"S372": {
+		"name": "S372",
+		"stats": []
+	},
+	"S373": {
+		"name": "S373",
+		"stats": []
+	},
+	"S374": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S375": {
+		"name": "S375",
+		"stats": []
+	},
+	"S376": {
+		"name": "S376",
+		"stats": []
+	},
+	"S377": {
+		"name": "S377",
+		"stats": []
+	},
+	"S378": {
+		"name": "S378",
+		"stats": []
+	},
+	"S379": {
+		"name": "S379",
+		"stats": []
+	},
+	"S380": {
+		"name": "S380",
+		"stats": []
+	},
+	"S381": {
+		"name": "S381",
+		"stats": []
+	},
+	"S382": {
+		"name": "S382",
+		"stats": []
+	},
+	"S383": {
+		"name": "S383",
+		"stats": []
+	},
+	"S384": {
+		"name": "S384",
+		"stats": []
+	},
+	"S385": {
+		"name": "Minion Attack and Cast Speed",
+		"stats": ["Minions have 4% increased Attack and Cast Speed"]
+	},
+	"S386": {
+		"name": "S386",
+		"stats": []
+	},
+	"S387": {
+		"name": "S387",
+		"stats": []
+	},
+	"S388": {
+		"name": "Lightning Penetration",
+		"stats": ["Damage Penetrates 6% Lightning Resistance"]
+	},
+	"S389": {
+		"name": "S389",
+		"stats": []
+	},
+	"S390": {
+		"name": "S390",
+		"stats": []
+	},
+	"S391": {
+		"name": "S391",
+		"stats": []
+	},
+	"S392": {
+		"name": "S392",
+		"stats": []
+	},
+	"S393": {
+		"name": "S393",
+		"stats": []
+	},
+	"S394": {
+		"name": "S394",
+		"stats": []
+	},
+	"S395": {
+		"name": "S395",
+		"stats": []
+	},
+	"S396": {
+		"name": "S396",
+		"stats": []
+	},
+	"S397": {
+		"name": "Lightning Penetration",
+		"stats": ["Damage Penetrates 6% Lightning Resistance"]
+	},
+	"S398": {
+		"name": "S398",
+		"stats": []
+	},
+	"S399": {
+		"name": "S399",
+		"stats": []
+	},
+	"S400": {
+		"name": "S400",
+		"stats": []
+	},
+	"S401": {
+		"name": "S401",
+		"stats": []
+	},
+	"S402": {
+		"name": "S402",
+		"stats": []
+	},
+	"S403": {
+		"name": "S403",
+		"stats": []
+	},
+	"S404": {
+		"name": "S404",
+		"stats": []
+	},
+	"S405": {
+		"name": "S405",
+		"stats": []
+	},
+	"S406": {
+		"name": "S406",
+		"stats": []
+	},
+	"S407": {
+		"name": "S407",
+		"stats": []
+	},
+	"S408": {
+		"name": "S408",
+		"stats": []
+	},
+	"S409": {
+		"name": "S409",
+		"stats": []
+	},
+	"S410": {
+		"name": "Cold Penetration",
+		"stats": ["Damage Penetrates 6% Cold Resistance"]
+	},
+	"S411": {
+		"name": "Cold Penetration",
+		"stats": ["Damage Penetrates 6% Cold Resistance"]
+	},
+	"S412": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S413": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S414": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S415": {
+		"name": "S415",
+		"stats": []
+	},
+	"S416": {
+		"name": "S416",
+		"stats": []
+	},
+	"S417": {
+		"name": "S417",
+		"stats": []
+	},
+	"S418": {
+		"name": "S418",
+		"stats": []
+	},
+	"S419": {
+		"name": "S419",
+		"stats": []
+	},
+	"S420": {
+		"name": "S420",
+		"stats": []
+	},
+	"S421": {
+		"name": "S421",
+		"stats": []
+	},
+	"S422": {
+		"name": "S422",
+		"stats": []
+	},
+	"S423": {
+		"name": "S423",
+		"stats": []
+	},
+	"S424": {
+		"name": "S424",
+		"stats": []
+	},
+	"S425": {
+		"name": "S425",
+		"stats": []
+	},
+	"S426": {
+		"name": "S426",
+		"stats": []
+	},
+	"S427": {
+		"name": "S427",
+		"stats": []
+	},
+	"S428": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S429": {
+		"name": "S429",
+		"stats": []
+	},
+	"S430": {
+		"name": "Fire Penetration",
+		"stats": ["Damage Penetrates 6% Fire Resistance"]
+	},
+	"S431": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S432": {
+		"name": "Damage against Ailments",
+		"stats": ["10% increased Damage with Hits against Enemies affected by Elemental Ailments"]
+	},
+	"S433": {
+		"name": "S433",
+		"stats": []
+	},
+	"S434": {
+		"name": "S434",
+		"stats": []
+	},
+	"S435": {
+		"name": "S435",
+		"stats": []
+	},
+	"S436": {
+		"name": "S436",
+		"stats": []
+	},
+	"S437": {
+		"name": "S437",
+		"stats": []
+	},
+	"S438": {
+		"name": "Fire Penetration",
+		"stats": ["Damage Penetrates 6% Fire Resistance"]
+	},
+	"S439": {
+		"name": "S439",
+		"stats": []
+	},
+	"S440": {
+		"name": "S440",
+		"stats": []
+	},
+	"S441": {
+		"name": "S441",
+		"stats": []
+	},
+	"S442": {
+		"name": "S442",
+		"stats": []
+	},
+	"S443": {
+		"name": "S443",
+		"stats": []
+	},
+	"S444": {
+		"name": "S444",
+		"stats": []
+	},
+	"S445": {
+		"name": "S445",
+		"stats": []
+	},
+	"S446": {
+		"name": "S446",
+		"stats": []
+	},
+	"S447": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S448": {
+		"name": "Damage against Ailments",
+		"stats": ["10% increased Damage with Hits against Enemies affected by Elemental Ailments"]
+	},
+	"S449": {
+		"name": "S449",
+		"stats": []
+	},
+	"S450": {
+		"name": "S450",
+		"stats": []
+	},
+	"S451": {
+		"name": "S451",
+		"stats": []
+	},
+	"S452": {
+		"name": "S452",
+		"stats": []
+	},
+	"S453": {
+		"name": "S453",
+		"stats": []
+	},
+	"S454": {
+		"name": "S454",
+		"stats": []
+	},
+	"S455": {
+		"name": "S455",
+		"stats": []
+	},
+	"S456": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S457": {
+		"name": "S457",
+		"stats": []
+	},
+	"S458": {
+		"name": "S458",
+		"stats": []
+	},
+	"S459": {
+		"name": "S459",
+		"stats": []
+	},
+	"S460": {
+		"name": "S460",
+		"stats": []
+	},
+	"S461": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S462": {
+		"name": "S462",
+		"stats": []
+	},
+	"S463": {
+		"name": "S463",
+		"stats": []
+	},
+	"S464": {
+		"name": "S464",
+		"stats": []
+	},
+	"S465": {
+		"name": "S465",
+		"stats": []
+	},
+	"S466": {
+		"name": "S466",
+		"stats": []
+	},
+	"S467": {
+		"name": "S467",
+		"stats": []
+	},
+	"S468": {
+		"name": "S468",
+		"stats": []
+	},
+	"S469": {
+		"name": "S469",
+		"stats": []
+	},
+	"S470": {
+		"name": "S470",
+		"stats": []
+	},
+	"S471": {
+		"name": "S471",
+		"stats": []
+	},
+	"S472": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S473": {
+		"name": "Spell Critical Damage",
+		"stats": ["10% increased Critical Spell Damage Bonus"]
+	},
+	"S474": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S475": {
+		"name": "S475",
+		"stats": []
+	},
+	"S476": {
+		"name": "S476",
+		"stats": []
+	},
+	"S477": {
+		"name": "S477",
+		"stats": []
+	},
+	"S478": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S479": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S480": {
+		"name": "S480",
+		"stats": []
+	},
+	"S481": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S482": {
+		"name": "S482",
+		"stats": []
+	},
+	"S483": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S484": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S485": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S486": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S487": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S488": {
+		"name": "S488",
+		"stats": []
+	},
+	"S489": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S490": {
+		"name": "S490",
+		"stats": []
+	},
+	"S491": {
+		"name": "S491",
+		"stats": []
+	},
+	"S492": {
+		"name": "S492",
+		"stats": []
+	},
+	"S493": {
+		"name": "S493",
+		"stats": []
+	},
+	"S494": {
+		"name": "S494",
+		"stats": []
+	},
+	"S495": {
+		"name": "S495",
+		"stats": []
+	},
+	"S496": {
+		"name": "S496",
+		"stats": []
+	},
+	"S497": {
+		"name": "S497",
+		"stats": []
+	},
+	"S498": {
+		"name": "S498",
+		"stats": []
+	},
+	"S499": {
+		"name": "S499",
+		"stats": []
+	},
+	"S500": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S501": {
+		"name": "S501",
+		"stats": []
+	},
+	"S502": {
+		"name": "S502",
+		"stats": []
+	},
+	"S503": {
+		"name": "S503",
+		"stats": []
+	},
+	"S504": {
+		"name": "Link Cast Speed",
+		"stats": ["Link Skills have 8% increased Cast Speed"]
+	},
+	"S505": {
+		"name": "S505",
+		"stats": []
+	},
+	"S506": {
+		"name": "Spell Critical Chance",
+		"stats": ["8% increased Critical Hit Chance for Spells"]
+	},
+	"S507": {
+		"name": "Spell Critical Damage",
+		"stats": ["10% increased Critical Spell Damage Bonus"]
+	},
+	"S508": {
+		"name": "Energy Shield",
+		"stats": ["10% increased Energy Shield"]
+	},
+	"S509": {
+		"name": "S509",
+		"stats": []
+	},
+	"S510": {
+		"name": "Spell and Minion Damage",
+		"stats": ["8% increased Spell Damage", "Minions deal 8% increased Damage"]
+	},
+	"S511": {
+		"name": "S511",
+		"stats": []
+	},
+	"S512": {
+		"name": "S512",
+		"stats": []
+	},
+	"S513": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S514": {
+		"name": "S514",
+		"stats": []
+	},
+	"S515": {
+		"name": "S515",
+		"stats": []
+	},
+	"S516": {
+		"name": "S516",
+		"stats": []
+	},
+	"S517": {
+		"name": "S517",
+		"stats": []
+	},
+	"S518": {
+		"name": "S518",
+		"stats": []
+	},
+	"S519": {
+		"name": "S519",
+		"stats": []
+	},
+	"S520": {
+		"name": "S520",
+		"stats": []
+	},
+	"S521": {
+		"name": "S521",
+		"stats": []
+	},
+	"S522": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S523": {
+		"name": "S523",
+		"stats": []
+	},
+	"S524": {
+		"name": "S524",
+		"stats": []
+	},
+	"S525": {
+		"name": "S525",
+		"stats": []
+	},
+	"S526": {
+		"name": "S526",
+		"stats": []
+	},
+	"S527": {
+		"name": "S527",
+		"stats": []
+	},
+	"S528": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S529": {
+		"name": "S529",
+		"stats": []
+	},
+	"S530": {
+		"name": "S530",
+		"stats": []
+	},
+	"S531": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S532": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S533": {
+		"name": "S533",
+		"stats": []
+	},
+	"S534": {
+		"name": "S534",
+		"stats": []
+	},
+	"S535": {
+		"name": "S535",
+		"stats": []
+	},
+	"S536": {
+		"name": "S536",
+		"stats": []
+	},
+	"S537": {
+		"name": "S537",
+		"stats": []
+	},
+	"S538": {
+		"name": "S538",
+		"stats": []
+	},
+	"S539": {
+		"name": "S539",
+		"stats": []
+	},
+	"S540": {
+		"name": "S540",
+		"stats": []
+	},
+	"S541": {
+		"name": "S541",
+		"stats": []
+	},
+	"S542": {
+		"name": "S542",
+		"stats": []
+	},
+	"S543": {
+		"name": "S543",
+		"stats": []
+	},
+	"S544": {
+		"name": "S544",
+		"stats": []
+	},
+	"S545": {
+		"name": "S545",
+		"stats": []
+	},
+	"S546": {
+		"name": "Energy Shield",
+		"stats": ["10% increased Energy Shield"]
+	},
+	"S547": {
+		"name": "S547",
+		"stats": []
+	},
+	"S548": {
+		"name": "S548",
+		"stats": []
+	},
+	"S549": {
+		"name": "S549",
+		"stats": []
+	},
+	"S550": {
+		"name": "S550",
+		"stats": []
+	},
+	"S551": {
+		"name": "S551",
+		"stats": []
+	},
+	"S552": {
+		"name": "S552",
+		"stats": []
+	},
+	"S553": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S554": {
+		"name": "S554",
+		"stats": []
+	},
+	"S555": {
+		"name": "S555",
+		"stats": []
+	},
+	"S556": {
+		"name": "S556",
+		"stats": []
+	},
+	"S557": {
+		"name": "S557",
+		"stats": []
+	},
+	"S558": {
+		"name": "S558",
+		"stats": []
+	},
+	"S559": {
+		"name": "S559",
+		"stats": []
+	},
+	"S560": {
+		"name": "S560",
+		"stats": []
+	},
+	"S561": {
+		"name": "S561",
+		"stats": []
+	},
+	"S562": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S563": {
+		"name": "S563",
+		"stats": []
+	},
+	"S564": {
+		"name": "S564",
+		"stats": []
+	},
+	"S565": {
+		"name": "S565",
+		"stats": []
+	},
+	"S566": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S567": {
+		"name": "S567",
+		"stats": []
+	},
+	"S568": {
+		"name": "S568",
+		"stats": []
+	},
+	"S569": {
+		"name": "S569",
+		"stats": []
+	},
+	"S570": {
+		"name": "S570",
+		"stats": []
+	},
+	"S571": {
+		"name": "S571",
+		"stats": []
+	},
+	"S572": {
+		"name": "Physical Damage",
+		"stats": ["10% increased Physical Damage"]
+	},
+	"S573": {
+		"name": "S573",
+		"stats": []
+	},
+	"S574": {
+		"name": "S574",
+		"stats": []
+	},
+	"S575": {
+		"name": "S575",
+		"stats": []
+	},
+	"S576": {
+		"name": "S576",
+		"stats": []
+	},
+	"S577": {
+		"name": "S577",
+		"stats": []
+	},
+	"S578": {
+		"name": "S578",
+		"stats": []
+	},
+	"S579": {
+		"name": "S579",
+		"stats": []
+	},
+	"S580": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S581": {
+		"name": "S581",
+		"stats": []
+	},
+	"S582": {
+		"name": "S582",
+		"stats": []
+	},
+	"S583": {
+		"name": "S583",
+		"stats": []
+	},
+	"S584": {
+		"name": "S584",
+		"stats": []
+	},
+	"S585": {
+		"name": "S585",
+		"stats": []
+	},
+	"S586": {
+		"name": "S586",
+		"stats": []
+	},
+	"S587": {
+		"name": "S587",
+		"stats": []
+	},
+	"S588": {
+		"name": "S588",
+		"stats": []
+	},
+	"S589": {
+		"name": "S589",
+		"stats": []
+	},
+	"S590": {
+		"name": "S590",
+		"stats": []
+	},
+	"S591": {
+		"name": "EnergyShield and Armour",
+		"stats": ["8% increased Armour", "8% increased maximum Energy Shield"]
+	},
+	"S592": {
+		"name": "Minion Damage",
+		"stats": ["Minions deal 10% increased Damage"]
+	},
+	"S593": {
+		"name": "S593",
+		"stats": []
+	},
+	"S594": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S595": {
+		"name": "S595",
+		"stats": []
+	},
+	"S596": {
+		"name": "S596",
+		"stats": []
+	},
+	"S597": {
+		"name": "S597",
+		"stats": []
+	},
+	"S598": {
+		"name": "Life on Kill",
+		"stats": ["Recpver 1% Life on Kill"]
+	},
+	"S599": {
+		"name": "S599",
+		"stats": []
+	},
+	"S600": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S601": {
+		"name": "S601",
+		"stats": []
+	},
+	"S602": {
+		"name": "Chaos Damage",
+		"stats": ["10% increased Chaos Damage"]
+	},
+	"S603": {
+		"name": "S603",
+		"stats": []
+	},
+	"S604": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S605": {
+		"name": "S605",
+		"stats": []
+	},
+	"S606": {
+		"name": "S606",
+		"stats": []
+	},
+	"S607": {
+		"name": "S607",
+		"stats": []
+	},
+	"S608": {
+		"name": "S608",
+		"stats": []
+	},
+	"S609": {
+		"name": "S609",
+		"stats": []
+	},
+	"S610": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S611": {
+		"name": "S611",
+		"stats": []
+	},
+	"S612": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S613": {
+		"name": "S613",
+		"stats": []
+	},
+	"S614": {
+		"name": "S614",
+		"stats": []
+	},
+	"S615": {
+		"name": "Spell and Minion Damage",
+		"stats": ["8% increased Spell Damage", "Minions deal 8% increased Damage"]
+	},
+	"S616": {
+		"name": "S616",
+		"stats": []
+	},
+	"S617": {
+		"name": "S617",
+		"stats": []
+	},
+	"S618": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S619": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S620": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S621": {
+		"name": "S621",
+		"stats": []
+	},
+	"S622": {
+		"name": "S622",
+		"stats": []
+	},
+	"S623": {
+		"name": "S623",
+		"stats": []
+	},
+	"S624": {
+		"name": "S624",
+		"stats": []
+	},
+	"S625": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S626": {
+		"name": "S626",
+		"stats": []
+	},
+	"S627": {
+		"name": "S627",
+		"stats": []
+	},
+	"S628": {
+		"name": "S628",
+		"stats": []
+	},
+	"S629": {
+		"name": "S629",
+		"stats": []
+	},
+	"S630": {
+		"name": "S630",
+		"stats": []
+	},
+	"S631": {
+		"name": "S631",
+		"stats": []
+	},
+	"S632": {
+		"name": "S632",
+		"stats": []
+	},
+	"S633": {
+		"name": "S633",
+		"stats": []
+	},
+	"S634": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S635": {
+		"name": "S635",
+		"stats": []
+	},
+	"S636": {
+		"name": "S636",
+		"stats": []
+	},
+	"S637": {
+		"name": "S637",
+		"stats": []
+	},
+	"S638": {
+		"name": "S638",
+		"stats": []
+	},
+	"S639": {
+		"name": "S639",
+		"stats": []
+	},
+	"S640": {
+		"name": "S640",
+		"stats": []
+	},
+	"S641": {
+		"name": "S641",
+		"stats": []
+	},
+	"S642": {
+		"name": "S642",
+		"stats": []
+	},
+	"S643": {
+		"name": "S643",
+		"stats": []
+	},
+	"S644": {
+		"name": "S644",
+		"stats": []
+	},
+	"S645": {
+		"name": "S645",
+		"stats": []
+	},
+	"S646": {
+		"name": "S646",
+		"stats": []
+	},
+	"S647": {
+		"name": "S647",
+		"stats": []
+	},
+	"S648": {
+		"name": "S648",
+		"stats": []
+	},
+	"S649": {
+		"name": "S649",
+		"stats": []
+	},
+	"S650": {
+		"name": "S650",
+		"stats": []
+	},
+	"S651": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S652": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S653": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S654": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S655": {
+		"name": "S655",
+		"stats": []
+	},
+	"S656": {
+		"name": "Mana Regeneration",
+		"stats": ["10% increased Mana Regeneration Rate"]
+	},
+	"S657": {
+		"name": "S657",
+		"stats": []
+	},
+	"S658": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S659": {
+		"name": "S659",
+		"stats": []
+	},
+	"S660": {
+		"name": "S660",
+		"stats": []
+	},
+	"S661": {
+		"name": "S661",
+		"stats": []
+	},
+	"S662": {
+		"name": "S662",
+		"stats": []
+	},
+	"S663": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S664": {
+		"name": "S664",
+		"stats": []
+	},
+	"S665": {
+		"name": "S665",
+		"stats": []
+	},
+	"S666": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S667": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S668": {
+		"name": "S668",
+		"stats": []
+	},
+	"S669": {
+		"name": "S669",
+		"stats": []
+	},
+	"S670": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S671": {
+		"name": "S671",
+		"stats": []
+	},
+	"S672": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S673": {
+		"name": "Mana Regeneration",
+		"stats": ["10% increased Mana Regeneration Rate"]
+	},
+	"S674": {
+		"name": "Mana",
+		"stats": ["8% increased maximum Mana"]
+	},
+	"S675": {
+		"name": "Attack Damage",
+		"stats": ["10% increased Attack Damage"]
+	},
+	"S676": {
+		"name": "S676",
+		"stats": []
+	},
+	"S677": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S678": {
+		"name": "Energy Shield Delay",
+		"stats": ["10% faster start of Energy Shield recharge"]
+	},
+	"S679": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S680": {
+		"name": "S680",
+		"stats": []
+	},
+	"S681": {
+		"name": "Spell Damage",
+		"stats": ["8% increased Spell Damage"]
+	},
+	"S682": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S683": {
+		"name": "S683",
+		"stats": []
+	},
+	"S684": {
+		"name": "S684",
+		"stats": []
+	},
+	"S685": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S686": {
+		"name": "Mana Regeneration",
+		"stats": ["10% increased Mana Regeneration Rate"]
+	},
+	"S687": {
+		"name": "S687",
+		"stats": []
+	},
+	"S688": {
+		"name": "S688",
+		"stats": []
+	},
+	"S689": {
+		"name": "S689",
+		"stats": []
+	},
+	"S690": {
+		"name": "S690",
+		"stats": []
+	},
+	"S691": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S692": {
+		"name": "Spell Damage",
+		"stats": ["8% increased Spell Damage"]
+	},
+	"S693": {
+		"name": "Energy Shield Delay",
+		"stats": ["10% faster start of Energy Shield Recharge"]
+	},
+	"S694": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S695": {
+		"name": "S695",
+		"stats": []
+	},
+	"S696": {
+		"name": "S696",
+		"stats": []
+	},
+	"S697": {
+		"name": "S697",
+		"stats": []
+	},
+	"S698": {
+		"name": "S698",
+		"stats": []
+	},
+	"S699": {
+		"name": "S699",
+		"stats": []
+	},
+	"S700": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S701": {
+		"name": "S701",
+		"stats": []
+	},
+	"S702": {
+		"name": "S702",
+		"stats": []
+	},
+	"S703": {
+		"name": "S703",
+		"stats": []
+	},
+	"S704": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S705": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S706": {
+		"name": "S706",
+		"stats": []
+	},
+	"S707": {
+		"name": "S707",
+		"stats": []
+	},
+	"S708": {
+		"name": "Attack Speed",
+		"stats": ["3% increased Attack speed"]
+	},
+	"S709": {
+		"name": "Spell Damage",
+		"stats": ["10% increased Spell Damage"]
+	},
+	"S710": {
+		"name": "Energy Shield",
+		"stats": ["+10 to maximum Energy Shield"]
+	},
+	"S711": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S712": {
+		"name": "S712",
+		"stats": []
+	},
+	"S713": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S714": {
+		"name": "S714",
+		"stats": []
+	},
+	"S715": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S716": {
+		"name": "S716",
+		"stats": []
+	},
+	"S717": {
+		"name": "S717",
+		"stats": []
+	},
+	"S718": {
+		"name": "S718",
+		"stats": []
+	},
+	"S719": {
+		"name": "S719",
+		"stats": []
+	},
+	"S720": {
+		"name": "S720",
+		"stats": []
+	},
+	"S721": {
+		"name": "S721",
+		"stats": []
+	},
+	"S722": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S723": {
+		"name": "S723",
+		"stats": []
+	},
+	"S724": {
+		"name": "S724",
+		"stats": []
+	},
+	"S725": {
+		"name": "S725",
+		"stats": []
+	},
+	"S726": {
+		"name": "S726",
+		"stats": []
+	},
+	"S727": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S728": {
+		"name": "S728",
+		"stats": []
+	},
+	"S729": {
+		"name": "S729",
+		"stats": []
+	},
+	"S730": {
+		"name": "S730",
+		"stats": []
+	},
+	"S731": {
+		"name": "S731",
+		"stats": []
+	},
+	"S732": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S733": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S734": {
+		"name": "S734",
+		"stats": []
+	},
+	"S735": {
+		"name": "Attack Speed",
+		"stats": ["3% increased Attack and Cast Speed"]
+	},
+	"S736": {
+		"name": "S736",
+		"stats": []
+	},
+	"S737": {
+		"name": "S737",
+		"stats": []
+	},
+	"S738": {
+		"name": "S738",
+		"stats": []
+	},
+	"S739": {
+		"name": "S739",
+		"stats": []
+	},
+	"S740": {
+		"name": "S740",
+		"stats": []
+	},
+	"S741": {
+		"name": "S741",
+		"stats": []
+	},
+	"S742": {
+		"name": "S742",
+		"stats": []
+	},
+	"S743": {
+		"name": "S743",
+		"stats": []
+	},
+	"S744": {
+		"name": "Attack Speed",
+		"stats": ["3% increased Attack and Cast Speed"]
+	},
+	"S745": {
+		"name": "S745",
+		"stats": []
+	},
+	"S746": {
+		"name": "S746",
+		"stats": []
+	},
+	"S747": {
+		"name": "S747",
+		"stats": []
+	},
+	"S748": {
+		"name": "S748",
+		"stats": []
+	},
+	"S749": {
+		"name": "S749",
+		"stats": []
+	},
+	"S750": {
+		"name": "S750",
+		"stats": []
+	},
+	"S751": {
+		"name": "S751",
+		"stats": []
+	},
+	"S752": {
+		"name": "S752",
+		"stats": []
+	},
+	"S753": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S754": {
+		"name": "S754",
+		"stats": []
+	},
+	"S755": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S756": {
+		"name": "S756",
+		"stats": []
+	},
+	"S757": {
+		"name": "S757",
+		"stats": []
+	},
+	"S758": {
+		"name": "S758",
+		"stats": []
+	},
+	"S759": {
+		"name": "S759",
+		"stats": []
+	},
+	"S760": {
+		"name": "S760",
+		"stats": []
+	},
+	"S761": {
+		"name": "S761",
+		"stats": []
+	},
+	"S762": {
+		"name": "S762",
+		"stats": []
+	},
+	"S763": {
+		"name": "S763",
+		"stats": []
+	},
+	"S764": {
+		"name": "S764",
+		"stats": []
+	},
+	"S765": {
+		"name": "S765",
+		"stats": []
+	},
+	"S766": {
+		"name": "S766",
+		"stats": []
+	},
+	"S767": {
+		"name": "S767",
+		"stats": []
+	},
+	"S768": {
+		"name": "S768",
+		"stats": []
+	},
+	"S769": {
+		"name": "S769",
+		"stats": []
+	},
+	"S770": {
+		"name": "Energy Shield",
+		"stats": ["+10 to maximum Energy Shield"]
+	},
+	"S771": {
+		"name": "S771",
+		"stats": []
+	},
+	"S772": {
+		"name": "S772",
+		"stats": []
+	},
+	"S773": {
+		"name": "S773",
+		"stats": []
+	},
+	"S774": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S775": {
+		"name": "S775",
+		"stats": []
+	},
+	"S776": {
+		"name": "S776",
+		"stats": []
+	},
+	"S777": {
+		"name": "S777",
+		"stats": []
+	},
+	"S778": {
+		"name": "S778",
+		"stats": []
+	},
+	"S779": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S780": {
+		"name": "S780",
+		"stats": []
+	},
+	"S781": {
+		"name": "S781",
+		"stats": []
+	},
+	"S782": {
+		"name": "S782",
+		"stats": []
+	},
+	"S783": {
+		"name": "S783",
+		"stats": []
+	},
+	"S784": {
+		"name": "S784",
+		"stats": []
+	},
+	"S785": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S786": {
+		"name": "S786",
+		"stats": []
+	},
+	"S787": {
+		"name": "S787",
+		"stats": []
+	},
+	"S788": {
+		"name": "S788",
+		"stats": []
+	},
+	"S789": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S790": {
+		"name": "S790",
+		"stats": []
+	},
+	"S791": {
+		"name": "S791",
+		"stats": []
+	},
+	"S792": {
+		"name": "S792",
+		"stats": []
+	},
+	"S793": {
+		"name": "S793",
+		"stats": []
+	},
+	"S794": {
+		"name": "S794",
+		"stats": []
+	},
+	"S795": {
+		"name": "S795",
+		"stats": []
+	},
+	"S796": {
+		"name": "S796",
+		"stats": []
+	},
+	"S797": {
+		"name": "S797",
+		"stats": []
+	},
+	"S798": {
+		"name": "S798",
+		"stats": []
+	},
+	"S799": {
+		"name": "S799",
+		"stats": []
+	},
+	"S800": {
+		"name": "S800",
+		"stats": []
+	},
+	"S801": {
+		"name": "S801",
+		"stats": []
+	},
+	"S802": {
+		"name": "S802",
+		"stats": []
+	},
+	"S803": {
+		"name": "S803",
+		"stats": []
+	},
+	"S804": {
+		"name": "S804",
+		"stats": []
+	},
+	"S805": {
+		"name": "S805",
+		"stats": []
+	},
+	"S806": {
+		"name": "S806",
+		"stats": []
+	},
+	"S807": {
+		"name": "S807",
+		"stats": []
+	},
+	"S808": {
+		"name": "Attack Damage",
+		"stats": ["+10% increased Attack Damage"]
+	},
+	"S809": {
+		"name": "S809",
+		"stats": []
+	},
+	"S810": {
+		"name": "S810",
+		"stats": []
+	},
+	"S811": {
+		"name": "S811",
+		"stats": []
+	},
+	"S812": {
+		"name": "S812",
+		"stats": []
+	},
+	"S813": {
+		"name": "S813",
+		"stats": []
+	},
+	"S814": {
+		"name": "S814",
+		"stats": []
+	},
+	"S815": {
+		"name": "S815",
+		"stats": []
+	},
+	"S816": {
+		"name": "Attack Damage",
+		"stats": ["+10% increased Attack Damage"]
+	},
+	"S817": {
+		"name": "S817",
+		"stats": []
+	},
+	"S818": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S819": {
+		"name": "S819",
+		"stats": []
+	},
+	"S820": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S821": {
+		"name": "S821",
+		"stats": []
+	},
+	"S822": {
+		"name": "S822",
+		"stats": []
+	},
+	"S823": {
+		"name": "S823",
+		"stats": []
+	},
+	"S824": {
+		"name": "S824",
+		"stats": []
+	},
+	"S825": {
+		"name": "S825",
+		"stats": []
+	},
+	"S826": {
+		"name": "S826",
+		"stats": []
+	},
+	"S827": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S828": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S829": {
+		"name": "S829",
+		"stats": []
+	},
+	"S830": {
+		"name": "S830",
+		"stats": []
+	},
+	"S831": {
+		"name": "Skill Speed",
+		"stats": ["3% increased Attack and Cast Speed"]
+	},
+	"S832": {
+		"name": "S832",
+		"stats": []
+	},
+	"S833": {
+		"name": "S833",
+		"stats": []
+	},
+	"S834": {
+		"name": "S834",
+		"stats": []
+	},
+	"S835": {
+		"name": "S835",
+		"stats": []
+	},
+	"S836": {
+		"name": "S836",
+		"stats": []
+	},
+	"S837": {
+		"name": "S837",
+		"stats": []
+	},
+	"S838": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S839": {
+		"name": "Quarterstaff Speed",
+		"stats": ["4% increased Attack Speed with Staves"]
+	},
+	"S840": {
+		"name": "S840",
+		"stats": []
+	},
+	"S841": {
+		"name": "S841",
+		"stats": []
+	},
+	"S842": {
+		"name": "S842",
+		"stats": []
+	},
+	"S843": {
+		"name": "S843",
+		"stats": []
+	},
+	"S844": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S845": {
+		"name": "Skill Speed",
+		"stats": ["3% increased Attack and Cast Speed"]
+	},
+	"S846": {
+		"name": "S846",
+		"stats": []
+	},
+	"S847": {
+		"name": "S847",
+		"stats": []
+	},
+	"S848": {
+		"name": "S848",
+		"stats": []
+	},
+	"S849": {
+		"name": "S849",
+		"stats": []
+	},
+	"S850": {
+		"name": "S850",
+		"stats": []
+	},
+	"S851": {
+		"name": "S851",
+		"stats": []
+	},
+	"S852": {
+		"name": "S852",
+		"stats": []
+	},
+	"S853": {
+		"name": "S853",
+		"stats": []
+	},
+	"S854": {
+		"name": "Evasion and Energy Shield",
+		"stats": ["+8 to Evasion Rating", "+5 to maximum Energy Shield"]
+	},
+	"S855": {
+		"name": "S855",
+		"stats": []
+	},
+	"S856": {
+		"name": "S856",
+		"stats": []
+	},
+	"S857": {
+		"name": "S857",
+		"stats": []
+	},
+	"S858": {
+		"name": "S858",
+		"stats": []
+	},
+	"S859": {
+		"name": "S859",
+		"stats": []
+	},
+	"S860": {
+		"name": "S860",
+		"stats": []
+	},
+	"S861": {
+		"name": "S861",
+		"stats": []
+	},
+	"S862": {
+		"name": "Evasion and Energy Shield",
+		"stats": ["+8 to Evasion Rating", "+5 to maximum Energy Shield"]
+	},
+	"S863": {
+		"name": "S863",
+		"stats": []
+	},
+	"S864": {
+		"name": "S864",
+		"stats": []
+	},
+	"S865": {
+		"name": "S865",
+		"stats": []
+	},
+	"S866": {
+		"name": "Evasion and Energy Shield",
+		"stats": ["+8 to Evasion Rating", "+5 to maximum Energy Shield"]
+	},
+	"S867": {
+		"name": "S867",
+		"stats": []
+	},
+	"S868": {
+		"name": "S868",
+		"stats": []
+	},
+	"S869": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S870": {
+		"name": "S870",
+		"stats": []
+	},
+	"S871": {
+		"name": "Evasion and Energy Shield",
+		"stats": ["+8 to Evasion Rating", "+5 to maximum Energy Shield"]
+	},
+	"S872": {
+		"name": "Attack Damage",
+		"stats": ["10% increased Attack Damage"]
+	},
+	"S873": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S874": {
+		"name": "S874",
+		"stats": []
+	},
+	"S875": {
+		"name": "S875",
+		"stats": []
+	},
+	"S876": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S877": {
+		"name": "Attack Damage",
+		"stats": ["10% increased Attack Damage"]
+	},
+	"S878": {
+		"name": "S878",
+		"stats": []
+	},
+	"S879": {
+		"name": "S879",
+		"stats": []
+	},
+	"S880": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S881": {
+		"name": "S881",
+		"stats": []
+	},
+	"S882": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S883": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S884": {
+		"name": "S884",
+		"stats": []
+	},
+	"S885": {
+		"name": "S885",
+		"stats": []
+	},
+	"S886": {
+		"name": "S886",
+		"stats": []
+	},
+	"S887": {
+		"name": "S887",
+		"stats": []
+	},
+	"S888": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S889": {
+		"name": "S889",
+		"stats": []
+	},
+	"S890": {
+		"name": "S890",
+		"stats": []
+	},
+	"S891": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S892": {
+		"name": "S892",
+		"stats": []
+	},
+	"S893": {
+		"name": "S893",
+		"stats": []
+	},
+	"S894": {
+		"name": "S894",
+		"stats": []
+	},
+	"S895": {
+		"name": "S895",
+		"stats": []
+	},
+	"S896": {
+		"name": "Mana Leech",
+		"stats": ["10% increased amount of Mana Leeched"]
+	},
+	"S897": {
+		"name": "S897",
+		"stats": []
+	},
+	"S898": {
+		"name": "S898",
+		"stats": []
+	},
+	"S899": {
+		"name": "S899",
+		"stats": []
+	},
+	"S900": {
+		"name": "S900",
+		"stats": []
+	},
+	"S901": {
+		"name": "S901",
+		"stats": []
+	},
+	"S902": {
+		"name": "S902",
+		"stats": []
+	},
+	"S903": {
+		"name": "Mana Leech",
+		"stats": ["10% increased amount of Mana Leeched"]
+	},
+	"S904": {
+		"name": "S904",
+		"stats": []
+	},
+	"S905": {
+		"name": "S905",
+		"stats": []
+	},
+	"S906": {
+		"name": "S906",
+		"stats": []
+	},
+	"S907": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S908": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S909": {
+		"name": "S909",
+		"stats": []
+	},
+	"S910": {
+		"name": "S910",
+		"stats": []
+	},
+	"S911": {
+		"name": "S911",
+		"stats": []
+	},
+	"S912": {
+		"name": "S912",
+		"stats": []
+	},
+	"S913": {
+		"name": "S913",
+		"stats": []
+	},
+	"S914": {
+		"name": "S914",
+		"stats": []
+	},
+	"S915": {
+		"name": "S915",
+		"stats": []
+	},
+	"S916": {
+		"name": "Attack Damage",
+		"stats": ["10% increased Attack Damage"]
+	},
+	"S917": {
+		"name": "S917",
+		"stats": []
+	},
+	"S918": {
+		"name": "S918",
+		"stats": []
+	},
+	"S919": {
+		"name": "S919",
+		"stats": []
+	},
+	"S920": {
+		"name": "S920",
+		"stats": []
+	},
+	"S921": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S922": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S923": {
+		"name": "S923",
+		"stats": []
+	},
+	"S924": {
+		"name": "S924",
+		"stats": []
+	},
+	"S925": {
+		"name": "S925",
+		"stats": []
+	},
+	"S926": {
+		"name": "S926",
+		"stats": []
+	},
+	"S927": {
+		"name": "S927",
+		"stats": []
+	},
+	"S928": {
+		"name": "S928",
+		"stats": []
+	},
+	"S929": {
+		"name": "S929",
+		"stats": []
+	},
+	"S930": {
+		"name": "S930",
+		"stats": []
+	},
+	"S931": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S932": {
+		"name": "S932",
+		"stats": []
+	},
+	"S933": {
+		"name": "S933",
+		"stats": []
+	},
+	"S934": {
+		"name": "S934",
+		"stats": []
+	},
+	"S935": {
+		"name": "S935",
+		"stats": []
+	},
+	"S936": {
+		"name": "S936",
+		"stats": []
+	},
+	"S937": {
+		"name": "S937",
+		"stats": []
+	},
+	"S938": {
+		"name": "S938",
+		"stats": []
+	},
+	"S939": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S940": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S941": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S942": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S943": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S944": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S945": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S946": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S947": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S948": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S949": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S950": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S951": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S952": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S953": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S954": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S955": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S956": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S957": {
+		"name": "S957",
+		"stats": []
+	},
+	"S958": {
+		"name": "S958",
+		"stats": []
+	},
+	"S959": {
+		"name": "Attack Damage",
+		"stats": ["10% increased Attack Damage"]
+	},
+	"S960": {
+		"name": "S960",
+		"stats": []
+	},
+	"S961": {
+		"name": "S961",
+		"stats": []
+	},
+	"S962": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S963": {
+		"name": "S963",
+		"stats": []
+	},
+	"S964": {
+		"name": "S964",
+		"stats": []
+	},
+	"S965": {
+		"name": "S965",
+		"stats": []
+	},
+	"S966": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S967": {
+		"name": "S967",
+		"stats": []
+	},
+	"S968": {
+		"name": "S968",
+		"stats": []
+	},
+	"S969": {
+		"name": "S969",
+		"stats": []
+	},
+	"S970": {
+		"name": "S970",
+		"stats": []
+	},
+	"S971": {
+		"name": "S971",
+		"stats": []
+	},
+	"S972": {
+		"name": "S972",
+		"stats": []
+	},
+	"S973": {
+		"name": "S973",
+		"stats": []
+	},
+	"S974": {
+		"name": "S974",
+		"stats": []
+	},
+	"S975": {
+		"name": "S975",
+		"stats": []
+	},
+	"S976": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S977": {
+		"name": "S977",
+		"stats": []
+	},
+	"S978": {
+		"name": "S978",
+		"stats": []
+	},
+	"S979": {
+		"name": "S979",
+		"stats": []
+	},
+	"S980": {
+		"name": "S980",
+		"stats": []
+	},
+	"S981": {
+		"name": "S981",
+		"stats": []
+	},
+	"S982": {
+		"name": "S982",
+		"stats": []
+	},
+	"S983": {
+		"name": "S983",
+		"stats": []
+	},
+	"S984": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S985": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S986": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S987": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S988": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S989": {
+		"name": "S989",
+		"stats": []
+	},
+	"S990": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S991": {
+		"name": "S991",
+		"stats": []
+	},
+	"S992": {
+		"name": "S992",
+		"stats": []
+	},
+	"S993": {
+		"name": "S993",
+		"stats": []
+	},
+	"S994": {
+		"name": "S994",
+		"stats": []
+	},
+	"S995": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S996": {
+		"name": "S996",
+		"stats": []
+	},
+	"S997": {
+		"name": "S997",
+		"stats": []
+	},
+	"S998": {
+		"name": "S998",
+		"stats": []
+	},
+	"S999": {
+		"name": "S999",
+		"stats": []
+	},
+	"S1000": {
+		"name": "S1000",
+		"stats": []
+	},
+	"S1001": {
+		"name": "S1001",
+		"stats": []
+	},
+	"S1002": {
+		"name": "S1002",
+		"stats": []
+	},
+	"S1003": {
+		"name": "S1003",
+		"stats": []
+	},
+	"S1004": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1005": {
+		"name": "S1005",
+		"stats": []
+	},
+	"S1006": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1007": {
+		"name": "S1007",
+		"stats": []
+	},
+	"S1008": {
+		"name": "S1008",
+		"stats": []
+	},
+	"S1009": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1010": {
+		"name": "S1010",
+		"stats": []
+	},
+	"S1011": {
+		"name": "S1011",
+		"stats": []
+	},
+	"S1012": {
+		"name": "S1012",
+		"stats": []
+	},
+	"S1013": {
+		"name": "S1013",
+		"stats": []
+	},
+	"S1014": {
+		"name": "S1014",
+		"stats": []
+	},
+	"S1015": {
+		"name": "S1015",
+		"stats": []
+	},
+	"S1016": {
+		"name": "S1016",
+		"stats": []
+	},
+	"S1017": {
+		"name": "Projectile Damage",
+		"stats": ["10% increased Projectile Damage"]
+	},
+	"S1018": {
+		"name": "S1018",
+		"stats": []
+	},
+	"S1019": {
+		"name": "S1019",
+		"stats": []
+	},
+	"S1020": {
+		"name": "S1020",
+		"stats": []
+	},
+	"S1021": {
+		"name": "S1021",
+		"stats": []
+	},
+	"S1022": {
+		"name": "S1022",
+		"stats": []
+	},
+	"S1023": {
+		"name": "S1023",
+		"stats": []
+	},
+	"S1024": {
+		"name": "S1024",
+		"stats": []
+	},
+	"S1025": {
+		"name": "S1025",
+		"stats": []
+	},
+	"S1026": {
+		"name": "S1026",
+		"stats": []
+	},
+	"S1027": {
+		"name": "S1027",
+		"stats": []
+	},
+	"S1028": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1029": {
+		"name": "S1029",
+		"stats": []
+	},
+	"S1030": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1031": {
+		"name": "S1031",
+		"stats": []
+	},
+	"S1032": {
+		"name": "Armour",
+		"stats": ["+20 to Armour"]
+	},
+	"S1033": {
+		"name": "Evasion",
+		"stats": ["+16 to Evasion Rating"]
+	},
+	"S1034": {
+		"name": "S1034",
+		"stats": []
+	},
+	"S1035": {
+		"name": "S1035",
+		"stats": []
+	},
+	"S1036": {
+		"name": "S1036",
+		"stats": []
+	},
+	"S1037": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1038": {
+		"name": "S1038",
+		"stats": []
+	},
+	"S1039": {
+		"name": "S1039",
+		"stats": []
+	},
+	"S1040": {
+		"name": "S1040",
+		"stats": []
+	},
+	"S1041": {
+		"name": "S1041",
+		"stats": []
+	},
+	"S1042": {
+		"name": "S1042",
+		"stats": []
+	},
+	"S1043": {
+		"name": "S1043",
+		"stats": []
+	},
+	"S1044": {
+		"name": "S1044",
+		"stats": []
+	},
+	"S1045": {
+		"name": "S1045",
+		"stats": []
+	},
+	"S1046": {
+		"name": "S1046",
+		"stats": []
+	},
+	"S1047": {
+		"name": "S1047",
+		"stats": []
+	},
+	"S1048": {
+		"name": "S1048",
+		"stats": []
+	},
+	"S1049": {
+		"name": "S1049",
+		"stats": []
+	},
+	"S1050": {
+		"name": "S1050",
+		"stats": []
+	},
+	"S1051": {
+		"name": "Melee Damage",
+		"stats": ["10% increased Melee Damage"]
+	},
+	"S1052": {
+		"name": "S1052",
+		"stats": []
+	},
+	"S1053": {
+		"name": "S1053",
+		"stats": []
+	},
+	"S1054": {
+		"name": "S1054",
+		"stats": []
+	},
+	"S1055": {
+		"name": "S1055",
+		"stats": []
+	},
+	"S1056": {
+		"name": "S1056",
+		"stats": []
+	},
+	"S1057": {
+		"name": "S1057",
+		"stats": []
+	},
+	"S1058": {
+		"name": "S1058",
+		"stats": []
+	},
+	"S1059": {
+		"name": "Projectile Damage",
+		"stats": ["10% increased Projectile Damage"]
+	},
+	"S1060": {
+		"name": "S1060",
+		"stats": []
+	},
+	"S1061": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1062": {
+		"name": "S1062",
+		"stats": []
+	},
+	"S1063": {
+		"name": "S1063",
+		"stats": []
+	},
+	"S1064": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1065": {
+		"name": "S1065",
+		"stats": []
+	},
+	"S1066": {
+		"name": "S1066",
+		"stats": []
+	},
+	"S1067": {
+		"name": "S1067",
+		"stats": []
+	},
+	"S1068": {
+		"name": "Melee Damage",
+		"stats": ["10% increased Melee Damage"]
+	},
+	"S1069": {
+		"name": "S1069",
+		"stats": []
+	},
+	"S1070": {
+		"name": "S1070",
+		"stats": []
+	},
+	"S1071": {
+		"name": "S1071",
+		"stats": []
+	},
+	"S1072": {
+		"name": "S1072",
+		"stats": []
+	},
+	"S1073": {
+		"name": "S1073",
+		"stats": []
+	},
+	"S1074": {
+		"name": "S1074",
+		"stats": []
+	},
+	"S1075": {
+		"name": "S1075",
+		"stats": []
+	},
+	"S1076": {
+		"name": "S1076",
+		"stats": []
+	},
+	"S1077": {
+		"name": "S1077",
+		"stats": []
+	},
+	"S1078": {
+		"name": "Life Regeneration",
+		"stats": ["Regenerate 0.4% of Life per second"]
+	},
+	"S1079": {
+		"name": "S1079",
+		"stats": []
+	},
+	"S1080": {
+		"name": "S1080",
+		"stats": []
+	},
+	"S1081": {
+		"name": "S1081",
+		"stats": []
+	},
+	"S1082": {
+		"name": "S1082",
+		"stats": []
+	},
+	"S1083": {
+		"name": "S1083",
+		"stats": []
+	},
+	"S1084": {
+		"name": "S1084",
+		"stats": []
+	},
+	"S1085": {
+		"name": "S1085",
+		"stats": []
+	},
+	"S1086": {
+		"name": "Projectile Damage",
+		"stats": ["10% increased Projectile Damage"]
+	},
+	"S1087": {
+		"name": "S1087",
+		"stats": []
+	},
+	"S1088": {
+		"name": "S1088",
+		"stats": []
+	},
+	"S1089": {
+		"name": "S1089",
+		"stats": []
+	},
+	"S1090": {
+		"name": "S1090",
+		"stats": []
+	},
+	"S1091": {
+		"name": "S1091",
+		"stats": []
+	},
+	"S1092": {
+		"name": "S1092",
+		"stats": []
+	},
+	"S1093": {
+		"name": "S1093",
+		"stats": []
+	},
+	"S1094": {
+		"name": "S1094",
+		"stats": []
+	},
+	"S1095": {
+		"name": "S1095",
+		"stats": []
+	},
+	"S1096": {
+		"name": "S1096",
+		"stats": []
+	},
+	"S1097": {
+		"name": "S1097",
+		"stats": []
+	},
+	"S1098": {
+		"name": "S1098",
+		"stats": []
+	},
+	"S1099": {
+		"name": "S1099",
+		"stats": []
+	},
+	"S1100": {
+		"name": "S1100",
+		"stats": []
+	},
+	"S1101": {
+		"name": "Melee Damage",
+		"stats": ["6% increased Melee Damage"]
+	},
+	"S1102": {
+		"name": "S1102",
+		"stats": []
+	},
+	"S1103": {
+		"name": "Movement Speed",
+		"stats": ["2% increased Movement Speed"]
+	},
+	"S1104": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1105": {
+		"name": "S1105",
+		"stats": []
+	},
+	"S1106": {
+		"name": "S1106",
+		"stats": []
+	},
+	"S1107": {
+		"name": "S1107",
+		"stats": []
+	},
+	"S1108": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1109": {
+		"name": "S1109",
+		"stats": []
+	},
+	"S1110": {
+		"name": "S1110",
+		"stats": []
+	},
+	"S1111": {
+		"name": "S1111",
+		"stats": []
+	},
+	"S1112": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1113": {
+		"name": "S1113",
+		"stats": []
+	},
+	"S1114": {
+		"name": "S1114",
+		"stats": []
+	},
+	"S1115": {
+		"name": "S1115",
+		"stats": []
+	},
+	"S1116": {
+		"name": "S1116",
+		"stats": []
+	},
+	"S1117": {
+		"name": "Axe Damage",
+		"stats": ["10% increased Damage with Axes"]
+	},
+	"S1118": {
+		"name": "S1118",
+		"stats": []
+	},
+	"S1119": {
+		"name": "S1119",
+		"stats": []
+	},
+	"S1120": {
+		"name": "S1120",
+		"stats": []
+	},
+	"S1121": {
+		"name": "S1121",
+		"stats": []
+	},
+	"S1122": {
+		"name": "S1122",
+		"stats": []
+	},
+	"S1123": {
+		"name": "S1123",
+		"stats": []
+	},
+	"S1124": {
+		"name": "S1124",
+		"stats": []
+	},
+	"S1125": {
+		"name": "S1125",
+		"stats": []
+	},
+	"S1126": {
+		"name": "S1126",
+		"stats": []
+	},
+	"S1127": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1128": {
+		"name": "S1128",
+		"stats": []
+	},
+	"S1129": {
+		"name": "S1129",
+		"stats": []
+	},
+	"S1130": {
+		"name": "S1130",
+		"stats": []
+	},
+	"S1131": {
+		"name": "Immobilise Buildup",
+		"stats": ["8% increased Stun Build", "8% increased Freeze Buildup"]
+	},
+	"S1132": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1133": {
+		"name": "S1133",
+		"stats": []
+	},
+	"S1134": {
+		"name": "S1134",
+		"stats": []
+	},
+	"S1135": {
+		"name": "S1135",
+		"stats": []
+	},
+	"S1136": {
+		"name": "S1136",
+		"stats": []
+	},
+	"S1137": {
+		"name": "S1137",
+		"stats": []
+	},
+	"S1138": {
+		"name": "S1138",
+		"stats": []
+	},
+	"S1139": {
+		"name": "S1139",
+		"stats": []
+	},
+	"S1140": {
+		"name": "S1140",
+		"stats": []
+	},
+	"S1141": {
+		"name": "Attack Area Damage and Area",
+		"stats": ["8% increased Attack Area Damage", "5% increased Area of Effect for Attacks"]
+	},
+	"S1142": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1143": {
+		"name": "S1143",
+		"stats": []
+	},
+	"S1144": {
+		"name": "S1144",
+		"stats": []
+	},
+	"S1145": {
+		"name": "S1145",
+		"stats": []
+	},
+	"S1146": {
+		"name": "S1146",
+		"stats": []
+	},
+	"S1147": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1148": {
+		"name": "Immobilise Buildup",
+		"stats": ["8% increased Stun Buildup", "8% increased Freeze Buildup"]
+	},
+	"S1149": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1150": {
+		"name": "S1150",
+		"stats": []
+	},
+	"S1151": {
+		"name": "S1151",
+		"stats": []
+	},
+	"S1152": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1153": {
+		"name": "S1153",
+		"stats": []
+	},
+	"S1154": {
+		"name": "S1154",
+		"stats": []
+	},
+	"S1155": {
+		"name": "S1155",
+		"stats": []
+	},
+	"S1156": {
+		"name": "S1156",
+		"stats": []
+	},
+	"S1157": {
+		"name": "S1157",
+		"stats": []
+	},
+	"S1158": {
+		"name": "S1158",
+		"stats": []
+	},
+	"S1159": {
+		"name": "S1159",
+		"stats": []
+	},
+	"S1160": {
+		"name": "Attack Area Damage and Area",
+		"stats": ["8% increased Attack Area Damage", "5% increased Area of Effect for Attacks"]
+	},
+	"S1161": {
+		"name": "S1161",
+		"stats": []
+	},
+	"S1162": {
+		"name": "S1162",
+		"stats": []
+	},
+	"S1163": {
+		"name": "S1163",
+		"stats": []
+	},
+	"S1164": {
+		"name": "S1164",
+		"stats": []
+	},
+	"S1165": {
+		"name": "S1165",
+		"stats": []
+	},
+	"S1166": {
+		"name": "S1166",
+		"stats": []
+	},
+	"S1167": {
+		"name": "S1167",
+		"stats": []
+	},
+	"S1168": {
+		"name": "S1168",
+		"stats": []
+	},
+	"S1169": {
+		"name": "S1169",
+		"stats": []
+	},
+	"S1170": {
+		"name": "S1170",
+		"stats": []
+	},
+	"S1171": {
+		"name": "S1171",
+		"stats": []
+	},
+	"S1172": {
+		"name": "S1172",
+		"stats": []
+	},
+	"S1173": {
+		"name": "S1173",
+		"stats": []
+	},
+	"S1174": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1175": {
+		"name": "S1175",
+		"stats": []
+	},
+	"S1176": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1177": {
+		"name": "S1177",
+		"stats": []
+	},
+	"S1178": {
+		"name": "S1178",
+		"stats": []
+	},
+	"S1179": {
+		"name": "One Handed Damage",
+		"stats": ["10% increased Damage with One Handed Weapons"]
+	},
+	"S1180": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1181": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1182": {
+		"name": "S1182",
+		"stats": []
+	},
+	"S1183": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1184": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1185": {
+		"name": "Attack Speed",
+		"stats": ["3% increased Attack Speed with One Handed Weapons"]
+	},
+	"S1186": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1187": {
+		"name": "S1187",
+		"stats": []
+	},
+	"S1188": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1189": {
+		"name": "S1189",
+		"stats": []
+	},
+	"S1190": {
+		"name": "S1190",
+		"stats": []
+	},
+	"S1191": {
+		"name": "S1191",
+		"stats": []
+	},
+	"S1192": {
+		"name": "S1192",
+		"stats": []
+	},
+	"S1193": {
+		"name": "Projectile Damage",
+		"stats": ["10% increased Projectile Damage"]
+	},
+	"S1194": {
+		"name": "S1194",
+		"stats": []
+	},
+	"S1195": {
+		"name": "S1195",
+		"stats": []
+	},
+	"S1196": {
+		"name": "S1196",
+		"stats": []
+	},
+	"S1197": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1198": {
+		"name": "S1198",
+		"stats": []
+	},
+	"S1199": {
+		"name": "S1199",
+		"stats": []
+	},
+	"S1200": {
+		"name": "S1200",
+		"stats": []
+	},
+	"S1201": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1202": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1203": {
+		"name": "S1203",
+		"stats": []
+	},
+	"S1204": {
+		"name": "S1204",
+		"stats": []
+	},
+	"S1205": {
+		"name": "S1205",
+		"stats": []
+	},
+	"S1206": {
+		"name": "One Handed Damage",
+		"stats": ["10% increased Damage with One Handed Weapons"]
+	},
+	"S1207": {
+		"name": "S1207",
+		"stats": []
+	},
+	"S1208": {
+		"name": "S1208",
+		"stats": []
+	},
+	"S1209": {
+		"name": "S1209",
+		"stats": []
+	},
+	"S1210": {
+		"name": "S1210",
+		"stats": []
+	},
+	"S1211": {
+		"name": "S1211",
+		"stats": []
+	},
+	"S1212": {
+		"name": "S1212",
+		"stats": []
+	},
+	"S1213": {
+		"name": "S1213",
+		"stats": []
+	},
+	"S1214": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1215": {
+		"name": "S1215",
+		"stats": []
+	},
+	"S1216": {
+		"name": "S1216",
+		"stats": []
+	},
+	"S1217": {
+		"name": "S1217",
+		"stats": []
+	},
+	"S1218": {
+		"name": "S1218",
+		"stats": []
+	},
+	"S1219": {
+		"name": "S1219",
+		"stats": []
+	},
+	"S1220": {
+		"name": "S1220",
+		"stats": []
+	},
+	"S1221": {
+		"name": "S1221",
+		"stats": []
+	},
+	"S1222": {
+		"name": "S1222",
+		"stats": []
+	},
+	"S1223": {
+		"name": "S1223",
+		"stats": []
+	},
+	"S1224": {
+		"name": "One Handed Damage",
+		"stats": ["10% increased Damage with One Handed Weapons"]
+	},
+	"S1225": {
+		"name": "S1225",
+		"stats": []
+	},
+	"S1226": {
+		"name": "S1226",
+		"stats": []
+	},
+	"S1227": {
+		"name": "S1227",
+		"stats": []
+	},
+	"S1228": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1229": {
+		"name": "S1229",
+		"stats": []
+	},
+	"S1230": {
+		"name": "S1230",
+		"stats": []
+	},
+	"S1231": {
+		"name": "S1231",
+		"stats": []
+	},
+	"S1232": {
+		"name": "S1232",
+		"stats": []
+	},
+	"S1233": {
+		"name": "S1233",
+		"stats": []
+	},
+	"S1234": {
+		"name": "S1234",
+		"stats": []
+	},
+	"S1235": {
+		"name": "S1235",
+		"stats": []
+	},
+	"S1236": {
+		"name": "S1236",
+		"stats": []
+	},
+	"S1237": {
+		"name": "S1237",
+		"stats": []
+	},
+	"S1238": {
+		"name": "Armour",
+		"stats": ["15% increased Armour"]
+	},
+	"S1239": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1240": {
+		"name": "S1240",
+		"stats": []
+	},
+	"S1241": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1242": {
+		"name": "S1242",
+		"stats": []
+	},
+	"S1243": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1244": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1245": {
+		"name": "S1245",
+		"stats": []
+	},
+	"S1246": {
+		"name": "S1246",
+		"stats": []
+	},
+	"S1247": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1248": {
+		"name": "S1248",
+		"stats": []
+	},
+	"S1249": {
+		"name": "S1249",
+		"stats": []
+	},
+	"S1250": {
+		"name": "S1250",
+		"stats": []
+	},
+	"S1251": {
+		"name": "S1251",
+		"stats": []
+	},
+	"S1252": {
+		"name": "S1252",
+		"stats": []
+	},
+	"S1253": {
+		"name": "S1253",
+		"stats": []
+	},
+	"S1254": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1255": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1256": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1257": {
+		"name": "S1257",
+		"stats": []
+	},
+	"S1258": {
+		"name": "S1258",
+		"stats": []
+	},
+	"S1259": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1260": {
+		"name": "S1260",
+		"stats": []
+	},
+	"S1261": {
+		"name": "S1261",
+		"stats": []
+	},
+	"S1262": {
+		"name": "S1262",
+		"stats": []
+	},
+	"S1263": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1264": {
+		"name": "S1264",
+		"stats": []
+	},
+	"S1265": {
+		"name": "S1265",
+		"stats": []
+	},
+	"S1266": {
+		"name": "S1266",
+		"stats": []
+	},
+	"S1267": {
+		"name": "S1267",
+		"stats": []
+	},
+	"S1268": {
+		"name": "S1268",
+		"stats": []
+	},
+	"S1269": {
+		"name": "S1269",
+		"stats": []
+	},
+	"S1270": {
+		"name": "S1270",
+		"stats": []
+	},
+	"S1271": {
+		"name": "S1271",
+		"stats": []
+	},
+	"S1272": {
+		"name": "S1272",
+		"stats": []
+	},
+	"S1273": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1274": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1275": {
+		"name": "S1275",
+		"stats": []
+	},
+	"S1276": {
+		"name": "S1276",
+		"stats": []
+	},
+	"S1277": {
+		"name": "S1277",
+		"stats": []
+	},
+	"S1278": {
+		"name": "S1278",
+		"stats": []
+	},
+	"S1279": {
+		"name": "S1279",
+		"stats": []
+	},
+	"S1280": {
+		"name": "S1280",
+		"stats": []
+	},
+	"S1281": {
+		"name": "S1281",
+		"stats": []
+	},
+	"S1282": {
+		"name": "S1282",
+		"stats": []
+	},
+	"S1283": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1284": {
+		"name": "S1284",
+		"stats": []
+	},
+	"S1285": {
+		"name": "S1285",
+		"stats": []
+	},
+	"S1286": {
+		"name": "S1286",
+		"stats": []
+	},
+	"S1287": {
+		"name": "S1287",
+		"stats": []
+	},
+	"S1288": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1289": {
+		"name": "S1289",
+		"stats": []
+	},
+	"S1290": {
+		"name": "S1290",
+		"stats": []
+	},
+	"S1291": {
+		"name": "S1291",
+		"stats": []
+	},
+	"S1292": {
+		"name": "S1292",
+		"stats": []
+	},
+	"S1293": {
+		"name": "S1293",
+		"stats": []
+	},
+	"S1294": {
+		"name": "S1294",
+		"stats": []
+	},
+	"S1295": {
+		"name": "S1295",
+		"stats": []
+	},
+	"S1296": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1297": {
+		"name": "S1297",
+		"stats": []
+	},
+	"S1298": {
+		"name": "Two Handed Damage",
+		"stats": ["12% increased Damage with Two Handed Weapons"]
+	},
+	"S1299": {
+		"name": "S1299",
+		"stats": []
+	},
+	"S1300": {
+		"name": "S1300",
+		"stats": []
+	},
+	"S1301": {
+		"name": "S1301",
+		"stats": []
+	},
+	"S1302": {
+		"name": "Slower Rage Decay",
+		"stats": ["Inherent loss of Rage is 10% slower"]
+	},
+	"S1303": {
+		"name": "S1303",
+		"stats": []
+	},
+	"S1304": {
+		"name": "S1304",
+		"stats": []
+	},
+	"S1305": {
+		"name": "S1305",
+		"stats": []
+	},
+	"S1306": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1307": {
+		"name": "S1307",
+		"stats": []
+	},
+	"S1308": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1309": {
+		"name": "S1309",
+		"stats": []
+	},
+	"S1310": {
+		"name": "S1310",
+		"stats": []
+	},
+	"S1311": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1312": {
+		"name": "S1312",
+		"stats": []
+	},
+	"S1313": {
+		"name": "S1313",
+		"stats": []
+	},
+	"S1314": {
+		"name": "S1314",
+		"stats": []
+	},
+	"S1315": {
+		"name": "Melee Damage",
+		"stats": ["10% increased Melee Damage"]
+	},
+	"S1316": {
+		"name": "S1316",
+		"stats": []
+	},
+	"S1317": {
+		"name": "S1317",
+		"stats": []
+	},
+	"S1318": {
+		"name": "S1318",
+		"stats": []
+	},
+	"S1319": {
+		"name": "S1319",
+		"stats": []
+	},
+	"S1320": {
+		"name": "S1320",
+		"stats": []
+	},
+	"S1321": {
+		"name": "S1321",
+		"stats": []
+	},
+	"S1322": {
+		"name": "S1322",
+		"stats": []
+	},
+	"S1323": {
+		"name": "S1323",
+		"stats": []
+	},
+	"S1324": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1325": {
+		"name": "S1325",
+		"stats": []
+	},
+	"S1326": {
+		"name": "S1326",
+		"stats": []
+	},
+	"S1327": {
+		"name": "S1327",
+		"stats": []
+	},
+	"S1328": {
+		"name": "S1328",
+		"stats": []
+	},
+	"S1329": {
+		"name": "S1329",
+		"stats": []
+	},
+	"S1330": {
+		"name": "Two Handed Damage",
+		"stats": ["12% increased Damage with Two Handed Weapons"]
+	},
+	"S1331": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1332": {
+		"name": "S1332",
+		"stats": []
+	},
+	"S1333": {
+		"name": "S1333",
+		"stats": []
+	},
+	"S1334": {
+		"name": "S1334",
+		"stats": []
+	},
+	"S1335": {
+		"name": "S1335",
+		"stats": []
+	},
+	"S1336": {
+		"name": "S1336",
+		"stats": []
+	},
+	"S1337": {
+		"name": "Melee Damage against Immobilised",
+		"stats": ["20% increased Melee Damage against Immobilised Enemies"]
+	},
+	"S1338": {
+		"name": "S1338",
+		"stats": []
+	},
+	"S1339": {
+		"name": "S1339",
+		"stats": []
+	},
+	"S1340": {
+		"name": "Two Handed Damage",
+		"stats": ["12% increased Damage with Two Handed Weapons"]
+	},
+	"S1341": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1342": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1343": {
+		"name": "S1343",
+		"stats": []
+	},
+	"S1344": {
+		"name": "Two Handed Damage",
+		"stats": ["12% increased Damage with Two Handed Weapons"]
+	},
+	"S1345": {
+		"name": "S1345",
+		"stats": []
+	},
+	"S1346": {
+		"name": "Two Handed Damage",
+		"stats": ["12% increased Damage with Two Handed Weapons"]
+	},
+	"S1347": {
+		"name": "S1347",
+		"stats": []
+	},
+	"S1348": {
+		"name": "S1348",
+		"stats": []
+	},
+	"S1349": {
+		"name": "S1349",
+		"stats": []
+	},
+	"S1350": {
+		"name": "S1350",
+		"stats": []
+	},
+	"S1351": {
+		"name": "S1351",
+		"stats": []
+	},
+	"S1352": {
+		"name": "S1352",
+		"stats": []
+	},
+	"S1353": {
+		"name": "S1353",
+		"stats": []
+	},
+	"S1354": {
+		"name": "S1354",
+		"stats": []
+	},
+	"S1355": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1356": {
+		"name": "S1356",
+		"stats": []
+	},
+	"S1357": {
+		"name": "S1357",
+		"stats": []
+	},
+	"S1358": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1359": {
+		"name": "S1359",
+		"stats": []
+	},
+	"S1360": {
+		"name": "S1360",
+		"stats": []
+	},
+	"S1361": {
+		"name": "S1361",
+		"stats": []
+	},
+	"S1362": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1363": {
+		"name": "S1363",
+		"stats": []
+	},
+	"S1364": {
+		"name": "S1364",
+		"stats": []
+	},
+	"S1365": {
+		"name": "S1365",
+		"stats": []
+	},
+	"S1366": {
+		"name": "S1366",
+		"stats": []
+	},
+	"S1367": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1368": {
+		"name": "S1368",
+		"stats": []
+	},
+	"S1369": {
+		"name": "S1369",
+		"stats": []
+	},
+	"S1370": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1371": {
+		"name": "S1371",
+		"stats": []
+	},
+	"S1372": {
+		"name": "S1372",
+		"stats": []
+	},
+	"S1373": {
+		"name": "S1373",
+		"stats": []
+	},
+	"S1374": {
+		"name": "S1374",
+		"stats": []
+	},
+	"S1375": {
+		"name": "S1375",
+		"stats": []
+	},
+	"S1376": {
+		"name": "S1376",
+		"stats": []
+	},
+	"S1377": {
+		"name": "S1377",
+		"stats": []
+	},
+	"S1378": {
+		"name": "S1378",
+		"stats": []
+	},
+	"S1379": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1380": {
+		"name": "Projectile Damage",
+		"stats": ["Projectiles deal 12% increased Damage with Hits against Enemies further than 6m"]
+	},
+	"S1381": {
+		"name": "Projectile Damage",
+		"stats": ["Projectiles deal 12% increased Damage with Hits against Enemies further than 6m"]
+	},
+	"S1382": {
+		"name": "S1382",
+		"stats": []
+	},
+	"S1383": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1384": {
+		"name": "S1384",
+		"stats": []
+	},
+	"S1385": {
+		"name": "S1385",
+		"stats": []
+	},
+	"S1386": {
+		"name": "S1386",
+		"stats": []
+	},
+	"S1387": {
+		"name": "S1387",
+		"stats": []
+	},
+	"S1388": {
+		"name": "Totem Placement Speed",
+		"stats": ["20% increased Totem Placement Speed"]
+	},
+	"S1389": {
+		"name": "S1389",
+		"stats": []
+	},
+	"S1390": {
+		"name": "S1390",
+		"stats": []
+	},
+	"S1391": {
+		"name": "S1391",
+		"stats": []
+	},
+	"S1392": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1393": {
+		"name": "S1393",
+		"stats": []
+	},
+	"S1394": {
+		"name": "S1394",
+		"stats": []
+	},
+	"S1395": {
+		"name": "S1395",
+		"stats": []
+	},
+	"S1396": {
+		"name": "S1396",
+		"stats": []
+	},
+	"S1397": {
+		"name": "S1397",
+		"stats": []
+	},
+	"S1398": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1399": {
+		"name": "S1399",
+		"stats": []
+	},
+	"S1400": {
+		"name": "S1400",
+		"stats": []
+	},
+	"S1401": {
+		"name": "S1401",
+		"stats": []
+	},
+	"S1402": {
+		"name": "Projectile Damage",
+		"stats": ["Projectiles deal 12% increased Damage with Hits against Enemies within 2m"]
+	},
+	"S1403": {
+		"name": "S1403",
+		"stats": []
+	},
+	"S1404": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1405": {
+		"name": "S1405",
+		"stats": []
+	},
+	"S1406": {
+		"name": "S1406",
+		"stats": []
+	},
+	"S1407": {
+		"name": "S1407",
+		"stats": []
+	},
+	"S1408": {
+		"name": "S1408",
+		"stats": []
+	},
+	"S1409": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1410": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1411": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1412": {
+		"name": "S1412",
+		"stats": []
+	},
+	"S1413": {
+		"name": "S1413",
+		"stats": []
+	},
+	"S1414": {
+		"name": "S1414",
+		"stats": []
+	},
+	"S1415": {
+		"name": "S1415",
+		"stats": []
+	},
+	"S1416": {
+		"name": "S1416",
+		"stats": []
+	},
+	"S1417": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1418": {
+		"name": "S1418",
+		"stats": []
+	},
+	"S1419": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1420": {
+		"name": "S1420",
+		"stats": []
+	},
+	"S1421": {
+		"name": "S1421",
+		"stats": []
+	},
+	"S1422": {
+		"name": "S1422",
+		"stats": []
+	},
+	"S1423": {
+		"name": "S1423",
+		"stats": []
+	},
+	"S1424": {
+		"name": "S1424",
+		"stats": []
+	},
+	"S1425": {
+		"name": "Projectile Damage",
+		"stats": ["Projectiles deal 12% increased Damage with Hits against Enemies within 2m"]
+	},
+	"S1426": {
+		"name": "S1426",
+		"stats": []
+	},
+	"S1427": {
+		"name": "S1427",
+		"stats": []
+	},
+	"S1428": {
+		"name": "S1428",
+		"stats": []
+	},
+	"S1429": {
+		"name": "S1429",
+		"stats": []
+	},
+	"S1430": {
+		"name": "S1430",
+		"stats": []
+	},
+	"S1431": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1432": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1433": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1434": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1435": {
+		"name": "S1435",
+		"stats": []
+	},
+	"S1436": {
+		"name": "S1436",
+		"stats": []
+	},
+	"S1437": {
+		"name": "S1437",
+		"stats": []
+	},
+	"S1438": {
+		"name": "S1438",
+		"stats": []
+	},
+	"S1439": {
+		"name": "S1439",
+		"stats": []
+	},
+	"S1440": {
+		"name": "S1440",
+		"stats": []
+	},
+	"S1441": {
+		"name": "S1441",
+		"stats": []
+	},
+	"S1442": {
+		"name": "S1442",
+		"stats": []
+	},
+	"S1443": {
+		"name": "S1443",
+		"stats": []
+	},
+	"S1444": {
+		"name": "S1444",
+		"stats": []
+	},
+	"S1445": {
+		"name": "S1445",
+		"stats": []
+	},
+	"S1446": {
+		"name": "S1446",
+		"stats": []
+	},
+	"S1447": {
+		"name": "S1447",
+		"stats": []
+	},
+	"S1448": {
+		"name": "S1448",
+		"stats": []
+	},
+	"S1449": {
+		"name": "S1449",
+		"stats": []
+	},
+	"S1450": {
+		"name": "S1450",
+		"stats": []
+	},
+	"S1451": {
+		"name": "S1451",
+		"stats": []
+	},
+	"S1452": {
+		"name": "S1452",
+		"stats": []
+	},
+	"S1453": {
+		"name": "S1453",
+		"stats": []
+	},
+	"S1454": {
+		"name": "S1454",
+		"stats": []
+	},
+	"S1455": {
+		"name": "S1455",
+		"stats": []
+	},
+	"S1456": {
+		"name": "S1456",
+		"stats": []
+	},
+	"S1457": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1458": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1459": {
+		"name": "S1459",
+		"stats": []
+	},
+	"S1460": {
+		"name": "S1460",
+		"stats": []
+	},
+	"S1461": {
+		"name": "S1461",
+		"stats": []
+	},
+	"S1462": {
+		"name": "S1462",
+		"stats": []
+	},
+	"S1463": {
+		"name": "S1463",
+		"stats": []
+	},
+	"S1464": {
+		"name": "S1464",
+		"stats": []
+	},
+	"S1465": {
+		"name": "S1465",
+		"stats": []
+	},
+	"S1466": {
+		"name": "S1466",
+		"stats": []
+	},
+	"S1467": {
+		"name": "S1467",
+		"stats": []
+	},
+	"S1468": {
+		"name": "S1468",
+		"stats": []
+	},
+	"S1469": {
+		"name": "S1469",
+		"stats": []
+	},
+	"S1470": {
+		"name": "S1470",
+		"stats": []
+	},
+	"S1471": {
+		"name": "S1471",
+		"stats": []
+	},
+	"S1472": {
+		"name": "S1472",
+		"stats": []
+	},
+	"S1473": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1474": {
+		"name": "S1474",
+		"stats": []
+	},
+	"S1475": {
+		"name": "S1475",
+		"stats": []
+	},
+	"S1476": {
+		"name": "S1476",
+		"stats": []
+	},
+	"S1477": {
+		"name": "S1477",
+		"stats": []
+	},
+	"S1478": {
+		"name": "S1478",
+		"stats": []
+	},
+	"S1479": {
+		"name": "S1479",
+		"stats": []
+	},
+	"S1480": {
+		"name": "S1480",
+		"stats": []
+	},
+	"S1481": {
+		"name": "S1481",
+		"stats": []
+	},
+	"S1482": {
+		"name": "S1482",
+		"stats": []
+	},
+	"S1483": {
+		"name": "S1483",
+		"stats": []
+	},
+	"S1484": {
+		"name": "S1484",
+		"stats": []
+	},
+	"S1485": {
+		"name": "S1485",
+		"stats": []
+	},
+	"S1486": {
+		"name": "S1486",
+		"stats": []
+	},
+	"S1487": {
+		"name": "S1487",
+		"stats": []
+	},
+	"S1488": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1489": {
+		"name": "S1489",
+		"stats": []
+	},
+	"S1490": {
+		"name": "S1490",
+		"stats": []
+	},
+	"S1491": {
+		"name": "S1491",
+		"stats": []
+	},
+	"S1492": {
+		"name": "S1492",
+		"stats": []
+	},
+	"S1493": {
+		"name": "S1493",
+		"stats": []
+	},
+	"S1494": {
+		"name": "S1494",
+		"stats": []
+	},
+	"S1495": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1496": {
+		"name": "S1496",
+		"stats": []
+	},
+	"S1497": {
+		"name": "S1497",
+		"stats": []
+	},
+	"S1498": {
+		"name": "S1498",
+		"stats": []
+	},
+	"S1499": {
+		"name": "S1499",
+		"stats": []
+	},
+	"S1500": {
+		"name": "S1500",
+		"stats": []
+	},
+	"S1501": {
+		"name": "S1501",
+		"stats": []
+	},
+	"S1502": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1503": {
+		"name": "S1503",
+		"stats": []
+	},
+	"S1504": {
+		"name": "S1504",
+		"stats": []
+	},
+	"S1505": {
+		"name": "S1505",
+		"stats": []
+	},
+	"S1506": {
+		"name": "S1506",
+		"stats": []
+	},
+	"S1507": {
+		"name": "S1507",
+		"stats": []
+	},
+	"S1508": {
+		"name": "S1508",
+		"stats": []
+	},
+	"S1509": {
+		"name": "S1509",
+		"stats": []
+	},
+	"S1510": {
+		"name": "S1510",
+		"stats": []
+	},
+	"S1511": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1512": {
+		"name": "S1512",
+		"stats": []
+	},
+	"S1513": {
+		"name": "S1513",
+		"stats": []
+	},
+	"S1514": {
+		"name": "S1514",
+		"stats": []
+	},
+	"S1515": {
+		"name": "S1515",
+		"stats": []
+	},
+	"S1516": {
+		"name": "S1516",
+		"stats": []
+	},
+	"S1517": {
+		"name": "S1517",
+		"stats": []
+	},
+	"S1518": {
+		"name": "S1518",
+		"stats": []
+	},
+	"S1519": {
+		"name": "S1519",
+		"stats": []
+	},
+	"S1520": {
+		"name": "S1520",
+		"stats": []
+	},
+	"S1521": {
+		"name": "S1521",
+		"stats": []
+	},
+	"S1522": {
+		"name": "S1522",
+		"stats": []
+	},
+	"S1523": {
+		"name": "S1523",
+		"stats": []
+	},
+	"S1524": {
+		"name": "S1524",
+		"stats": []
+	},
+	"S1525": {
+		"name": "S1525",
+		"stats": []
+	},
+	"S1526": {
+		"name": "S1526",
+		"stats": []
+	},
+	"S1527": {
+		"name": "S1527",
+		"stats": []
+	},
+	"S1528": {
+		"name": "S1528",
+		"stats": []
+	},
+	"S1529": {
+		"name": "S1529",
+		"stats": []
+	},
+	"S1530": {
+		"name": "S1530",
+		"stats": []
+	},
+	"S1531": {
+		"name": "S1531",
+		"stats": []
+	},
+	"S1532": {
+		"name": "S1532",
+		"stats": []
+	},
+	"S1533": {
+		"name": "S1533",
+		"stats": []
+	},
+	"S1534": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1535": {
+		"name": "S1535",
+		"stats": []
+	},
+	"S1536": {
+		"name": "S1536",
+		"stats": []
+	},
+	"S1537": {
+		"name": "S1537",
+		"stats": []
+	},
+	"S1538": {
+		"name": "S1538",
+		"stats": []
+	},
+	"S1539": {
+		"name": "S1539",
+		"stats": []
+	},
+	"S1540": {
+		"name": "S1540",
+		"stats": []
+	},
+	"S1541": {
+		"name": "S1541",
+		"stats": []
+	},
+	"S1542": {
+		"name": "S1542",
+		"stats": []
+	},
+	"S1543": {
+		"name": "S1543",
+		"stats": []
+	},
+	"S1544": {
+		"name": "S1544",
+		"stats": []
+	},
+	"S1545": {
+		"name": "S1545",
+		"stats": []
+	},
+	"S1546": {
+		"name": "S1546",
+		"stats": []
+	},
+	"S1547": {
+		"name": "S1547",
+		"stats": []
+	},
+	"S1548": {
+		"name": "S1548",
+		"stats": []
+	},
+	"S1549": {
+		"name": "S1549",
+		"stats": []
+	},
+	"S1550": {
+		"name": "S1550",
+		"stats": []
+	},
+	"S1551": {
+		"name": "S1551",
+		"stats": []
+	},
+	"S1552": {
+		"name": "S1552",
+		"stats": []
+	},
+	"S1553": {
+		"name": "S1553",
+		"stats": []
+	},
+	"S1554": {
+		"name": "S1554",
+		"stats": []
+	},
+	"S1555": {
+		"name": "S1555",
+		"stats": []
+	},
+	"S1556": {
+		"name": "S1556",
+		"stats": []
+	},
+	"S1557": {
+		"name": "S1557",
+		"stats": []
+	},
+	"S1558": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1559": {
+		"name": "S1559",
+		"stats": []
+	},
+	"S1560": {
+		"name": "S1560",
+		"stats": []
+	},
+	"S1561": {
+		"name": "S1561",
+		"stats": []
+	},
+	"S1562": {
+		"name": "S1562",
+		"stats": []
+	},
+	"S1563": {
+		"name": "S1563",
+		"stats": []
+	},
+	"S1564": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1565": {
+		"name": "S1565",
+		"stats": []
+	},
+	"S1566": {
+		"name": "S1566",
+		"stats": []
+	},
+	"S1567": {
+		"name": "S1567",
+		"stats": []
+	},
+	"S1568": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1569": {
+		"name": "S1569",
+		"stats": []
+	},
+	"S1570": {
+		"name": "S1570",
+		"stats": []
+	},
+	"S1571": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1572": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1573": {
+		"name": "S1573",
+		"stats": []
+	},
+	"S1574": {
+		"name": "S1574",
+		"stats": []
+	},
+	"S1575": {
+		"name": "S1575",
+		"stats": []
+	},
+	"S1576": {
+		"name": "S1576",
+		"stats": []
+	},
+	"S1577": {
+		"name": "S1577",
+		"stats": []
+	},
+	"S1578": {
+		"name": "S1578",
+		"stats": []
+	},
+	"S1579": {
+		"name": "S1579",
+		"stats": []
+	},
+	"S1580": {
+		"name": "S1580",
+		"stats": []
+	},
+	"S1581": {
+		"name": "S1581",
+		"stats": []
+	},
+	"S1582": {
+		"name": "S1582",
+		"stats": []
+	},
+	"S1583": {
+		"name": "Grenade Cooldown Recovery Rate",
+		"stats": ["15% increased Cooldown Recovery Rate for Grenade Skills"]
+	},
+	"S1584": {
+		"name": "S1584",
+		"stats": []
+	},
+	"S1585": {
+		"name": "S1585",
+		"stats": []
+	},
+	"S1586": {
+		"name": "S1586",
+		"stats": []
+	},
+	"S1587": {
+		"name": "S1587",
+		"stats": []
+	},
+	"S1588": {
+		"name": "S1588",
+		"stats": []
+	},
+	"S1589": {
+		"name": "S1589",
+		"stats": []
+	},
+	"S1590": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1591": {
+		"name": "S1591",
+		"stats": []
+	},
+	"S1592": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1593": {
+		"name": "S1593",
+		"stats": []
+	},
+	"S1594": {
+		"name": "S1594",
+		"stats": []
+	},
+	"S1595": {
+		"name": "S1595",
+		"stats": []
+	},
+	"S1596": {
+		"name": "S1596",
+		"stats": []
+	},
+	"S1597": {
+		"name": "S1597",
+		"stats": []
+	},
+	"S1598": {
+		"name": "S1598",
+		"stats": []
+	},
+	"S1599": {
+		"name": "S1599",
+		"stats": []
+	},
+	"S1600": {
+		"name": "S1600",
+		"stats": []
+	},
+	"S1601": {
+		"name": "S1601",
+		"stats": []
+	},
+	"S1602": {
+		"name": "S1602",
+		"stats": []
+	},
+	"S1603": {
+		"name": "S1603",
+		"stats": []
+	},
+	"S1604": {
+		"name": "S1604",
+		"stats": []
+	},
+	"S1605": {
+		"name": "S1605",
+		"stats": []
+	},
+	"S1606": {
+		"name": "S1606",
+		"stats": []
+	},
+	"S1607": {
+		"name": "S1607",
+		"stats": []
+	},
+	"S1608": {
+		"name": "S1608",
+		"stats": []
+	},
+	"S1609": {
+		"name": "S1609",
+		"stats": []
+	},
+	"S1610": {
+		"name": "S1610",
+		"stats": []
+	},
+	"S1611": {
+		"name": "S1611",
+		"stats": []
+	},
+	"S1612": {
+		"name": "S1612",
+		"stats": []
+	},
+	"S1613": {
+		"name": "S1613",
+		"stats": []
+	},
+	"S1614": {
+		"name": "S1614",
+		"stats": []
+	},
+	"S1615": {
+		"name": "S1615",
+		"stats": []
+	},
+	"S1616": {
+		"name": "S1616",
+		"stats": []
+	},
+	"S1617": {
+		"name": "S1617",
+		"stats": []
+	},
+	"S1618": {
+		"name": "S1618",
+		"stats": []
+	},
+	"S1619": {
+		"name": "S1619",
+		"stats": []
+	},
+	"S1620": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1621": {
+		"name": "S1621",
+		"stats": []
+	},
+	"S1622": {
+		"name": "S1622",
+		"stats": []
+	},
+	"S1623": {
+		"name": "S1623",
+		"stats": []
+	},
+	"S1624": {
+		"name": "S1624",
+		"stats": []
+	},
+	"S1625": {
+		"name": "S1625",
+		"stats": []
+	},
+	"S1626": {
+		"name": "S1626",
+		"stats": []
+	},
+	"S1627": {
+		"name": "S1627",
+		"stats": []
+	},
+	"S1628": {
+		"name": "S1628",
+		"stats": []
+	},
+	"S1629": {
+		"name": "S1629",
+		"stats": []
+	},
+	"S1630": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1631": {
+		"name": "S1631",
+		"stats": []
+	},
+	"S1632": {
+		"name": "S1632",
+		"stats": []
+	},
+	"S1633": {
+		"name": "S1633",
+		"stats": []
+	},
+	"S1634": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1635": {
+		"name": "S1635",
+		"stats": []
+	},
+	"S1636": {
+		"name": "S1636",
+		"stats": []
+	},
+	"S1637": {
+		"name": "S1637",
+		"stats": []
+	},
+	"S1638": {
+		"name": "S1638",
+		"stats": []
+	},
+	"S1639": {
+		"name": "S1639",
+		"stats": []
+	},
+	"S1640": {
+		"name": "S1640",
+		"stats": []
+	},
+	"S1641": {
+		"name": "S1641",
+		"stats": []
+	},
+	"S1642": {
+		"name": "Life Regeneration",
+		"stats": ["Regenerate 0.4% of Life per second"]
+	},
+	"S1643": {
+		"name": "S1643",
+		"stats": []
+	},
+	"S1644": {
+		"name": "S1644",
+		"stats": []
+	},
+	"S1645": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1646": {
+		"name": "S1646",
+		"stats": []
+	},
+	"S1647": {
+		"name": "S1647",
+		"stats": []
+	},
+	"S1648": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1649": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1650": {
+		"name": "S1650",
+		"stats": []
+	},
+	"S1651": {
+		"name": "S1651",
+		"stats": []
+	},
+	"S1652": {
+		"name": "S1652",
+		"stats": []
+	},
+	"S1653": {
+		"name": "S1653",
+		"stats": []
+	},
+	"S1654": {
+		"name": "S1654",
+		"stats": []
+	},
+	"S1655": {
+		"name": "S1655",
+		"stats": []
+	},
+	"S1656": {
+		"name": "S1656",
+		"stats": []
+	},
+	"S1657": {
+		"name": "S1657",
+		"stats": []
+	},
+	"S1658": {
+		"name": "S1658",
+		"stats": []
+	},
+	"S1659": {
+		"name": "S1659",
+		"stats": []
+	},
+	"S1660": {
+		"name": "S1660",
+		"stats": []
+	},
+	"S1661": {
+		"name": "S1661",
+		"stats": []
+	},
+	"S1662": {
+		"name": "S1662",
+		"stats": []
+	},
+	"S1663": {
+		"name": "S1663",
+		"stats": []
+	},
+	"S1664": {
+		"name": "S1664",
+		"stats": []
+	},
+	"S1665": {
+		"name": "S1665",
+		"stats": []
+	},
+	"S1666": {
+		"name": "S1666",
+		"stats": []
+	},
+	"S1667": {
+		"name": "S1667",
+		"stats": []
+	},
+	"S1668": {
+		"name": "S1668",
+		"stats": []
+	},
+	"S1669": {
+		"name": "S1669",
+		"stats": []
+	},
+	"S1670": {
+		"name": "S1670",
+		"stats": []
+	},
+	"S1671": {
+		"name": "S1671",
+		"stats": []
+	},
+	"S1672": {
+		"name": "S1672",
+		"stats": []
+	},
+	"S1673": {
+		"name": "S1673",
+		"stats": []
+	},
+	"S1674": {
+		"name": "S1674",
+		"stats": []
+	},
+	"S1675": {
+		"name": "S1675",
+		"stats": []
+	},
+	"S1676": {
+		"name": "S1676",
+		"stats": []
+	},
+	"S1677": {
+		"name": "S1677",
+		"stats": []
+	},
+	"S1678": {
+		"name": "S1678",
+		"stats": []
+	},
+	"S1679": {
+		"name": "S1679",
+		"stats": []
+	},
+	"S1680": {
+		"name": "S1680",
+		"stats": []
+	},
+	"S1681": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1682": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1683": {
+		"name": "S1683",
+		"stats": []
+	},
+	"S1684": {
+		"name": "S1684",
+		"stats": []
+	},
+	"S1685": {
+		"name": "S1685",
+		"stats": []
+	},
+	"S1686": {
+		"name": "S1686",
+		"stats": []
+	},
+	"S1687": {
+		"name": "S1687",
+		"stats": []
+	},
+	"S1688": {
+		"name": "S1688",
+		"stats": []
+	},
+	"S1689": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1690": {
+		"name": "S1690",
+		"stats": []
+	},
+	"S1691": {
+		"name": "S1691",
+		"stats": []
+	},
+	"S1692": {
+		"name": "S1692",
+		"stats": []
+	},
+	"S1693": {
+		"name": "S1693",
+		"stats": []
+	},
+	"S1694": {
+		"name": "S1694",
+		"stats": []
+	},
+	"S1695": {
+		"name": "S1695",
+		"stats": []
+	},
+	"S1696": {
+		"name": "S1696",
+		"stats": []
+	},
+	"S1697": {
+		"name": "S1697",
+		"stats": []
+	},
+	"S1698": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1699": {
+		"name": "S1699",
+		"stats": []
+	},
+	"S1700": {
+		"name": "S1700",
+		"stats": []
+	},
+	"S1701": {
+		"name": "S1701",
+		"stats": []
+	},
+	"S1702": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1703": {
+		"name": "S1703",
+		"stats": []
+	},
+	"S1704": {
+		"name": "S1704",
+		"stats": []
+	},
+	"S1705": {
+		"name": "S1705",
+		"stats": []
+	},
+	"S1706": {
+		"name": "S1706",
+		"stats": []
+	},
+	"S1707": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1708": {
+		"name": "S1708",
+		"stats": []
+	},
+	"S1709": {
+		"name": "S1709",
+		"stats": []
+	},
+	"S1710": {
+		"name": "S1710",
+		"stats": []
+	},
+	"S1711": {
+		"name": "S1711",
+		"stats": []
+	},
+	"S1712": {
+		"name": "S1712",
+		"stats": []
+	},
+	"S1713": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1714": {
+		"name": "S1714",
+		"stats": []
+	},
+	"S1715": {
+		"name": "S1715",
+		"stats": []
+	},
+	"S1716": {
+		"name": "Stun Threshold",
+		"stats": ["12% increased Stun Threshold"]
+	},
+	"S1717": {
+		"name": "S1717",
+		"stats": []
+	},
+	"S1718": {
+		"name": "S1718",
+		"stats": []
+	},
+	"S1719": {
+		"name": "S1719",
+		"stats": []
+	},
+	"S1720": {
+		"name": "S1720",
+		"stats": []
+	},
+	"S1721": {
+		"name": "S1721",
+		"stats": []
+	},
+	"S1722": {
+		"name": "S1722",
+		"stats": []
+	},
+	"S1723": {
+		"name": "S1723",
+		"stats": []
+	},
+	"S1724": {
+		"name": "S1724",
+		"stats": []
+	},
+	"S1725": {
+		"name": "S1725",
+		"stats": []
+	},
+	"S1726": {
+		"name": "S1726",
+		"stats": []
+	},
+	"S1727": {
+		"name": "S1727",
+		"stats": []
+	},
+	"S1728": {
+		"name": "S1728",
+		"stats": []
+	},
+	"S1729": {
+		"name": "S1729",
+		"stats": []
+	},
+	"S1730": {
+		"name": "S1730",
+		"stats": []
+	},
+	"S1731": {
+		"name": "S1731",
+		"stats": []
+	},
+	"S1732": {
+		"name": "S1732",
+		"stats": []
+	},
+	"S1733": {
+		"name": "S1733",
+		"stats": []
+	},
+	"S1734": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1735": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1736": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1737": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1738": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1739": {
+		"name": "S1739",
+		"stats": []
+	},
+	"S1740": {
+		"name": "S1740",
+		"stats": []
+	},
+	"S1741": {
+		"name": "S1741",
+		"stats": []
+	},
+	"S1742": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1743": {
+		"name": "Stun Buildup",
+		"stats": ["15% increased Stun Buildup"]
+	},
+	"S1744": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1745": {
+		"name": "S1745",
+		"stats": []
+	},
+	"S1746": {
+		"name": "S1746",
+		"stats": []
+	},
+	"S1747": {
+		"name": "S1747",
+		"stats": []
+	},
+	"S1748": {
+		"name": "S1748",
+		"stats": []
+	},
+	"S1749": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1750": {
+		"name": "S1750",
+		"stats": []
+	},
+	"S1751": {
+		"name": "S1751",
+		"stats": []
+	},
+	"S1752": {
+		"name": "S1752",
+		"stats": []
+	},
+	"S1753": {
+		"name": "S1753",
+		"stats": []
+	},
+	"S1754": {
+		"name": "S1754",
+		"stats": []
+	},
+	"S1755": {
+		"name": "S1755",
+		"stats": []
+	},
+	"S1756": {
+		"name": "S1756",
+		"stats": []
+	},
+	"S1757": {
+		"name": "S1757",
+		"stats": []
+	},
+	"S1758": {
+		"name": "S1758",
+		"stats": []
+	},
+	"S1759": {
+		"name": "S1759",
+		"stats": []
+	},
+	"S1760": {
+		"name": "S1760",
+		"stats": []
+	},
+	"S1761": {
+		"name": "S1761",
+		"stats": []
+	},
+	"S1762": {
+		"name": "S1762",
+		"stats": []
+	},
+	"S1763": {
+		"name": "S1763",
+		"stats": []
+	},
+	"S1764": {
+		"name": "S1764",
+		"stats": []
+	},
+	"S1765": {
+		"name": "S1765",
+		"stats": []
+	},
+	"S1766": {
+		"name": "S1766",
+		"stats": []
+	},
+	"S1767": {
+		"name": "S1767",
+		"stats": []
+	},
+	"S1768": {
+		"name": "S1768",
+		"stats": []
+	},
+	"S1769": {
+		"name": "S1769",
+		"stats": []
+	},
+	"S1770": {
+		"name": "S1770",
+		"stats": []
+	},
+	"S1771": {
+		"name": "S1771",
+		"stats": []
+	},
+	"S1772": {
+		"name": "S1772",
+		"stats": []
+	},
+	"S1773": {
+		"name": "S1773",
+		"stats": []
+	},
+	"S1774": {
+		"name": "S1774",
+		"stats": []
+	},
+	"S1775": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1776": {
+		"name": "S1776",
+		"stats": []
+	},
+	"S1777": {
+		"name": "S1777",
+		"stats": []
+	},
+	"S1778": {
+		"name": "S1778",
+		"stats": []
+	},
+	"S1779": {
+		"name": "S1779",
+		"stats": []
+	},
+	"S1780": {
+		"name": "S1780",
+		"stats": []
+	},
+	"S1781": {
+		"name": "S1781",
+		"stats": []
+	},
+	"S1782": {
+		"name": "S1782",
+		"stats": []
+	},
+	"S1783": {
+		"name": "S1783",
+		"stats": []
+	},
+	"S1784": {
+		"name": "S1784",
+		"stats": []
+	},
+	"S1785": {
+		"name": "S1785",
+		"stats": []
+	},
+	"S1786": {
+		"name": "S1786",
+		"stats": []
+	},
+	"S1787": {
+		"name": "S1787",
+		"stats": []
+	},
+	"S1788": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1789": {
+		"name": "S1789",
+		"stats": []
+	},
+	"S1790": {
+		"name": "S1790",
+		"stats": []
+	},
+	"S1791": {
+		"name": "S1791",
+		"stats": []
+	},
+	"S1792": {
+		"name": "S1792",
+		"stats": []
+	},
+	"S1793": {
+		"name": "S1793",
+		"stats": []
+	},
+	"S1794": {
+		"name": "S1794",
+		"stats": []
+	},
+	"S1795": {
+		"name": "S1795",
+		"stats": []
+	},
+	"S1796": {
+		"name": "S1796",
+		"stats": []
+	},
+	"S1797": {
+		"name": "S1797",
+		"stats": []
+	},
+	"S1798": {
+		"name": "S1798",
+		"stats": []
+	},
+	"S1799": {
+		"name": "S1799",
+		"stats": []
+	},
+	"S1800": {
+		"name": "S1800",
+		"stats": []
+	},
+	"S1801": {
+		"name": "S1801",
+		"stats": []
+	},
+	"S1802": {
+		"name": "S1802",
+		"stats": []
+	},
+	"S1803": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1804": {
+		"name": "S1804",
+		"stats": []
+	},
+	"S1805": {
+		"name": "S1805",
+		"stats": []
+	},
+	"S1806": {
+		"name": "S1806",
+		"stats": []
+	},
+	"S1807": {
+		"name": "S1807",
+		"stats": []
+	},
+	"S1808": {
+		"name": "S1808",
+		"stats": []
+	},
+	"S1809": {
+		"name": "S1809",
+		"stats": []
+	},
+	"S1810": {
+		"name": "S1810",
+		"stats": []
+	},
+	"S1811": {
+		"name": "S1811",
+		"stats": []
+	},
+	"S1812": {
+		"name": "S1812",
+		"stats": []
+	},
+	"S1813": {
+		"name": "S1813",
+		"stats": []
+	},
+	"S1814": {
+		"name": "S1814",
+		"stats": []
+	},
+	"S1815": {
+		"name": "S1815",
+		"stats": []
+	},
+	"S1816": {
+		"name": "S1816",
+		"stats": []
+	},
+	"S1817": {
+		"name": "S1817",
+		"stats": []
+	},
+	"S1818": {
+		"name": "S1818",
+		"stats": []
+	},
+	"S1819": {
+		"name": "S1819",
+		"stats": []
+	},
+	"S1820": {
+		"name": "S1820",
+		"stats": []
+	},
+	"S1821": {
+		"name": "S1821",
+		"stats": []
+	},
+	"S1822": {
+		"name": "S1822",
+		"stats": []
+	},
+	"S1823": {
+		"name": "S1823",
+		"stats": []
+	},
+	"S1824": {
+		"name": "Projectile Damage",
+		"stats": ["10% increased Projectile Damage"]
+	},
+	"S1825": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1826": {
+		"name": "S1826",
+		"stats": []
+	},
+	"S1827": {
+		"name": "S1827",
+		"stats": []
+	},
+	"S1828": {
+		"name": "S1828",
+		"stats": []
+	},
+	"S1829": {
+		"name": "Projectile Damage",
+		"stats": ["10% increased Projectile Damage"]
+	},
+	"S1830": {
+		"name": "S1830",
+		"stats": []
+	},
+	"S1831": {
+		"name": "S1831",
+		"stats": []
+	},
+	"S1832": {
+		"name": "S1832",
+		"stats": []
+	},
+	"S1833": {
+		"name": "S1833",
+		"stats": []
+	},
+	"S1834": {
+		"name": "S1834",
+		"stats": []
+	},
+	"S1835": {
+		"name": "S1835",
+		"stats": []
+	},
+	"S1836": {
+		"name": "S1836",
+		"stats": []
+	},
+	"S1837": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1838": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1839": {
+		"name": "S1839",
+		"stats": []
+	},
+	"S1840": {
+		"name": "S1840",
+		"stats": []
+	},
+	"S1841": {
+		"name": "S1841",
+		"stats": []
+	},
+	"S1842": {
+		"name": "S1842",
+		"stats": []
+	},
+	"S1843": {
+		"name": "Bleeding Chance",
+		"stats": ["5% chance to inflict Bleeding on Hit"]
+	},
+	"S1844": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1845": {
+		"name": "S1845",
+		"stats": []
+	},
+	"S1846": {
+		"name": "S1846",
+		"stats": []
+	},
+	"S1847": {
+		"name": "S1847",
+		"stats": []
+	},
+	"S1848": {
+		"name": "S1848",
+		"stats": []
+	},
+	"S1849": {
+		"name": "S1849",
+		"stats": []
+	},
+	"S1850": {
+		"name": "S1850",
+		"stats": []
+	},
+	"S1851": {
+		"name": "S1851",
+		"stats": []
+	},
+	"S1852": {
+		"name": "S1852",
+		"stats": []
+	},
+	"S1853": {
+		"name": "S1853",
+		"stats": []
+	},
+	"S1854": {
+		"name": "S1854",
+		"stats": []
+	},
+	"S1855": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1856": {
+		"name": "S1856",
+		"stats": []
+	},
+	"S1857": {
+		"name": "S1857",
+		"stats": []
+	},
+	"S1858": {
+		"name": "S1858",
+		"stats": []
+	},
+	"S1859": {
+		"name": "S1859",
+		"stats": []
+	},
+	"S1860": {
+		"name": "S1860",
+		"stats": []
+	},
+	"S1861": {
+		"name": "S1861",
+		"stats": []
+	},
+	"S1862": {
+		"name": "S1862",
+		"stats": []
+	},
+	"S1863": {
+		"name": "S1863",
+		"stats": []
+	},
+	"S1864": {
+		"name": "S1864",
+		"stats": []
+	},
+	"S1865": {
+		"name": "S1865",
+		"stats": []
+	},
+	"S1866": {
+		"name": "S1866",
+		"stats": []
+	},
+	"S1867": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1868": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1869": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1870": {
+		"name": "Attribute",
+		"stats": ["+5 to any Attribute"]
+	},
+	"S1871": {
+		"name": "S1871",
+		"stats": []
+	},
+	"S1872": {
+		"name": "S1872",
+		"stats": []
+	},
+	"S1873": {
+		"name": "S1873",
+		"stats": []
+	},
+	"S1874": {
+		"name": "S1874",
+		"stats": []
+	},
+	"S1875": {
+		"name": "S1875",
+		"stats": []
+	},
+	"S1876": {
+		"name": "S1876",
+		"stats": []
+	},
+	"S1877": {
+		"name": "S1877",
+		"stats": []
+	},
+	"S1878": {
+		"name": "S1878",
+		"stats": []
+	},
+	"S1879": {
+		"name": "S1879",
+		"stats": []
+	},
+	"S1880": {
+		"name": "S1880",
+		"stats": []
+	},
+	"S1881": {
+		"name": "S1881",
+		"stats": []
+	},
+	"S1882": {
+		"name": "S1882",
+		"stats": []
+	},
+	"S1883": {
+		"name": "S1883",
+		"stats": []
+	},
+	"S1884": {
+		"name": "S1884",
+		"stats": []
+	},
+	"S1885": {
+		"name": "S1885",
+		"stats": []
+	},
+	"S1886": {
+		"name": "S1886",
+		"stats": []
+	},
+	"S1887": {
+		"name": "S1887",
+		"stats": []
+	},
+	"S1888": {
+		"name": "S1888",
+		"stats": []
+	},
+	"S1889": {
+		"name": "S1889",
+		"stats": []
+	},
+	"S1890": {
+		"name": "S1890",
+		"stats": []
+	},
+	"S1891": {
+		"name": "S1891",
+		"stats": []
+	},
+	"S1892": {
+		"name": "S1892",
+		"stats": []
+	},
+	"S1893": {
+		"name": "S1893",
+		"stats": []
+	},
+	"S1894": {
+		"name": "S1894",
+		"stats": []
+	},
+	"S1895": {
+		"name": "S1895",
+		"stats": []
+	},
+	"S1896": {
+		"name": "S1896",
+		"stats": []
+	},
+	"S1897": {
+		"name": "S1897",
+		"stats": []
+	},
+	"S1898": {
+		"name": "S1898",
+		"stats": []
+	},
+	"S1899": {
+		"name": "S1899",
+		"stats": []
+	},
+	"S1900": {
+		"name": "S1900",
+		"stats": []
+	},
+	"S1901": {
+		"name": "S1901",
+		"stats": []
+	},
+	"S1902": {
+		"name": "S1902",
+		"stats": []
+	},
+	"S1903": {
+		"name": "S1903",
+		"stats": []
+	},
+	"S1904": {
+		"name": "S1904",
+		"stats": []
+	},
+	"S1905": {
+		"name": "S1905",
+		"stats": []
+	},
+	"S1906": {
+		"name": "S1906",
+		"stats": []
+	},
+	"S1907": {
+		"name": "S1907",
+		"stats": []
+	},
+	"S1908": {
+		"name": "S1908",
+		"stats": []
+	},
+	"S1909": {
+		"name": "S1909",
+		"stats": []
+	},
+	"S1910": {
+		"name": "S1910",
+		"stats": []
+	},
+	"S1911": {
+		"name": "S1911",
+		"stats": []
+	},
+	"S1912": {
+		"name": "S1912",
+		"stats": []
+	},
+	"S1913": {
+		"name": "S1913",
+		"stats": []
+	},
+	"S1914": {
+		"name": "S1914",
+		"stats": []
+	},
+	"S1915": {
+		"name": "Quarterstaff Stun and Knockback",
+		"stats": ["20% increased Stun Buildup", "20% increased Knockback Distance"]
+	},
+	"S1916": {
+		"name": "S1916",
+		"stats": []
+	},
+	"S1917": {
+		"name": "S1917",
+		"stats": []
+	},
+	"S1918": {
+		"name": "S1918",
 		"stats": []
 	}
 }
