@@ -1,0 +1,55 @@
+{
+	"K1": {
+		"name": "Dödens viskningar",
+		"stats": [
+			"Du kan tillämpa en ytterligare förbannelse",
+			"Fördubblad aktiveringstid för förbannelser"
+		]
+	},
+	"K2": {
+		"name": "Nekromantisk talisman",
+		"stats": ["Alla bonusar från en utrustad amulett tillämpas på dina minioner istället för dig"]
+	},
+	"K3": {
+		"name": "Eldritch Batteri",
+		"stats": ["Omvandlar all energisköld till mana", "Bekräftat att detta inte är fallet i EA"]
+	},
+	"K4": {
+		"name": "Kaosimmunitet",
+		"stats": ["Maximalt liv blir 1, Immun mot kaosskada"]
+	},
+	"K5": {
+		"name": "Ledare",
+		"stats": ["Om du skulle få en laddning får allierade i din närhet den laddningen istället"]
+	},
+	"K6": {
+		"name": "Ancestral Bond",
+		"stats": ["Obegränsat antal framkallade totems", "Totems reserverar 100 ande vardera"]
+	},
+	"K7": {
+		"name": "Själens makt",
+		"stats": ["All skada tas från mana innan liv", "50% mindre manaåterhämtningstakt"]
+	},
+	"K8": {
+		"name": "Zelots ed",
+		"stats": [
+			"Överskotts livsåterhämtning från regenerering tillämpas på energisköld",
+			"Energisköld återladdas inte"
+		]
+	},
+	"K9": {
+		"name": "Resonans",
+		"stats": [
+			"Få kraftladdningar istället för frenesi-laddningar",
+			"Få frenesi-laddningar istället för uthållighetsladdningar",
+			"Få uthållighetsladdningar istället för kraftladdningar"
+		]
+	},
+	"K10": {
+		"name": "Evig ungdom",
+		"stats": [
+			"Liv återladdas istället för energisköld",
+			"Livsåterhämtning från flaskor tillämpas på energisköld istället"
+		]
+	}
+}

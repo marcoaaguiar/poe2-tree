@@ -11,7 +11,18 @@
 	let imageWrapperEl: HTMLDivElement | null = null; // Reference to the image wrapper
 	let tooltipEl: HTMLDivElement | null = null; // Reference to the tooltip element
 	let hasLoaded = false;
+	import en from '../lib/data/nodes_desc.json';
+	import sv from '../locales/sv.json';
+	import { addMessages, getLocaleFromNavigator, init, t } from 'svelte-i18n';
+	// Load translation messages
+	addMessages('en', en);
+	addMessages('sv', sv);
 
+	// Initialize i18n
+	init({
+		fallbackLocale: 'en',
+		initialLocale: 'sv'
+	});
 	let tooltipNode: TreeNode | null = null;
 	let tooltipX = 0;
 	let tooltipY = 0;
@@ -567,11 +578,11 @@
 	{#if tooltipNode != null}
 		<div bind:this={tooltipEl} class="tooltip" style="left: {tooltipX}px; top: {tooltipY}px;">
 			<div class="title" style={`background-image: url('${base}/tooltip-header.png');`}>
-				{tooltipNode.name}
+				{$t(`${tooltipNode.id}.name`)}
 			</div>
 			<div class="body">
-				{#each tooltipNode.description as description}
-					<p class="description-line">{description}</p>
+				{#each tooltipNode.description as _, i}
+					<p class="description-line">{$t(`${tooltipNode.id}.stats.${i}`)}</p>
 				{/each}
 			</div>
 			<div class="footer">
