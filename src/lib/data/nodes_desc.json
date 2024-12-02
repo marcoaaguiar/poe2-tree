@@ -432,8 +432,8 @@
 		"stats": []
 	},
 	"N71": {
-		"name": "N71",
-		"stats": []
+		"name": "Roil",
+		"stats": ["Spell skills have 30% increased Area of Effect", "10% reduced Spell Area Damage"]
 	},
 	"N72": {
 		"name": "N72",
@@ -444,8 +444,8 @@
 		"stats": []
 	},
 	"N74": {
-		"name": "N74",
-		"stats": []
+		"name": "Ruin",
+		"stats": ["Spell skills have 10% reduced Area of Effect", "30% increased Spell Area Damage"]
 	},
 	"N75": {
 		"name": "N75",
@@ -531,8 +531,11 @@
 		"stats": []
 	},
 	"N94": {
-		"name": "N94",
-		"stats": []
+		"name": "Relentless Fallen",
+		"stats": [
+			"Minions have 10% increased Attack and Cast Speed",
+			"Minions have 20% increased Movement Speed"
+		]
 	},
 	"N95": {
 		"name": "N95",
@@ -563,8 +566,8 @@
 		"stats": ["16% increased Mana Recovery rate"]
 	},
 	"N102": {
-		"name": "N102",
-		"stats": []
+		"name": "Gravedigger",
+		"stats": ["Minions reviver 25% faster", "You gain 3% Life when one of your Minions is revived"]
 	},
 	"N103": {
 		"name": "N103",
@@ -599,12 +602,15 @@
 		"stats": []
 	},
 	"N110": {
-		"name": "N110",
-		"stats": []
+		"name": "Crystalline Flesh",
+		"stats": [
+			"Minions have +20% to all Elemental Resistances",
+			"Minions have +5% to all maximum Elemental Resistances"
+		]
 	},
 	"N111": {
-		"name": "N111",
-		"stats": []
+		"name": "Taut Flesh",
+		"stats": ["15% of Physical Damage taken Recouped as Life"]
 	},
 	"N112": {
 		"name": "N112",
@@ -642,8 +648,11 @@
 		"stats": []
 	},
 	"N120": {
-		"name": "N120",
-		"stats": []
+		"name": "Growing Swarm",
+		"stats": [
+			"Minions have 25% increased Area of Effect",
+			"Minion have 25% reduced Enemy Stun Threshold"
+		]
 	},
 	"N121": {
 		"name": "Restless Dead",
@@ -976,8 +985,8 @@
 		"stats": ["60% increased Stun Threshold for each time you've been Stunned Recently"]
 	},
 	"N196": {
-		"name": "N196",
-		"stats": []
+		"name": "Practiced Signs",
+		"stats": ["6% increased Cast Speed"]
 	},
 	"N197": {
 		"name": "N197",
@@ -1033,8 +1042,8 @@
 		]
 	},
 	"N207": {
-		"name": "N207",
-		"stats": []
+		"name": "Pure Energy",
+		"stats": ["30% increased maximum Energy Shield"]
 	},
 	"N208": {
 		"name": "Killer Instinct",
@@ -1583,8 +1592,8 @@
 		"stats": []
 	},
 	"N331": {
-		"name": "Ranged",
-		"stats": ["40% increased Projectile Damage"]
+		"name": "Trick Shot",
+		"stats": ["Projectiles have 50% chance to Chain an additional time from terrain"]
 	},
 	"N332": {
 		"name": "N332",
@@ -1623,8 +1632,8 @@
 		"stats": ["Enemies you Mark have 15% reduced Accuracy Rating"]
 	},
 	"N341": {
-		"name": "N341",
-		"stats": []
+		"name": "Split Shot",
+		"stats": ["Projectiles have 75% chance for an additional Projectile when Forking"]
 	},
 	"N342": {
 		"name": "Hunker Down",
@@ -1658,8 +1667,8 @@
 		"stats": []
 	},
 	"N349": {
-		"name": "N349",
-		"stats": []
+		"name": "Piercing Shot",
+		"stats": ["50% chance to Pierce an Enemy"]
 	},
 	"N350": {
 		"name": "N350",
@@ -3568,8 +3577,8 @@
 		"stats": ["+5 to any Attribute"]
 	},
 	"S206": {
-		"name": "S206",
-		"stats": []
+		"name": "Energy Shield Recharge",
+		"stats": ["15% increased Energy Shield Recharge Rate"]
 	},
 	"S207": {
 		"name": "S207",
@@ -4352,8 +4361,8 @@
 		"stats": []
 	},
 	"S402": {
-		"name": "S402",
-		"stats": []
+		"name": "Stun Threshold and Energy Shield",
+		"stats": ["Gain 15% of maximum Energy Shield as additional Stun Threshold"]
 	},
 	"S403": {
 		"name": "S403",
@@ -4516,8 +4525,8 @@
 		"stats": ["5% increased Chance to Block"]
 	},
 	"S443": {
-		"name": "S443",
-		"stats": []
+		"name": "Curse Area",
+		"stats": ["20% increased Area of Effect of Hex Skills"]
 	},
 	"S444": {
 		"name": "S444",
@@ -4884,8 +4893,8 @@
 		"stats": []
 	},
 	"S535": {
-		"name": "S535",
-		"stats": []
+		"name": "Energy Shield",
+		"stats": ["15% increased maximum Energy Shield"]
 	},
 	"S536": {
 		"name": "S536",
