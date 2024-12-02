@@ -11,18 +11,9 @@
 	let imageWrapperEl: HTMLDivElement | null = null; // Reference to the image wrapper
 	let tooltipEl: HTMLDivElement | null = null; // Reference to the tooltip element
 	let hasLoaded = false;
-	import en from '../lib/data/nodes_desc.json';
-	import sv from '../locales/sv.json';
-	import { addMessages, getLocaleFromNavigator, init, t } from 'svelte-i18n';
+	import { t } from 'svelte-i18n';
 	// Load translation messages
-	addMessages('en', en);
-	addMessages('sv', sv);
 
-	// Initialize i18n
-	init({
-		fallbackLocale: 'en',
-		initialLocale: 'sv'
-	});
 	let tooltipNode: TreeNode | null = null;
 	let tooltipX = 0;
 	let tooltipY = 0;
