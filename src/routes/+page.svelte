@@ -57,32 +57,22 @@
 	let hideUnselected = false;
 	let hideSmall = false;
 
-	// Create an array of node IDs
-	const nodeIdList = Object.keys(nodes);
-	const nodeIdToIndex: { [key: string]: number } = {};
-	nodeIdList.forEach((id, index) => {
-		nodeIdToIndex[id] = index;
-	});
-	const totalNodes = nodeIdList.length;
-
 	// Reactive statement for search
 	$: handleSearch(searchTerm);
 
 	if (browser) {
 		const params = new URLSearchParams(window.location.search);
 		const asc = params.get('a');
-		const compressed = params.get('p');
+		const passivesCompressed = params.get('p');
 
 		if (asc) {
 			selectedAscendancy = asc;
 		}
 
-		if (compressed) {
+		if (passivesCompressed) {
 			try {
-				const bitString = LZString.decompressFromEncodedURIComponent(compressed);
-				const bitArray = Uint8Array.from(bitString.split('').map((c) => c.charCodeAt(0)));
-
-				selectedNodes = nodeIdList.filter((_, index) => isBitSet(bitArray, index));
+				const decompressed = LZString.decompressFromEncodedURIComponent(passivesCompressed);
+				selectedNodes = decompressed ? decompressed.split(',') : [];
 			} catch (error) {
 				console.error('Error parsing selected nodes from URL:', error);
 			}
@@ -90,19 +80,13 @@
 	}
 
 	$: if (browser) {
-		const selectedIndices = selectedNodes.map((id) => nodeIdToIndex[id]);
-		const bitArray = new Uint8Array(Math.ceil(totalNodes / 8));
-
-		selectedIndices.forEach((index) => {
-			setBit(bitArray, index);
-		});
-
-		const bitString = String.fromCharCode(...bitArray);
-		const compressed = LZString.compressToEncodedURIComponent(bitString);
+		const nodeIdsString = selectedNodes.join(',');
+		const passivesCompressed = LZString.compressToEncodedURIComponent(nodeIdsString);
 
 		const params = new URLSearchParams(window.location.search);
 		params.set('a', selectedAscendancy);
-		params.set('p', compressed);
+		params.set('p', passivesCompressed);
+
 		const newUrl = window.location.pathname + '?' + params.toString();
 		window.history.replaceState({}, '', newUrl);
 	}
@@ -113,18 +97,6 @@
 		// Remove Ascendancy nodes from selectedNodes when changing between ascendancies
 		selectedNodes = selectedNodes.filter((id) => !id.startsWith('A'));
 		prevSelectedAscendancy = selectedAscendancy;
-	}
-
-	function isBitSet(bitArray: Uint8Array, index: number): boolean {
-		const byteIndex = Math.floor(index / 8);
-		const bitIndex = index % 8;
-		return (bitArray[byteIndex] & (1 << bitIndex)) !== 0;
-	}
-
-	function setBit(bitArray: Uint8Array, index: number): void {
-		const byteIndex = Math.floor(index / 8);
-		const bitIndex = index % 8;
-		bitArray[byteIndex] |= 1 << bitIndex;
 	}
 
 	// composable filter functions
