@@ -5,6 +5,7 @@
 	import { browser } from '$app/environment';
 	import { Header } from '$lib/components/ui/header';
 	import { TreeNodeTooltip } from '$lib/components/ui/tree-node-tooltip/index.js';
+	import LZString from 'lz-string';
 
 	let { nodes } = loadData();
 
@@ -41,24 +42,6 @@
 	// State for selected nodes
 	let selectedNodes: string[] = [];
 
-	// Load saved selected nodes from localStorage on component initialization
-	if (browser) {
-		const savedSelectedNodes = localStorage.getItem('selectedSkillNodes');
-
-		if (savedSelectedNodes) {
-			try {
-				selectedNodes = JSON.parse(savedSelectedNodes);
-			} catch (error) {
-				console.error('Error parsing saved selected nodes:', error);
-			}
-		}
-	}
-
-	// Reactive statement to save selected nodes to localStorage whenever they change
-	$: if (browser) {
-		localStorage.setItem('selectedSkillNodes', JSON.stringify(selectedNodes));
-	}
-
 	// State for filters
 	let highlightKeystones = false;
 	let highlightNotables = false;
@@ -67,8 +50,60 @@
 	let hideUnselected = false;
 	let hideSmall = false;
 
+	// Create an array of node IDs
+	const nodeIdList = Object.keys(nodes);
+	const nodeIdToIndex: { [key: string]: number } = {};
+	nodeIdList.forEach((id, index) => {
+		nodeIdToIndex[id] = index;
+	});
+	const totalNodes = nodeIdList.length;
+
 	// Reactive statement for search
 	$: handleSearch(searchTerm);
+
+	if (browser) {
+		const params = new URLSearchParams(window.location.search);
+		const compressed = params.get('p');
+
+		if (compressed) {
+			try {
+				const bitString = LZString.decompressFromEncodedURIComponent(compressed);
+				const bitArray = Uint8Array.from(bitString.split('').map((c) => c.charCodeAt(0)));
+				const selectedIndices = [];
+
+				for (let index = 0; index < totalNodes; index++) {
+					const byteIndex = Math.floor(index / 8);
+					const bitIndex = index % 8;
+					if (bitArray[byteIndex] & (1 << bitIndex)) {
+						selectedIndices.push(index);
+					}
+				}
+
+				selectedNodes = selectedIndices.map((index) => nodeIdList[index]);
+			} catch (error) {
+				console.error('Error parsing selected nodes from URL:', error);
+			}
+		}
+	}
+
+	$: if (browser) {
+		const selectedIndices = selectedNodes.map((id) => nodeIdToIndex[id]);
+		const bitArray = new Uint8Array(Math.ceil(totalNodes / 8));
+
+		selectedIndices.forEach((index) => {
+			const byteIndex = Math.floor(index / 8);
+			const bitIndex = index % 8;
+			bitArray[byteIndex] |= 1 << bitIndex;
+		});
+
+		const bitString = String.fromCharCode(...bitArray);
+		const compressed = LZString.compressToEncodedURIComponent(bitString);
+
+		const params = new URLSearchParams(window.location.search);
+		params.set('p', compressed);
+		const newUrl = window.location.pathname + '?' + params.toString();
+		window.history.replaceState({}, '', newUrl);
+	}
 
 	// composable filter functions
 	function filterSmallNodes(node: TreeNode) {
@@ -280,11 +315,6 @@
 
 	function clearSelectedNodes() {
 		selectedNodes = [];
-
-		// Clear localStorage when all nodes are cleared
-		if (browser) {
-			localStorage.removeItem('selectedSkillNodes');
-		}
 	}
 
 	// Add event listeners for global mouse events to handle panning
