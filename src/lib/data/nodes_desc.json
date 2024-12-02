@@ -11831,9 +11831,21 @@
     ]
   },
   "AN61": {
-    "name": "AN61",
+    "name": "Colossal Capacity",
     "stats": [
-      "Titan notable"
+      "Equip a Chest which has 20 Inventory Slots"
+    ]
+  },
+  "AN62": {
+    "name": "Mysterious Lineage",
+    "stats": [
+      "20% more Maximum Life"
+    ]
+  },
+  "AN63": {
+    "name": "Ancestral Empowerment",
+    "stats": [
+      "Every second Slam Skill you use yourself is Ancestrally Boosted"
     ]
   },
   "AS71": {
@@ -11843,9 +11855,29 @@
     ]
   },
   "AN71": {
-    "name": "AN71",
+    "name": "Answered Call",
     "stats": [
-      "Warbringer notable"
+      "Grants Skill: Ancestral Spirits",
+      "Trigger Ancestral Spirits when you Summon a Totem"
+    ]
+  },
+  "AN72": {
+    "name": "Jade Heritage",
+    "stats": [
+      "Grants Skill: Encased in Jade",
+      "Gain a stack of Jade every second"
+    ]
+  },
+  "AN73": {
+    "name": "Warcallers´s Bellow",
+    "stats": [
+      "Corpses in your Presence Explode when you Warcry dealing 25% of their Life as Physical Damage"
+    ]
+  },
+  "AN74": {
+    "name": "Greatwolf´s Howl",
+    "stats": [
+      "Ignore Warcry Cooldowns"
     ]
   },
   "AS81": {
@@ -11855,9 +11887,22 @@
     ]
   },
   "AN81": {
-    "name": "AN81",
+    "name": "Endless Munitions",
     "stats": [
-      "Deadeye notable"
+      "Skills fire an additional Projectile"
+    ]
+  },
+  "AN82": {
+    "name": "Eagle eyes",
+    "stats": [
+      "You have no Accuracy Penalty at Distance"
+    ]
+  },
+  "AN83": {
+    "name": "Gathering Winds",
+    "stats": [
+      "Gain Tailwind on Skill use",
+      "Lose all Tailwind when Hit"
     ]
   },
   "AS91": {
@@ -11867,9 +11912,28 @@
     ]
   },
   "AN91": {
-    "name": "AN91",
+    "name": "Contagious Contamination",
     "stats": [
-      "Pathffinder notable"
+      "The most Damaging Poison on Enemies you Kill is Spread to other Enemies within 1.5 metres"
+    ]
+  },
+  "AN92": {
+    "name": "Overwhelming Toxicity",
+    "stats": [
+      "Double the number of Poisons you can inflict on Enemies",
+      "35% less Poison Duration"
+    ]
+  },
+  "AN93": {
+    "name": "Running Assault",
+    "stats": [
+      "30% less Movement Speed Penalty when using Skills while moving"
+    ]
+  },
+  "AN94": {
+    "name": "Relentless Pursuit",
+    "stats": [
+      "You gain immunity to slows from enemies"
     ]
   },
   "AS101": {
