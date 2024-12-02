@@ -10746,9 +10746,56 @@
     ]
   },
   "AN101": {
-    "name": "AN101",
+    "name": "Weapon Master",
     "stats": [
-      "Witchhunter notable"
+      "Grants 20 Weapon Set Skill Points"
+    ]
+  },
+  "AN102": {
+    "name": "Pitless Killer",
+    "stats": [
+      "Culling Strike"
+    ]
+  },
+  "AN103": {
+    "name": "Decimating Strike",
+    "stats": [
+      "Hits against Full Life Enemies removes between 5% and 30% of Life, before the damage of the Hit is applied"
+    ]
+  },
+  "AN104": {
+    "name": "Witchbane",
+    "stats": [
+      "Enemies ahve Maximum Concentration equal to 40% of their Maximum Life",
+      "Break enemy Concentration on Hit equal to 100% of Damage Dealt",
+      "Enemies regain 10% of Concentration every second if they havent´t lost Concentration for the past 5 seconds"
+    ]
+  },
+  "AN105": {
+    "name": "No Mercy",
+    "stats": [
+      "Deal up to 30% more Damage to Enemies based on their missing Concentration"
+    ]
+  },
+  "AN106": {
+    "name": "Obsessive Rituals",
+    "stats": [
+      "Grants Skills: Sorcery Ward",
+      "50% less Armour and Evasion Rating"
+    ]
+  },
+  "AN107": {
+    "name": "Ceremonial Ablution",
+    "stats": [
+      "50% increased effect of Sorcery Ward",
+      "Sorcery Ward recovers 50% faster"
+    ]
+  },
+  "AN108": {
+    "name": "Zealous Inquisition",
+    "stats": [
+      "10% chance for Enemies you Kill to Explode, dealing 100% of their maximum Life as Physical Damage",
+      "Chance is doubled against Undead and Demons"
     ]
   },
   "AS111": {
@@ -10758,9 +10805,29 @@
     ]
   },
   "AN111": {
-    "name": "AN111",
+    "name": "Crystalline Potential",
     "stats": [
-      "Legionnaire notable"
+      "+12% Quality of all Skill Gems"
+    ]
+  },
+  "AN112": {
+    "name": "Integrated Efficiency",
+    "stats": [
+      "Grants 3 additional Skill Slots"
+    ]
+  },
+  "AN113": {
+    "name": "Thaumaturgical Infusion",
+    "stats": [
+      "+1% to maximum Cold Resistance per 3 Blue Support Gems Socketed anywhere",
+      "+1% to maximum Fire Resistance per 3 Red Support Gems Socketed anywhere",
+      "+1% to maximum Lightning Resistance per 3 Green Support Gems Socketed anywhere"
+    ]
+  },
+  "AN114": {
+    "name": "Adaptive Capability",
+    "stats": [
+      "Attribute Requirements of Gems can be satisfied by your highest Attribute"
     ]
   }
 }
