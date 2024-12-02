@@ -91,7 +91,7 @@
 	}
 
 	function filterUnselectedNodes(node: TreeNodeData) {
-		return !hideUnselected || !selectedNodes.includes(node.id);
+		return !hideUnselected || selectedNodes.includes(node.id);
 	}
 
 	function filterUnidentifiedNodes(node: TreeNodeData) {
