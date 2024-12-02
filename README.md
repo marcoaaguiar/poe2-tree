@@ -72,17 +72,17 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
 	<tbody>
 		<tr>
             <td align="center">
-                <a href="https://github.com/marcoaaguiar">
-                    <img src="https://avatars.githubusercontent.com/u/7772685?v=4" width="100;" alt="marcoaaguiar"/>
-                    <br />
-                    <sub><b>Marco Aguiar</b></sub>
-                </a>
-            </td>
-            <td align="center">
                 <a href="https://github.com/Giusti">
                     <img src="https://avatars.githubusercontent.com/u/6214919?v=4" width="100;" alt="Giusti"/>
                     <br />
                     <sub><b>Giusti</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/marcoaaguiar">
+                    <img src="https://avatars.githubusercontent.com/u/7772685?v=4" width="100;" alt="marcoaaguiar"/>
+                    <br />
+                    <sub><b>Marco Aguiar</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -107,14 +107,21 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/meatwallace">
+                    <img src="https://avatars.githubusercontent.com/u/3013783?v=4" width="100;" alt="meatwallace"/>
+                    <br />
+                    <sub><b>Geoff Whatley</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
+            <td align="center">
                 <a href="https://github.com/azadix">
                     <img src="https://avatars.githubusercontent.com/u/3746879?v=4" width="100;" alt="azadix"/>
                     <br />
                     <sub><b>Azadi</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/Chizinha">
                     <img src="https://avatars.githubusercontent.com/u/16880563?v=4" width="100;" alt="Chizinha"/>
@@ -123,17 +130,10 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/meatwallace">
-                    <img src="https://avatars.githubusercontent.com/u/3013783?v=4" width="100;" alt="meatwallace"/>
+                <a href="https://github.com/mortslhawmit">
+                    <img src="https://avatars.githubusercontent.com/u/30402832?v=4" width="100;" alt="mortslhawmit"/>
                     <br />
-                    <sub><b>Geoff Whatley</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/Darxo">
-                    <img src="https://avatars.githubusercontent.com/u/2252464?v=4" width="100;" alt="Darxo"/>
-                    <br />
-                    <sub><b>Darxo</b></sub>
+                    <sub><b>mortslhawmit</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -144,10 +144,10 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/mortslhawmit">
-                    <img src="https://avatars.githubusercontent.com/u/30402832?v=4" width="100;" alt="mortslhawmit"/>
+                <a href="https://github.com/Darxo">
+                    <img src="https://avatars.githubusercontent.com/u/2252464?v=4" width="100;" alt="Darxo"/>
                     <br />
-                    <sub><b>mortslhawmit</b></sub>
+                    <sub><b>Darxo</b></sub>
                 </a>
             </td>
             <td align="center">
