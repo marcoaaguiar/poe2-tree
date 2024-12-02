@@ -15554,35 +15554,35 @@
       "x": 0.4935545454545455,
       "y": 0.5416614525139665,
       "kind": "small",
-      "class": "legionnaire"
+      "class": "gemling"
     },
     {
       "id": "AN111",
       "x": 0.4540545454545455,
       "y": 0.4985614525139665,
       "kind": "notable",
-      "class": "legionnaire"
+      "class": "gemling"
     },
     {
       "id": "AN112",
       "x": 0.5246545454545455,
       "y": 0.5214614525139665,
       "kind": "notable",
-      "class": "legionnaire"
+      "class": "gemling"
     },
     {
       "id": "AN113",
       "x": 0.5357545454545455,
       "y": 0.4830614525139665,
       "kind": "notable",
-      "class": "legionnaire"
+      "class": "gemling"
     },
     {
       "id": "AN114",
       "x": 0.5343545454545455,
       "y": 0.5300614525139665,
       "kind": "notable",
-      "class": "legionnaire"
+      "class": "gemling"
     }
   ]
 }
