@@ -78,6 +78,13 @@
 	// Reactive statement for search
 	$: handleSearch(searchTerm);
 
+	// handler for removing selected nodes when our ascendancy changes
+	$: handleAscendancyChange(selectedAscendancy);
+
+	function handleAscendancyChange(ascendancy: string) {
+		selectedNodes = selectedNodes.filter((nodeId) => nodes[nodeId].class === ascendancy);
+	}
+
 	// composable filter functions
 	function filterSmallNodes(node: TreeNodeData) {
 		return !hideSmall || node.type !== 'small';
@@ -91,8 +98,7 @@
 		return !hideUnidentified || node.description.length > 0;
 	}
 
-	//TODO: move ascandency filter logic to loadData and fix reloading ascendancies on change
-	function filterAscendancyNodes(node: TreeNodeData) {
+	function filterSelectedAscendancyNodes(node: TreeNodeData) {
 		return !node.class || node.class === selectedAscendancy;
 	}
 
@@ -100,7 +106,7 @@
 		filterSmallNodes,
 		filterUnselectedNodes,
 		filterUnidentifiedNodes,
-		filterAscendancyNodes
+		filterSelectedAscendancyNodes
 	];
 
 	// filter nodes using active filters
