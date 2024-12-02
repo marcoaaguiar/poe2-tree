@@ -7,12 +7,12 @@
 		<h1 class="text-3xl">PoE2 Skill Tree Preview</h1>
 	</div>
 	<!-- Middle Part -->
-	<nav class="flex flex-row items-center gap-4 flex-1">
+	<nav class="hidden md:flex flex-row items-center gap-4 flex-1">
 		<!-- Something here? -->
 	</nav>
 	<!-- GitHub -->
 	<nav class="flex flex-row items-center gap-4">
-		<div class="flex flex-col items-center">
+		<div class="hidden md:flex flex-col items-center">
 			<p>Check out the Github repository</p>
 			<p>to see how to contribute to this project</p>
 		</div>

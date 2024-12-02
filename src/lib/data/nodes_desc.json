@@ -11751,5 +11751,149 @@
   "S1918": {
     "name": "S1918",
     "stats": []
+  },
+  "AS1": {
+    "name": "AS1",
+    "stats": [
+      "Bloodmage small"
+    ]
+  },
+  "AN1": {
+    "name": "AN1",
+    "stats": [
+      "Bloodmage notable"
+    ]
+  },
+  "AS11": {
+    "name": "AS11",
+    "stats": [
+      "Infernalist small"
+    ]
+  },
+  "AN11": {
+    "name": "AN11",
+    "stats": [
+      "Infernalist notable"
+    ]
+  },
+  "AS21": {
+    "name": "AS21",
+    "stats": [
+      "Stormweaver small"
+    ]
+  },
+  "AN21": {
+    "name": "AN21",
+    "stats": [
+      "Stormweaver notable"
+    ]
+  },
+  "AS31": {
+    "name": "AS31",
+    "stats": [
+      "Chronomancer small"
+    ]
+  },
+  "AN31": {
+    "name": "AN31",
+    "stats": [
+      "Chronomancer notable"
+    ]
+  },
+  "AS41": {
+    "name": "AS41",
+    "stats": [
+      "Invoker small"
+    ]
+  },
+  "AN41": {
+    "name": "AN41",
+    "stats": [
+      "Invoker notable"
+    ]
+  },
+  "AS51": {
+    "name": "AS51",
+    "stats": [
+      "Acolyte small"
+    ]
+  },
+  "AN51": {
+    "name": "AN51",
+    "stats": [
+      "Acolyte notable"
+    ]
+  },
+  "AS61": {
+    "name": "AS61",
+    "stats": [
+      "Titan small"
+    ]
+  },
+  "AN61": {
+    "name": "AN61",
+    "stats": [
+      "Titan notable"
+    ]
+  },
+  "AS71": {
+    "name": "AS71",
+    "stats": [
+      "Warbringer small"
+    ]
+  },
+  "AN71": {
+    "name": "AN71",
+    "stats": [
+      "Warbringer notable"
+    ]
+  },
+  "AS81": {
+    "name": "AS81",
+    "stats": [
+      "Deadeye small"
+    ]
+  },
+  "AN81": {
+    "name": "AN81",
+    "stats": [
+      "Deadeye notable"
+    ]
+  },
+  "AS91": {
+    "name": "AS91",
+    "stats": [
+      "Pathffinder small"
+    ]
+  },
+  "AN91": {
+    "name": "AN91",
+    "stats": [
+      "Pathffinder notable"
+    ]
+  },
+  "AS101": {
+    "name": "AS101",
+    "stats": [
+      "Witchhunter small"
+    ]
+  },
+  "AN101": {
+    "name": "AN101",
+    "stats": [
+      "Witchhunter notable"
+    ]
+  },
+  "AS111": {
+    "name": "AS111",
+    "stats": [
+      "Legionnaire small"
+    ]
+  },
+  "AN111": {
+    "name": "AN111",
+    "stats": [
+      "Legionnaire notable"
+    ]
   }
 }
