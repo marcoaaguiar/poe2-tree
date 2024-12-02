@@ -32,9 +32,6 @@
 	const minScale = 0.5; // Minimum zoom out level
 	const maxScale = 3; // Maximum zoom in level
 
-	// Base size for nodes
-	const baseNodeSize = 20; // Adjust as needed
-
 	// State for search
 	let searchTerm = '';
 	let searchInputEl: HTMLInputElement | null = null;
@@ -48,6 +45,7 @@
 
 	// Load saved selected nodes from localStorage on component initialization
 	if (browser) {
+		const selectedAscendancy = localStorage.getItem('selectedAscendancy') || 'bloodmage';
 		const savedSelectedNodes = localStorage.getItem('selectedSkillNodes');
 
 		if (savedSelectedNodes) {
@@ -65,7 +63,7 @@
 	}
 
 	// Ascendancy selection
-	let selectedAscendancy = 'bloodmage';
+	let selectedAscendancy = 'gemling';
 
 	// State for filters
 	let highlightKeystones = false;
@@ -446,18 +444,18 @@
 								id="asc-select"
 								bind:value={selectedAscendancy}
 							>
-								<option value="bloodmage" selected>Witch - Bloodmage</option>
-								<option value="infernalist">With - Infernalist</option>
-								<option value="stormweaver">Sorc - Stormweaver</option>
-								<option value="chronomancer">Sorc - Chronomancer</option>
-								<option value="invoker">Monk - Invoker</option>
+								<option value="gemling" selected>Mercenary - Gemling Legionnaire</option>
+								<option value="witchhunter">Mercenary - Witchhunter</option>
 								<option value="acolyte">Monk - Acolyte of Chayula</option>
-								<option value="titan">Warrior - Titan</option>
-								<option value="warbringer">Warrior - Warbringer</option>
+								<option value="invoker">Monk - Invoker</option>
+								<option value="chronomancer">Sorceress - Chronomancer</option>
+								<option value="stormweaver">Sorceress - Stormweaver</option>
 								<option value="deadeye">Ranger - Deadeye</option>
 								<option value="pathfinder">Ranger - Pathfinder</option>
-								<option value="witchhunter">Mercenary - Witchhunter</option>
-								<option value="legionnaire">Mercenary - Gem. Legionnaire</option>
+								<option value="titan">Warrior - Titan</option>
+								<option value="warbringer">Warrior - Warbringer</option>
+								<option value="bloodmage">Witch - Bloodmage</option>
+								<option value="infernalist">Witch - Infernalist</option>
 							</select>
 						</div>
 					</div>
