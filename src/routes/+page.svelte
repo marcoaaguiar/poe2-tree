@@ -1,10 +1,11 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import { type TreeNode, loadData } from '$lib';
+	import { type TreeNodeData, loadData } from '$lib';
 	import { onMount, tick } from 'svelte';
 	import { browser } from '$app/environment';
 	import { Header } from '$lib/components/ui/header';
 	import { TreeNodeTooltip } from '$lib/components/ui/tree-node-tooltip/index.js';
+	import TreeNode from '$lib/components/ui/tree-node/tree-node.svelte';
 
 	let { nodes } = loadData();
 
@@ -15,7 +16,7 @@
 	let tooltipEl: HTMLDivElement | null = null; // Reference to the tooltip element
 	let hasLoaded = false;
 
-	let tooltipNode: TreeNode | null = null;
+	let tooltipNode: TreeNodeData | null = null;
 	let tooltipX = 0;
 	let tooltipY = 0;
 
@@ -78,20 +79,20 @@
 	$: handleSearch(searchTerm);
 
 	// composable filter functions
-	function filterSmallNodes(node: TreeNode) {
+	function filterSmallNodes(node: TreeNodeData) {
 		return !hideSmall || node.type !== 'small';
 	}
 
-	function filterUnselectedNodes(node: TreeNode) {
+	function filterUnselectedNodes(node: TreeNodeData) {
 		return !hideUnselected || !selectedNodes.includes(node.id);
 	}
 
-	function filterUnidentifiedNodes(node: TreeNode) {
+	function filterUnidentifiedNodes(node: TreeNodeData) {
 		return !hideUnidentified || node.description.length > 0;
 	}
 
 	//TODO: move ascandency filter logic to loadData and fix reloading ascendancies on change
-	function filterAscendancyNodes(node: TreeNode) {
+	function filterAscendancyNodes(node: TreeNodeData) {
 		return !node.class || node.class === selectedAscendancy;
 	}
 
@@ -103,22 +104,11 @@
 	];
 
 	// filter nodes using active filters
-	function filterNodes(node: TreeNode) {
+	function filterNodes(node: TreeNodeData) {
 		return filterFns.every((filterFn) => filterFn(node));
 	}
 
-	const NODE_SIZE = {
-		notable: 20,
-		small: 10,
-		keystone: 24
-	};
-
-	// calculate node size in pixels based on type
-	function getNodeSize(node: TreeNode) {
-		return NODE_SIZE[node.type];
-	}
-
-	async function activateTooltip(node: TreeNode) {
+	async function activateTooltip(node: TreeNodeData) {
 		tooltipNode = node;
 
 		if (!imageEl || !containerEl) return;
@@ -176,7 +166,7 @@
 		}
 	}
 
-	function toggleNodeSelection(node: TreeNode) {
+	function toggleNodeSelection(node: TreeNodeData) {
 		if (selectedNodes.includes(node.id)) {
 			// Deselect node
 			selectedNodes = selectedNodes.filter((id) => id !== node.id);
@@ -200,7 +190,7 @@
 		}
 	}
 
-	function handleMouseEnter(node: TreeNode) {
+	function handleMouseEnter(node: TreeNodeData) {
 		if (!isPanning) {
 			activateTooltip(node);
 		}
@@ -639,30 +629,20 @@
 					<!-- Display hoverable regions with lighter color -->
 					{#if hasLoaded}
 						{#each Object.values(nodes).filter(filterNodes) as node}
-							<!-- svelte-ignore a11y_no_static_element_interactions -->
-							<!-- svelte-ignore a11y_click_events_have_key_events -->
-							<div
-								class:keystone={node.type === 'keystone'}
-								class:notable={node.type === 'notable'}
-								class:small={node.type === 'small'}
-								class:ascendancy={node.id.startsWith('A')}
-								class:unidentified={node.description.length === 0}
-								class:search-result={searchResults.includes(node.id)}
-								class:selected={selectedNodes.includes(node.id)}
-								class:highlighted-keystone={highlightKeystones && node.type === 'keystone'}
-								class:highlighted-notable={highlightNotables && node.type === 'notable'}
-								class:highlighted-small={highlightSmalls && node.type === 'small'}
-								style="
-									height: {getNodeSize(node) * scale}px;
-									width: {getNodeSize(node) * scale}px;
-									left: {node.position.x * imageEl.naturalWidth * scale - (getNodeSize(node) * scale) / 2}px;
-									top: {node.position.y * imageEl.naturalHeight * scale - (getNodeSize(node) * scale) / 2}px;
-								"
-								onmousedown={(event) => event.stopPropagation()}
-								onclick={() => toggleNodeSelection(node)}
-								onmouseenter={() => handleMouseEnter(node)}
+							<TreeNode
+								{node}
+								{scale}
+								baseImageRelativeSizeX={imageEl.naturalWidth * scale}
+								baseImageRelativeSizeY={imageEl.naturalHeight * scale}
+								isSearchResults={searchResults.includes(node.id)}
+								selected={selectedNodes.includes(node.id)}
+								highlighted={(highlightKeystones && node.type === 'keystone') ||
+									(highlightNotables && node.type === 'notable') ||
+									(highlightSmalls && node.type === 'small')}
+								onclick={toggleNodeSelection}
+								onmouseenter={handleMouseEnter}
 								onmouseleave={handleMouseLeave}
-							></div>
+							/>
 						{/each}
 					{/if}
 				</div>
@@ -682,83 +662,3 @@
 		</div>
 	</div>
 </div>
-
-<style lang="postcss">
-	.small,
-	.notable,
-	.ascendancy,
-	.keystone {
-		position: absolute;
-		border-radius: 50%;
-		pointer-events: auto;
-	}
-
-	.notable {
-		background-color: rgba(255, 255, 0, 0.2);
-	}
-
-	.notable.unidentified,
-	.ascendancy.unidentified {
-		background-color: rgba(255, 100, 100, 0.2);
-		border-color: rgba(255, 100, 100, 1);
-	}
-
-	.keystone {
-		background-color: rgba(100, 255, 100, 0.2);
-	}
-
-	.keystone.unidentified {
-		background-color: rgba(255, 0, 100, 0.2);
-		border-color: rgba(255, 0, 100, 1);
-	}
-
-	.small {
-		background-color: rgba(255, 255, 255, 0.2);
-	}
-
-	.small.unidentified {
-		background-color: rgba(255, 255, 255, 0.2);
-		border-color: rgba(255, 100, 100, 1);
-	}
-
-	.notable.selected {
-		background-color: rgba(255, 255, 0, 0.6);
-	}
-
-	.keystone.selected {
-		background-color: rgba(0, 255, 0, 0.6);
-	}
-
-	.small.selected {
-		background-color: rgba(255, 255, 255, 0.6);
-	}
-
-	.highlighted-keystone {
-		border: 2px solid green;
-	}
-
-	.highlighted-notable {
-		border: 1px solid yellow;
-	}
-
-	.highlighted-small {
-		border: 1px solid yellow;
-	}
-
-	@keyframes glow {
-		0% {
-			box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
-		}
-		50% {
-			box-shadow: 0 0 15px rgba(255, 0, 0, 1);
-		}
-		100% {
-			box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
-		}
-	}
-
-	.search-result {
-		border: 3px solid rgba(255, 0, 0, 0.8);
-		animation: glow 2s infinite;
-	}
-</style>

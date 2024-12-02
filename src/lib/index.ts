@@ -14,7 +14,7 @@ export interface NodePosition {
 	y: number;
 }
 
-export interface TreeNode {
+export interface TreeNodeData {
 	id: string;
 	type: 'keystone' | 'notable' | 'small';
 	position: NodePosition;
@@ -24,7 +24,7 @@ export interface TreeNode {
 }
 
 export interface NodeMap {
-	[nodeID: string]: TreeNode;
+	[nodeID: string]: TreeNodeData;
 }
 
 export interface TreeData {
