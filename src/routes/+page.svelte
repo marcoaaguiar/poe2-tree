@@ -36,6 +36,7 @@
 
 	// State for search
 	let searchTerm = '';
+	let searchInputEl: HTMLInputElement | null = null;
 	let searchResults: string[] = [];
 
 	// State for selected nodes
@@ -63,7 +64,7 @@
 	}
 
 	// Ascendancy selection
-	let selectedAscendancy = "bloodmage"
+	let selectedAscendancy = 'bloodmage';
 
 	// State for filters
 	let highlightKeystones = false;
@@ -91,10 +92,15 @@
 
 	//TODO: move ascandency filter logic to loadData and fix reloading ascendancies on change
 	function filterAscendancyNodes(node: TreeNode) {
-		return !node.class || (node.class === selectedAscendancy)
+		return !node.class || node.class === selectedAscendancy;
 	}
 
-	const filterFns = [filterSmallNodes, filterUnselectedNodes, filterUnidentifiedNodes, filterAscendancyNodes];
+	const filterFns = [
+		filterSmallNodes,
+		filterUnselectedNodes,
+		filterUnidentifiedNodes,
+		filterAscendancyNodes
+	];
 
 	// filter nodes using active filters
 	function filterNodes(node: TreeNode) {
@@ -407,6 +413,17 @@
 			window.removeEventListener('resize', checkScreenSize);
 		};
 	});
+
+	function clearSearchTerm() {
+		searchTerm = '';
+		searchInputEl?.focus();
+	}
+
+	function handleKeydown(event: KeyboardEvent) {
+		if (event.key === 'Escape') {
+			clearSearchTerm();
+		}
+	}
 </script>
 
 <!-- page layout -->
@@ -431,25 +448,30 @@
 				<!-- Toggleable -->
 				<div class="space-y-4">
 					<div>
-					<b class="block underline underline-offset-2">Ascendancy:</b>
-					<div class="flex flex-row flex-wrap text-black">
-						<select class="w-full px-1 h-6" name="ascendancies" id="asc-select" bind:value={selectedAscendancy}>
-							<option value="bloodmage" selected>Witch - Bloodmage</option>
-							<option value="infernalist">With - Infernalist</option>
-							<option value="stormweaver">Sorc - Stormweaver</option>
-							<option value="chronomancer">Sorc - Chronomancer</option>
-							<option value="invoker">Monk - Invoker</option>
-							<option value="acolyte">Monk - Acolyte of Chayula</option>
-							<option value="titan">Warrior - Titan</option>
-							<option value="warbringer">Warrior - Warbringer</option>
-							<option value="deadeye" >Ranger - Deadeye</option>
-							<option value="pathfinder">Ranger - Pathfinder</option>
-							<option value="witchhunter">Mercenary - Witchhunter</option>
-							<option value="legionnaire">Mercenary - Gem. Legionnaire</option>
-						</select>
+						<b class="block underline underline-offset-2">Ascendancy:</b>
+						<div class="flex flex-row flex-wrap text-black">
+							<select
+								class="w-full px-1 h-6"
+								name="ascendancies"
+								id="asc-select"
+								bind:value={selectedAscendancy}
+							>
+								<option value="bloodmage" selected>Witch - Bloodmage</option>
+								<option value="infernalist">With - Infernalist</option>
+								<option value="stormweaver">Sorc - Stormweaver</option>
+								<option value="chronomancer">Sorc - Chronomancer</option>
+								<option value="invoker">Monk - Invoker</option>
+								<option value="acolyte">Monk - Acolyte of Chayula</option>
+								<option value="titan">Warrior - Titan</option>
+								<option value="warbringer">Warrior - Warbringer</option>
+								<option value="deadeye">Ranger - Deadeye</option>
+								<option value="pathfinder">Ranger - Pathfinder</option>
+								<option value="witchhunter">Mercenary - Witchhunter</option>
+								<option value="legionnaire">Mercenary - Gem. Legionnaire</option>
+							</select>
+						</div>
 					</div>
-				</div>
-				<div>
+					<div>
 						<b class="block underline underline-offset-2">Highlight:</b>
 						<div class="flex flex-row gap-2 flex-wrap">
 							<label class="whitespace-nowrap">
@@ -487,12 +509,34 @@
 				<!-- Search -->
 				<div class="min-h-0 grid grid-cols-1 grid-rows-[auto_auto_auto_1fr]">
 					<b class="block underline underline-offset-2">Search:</b>
-					<input
-						class="block rounded px-2 text-black"
-						type="text"
-						placeholder="Search..."
-						bind:value={searchTerm}
-					/>
+					<!-- Search Input Container -->
+					<div class="relative inline-block">
+						<input
+							class="block w-full rounded px-2 pr-10 text-black"
+							type="text"
+							placeholder="Search..."
+							bind:value={searchTerm}
+							bind:this={searchInputEl}
+							onkeydown={handleKeydown}
+						/>
+						{#if searchTerm}
+							<button
+								class="absolute right-2 top-1/2 -translate-y-1/2 transform p-1 rounded-full flex items-center justify-center cursor-pointer transition-colors duration-200 ease-in-out hover:bg-black/10"
+								onclick={clearSearchTerm}
+								aria-label="Clear search"
+							>
+								<svg class="w-4 h-4 pointer-events-none" viewBox="0 0 20 20" aria-hidden="true">
+									<path
+										d="M4 4 L16 16 M16 4 L4 16"
+										stroke="#000"
+										stroke-width="2"
+										stroke-linecap="round"
+										fill="none"
+									/>
+								</svg>
+							</button>
+						{/if}
+					</div>
 					<span>Found: {searchResults.length}</span>
 					<ul class="block min-h-0 overflow-y-auto">
 						{#each searchResults as nodeId}
@@ -560,7 +604,7 @@
 			  height: {imageEl ? imageEl.naturalHeight * scale + 'px' : 'auto'};
 			  transform: translate({panOffsetX}px, {panOffsetY}px);
 			  user-select: none;
-			  cursor: {isPanning ? 'grabbing' : 'grab'};
+			  cursor: {isPanning ? 'grabbing' : 'point'};
 		  "
 				>
 					<img
@@ -586,8 +630,8 @@
 				  width: {320 * scale + 'px'};
 				  top: 50%;
 				  left: 50%;
-				  margin-top: -{(320 * scale * 0.460) + 'px'};
-				  margin-left: -{(320 * scale * 0.487)+ 'px'};
+				  margin-top: -{320 * scale * 0.46 + 'px'};
+				  margin-left: -{320 * scale * 0.487 + 'px'};
 				  height: {320 * scale + 'px'};
 			  "
 					/>
@@ -640,10 +684,8 @@
 </div>
 
 <style lang="postcss">
-
 	.small,
 	.notable,
-
 	.ascendancy,
 	.keystone {
 		position: absolute;
@@ -655,7 +697,8 @@
 		background-color: rgba(255, 255, 0, 0.2);
 	}
 
-	.notable.unidentified, .ascendancy.unidentified {
+	.notable.unidentified,
+	.ascendancy.unidentified {
 		background-color: rgba(255, 100, 100, 0.2);
 		border-color: rgba(255, 100, 100, 1);
 	}
