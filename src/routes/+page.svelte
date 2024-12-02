@@ -37,6 +37,9 @@
 	let searchInputEl: HTMLInputElement | null = null;
 	let searchResults: string[] = [];
 
+	// State for ascendancy selection
+	let selectedAscendancy = 'gemling';
+
 	// State for selected nodes
 	let selectedNodes: string[] = [];
 
@@ -45,7 +48,8 @@
 
 	// Load saved selected nodes from localStorage on component initialization
 	if (browser) {
-		const selectedAscendancy = localStorage.getItem('selectedAscendancy') || 'bloodmage';
+		selectedAscendancy = localStorage.getItem('selectedAscendancy') || 'gemling';
+
 		const savedSelectedNodes = localStorage.getItem('selectedSkillNodes');
 
 		if (savedSelectedNodes) {
@@ -60,10 +64,8 @@
 	// Reactive statement to save selected nodes to localStorage whenever they change
 	$: if (browser) {
 		localStorage.setItem('selectedSkillNodes', JSON.stringify(selectedNodes));
+		localStorage.setItem('selectedAscendancy', selectedAscendancy);
 	}
-
-	// Ascendancy selection
-	let selectedAscendancy = 'gemling';
 
 	// State for filters
 	let highlightKeystones = false;
