@@ -10599,6 +10599,18 @@
 		"name": "Ancestral Empowerment",
 		"stats": ["Every second Slam Skill you use yourself is Ancestrally Boosted"]
 	},
+	"AN64": {
+		"name": "Earthbreaker",
+		"stats": ["20% chance for Slam Skills you use yourself to cause Aftershocks"]
+	},
+	"AN65": {
+		"name": "Crushing Impacts",
+		"stats": ["Yout Hits are Crushing Blows"]
+	},
+	"AN66": {
+		"name": "Surprising strength",
+		"stats": ["40% more Damage against Heavy Stunned Enemies"]
+	},
 	"AS71": {
 		"name": "AS71",
 		"stats": ["Warbringer small"]
