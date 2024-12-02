@@ -70,7 +70,12 @@
 
 	if (browser) {
 		const params = new URLSearchParams(window.location.search);
+		const asc = params.get('a');
 		const compressed = params.get('p');
+
+		if (asc) {
+			selectedAscendancy = asc;
+		}
 
 		if (compressed) {
 			try {
@@ -96,9 +101,18 @@
 		const compressed = LZString.compressToEncodedURIComponent(bitString);
 
 		const params = new URLSearchParams(window.location.search);
+		params.set('a', selectedAscendancy);
 		params.set('p', compressed);
 		const newUrl = window.location.pathname + '?' + params.toString();
 		window.history.replaceState({}, '', newUrl);
+	}
+
+	let prevSelectedAscendancy = selectedAscendancy;
+
+	$: if (selectedAscendancy !== prevSelectedAscendancy) {
+		// Remove Ascendancy nodes from selectedNodes when changing between ascendancies
+		selectedNodes = selectedNodes.filter((id) => !id.startsWith('A'));
+		prevSelectedAscendancy = selectedAscendancy;
 	}
 
 	function isBitSet(bitArray: Uint8Array, index: number): boolean {
@@ -487,7 +501,7 @@
 								id="asc-select"
 								bind:value={selectedAscendancy}
 							>
-								<option value="bloodmage" selected>Witch - Bloodmage</option>
+								<option value="bloodmage">Witch - Bloodmage</option>
 								<option value="infernalist">With - Infernalist</option>
 								<option value="stormweaver">Sorc - Stormweaver</option>
 								<option value="chronomancer">Sorc - Chronomancer</option>
