@@ -72,13 +72,6 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
 	<tbody>
 		<tr>
             <td align="center">
-                <a href="https://github.com/azadix">
-                    <img src="https://avatars.githubusercontent.com/u/3746879?v=4" width="100;" alt="azadix"/>
-                    <br />
-                    <sub><b>Azadi</b></sub>
-                </a>
-            </td>
-            <td align="center">
                 <a href="https://github.com/marcoaaguiar">
                     <img src="https://avatars.githubusercontent.com/u/7772685?v=4" width="100;" alt="marcoaaguiar"/>
                     <br />
@@ -113,20 +106,27 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                     <sub><b>Daru</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
-                <a href="https://github.com/Chizinha">
-                    <img src="https://avatars.githubusercontent.com/u/16880563?v=4" width="100;" alt="Chizinha"/>
+                <a href="https://github.com/azadix">
+                    <img src="https://avatars.githubusercontent.com/u/3746879?v=4" width="100;" alt="azadix"/>
                     <br />
-                    <sub><b>Chizinha</b></sub>
+                    <sub><b>Azadi</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/meatwallace">
                     <img src="https://avatars.githubusercontent.com/u/3013783?v=4" width="100;" alt="meatwallace"/>
                     <br />
                     <sub><b>Geoff Whatley</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/Chizinha">
+                    <img src="https://avatars.githubusercontent.com/u/16880563?v=4" width="100;" alt="Chizinha"/>
+                    <br />
+                    <sub><b>Chizinha</b></sub>
                 </a>
             </td>
             <td align="center">
