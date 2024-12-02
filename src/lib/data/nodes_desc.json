@@ -2319,7 +2319,10 @@
 	},
 	"N488": {
 		"name": "Presence Present",
-		"stats": ["Allies in your Presence have +100 to Accuracy Rating", "35% increased Attack Damage while you have an Ally in your Presence"]
+		"stats": [
+			"Allies in your Presence have +100 to Accuracy Rating",
+			"35% increased Attack Damage while you have an Ally in your Presence"
+		]
 	},
 	"N489": {
 		"name": "N489",
@@ -2430,7 +2433,12 @@
 	},
 	"N514": {
 		"name": "Emboldened Avatar",
-		"stats": ["30% increased chance to Ignite", "20% increased Freeze Buildup", "30% increased chance to Shock", "20% increased Electrocute Buildup"]
+		"stats": [
+			"30% increased chance to Ignite",
+			"20% increased Freeze Buildup",
+			"30% increased chance to Shock",
+			"20% increased Electrocute Buildup"
+		]
 	},
 	"N515": {
 		"name": "N515",
@@ -2465,7 +2473,10 @@
 	},
 	"N522": {
 		"name": "Perfect Opportunity",
-		"stats": ["25% increased Stun Buildup", "Damage with Hits is Lucky against Heavy Stunned Enemies"]
+		"stats": [
+			"25% increased Stun Buildup",
+			"Damage with Hits is Lucky against Heavy Stunned Enemies"
+		]
 	},
 	"N523": {
 		"name": "N523",
@@ -2708,7 +2719,9 @@
 	},
 	"N576": {
 		"name": "Escalating Toxins",
-		"stats": ["10% increased Poison Duration for each Poison you have inflicted Recently, up to a maximum of 100%"]
+		"stats": [
+			"10% increased Poison Duration for each Poison you have inflicted Recently, up to a maximum of 100%"
+		]
 	},
 	"N577": {
 		"name": "Quaterstaff Speed Notable",
@@ -5476,7 +5489,10 @@
 	},
 	"S686": {
 		"name": "Mana Regeneration/Minion Life",
-		"stats": ["10% increased Mana Regeneration Rate (Sorceress)", "Minions have 10% increased maximum Life (Witch)"]
+		"stats": [
+			"10% increased Mana Regeneration Rate (Sorceress)",
+			"Minions have 10% increased maximum Life (Witch)"
+		]
 	},
 	"S687": {
 		"name": "S687",
@@ -5500,7 +5516,11 @@
 	},
 	"S692": {
 		"name": "Spell Damage/Spell and Minion Damage",
-		"stats": ["8% increased Spell Damage (Sorceress)", "5% increased Spell Damage (Witch)", "Minions deal 5% increased Damage (Witch)"]
+		"stats": [
+			"8% increased Spell Damage (Sorceress)",
+			"5% increased Spell Damage (Witch)",
+			"Minions deal 5% increased Damage (Witch)"
+		]
 	},
 	"S693": {
 		"name": "Energy Shield Delay",
@@ -5568,7 +5588,11 @@
 	},
 	"S709": {
 		"name": "Spell Damage/Spell and Minion Damage",
-		"stats": ["8% increased Spell Damage (Sorceress)", "5% increased Spell Damage (Witch)", "Minions deal 5% increased Damage (Witch)"]
+		"stats": [
+			"8% increased Spell Damage (Sorceress)",
+			"5% increased Spell Damage (Witch)",
+			"Minions deal 5% increased Damage (Witch)"
+		]
 	},
 	"S710": {
 		"name": "Energy Shield",
@@ -5808,7 +5832,11 @@
 	},
 	"S769": {
 		"name": "Spell Damage/Spell and Minion Damage",
-		"stats": ["8% increased Spell Damage (Sorceress)", "5% increased Spell Damage (Witch)", "Minions deal 5% increased Damage (Witch)"]
+		"stats": [
+			"8% increased Spell Damage (Sorceress)",
+			"5% increased Spell Damage (Witch)",
+			"Minions deal 5% increased Damage (Witch)"
+		]
 	},
 	"S770": {
 		"name": "Energy Shield",
@@ -7876,8 +7904,7 @@
 	},
 	"S1286": {
 		"name": "Slower Rage Decay",
-		"stats": [
-		  "Inherent loss of Rage is 10% slower"]
+		"stats": ["Inherent loss of Rage is 10% slower"]
 	},
 	"S1287": {
 		"name": "S1287",
@@ -7949,8 +7976,7 @@
 	},
 	"S1304": {
 		"name": "Melee Damage against Immobilised",
-		"stats": [
-		  "20% increased Melee Damage against Immobilised Enemies"]
+		"stats": ["20% increased Melee Damage against Immobilised Enemies"]
 	},
 	"S1305": {
 		"name": "Melee Damage",
@@ -8162,7 +8188,10 @@
 	},
 	"S1357": {
 		"name": "Life Leech. Armour and Evasion while Leeching",
-		"stats": ["8% increased amount of Life Leeched", "8% increased Armour and Evasion Rating while Leeching"]
+		"stats": [
+			"8% increased amount of Life Leeched",
+			"8% increased Armour and Evasion Rating while Leeching"
+		]
 	},
 	"S1358": {
 		"name": "Attribute",
@@ -8651,7 +8680,7 @@
 	"S1479": {
 		"name": "Armour Break",
 		"stats": ["Break 20% increased Armour"]
-	  },
+	},
 	"S1480": {
 		"name": "Damage against Enemies on Low Life",
 		"stats": ["30% increased Damage with Hits against Enemies that are on Low Life"]
@@ -9990,7 +10019,7 @@
 	},
 	"S1814": {
 		"name": "Area Damage and Armour Break",
-		"stats": ["Break 10% increased Armour",	"8% increased Attack Area Damage"]
+		"stats": ["Break 10% increased Armour", "8% increased Attack Area Damage"]
 	},
 	"S1815": {
 		"name": "S1815",
@@ -10130,7 +10159,7 @@
 	},
 	"S1849": {
 		"name": "Attack Area",
-    	"stats": ["8% increased Area of Effect for Attacks"]
+		"stats": ["8% increased Area of Effect for Attacks"]
 	},
 	"S1850": {
 		"name": "S1850",
@@ -10182,11 +10211,11 @@
 	},
 	"S1862": {
 		"name": "Life Leech and Physical Damage",
-    	"stats": ["10% increased amount of Life Leeched", "10% increased Physical Damage"]
+		"stats": ["10% increased amount of Life Leeched", "10% increased Physical Damage"]
 	},
 	"S1863": {
 		"name": "Life Flask Charges",
-    	"stats": ["Life Flasks gain 0.1 charges per Second"]
+		"stats": ["Life Flasks gain 0.1 charges per Second"]
 	},
 	"S1864": {
 		"name": "S1864",
@@ -10222,7 +10251,7 @@
 	},
 	"S1872": {
 		"name": "Accuracy and Attack Critical Chance",
-    	"stats": ["8% increased Critical Hit Chance for Attacks", "6% increased Global Accuracy Rating"]
+		"stats": ["8% increased Critical Hit Chance for Attacks", "6% increased Global Accuracy Rating"]
 	},
 	"S1873": {
 		"name": "S1873",
@@ -10230,11 +10259,11 @@
 	},
 	"S1874": {
 		"name": "Accuracy and Attack Critical Chance",
-    	"stats": ["8% increased Critical Hit Chance for Attacks", "6% increased Global Accuracy Rating"]
+		"stats": ["8% increased Critical Hit Chance for Attacks", "6% increased Global Accuracy Rating"]
 	},
 	"S1875": {
 		"name": "Life Leech",
-    	"stats": ["10% increased amount of Life Leeched"]
+		"stats": ["10% increased amount of Life Leeched"]
 	},
 	"S1876": {
 		"name": "S1876",
@@ -10254,11 +10283,11 @@
 	},
 	"S1880": {
 		"name": "All Attributes",
-    	"stats": ["+3 to all Attributes"]
+		"stats": ["+3 to all Attributes"]
 	},
 	"S1881": {
 		"name": "Attack Damage",
-    	"stats": ["16% increased Attack Damage against Rare or Unique Enemies"]
+		"stats": ["16% increased Attack Damage against Rare or Unique Enemies"]
 	},
 	"S1882": {
 		"name": "S1882",
@@ -10266,11 +10295,11 @@
 	},
 	"S1883": {
 		"name": "Crossbow Damage",
-    	"stats": ["12% increased Damage with Crossbows"]
+		"stats": ["12% increased Damage with Crossbows"]
 	},
 	"S1884": {
 		"name": "Armour and Evasion",
-    	"stats": ["12% increased Armour and Evasion Rating"]
+		"stats": ["12% increased Armour and Evasion Rating"]
 	},
 	"S1885": {
 		"name": "S1885",
@@ -10286,7 +10315,7 @@
 	},
 	"S1888": {
 		"name": "Crossbow Damage",
-    	"stats": ["12% increased Damage with Crossbows"]
+		"stats": ["12% increased Damage with Crossbows"]
 	},
 	"S1889": {
 		"name": "S1889",
@@ -10294,11 +10323,11 @@
 	},
 	"S1890": {
 		"name": "Attack Damage",
-    	"stats": ["16% increased Attack Damage against Rare or Unique Enemies"]
+		"stats": ["16% increased Attack Damage against Rare or Unique Enemies"]
 	},
 	"S1891": {
 		"name": "Armour and Evasion",
-    	"stats": ["12% increased Armour and Evasion Rating"]
+		"stats": ["12% increased Armour and Evasion Rating"]
 	},
 	"S1892": {
 		"name": "S1892",
@@ -10318,11 +10347,11 @@
 	},
 	"S1896": {
 		"name": "All Attributes",
-    	"stats": ["+3 to all Attributes"]
+		"stats": ["+3 to all Attributes"]
 	},
 	"S1897": {
 		"name": "All Attributes",
-    	"stats": ["+3 to all Attributes"]
+		"stats": ["+3 to all Attributes"]
 	},
 	"S1898": {
 		"name": "S1898",
@@ -10330,7 +10359,7 @@
 	},
 	"S1899": {
 		"name": "Attack Speed",
-    	"stats": ["4% increased Attack Speed while a Rare or Unique Enemy is Nearby"]
+		"stats": ["4% increased Attack Speed while a Rare or Unique Enemy is Nearby"]
 	},
 	"S1900": {
 		"name": "S1900",
@@ -10350,15 +10379,15 @@
 	},
 	"S1904": {
 		"name": "Armour and Evasion",
-    	"stats": ["12% increased Armour and Evasion Rating"]
+		"stats": ["12% increased Armour and Evasion Rating"]
 	},
 	"S1905": {
 		"name": "Attack Speed",
-    	"stats": ["4% increased Attack Speed while a Rare or Unique Enemy is Nearby"]
+		"stats": ["4% increased Attack Speed while a Rare or Unique Enemy is Nearby"]
 	},
 	"S1906": {
 		"name": "Reduced Attribute Requirements",
-    	"stats": ["Items and Gems have 5% reduced Attribute Requirements"]
+		"stats": ["Items and Gems have 5% reduced Attribute Requirements"]
 	},
 	"S1907": {
 		"name": "Reduced Attribute Requirements",
@@ -10570,6 +10599,18 @@
 		"name": "Ancestral Empowerment",
 		"stats": ["Every second Slam Skill you use yourself is Ancestrally Boosted"]
 	},
+	"AN64": {
+		"name": "Earthbreaker",
+		"stats": ["20% chance for Slam Skills you use yourself to cause Aftershocks"]
+	},
+	"AN65": {
+		"name": "Crushing Impacts",
+		"stats": ["Yout Hits are Crushing Blows"]
+	},
+	"AN66": {
+		"name": "Surprising strength",
+		"stats": ["40% more Damage against Heavy Stunned Enemies"]
+	},
 	"AS71": {
 		"name": "AS71",
 		"stats": ["Warbringer small"]
@@ -10638,8 +10679,29 @@
 		"stats": ["Witchhunter small"]
 	},
 	"AN101": {
-		"name": "AN101",
-		"stats": ["Witchhunter notable"]
+		"name": "Obssesive Rituals",
+		"stats": ["Grants Skill: Sorcery Ward", "50% les Armour and Evasion Rating"]
+	},
+	"AN102": {
+		"name": "Witchbane",
+		"stats": [
+			"Enemies Maximum Concentration equal to 40% of their Maximum Life",
+			"Break enemy Concentration on Hit equal to 100% of Damage Dealt",
+			"Enemies regain 10% of Concentration every second if they haven't lost concentration in the",
+			"past 5 seconds"
+		]
+	},
+	"AN103": {
+		"name": "Judge, Jury, and Executionner",
+		"stats": ["Decimating Strike", "(First hit chunks enemy)"]
+	},
+	"AN104": {
+		"name": "Zealous inquisition",
+		"stats": [
+			"10% chance for Enemies you Kill to Explode, dealing 100%",
+			"of their Maximum Life as Physical Damage",
+			"Chance is doubled against Undead and Demons"
+		]
 	},
 	"AS111": {
 		"name": "AS111",
@@ -10648,5 +10710,25 @@
 	"AN111": {
 		"name": "AN111",
 		"stats": ["Gemling notable"]
+	},
+	"AN112": {
+		"name": "Crystalline Potential",
+		"stats": ["+12% to Quality of all Skill Gems"]
+	},
+	"AN113": {
+		"name": "Integrated Efficiency",
+		"stats": ["Grants 3 additional Skill Slots"]
+	},
+	"AN114": {
+		"name": "Thaumaturgical Infusion",
+		"stats": [
+			"+1% to Maximum Cold Resistance per 3 Blue Support Gems Socketed anywhere",
+			"+1% to Maximum Fire Resistance per 3 Red Support Gems Socketed anywhere",
+			"+1% to Maximum Lightning Resistance per 3 Green Support Gems Socketed anywhere"
+		]
+	},
+	"AN115": {
+		"name": "Adaptive Capability",
+		"stats": ["Attribute Requirements of Gems can be satisfied by your highest Attribute"]
 	}
 }
