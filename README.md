@@ -72,6 +72,13 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
 	<tbody>
 		<tr>
             <td align="center">
+                <a href="https://github.com/lfmnovaes">
+                    <img src="https://avatars.githubusercontent.com/u/13990675?v=4" width="100;" alt="lfmnovaes"/>
+                    <br />
+                    <sub><b>Luís Fernando Novaes</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/marcoaaguiar">
                     <img src="https://avatars.githubusercontent.com/u/7772685?v=4" width="100;" alt="marcoaaguiar"/>
                     <br />
@@ -106,22 +113,8 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                     <sub><b>Daru</b></sub>
                 </a>
             </td>
-            <td align="center">
-                <a href="https://github.com/azadix">
-                    <img src="https://avatars.githubusercontent.com/u/3746879?v=4" width="100;" alt="azadix"/>
-                    <br />
-                    <sub><b>Azadi</b></sub>
-                </a>
-            </td>
 		</tr>
 		<tr>
-            <td align="center">
-                <a href="https://github.com/Chizinha">
-                    <img src="https://avatars.githubusercontent.com/u/16880563?v=4" width="100;" alt="Chizinha"/>
-                    <br />
-                    <sub><b>Chizinha</b></sub>
-                </a>
-            </td>
             <td align="center">
                 <a href="https://github.com/meatwallace">
                     <img src="https://avatars.githubusercontent.com/u/3013783?v=4" width="100;" alt="meatwallace"/>
@@ -130,17 +123,17 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/Darxo">
-                    <img src="https://avatars.githubusercontent.com/u/2252464?v=4" width="100;" alt="Darxo"/>
+                <a href="https://github.com/azadix">
+                    <img src="https://avatars.githubusercontent.com/u/3746879?v=4" width="100;" alt="azadix"/>
                     <br />
-                    <sub><b>Darxo</b></sub>
+                    <sub><b>Azadi</b></sub>
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/mizm0">
-                    <img src="https://avatars.githubusercontent.com/u/190132103?v=4" width="100;" alt="mizm0"/>
+                <a href="https://github.com/Chizinha">
+                    <img src="https://avatars.githubusercontent.com/u/16880563?v=4" width="100;" alt="Chizinha"/>
                     <br />
-                    <sub><b>mizm0</b></sub>
+                    <sub><b>Chizinha</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -151,14 +144,28 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/mizm0">
+                    <img src="https://avatars.githubusercontent.com/u/190132103?v=4" width="100;" alt="mizm0"/>
+                    <br />
+                    <sub><b>mizm0</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/Darxo">
+                    <img src="https://avatars.githubusercontent.com/u/2252464?v=4" width="100;" alt="Darxo"/>
+                    <br />
+                    <sub><b>Darxo</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
+            <td align="center">
                 <a href="https://github.com/theshannon">
                     <img src="https://avatars.githubusercontent.com/u/33788533?v=4" width="100;" alt="theshannon"/>
                     <br />
                     <sub><b>Shannon Pereira</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/Bolado">
                     <img src="https://avatars.githubusercontent.com/u/74077743?v=4" width="100;" alt="Bolado"/>
@@ -171,13 +178,6 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                     <img src="https://avatars.githubusercontent.com/u/6870612?v=4" width="100;" alt="Yamarin"/>
                     <br />
                     <sub><b>Yamarin</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/lfmnovaes">
-                    <img src="https://avatars.githubusercontent.com/u/13990675?v=4" width="100;" alt="lfmnovaes"/>
-                    <br />
-                    <sub><b>Luís Fernando Novaes</b></sub>
                 </a>
             </td>
             <td align="center">

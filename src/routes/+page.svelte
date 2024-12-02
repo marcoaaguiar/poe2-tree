@@ -6,6 +6,7 @@
 	import { Header } from '$lib/components/ui/header';
 	import { TreeNodeTooltip } from '$lib/components/ui/tree-node-tooltip/index.js';
 	import TreeNode from '$lib/components/ui/tree-node/tree-node.svelte';
+	import LZString from 'lz-string';
 
 	let { nodes } = loadData();
 
@@ -46,27 +47,6 @@
 	// State for sidebar menu show/hide toggle
 	let sidebarVisable = true;
 
-	// Load saved selected nodes from localStorage on component initialization
-	if (browser) {
-		selectedAscendancy = localStorage.getItem('selectedAscendancy') || 'gemling';
-
-		const savedSelectedNodes = localStorage.getItem('selectedSkillNodes');
-
-		if (savedSelectedNodes) {
-			try {
-				selectedNodes = JSON.parse(savedSelectedNodes);
-			} catch (error) {
-				console.error('Error parsing saved selected nodes:', error);
-			}
-		}
-	}
-
-	// Reactive statement to save selected nodes to localStorage whenever they change
-	$: if (browser) {
-		localStorage.setItem('selectedSkillNodes', JSON.stringify(selectedNodes));
-		localStorage.setItem('selectedAscendancy', selectedAscendancy);
-	}
-
 	// State for filters
 	let highlightKeystones = false;
 	let highlightNotables = false;
@@ -78,11 +58,43 @@
 	// Reactive statement for search
 	$: handleSearch(searchTerm);
 
-	// handler for removing selected nodes when our ascendancy changes
-	$: handleAscendancyChange(selectedAscendancy);
+	if (browser) {
+		const params = new URLSearchParams(window.location.search);
+		const asc = params.get('a');
+		const passivesCompressed = params.get('p');
 
-	function handleAscendancyChange(ascendancy: string) {
-		selectedNodes = selectedNodes.filter((nodeId) => nodes[nodeId].class === ascendancy);
+		if (asc) {
+			selectedAscendancy = asc;
+		}
+
+		if (passivesCompressed) {
+			try {
+				const decompressed = LZString.decompressFromEncodedURIComponent(passivesCompressed);
+				selectedNodes = decompressed ? decompressed.split(',') : [];
+			} catch (error) {
+				console.error('Error parsing selected nodes from URL:', error);
+			}
+		}
+	}
+
+	$: if (browser) {
+		const nodeIdsString = selectedNodes.join(',');
+		const passivesCompressed = LZString.compressToEncodedURIComponent(nodeIdsString);
+
+		const params = new URLSearchParams(window.location.search);
+		params.set('a', selectedAscendancy);
+		params.set('p', passivesCompressed);
+
+		const newUrl = window.location.pathname + '?' + params.toString();
+		window.history.replaceState({}, '', newUrl);
+	}
+
+	let prevSelectedAscendancy = selectedAscendancy;
+
+	$: if (selectedAscendancy !== prevSelectedAscendancy) {
+		// Remove Ascendancy nodes from selectedNodes when changing between ascendancies
+		selectedNodes = selectedNodes.filter((id) => !id.startsWith('A'));
+		prevSelectedAscendancy = selectedAscendancy;
 	}
 
 	// composable filter functions
@@ -351,11 +363,6 @@
 
 	function clearSelectedNodes() {
 		selectedNodes = [];
-
-		// Clear localStorage when all nodes are cleared
-		if (browser) {
-			localStorage.removeItem('selectedSkillNodes');
-		}
 	}
 
 	function toggleSidebar() {
@@ -452,7 +459,7 @@
 								id="asc-select"
 								bind:value={selectedAscendancy}
 							>
-								<option value="gemling" selected>Mercenary - Gemling Legionnaire</option>
+								<option value="gemling">Mercenary - Gemling Legionnaire</option>
 								<option value="witchhunter">Mercenary - Witchhunter</option>
 								<option value="acolyte">Monk - Acolyte of Chayula</option>
 								<option value="invoker">Monk - Invoker</option>
