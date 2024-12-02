@@ -60,6 +60,7 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
 - [Blupa - Figma Tree](https://www.figma.com/design/RDJYoGyidY3Xsc21HjcY31/Figma-basics)
 - [Havoc - Mercenary Gameplay](https://www.youtube.com/watch?v=MLUfCNS7Pgo)
 - [Moxsy - Int/Dex Area](https://youtu.be/LRL30Ib9RIU?si=EWwrFOF-s8jizDtI&t=1149)
+- [MrRonit - Mobalytics Planner](https://www.youtube.com/watch?v=knx_VyDGYSw)
 - [Ziggyd - Mercenary Showcase](https://www.youtube.com/watch?v=fLP1oODaZTE)
 - [Open World Games - Reveal](https://www.youtube.com/watch?v=-v2UqGMmldc)
 - [GGG - Endgame Reveal](https://www.youtube.com/watch?v=ZpIbaTXJD4g&t=1356s)
