@@ -64,7 +64,7 @@
 		]
 	},
 	"K13": {
-		"name": "Bloodmagic",
+		"name": "Blood Magic",
 		"stats": ["Removes all Mana", "Skills Cost Life instead of Mana"]
 	},
 	"K14": {
@@ -2319,10 +2319,7 @@
 	},
 	"N488": {
 		"name": "Presence Present",
-		"stats": [
-			"Allies in your PResence have +100 to Accuracy Rating",
-			"35% increased Attack Damage while you have an Ally in your Presence"
-		]
+		"stats": ["Allies in your Presence have +100 to Accuracy Rating", "35% increased Attack Damage while you have an Ally in your Presence"]
 	},
 	"N489": {
 		"name": "N489",
@@ -2433,12 +2430,7 @@
 	},
 	"N514": {
 		"name": "Emboldened Avatar",
-		"stats": [
-			"30% increased chance to Ignite",
-			"30% increased Freeze Buildup",
-			"30% increased chance to Shock",
-			"20% increased Electrocute Buildup"
-		]
+		"stats": ["30% increased chance to Ignite", "20% increased Freeze Buildup", "30% increased chance to Shock", "20% increased Electrocute Buildup"]
 	},
 	"N515": {
 		"name": "N515",
@@ -2473,10 +2465,7 @@
 	},
 	"N522": {
 		"name": "Perfect Opportunity",
-		"stats": [
-			"30% increased Stun Buildup",
-			"Damage with Hits is Lucky against Heavy Stunned Enemies"
-		]
+		"stats": ["25% increased Stun Buildup", "Damage with Hits is Lucky against Heavy Stunned Enemies"]
 	},
 	"N523": {
 		"name": "N523",
@@ -2719,9 +2708,7 @@
 	},
 	"N576": {
 		"name": "Escalating Toxins",
-		"stats": [
-			"10% increased Poison Duration for each Poison you have inflicted Recently, up to a maximum of 100%"
-		]
+		"stats": ["10% increased Poison Duration for each Poison you have inflicted Recently, up to a maximum of 100%"]
 	},
 	"N577": {
 		"name": "Quaterstaff Speed Notable",
@@ -4416,8 +4403,8 @@
 		"stats": []
 	},
 	"S418": {
-		"name": "S418",
-		"stats": []
+		"name": "Armour and Energy Shield",
+		"stats": ["12% increased Armour", "12% increased maximum Energy Shield"]
 	},
 	"S419": {
 		"name": "S419",
@@ -4508,12 +4495,12 @@
 		"stats": []
 	},
 	"S441": {
-		"name": "S441",
-		"stats": []
+		"name": "Shield Defences",
+		"stats": ["25% increased Defences from Equipped Shield"]
 	},
 	"S442": {
-		"name": "S442",
-		"stats": []
+		"name": "Shield Block",
+		"stats": ["5% increased Chance to Block"]
 	},
 	"S443": {
 		"name": "S443",
@@ -4616,8 +4603,8 @@
 		"stats": []
 	},
 	"S468": {
-		"name": "S468",
-		"stats": []
+		"name": "Armour and Energy Shield",
+		"stats": ["12% increased Armour", "12% increased maximum Energy Shield"]
 	},
 	"S469": {
 		"name": "S469",
@@ -4704,8 +4691,8 @@
 		"stats": ["+5 to any Attribute"]
 	},
 	"S490": {
-		"name": "S490",
-		"stats": []
+		"name": "Shield Defences",
+		"stats": ["25% increased Defences from Equipped Shield"]
 	},
 	"S491": {
 		"name": "S491",
@@ -4752,8 +4739,8 @@
 		"stats": []
 	},
 	"S502": {
-		"name": "S502",
-		"stats": []
+		"name": "Armour and Energy Shield",
+		"stats": ["12% increased Armour", "12% increased maximum Energy Shield"]
 	},
 	"S503": {
 		"name": "S503",
@@ -4876,8 +4863,8 @@
 		"stats": ["+5 to any Attribute"]
 	},
 	"S533": {
-		"name": "S533",
-		"stats": []
+		"name": "Warcry Speed",
+		"stats": ["16% increased Warcry Speed"]
 	},
 	"S534": {
 		"name": "S534",
@@ -4896,16 +4883,16 @@
 		"stats": []
 	},
 	"S538": {
-		"name": "S538",
-		"stats": []
+		"name": "Warcry Speed",
+		"stats": ["16% increased Warcry Speed"]
 	},
 	"S539": {
 		"name": "S539",
 		"stats": []
 	},
 	"S540": {
-		"name": "S540",
-		"stats": []
+		"name": "Life Recoup",
+		"stats": ["3% of Damage taken Recouped as Life"]
 	},
 	"S541": {
 		"name": "S541",
@@ -4944,8 +4931,8 @@
 		"stats": []
 	},
 	"S550": {
-		"name": "S550",
-		"stats": []
+		"name": "Critical Ignite Effect",
+		"stats": ["15% increased Effect of Ignite from Critical Hits"]
 	},
 	"S551": {
 		"name": "S551",
@@ -4960,8 +4947,8 @@
 		"stats": ["+5 to any Attribute"]
 	},
 	"S554": {
-		"name": "S554",
-		"stats": []
+		"name": "Warcry Cooldown Speed",
+		"stats": ["10% increased Warcry Cooldown Recovery Rate"]
 	},
 	"S555": {
 		"name": "S555",
@@ -4984,8 +4971,8 @@
 		"stats": []
 	},
 	"S560": {
-		"name": "S560",
-		"stats": []
+		"name": "Warcry Cooldown Speed",
+		"stats": ["10% increased Warcry Cooldown Recovery Rate"]
 	},
 	"S561": {
 		"name": "S561",
@@ -5012,8 +4999,8 @@
 		"stats": ["+5 to any Attribute"]
 	},
 	"S567": {
-		"name": "S567",
-		"stats": []
+		"name": "Critical Ignite Effect",
+		"stats": ["15% increased Effect of Ignite from Critical Hits"]
 	},
 	"S568": {
 		"name": "S568",
@@ -5048,8 +5035,8 @@
 		"stats": []
 	},
 	"S576": {
-		"name": "S576",
-		"stats": []
+		"name": "Ignite and Critical Chance",
+		"stats": ["12% increased chance to Ignite", "6% increased Critical Hit Chance"]
 	},
 	"S577": {
 		"name": "S577",
@@ -5092,8 +5079,8 @@
 		"stats": []
 	},
 	"S587": {
-		"name": "S587",
-		"stats": []
+		"name": "Flail Damage",
+		"stats": ["10% increased Damage with Flails"]
 	},
 	"S588": {
 		"name": "S588",
@@ -5180,8 +5167,8 @@
 		"stats": []
 	},
 	"S609": {
-		"name": "S609",
-		"stats": []
+		"name": "Flail Critical Chance",
+		"stats": ["15% increased Critical Hit Chance with Flails"]
 	},
 	"S610": {
 		"name": "Attribute",
@@ -5208,8 +5195,8 @@
 		"stats": ["8% increased Spell Damage", "Minions deal 8% increased Damage"]
 	},
 	"S616": {
-		"name": "S616",
-		"stats": []
+		"name": "Minion Life and Chaos Resistance",
+		"stats": ["Minions have 8% increased maximum Life", "Minions have +7% to Chaos Resistance"]
 	},
 	"S617": {
 		"name": "S617",
@@ -5232,8 +5219,8 @@
 		"stats": []
 	},
 	"S622": {
-		"name": "S622",
-		"stats": []
+		"name": "Minion Life",
+		"stats": ["Minions have 10% increased maximum Life"]
 	},
 	"S623": {
 		"name": "S623",
@@ -5268,8 +5255,8 @@
 		"stats": []
 	},
 	"S631": {
-		"name": "S631",
-		"stats": []
+		"name": "Flail Critical Chance",
+		"stats": ["15% increased Critical Hit Chance with Flails"]
 	},
 	"S632": {
 		"name": "S632",
@@ -5489,10 +5476,7 @@
 	},
 	"S686": {
 		"name": "Mana Regeneration/Minion Life",
-		"stats": [
-			"10% increased Mana Regeneration Rate (Sorceress)",
-			"Minions have 10% increased maximum Life (Witch)"
-		]
+		"stats": ["10% increased Mana Regeneration Rate (Sorceress)", "Minions have 10% increased maximum Life (Witch)"]
 	},
 	"S687": {
 		"name": "S687",
@@ -5516,11 +5500,7 @@
 	},
 	"S692": {
 		"name": "Spell Damage/Spell and Minion Damage",
-		"stats": [
-			"8% increased Spell Damage (Sorceress)",
-			"5% increased Spell Damage (Witch)",
-			"Minions deal 5% increased Damage (Witch)"
-		]
+		"stats": ["8% increased Spell Damage (Sorceress)", "5% increased Spell Damage (Witch)", "Minions deal 5% increased Damage (Witch)"]
 	},
 	"S693": {
 		"name": "Energy Shield Delay",
@@ -5588,11 +5568,7 @@
 	},
 	"S709": {
 		"name": "Spell Damage/Spell and Minion Damage",
-		"stats": [
-			"8% increased Spell Damage (Sorceress)",
-			"5% increased Spell Damage (Witch)",
-			"Minions deal 5% increased Damage (Witch)"
-		]
+		"stats": ["8% increased Spell Damage (Sorceress)", "5% increased Spell Damage (Witch)", "Minions deal 5% increased Damage (Witch)"]
 	},
 	"S710": {
 		"name": "Energy Shield",
@@ -5659,8 +5635,8 @@
 		"stats": []
 	},
 	"S726": {
-		"name": "S726",
-		"stats": []
+		"name": "Ignite Effect on You",
+		"stats": ["10% reduced Effect of Ignite on you"]
 	},
 	"S727": {
 		"name": "Attribute",
@@ -5699,8 +5675,8 @@
 		"stats": ["3% increased Attack and Cast Speed"]
 	},
 	"S736": {
-		"name": "S736",
-		"stats": []
+		"name": "Ignite Effect on You",
+		"stats": ["10% reduced Effect of Ignite on you"]
 	},
 	"S737": {
 		"name": "S737",
@@ -5719,8 +5695,8 @@
 		"stats": []
 	},
 	"S741": {
-		"name": "S741",
-		"stats": []
+		"name": "Ignite Chance",
+		"stats": ["20% increased chance to Ignite"]
 	},
 	"S742": {
 		"name": "S742",
@@ -5771,8 +5747,8 @@
 		"stats": ["+5 to any Attribute"]
 	},
 	"S754": {
-		"name": "S754",
-		"stats": []
+		"name": "Ignite Effect on You",
+		"stats": ["10% reduced Effect of Ignite on you"]
 	},
 	"S755": {
 		"name": "Attribute",
@@ -5787,8 +5763,8 @@
 		"stats": []
 	},
 	"S758": {
-		"name": "S758",
-		"stats": []
+		"name": "Ignite Chance",
+		"stats": ["20% increased chance to Ignite"]
 	},
 	"S759": {
 		"name": "S759",
@@ -5819,8 +5795,8 @@
 		"stats": []
 	},
 	"S766": {
-		"name": "S766",
-		"stats": []
+		"name": "Ignite Chance",
+		"stats": ["20% increased chance to Ignite"]
 	},
 	"S767": {
 		"name": "S767",
@@ -5832,11 +5808,7 @@
 	},
 	"S769": {
 		"name": "Spell Damage/Spell and Minion Damage",
-		"stats": [
-			"8% increased Spell Damage (Sorceress)",
-			"5% increased Spell Damage (Witch)",
-			"Minions deal 5% increased Damage (Witch)"
-		]
+		"stats": ["8% increased Spell Damage (Sorceress)", "5% increased Spell Damage (Witch)", "Minions deal 5% increased Damage (Witch)"]
 	},
 	"S770": {
 		"name": "Energy Shield",
@@ -5907,8 +5879,8 @@
 		"stats": []
 	},
 	"S787": {
-		"name": "S787",
-		"stats": []
+		"name": "Attack Area",
+		"stats": ["8% increased Area of Effect for Attacks"]
 	},
 	"S788": {
 		"name": "S788",
@@ -5979,8 +5951,8 @@
 		"stats": []
 	},
 	"S805": {
-		"name": "S805",
-		"stats": []
+		"name": "Armour",
+		"stats": ["20% increased Armour if you haven't been Hit Recently"]
 	},
 	"S806": {
 		"name": "S806",
@@ -6051,8 +6023,8 @@
 		"stats": []
 	},
 	"S823": {
-		"name": "S823",
-		"stats": []
+		"name": "Melee Damage",
+		"stats": ["12% increased Melee Damage"]
 	},
 	"S824": {
 		"name": "S824",
@@ -6171,16 +6143,16 @@
 		"stats": []
 	},
 	"S853": {
-		"name": "S853",
-		"stats": []
+		"name": "Melee Damage",
+		"stats": ["15% increased Melee Damage with Hits at Close Range"]
 	},
 	"S854": {
 		"name": "Evasion and Energy Shield",
 		"stats": ["+8 to Evasion Rating", "+5 to maximum Energy Shield"]
 	},
 	"S855": {
-		"name": "S855",
-		"stats": []
+		"name": "Elemental Damage",
+		"stats": ["10% increased Elemental Damage"]
 	},
 	"S856": {
 		"name": "S856",
@@ -6211,16 +6183,16 @@
 		"stats": ["+8 to Evasion Rating", "+5 to maximum Energy Shield"]
 	},
 	"S863": {
-		"name": "S863",
-		"stats": []
+		"name": "Melee Damage",
+		"stats": ["15% increased Melee Damage with Hits at Close Range"]
 	},
 	"S864": {
 		"name": "S864",
 		"stats": []
 	},
 	"S865": {
-		"name": "S865",
-		"stats": []
+		"name": "Fire Damage",
+		"stats": ["12% increased Fire Damage"]
 	},
 	"S866": {
 		"name": "Evasion and Energy Shield",
@@ -6231,8 +6203,8 @@
 		"stats": []
 	},
 	"S868": {
-		"name": "S868",
-		"stats": []
+		"name": "Elemental Damage",
+		"stats": ["10% increased Elemental Damage"]
 	},
 	"S869": {
 		"name": "Attribute",
@@ -6335,8 +6307,8 @@
 		"stats": []
 	},
 	"S894": {
-		"name": "S894",
-		"stats": []
+		"name": "Shield Block",
+		"stats": ["5% increased Chance to Block"]
 	},
 	"S895": {
 		"name": "S895",
@@ -6359,12 +6331,12 @@
 		"stats": []
 	},
 	"S900": {
-		"name": "S900",
-		"stats": []
+		"name": "Lightning Damage",
+		"stats": ["10% increased Lightning Damage"]
 	},
 	"S901": {
-		"name": "S901",
-		"stats": []
+		"name": "Shield Damage from Shield Defences",
+		"stats": ["5% increased Chance to Block"]
 	},
 	"S902": {
 		"name": "S902",
@@ -6491,8 +6463,8 @@
 		"stats": []
 	},
 	"S933": {
-		"name": "S933",
-		"stats": []
+		"name": "Shield Block",
+		"stats": ["5% increased Chance to Block"]
 	},
 	"S934": {
 		"name": "S934",
@@ -6611,8 +6583,8 @@
 		"stats": ["+5 to any Attribute"]
 	},
 	"S963": {
-		"name": "S963",
-		"stats": []
+		"name": "Maximum Cold Resistance",
+		"stats": ["+1% to Maximum Cold Resistance"]
 	},
 	"S964": {
 		"name": "S964",
@@ -6671,8 +6643,8 @@
 		"stats": []
 	},
 	"S978": {
-		"name": "S978",
-		"stats": []
+		"name": "Maximum Cold Resistance",
+		"stats": ["+1% to Maximum Cold Resistance"]
 	},
 	"S979": {
 		"name": "S979",
@@ -6727,8 +6699,8 @@
 		"stats": []
 	},
 	"S992": {
-		"name": "S992",
-		"stats": []
+		"name": "Life Regeneration",
+		"stats": ["Regenerate 0.4% of Life per second"]
 	},
 	"S993": {
 		"name": "S993",
@@ -6771,8 +6743,8 @@
 		"stats": []
 	},
 	"S1003": {
-		"name": "S1003",
-		"stats": []
+		"name": "Maximum Fire Resistance",
+		"stats": ["+1% to Maximum Fire Resistance"]
 	},
 	"S1004": {
 		"name": "Attribute",
@@ -6811,8 +6783,8 @@
 		"stats": []
 	},
 	"S1013": {
-		"name": "S1013",
-		"stats": []
+		"name": "Area Damage",
+		"stats": ["12% increased Attack Area Damage"]
 	},
 	"S1014": {
 		"name": "S1014",
@@ -6831,8 +6803,8 @@
 		"stats": ["10% increased Projectile Damage"]
 	},
 	"S1018": {
-		"name": "S1018",
-		"stats": []
+		"name": "Maximum Fire Resistance",
+		"stats": ["+1% to Maximum Fire Resistance"]
 	},
 	"S1019": {
 		"name": "S1019",
@@ -6851,8 +6823,8 @@
 		"stats": []
 	},
 	"S1023": {
-		"name": "S1023",
-		"stats": []
+		"name": "Life Regeneration",
+		"stats": ["Regenerate 0.4% of Life per second"]
 	},
 	"S1024": {
 		"name": "S1024",
@@ -6903,8 +6875,8 @@
 		"stats": []
 	},
 	"S1036": {
-		"name": "S1036",
-		"stats": []
+		"name": "Maximum Lightning Resistance",
+		"stats": ["+1% to Maximum Lightning Resistance"]
 	},
 	"S1037": {
 		"name": "Attribute",
@@ -6919,8 +6891,8 @@
 		"stats": []
 	},
 	"S1040": {
-		"name": "S1040",
-		"stats": []
+		"name": "Maximum Lightning Resistance",
+		"stats": ["+1% to Maximum Lightning Resistance"]
 	},
 	"S1041": {
 		"name": "S1041",
@@ -7039,8 +7011,8 @@
 		"stats": []
 	},
 	"S1070": {
-		"name": "S1070",
-		"stats": []
+		"name": "Stun Buildup",
+		"stats": ["12% increased Stun Buildup"]
 	},
 	"S1071": {
 		"name": "S1071",
@@ -7075,8 +7047,8 @@
 		"stats": ["Regenerate 0.4% of Life per second"]
 	},
 	"S1079": {
-		"name": "S1079",
-		"stats": []
+		"name": "Attack Area",
+		"stats": ["8% increased Area of Effect for Attacks"]
 	},
 	"S1080": {
 		"name": "S1080",
@@ -7139,8 +7111,8 @@
 		"stats": []
 	},
 	"S1095": {
-		"name": "S1095",
-		"stats": []
+		"name": "Stun Buildup",
+		"stats": ["12% increased Stun Buildup"]
 	},
 	"S1096": {
 		"name": "S1096",
@@ -7179,8 +7151,8 @@
 		"stats": ["+5 to any Attribute"]
 	},
 	"S1105": {
-		"name": "S1105",
-		"stats": []
+		"name": "Attack Area",
+		"stats": ["8% increased Area of Effect for Attacks"]
 	},
 	"S1106": {
 		"name": "S1106",
@@ -7223,12 +7195,12 @@
 		"stats": []
 	},
 	"S1116": {
-		"name": "S1116",
-		"stats": []
+		"name": "Stun Buildup",
+		"stats": ["12% increased Stun Buildup"]
 	},
 	"S1117": {
-		"name": "Axe Damage",
-		"stats": ["10% increased Damage with Axes"]
+		"name": "Attack Area",
+		"stats": ["8% increased Area of Effect for Attacks"]
 	},
 	"S1118": {
 		"name": "S1118",
@@ -7247,8 +7219,8 @@
 		"stats": ["+10 to Armour", "+8 to Evasion Rating"]
 	},
 	"S1122": {
-		"name": "S1122",
-		"stats": []
+		"name": "Warcry Cooldown Speed",
+		"stats": ["10% increased Warcry Cooldown Recovery Rate"]
 	},
 	"S1123": {
 		"name": "S1123",
@@ -7403,8 +7375,8 @@
 		"stats": ["8% increased Attack Area Damage", "5% increased Area of Effect for Attacks"]
 	},
 	"S1161": {
-		"name": "S1161",
-		"stats": []
+		"name": "Attack Speed",
+		"stats": ["3% increased Attack Speed"]
 	},
 	"S1162": {
 		"name": "S1162",
@@ -7427,8 +7399,8 @@
 		"stats": []
 	},
 	"S1167": {
-		"name": "S1167",
-		"stats": []
+		"name": "Attack Speed",
+		"stats": ["3% increased Attack Speed"]
 	},
 	"S1168": {
 		"name": "S1168",
@@ -7471,8 +7443,8 @@
 		"stats": []
 	},
 	"S1178": {
-		"name": "S1178",
-		"stats": []
+		"name": "Recover Life on consuming Endurance Charge",
+		"stats": ["Recover 2% of Life for each Endurance Charge consumed"]
 	},
 	"S1179": {
 		"name": "One Handed Damage",
@@ -7543,8 +7515,8 @@
 		"stats": []
 	},
 	"S1196": {
-		"name": "S1196",
-		"stats": []
+		"name": "Recover Life on consuming Endurance Charge",
+		"stats": ["Recover 2% of Life for each Endurance Charge consumed"]
 	},
 	"S1197": {
 		"name": "Attribute",
@@ -7631,8 +7603,8 @@
 		"stats": []
 	},
 	"S1218": {
-		"name": "S1218",
-		"stats": []
+		"name": "Stun Threshold and Strength",
+		"stats": ["10% increased Stun Threshold", "+5 to Strength"]
 	},
 	"S1219": {
 		"name": "S1219",
@@ -7695,8 +7667,8 @@
 		"stats": []
 	},
 	"S1234": {
-		"name": "S1234",
-		"stats": []
+		"name": "Armour and Evasion",
+		"stats": ["12% increased Armour and Evasion Rating"]
 	},
 	"S1235": {
 		"name": "S1235",
@@ -7759,8 +7731,8 @@
 		"stats": []
 	},
 	"S1250": {
-		"name": "S1250",
-		"stats": []
+		"name": "Armour",
+		"stats": ["15% increased Armour"]
 	},
 	"S1251": {
 		"name": "S1251",
@@ -7791,8 +7763,8 @@
 		"stats": []
 	},
 	"S1258": {
-		"name": "S1258",
-		"stats": []
+		"name": "Stun Threshold and Strength",
+		"stats": ["10% increased Stun Threshold", "+5 to Strength"]
 	},
 	"S1259": {
 		"name": "Attribute",
@@ -7835,8 +7807,8 @@
 		"stats": []
 	},
 	"S1269": {
-		"name": "S1269",
-		"stats": []
+		"name": "Damage against Burning Enemies",
+		"stats": ["14% increased Damage with Hits against Burning Enemies"]
 	},
 	"S1270": {
 		"name": "S1270",
@@ -7863,12 +7835,12 @@
 		"stats": []
 	},
 	"S1276": {
-		"name": "S1276",
-		"stats": []
+		"name": "Armour",
+		"stats": ["15% increased Armour"]
 	},
 	"S1277": {
-		"name": "S1277",
-		"stats": []
+		"name": "Armour",
+		"stats": ["15% increased Armour"]
 	},
 	"S1278": {
 		"name": "S1278",
@@ -7895,16 +7867,17 @@
 		"stats": ["+5 to any Attribute"]
 	},
 	"S1284": {
-		"name": "S1284",
-		"stats": []
+		"name": "Melee Damage",
+		"stats": ["10% increased Melee Damage"]
 	},
 	"S1285": {
 		"name": "S1285",
 		"stats": []
 	},
 	"S1286": {
-		"name": "S1286",
-		"stats": []
+		"name": "Slower Rage Decay",
+		"stats": [
+		  "Inherent loss of Rage is 10% slower"]
 	},
 	"S1287": {
 		"name": "S1287",
@@ -7975,12 +7948,13 @@
 		"stats": []
 	},
 	"S1304": {
-		"name": "S1304",
-		"stats": []
+		"name": "Melee Damage against Immobilised",
+		"stats": [
+		  "20% increased Melee Damage against Immobilised Enemies"]
 	},
 	"S1305": {
-		"name": "S1305",
-		"stats": []
+		"name": "Melee Damage",
+		"stats": ["10% increased Melee Damage"]
 	},
 	"S1306": {
 		"name": "Attribute",
@@ -8031,12 +8005,12 @@
 		"stats": []
 	},
 	"S1318": {
-		"name": "S1318",
-		"stats": []
+		"name": "Life Regeneration",
+		"stats": ["Regenerate 0.4% of Life per second"]
 	},
 	"S1319": {
-		"name": "S1319",
-		"stats": []
+		"name": "Cooldown Recovery Rate",
+		"stats": ["5% increased Cooldown Recovery Rate"]
 	},
 	"S1320": {
 		"name": "S1320",
@@ -8047,8 +8021,8 @@
 		"stats": []
 	},
 	"S1322": {
-		"name": "S1322",
-		"stats": []
+		"name": "Melee Damage",
+		"stats": ["10% increased Melee Damage"]
 	},
 	"S1323": {
 		"name": "S1323",
@@ -8167,12 +8141,12 @@
 		"stats": []
 	},
 	"S1352": {
-		"name": "S1352",
-		"stats": []
+		"name": "Cooldown Recovery Rate",
+		"stats": ["5% increased Cooldown Recovery Rate"]
 	},
 	"S1353": {
-		"name": "S1353",
-		"stats": []
+		"name": "Ailment Chance",
+		"stats": ["16% increased chance to inflict Ailments"]
 	},
 	"S1354": {
 		"name": "Projectile Damage",
@@ -8187,8 +8161,8 @@
 		"stats": []
 	},
 	"S1357": {
-		"name": "S1357",
-		"stats": []
+		"name": "Life Leech. Armour and Evasion while Leeching",
+		"stats": ["8% increased amount of Life Leeched", "8% increased Armour and Evasion Rating while Leeching"]
 	},
 	"S1358": {
 		"name": "Attribute",
@@ -8287,8 +8261,8 @@
 		"stats": ["Projectiles deal 12% increased Damage with Hits against Enemies further than 6m"]
 	},
 	"S1382": {
-		"name": "S1382",
-		"stats": []
+		"name": "Mace Stun Buildup",
+		"stats": ["16% increased Stun Buildup with Maces"]
 	},
 	"S1383": {
 		"name": "Attribute",
@@ -8303,8 +8277,8 @@
 		"stats": []
 	},
 	"S1386": {
-		"name": "S1386",
-		"stats": []
+		"name": "Bleeding Chance",
+		"stats": ["10% chance to inflict Bleeding on Hit"]
 	},
 	"S1387": {
 		"name": "S1387",
@@ -8315,8 +8289,8 @@
 		"stats": ["20% increased Totem Placement Speed"]
 	},
 	"S1389": {
-		"name": "S1389",
-		"stats": []
+		"name": "Life Leech",
+		"stats": ["10% increased amount of Life Leeched"]
 	},
 	"S1390": {
 		"name": "S1390",
@@ -8339,8 +8313,8 @@
 		"stats": []
 	},
 	"S1395": {
-		"name": "S1395",
-		"stats": []
+		"name": "Mace Damage and Stun Buildup",
+		"stats": ["10% increased Stun Buildup", "10% increased Damage with Maces"]
 	},
 	"S1396": {
 		"name": "S1396",
@@ -8363,16 +8337,16 @@
 		"stats": []
 	},
 	"S1401": {
-		"name": "S1401",
-		"stats": []
+		"name": "Armour",
+		"stats": ["15% increased Armour"]
 	},
 	"S1402": {
 		"name": "Projectile Damage",
 		"stats": ["Projectiles deal 12% increased Damage with Hits against Enemies within 2m"]
 	},
 	"S1403": {
-		"name": "S1403",
-		"stats": []
+		"name": "Shield Defences",
+		"stats": ["25% increased Defences from Equipped Shield"]
 	},
 	"S1404": {
 		"name": "Attribute",
@@ -8387,8 +8361,8 @@
 		"stats": []
 	},
 	"S1407": {
-		"name": "S1407",
-		"stats": []
+		"name": "Mace Stun Buildup",
+		"stats": ["16% increased Stun Buildup with Maces"]
 	},
 	"S1408": {
 		"name": "S1408",
@@ -8411,8 +8385,8 @@
 		"stats": []
 	},
 	"S1413": {
-		"name": "S1413",
-		"stats": []
+		"name": "Armour",
+		"stats": ["18% increased Armour"]
 	},
 	"S1414": {
 		"name": "S1414",
@@ -8463,8 +8437,8 @@
 		"stats": ["Projectiles deal 12% increased Damage with Hits against Enemies within 2m"]
 	},
 	"S1426": {
-		"name": "S1426",
-		"stats": []
+		"name": "Armour",
+		"stats": ["30% increased Armour from Equipped Body Armour"]
 	},
 	"S1427": {
 		"name": "S1427",
@@ -8515,8 +8489,8 @@
 		"stats": []
 	},
 	"S1439": {
-		"name": "S1439",
-		"stats": []
+		"name": "Mace Damage",
+		"stats": ["15% increased Damage with Maces"]
 	},
 	"S1440": {
 		"name": "S1440",
@@ -8527,8 +8501,8 @@
 		"stats": []
 	},
 	"S1442": {
-		"name": "S1442",
-		"stats": []
+		"name": "Stun Threshold",
+		"stats": ["12% increased Stun Threshold"]
 	},
 	"S1443": {
 		"name": "S1443",
@@ -8563,8 +8537,8 @@
 		"stats": []
 	},
 	"S1451": {
-		"name": "S1451",
-		"stats": []
+		"name": "Two Handed Damage",
+		"stats": ["12% increased Damage with Two Handed Weapons"]
 	},
 	"S1452": {
 		"name": "S1452",
@@ -8603,8 +8577,8 @@
 		"stats": []
 	},
 	"S1461": {
-		"name": "S1461",
-		"stats": []
+		"name": "Dual Wielding Damage",
+		"stats": ["12% increased Attack Damage while Dual Wielding"]
 	},
 	"S1462": {
 		"name": "S1462",
@@ -8615,8 +8589,8 @@
 		"stats": []
 	},
 	"S1464": {
-		"name": "S1464",
-		"stats": []
+		"name": "Mace Damage",
+		"stats": ["14% increased Damage with Maces"]
 	},
 	"S1465": {
 		"name": "S1465",
@@ -8675,12 +8649,12 @@
 		"stats": ["12% increased Damage with Two Handed Weapons"]
 	},
 	"S1479": {
-		"name": "S1479",
-		"stats": []
-	},
+		"name": "Armour Break",
+		"stats": ["Break 20% increased Armour"]
+	  },
 	"S1480": {
-		"name": "S1480",
-		"stats": []
+		"name": "Damage against Enemies on Low Life",
+		"stats": ["30% increased Damage with Hits against Enemies that are on Low Life"]
 	},
 	"S1481": {
 		"name": "S1481",
@@ -8699,8 +8673,8 @@
 		"stats": []
 	},
 	"S1485": {
-		"name": "S1485",
-		"stats": []
+		"name": "Mace Aftershock Chance",
+		"stats": ["8% chance to Aftershock for Slam Skills you use with Maces"]
 	},
 	"S1486": {
 		"name": "S1486",
@@ -8723,12 +8697,12 @@
 		"stats": []
 	},
 	"S1491": {
-		"name": "S1491",
-		"stats": []
+		"name": "Dual Wielding Accuracy",
+		"stats": ["10% increased Accuracy Rating while Dual Wielding"]
 	},
 	"S1492": {
-		"name": "S1492",
-		"stats": []
+		"name": "Dual Wielding Speed",
+		"stats": ["3% increased Attack Speed while Dual Wielding"]
 	},
 	"S1493": {
 		"name": "Two Handed Damage",
@@ -8747,12 +8721,12 @@
 		"stats": []
 	},
 	"S1497": {
-		"name": "S1497",
-		"stats": []
+		"name": "Accuracy",
+		"stats": ["8% increased Global Accuracy Rating"]
 	},
 	"S1498": {
-		"name": "S1498",
-		"stats": []
+		"name": "Accuracy",
+		"stats": ["8% increased Global Accuracy Rating"]
 	},
 	"S1499": {
 		"name": "S1499",
@@ -8775,8 +8749,8 @@
 		"stats": ["12% increased Damage with Two Handed Weapons"]
 	},
 	"S1504": {
-		"name": "S1504",
-		"stats": []
+		"name": "Armour Break",
+		"stats": ["Break 20% increased Armour"]
 	},
 	"S1505": {
 		"name": "S1505",
@@ -8787,8 +8761,8 @@
 		"stats": []
 	},
 	"S1507": {
-		"name": "S1507",
-		"stats": []
+		"name": "Shield Block",
+		"stats": ["5% increased Chance to Block"]
 	},
 	"S1508": {
 		"name": "S1508",
@@ -8799,8 +8773,8 @@
 		"stats": []
 	},
 	"S1510": {
-		"name": "S1510",
-		"stats": []
+		"name": "Damage against Enemies on Low Life",
+		"stats": ["30% increased Damage with Hits against Enemies that are on Low Life"]
 	},
 	"S1511": {
 		"name": "Attribute",
@@ -8835,8 +8809,8 @@
 		"stats": []
 	},
 	"S1519": {
-		"name": "S1519",
-		"stats": []
+		"name": "Damage vs Armour Broken Enemies",
+		"stats": ["20% increased Damage against Enemies with Fully Broken Armour"]
 	},
 	"S1520": {
 		"name": "S1520",
@@ -8847,8 +8821,8 @@
 		"stats": []
 	},
 	"S1522": {
-		"name": "S1522",
-		"stats": []
+		"name": "Armour Break",
+		"stats": ["Break 20% increased Armour"]
 	},
 	"S1523": {
 		"name": "S1523",
@@ -8875,8 +8849,8 @@
 		"stats": []
 	},
 	"S1529": {
-		"name": "S1529",
-		"stats": []
+		"name": "Knockback",
+		"stats": ["8% increased Knockback Distance"]
 	},
 	"S1530": {
 		"name": "S1530",
@@ -8907,8 +8881,8 @@
 		"stats": []
 	},
 	"S1537": {
-		"name": "S1537",
-		"stats": []
+		"name": "Shield Block",
+		"stats": ["5% increased Chance to Block"]
 	},
 	"S1538": {
 		"name": "S1538",
@@ -8943,8 +8917,8 @@
 		"stats": []
 	},
 	"S1546": {
-		"name": "S1546",
-		"stats": []
+		"name": "Knockback",
+		"stats": ["8% increased Knockback Distance"]
 	},
 	"S1547": {
 		"name": "S1547",
@@ -8967,8 +8941,8 @@
 		"stats": []
 	},
 	"S1552": {
-		"name": "S1552",
-		"stats": []
+		"name": "Damage vs Armour Broken Enemies",
+		"stats": ["20% increased Damage against Enemies with Fully Broken Armour"]
 	},
 	"S1553": {
 		"name": "S1553",
@@ -9099,8 +9073,8 @@
 		"stats": []
 	},
 	"S1585": {
-		"name": "S1585",
-		"stats": []
+		"name": "One Handed Damage",
+		"stats": ["10% increased Damage with One Handed Weapons"]
 	},
 	"S1586": {
 		"name": "S1586",
@@ -9139,8 +9113,8 @@
 		"stats": []
 	},
 	"S1595": {
-		"name": "S1595",
-		"stats": []
+		"name": "Axe Damage",
+		"stats": ["12% increased Damage with Axes"]
 	},
 	"S1596": {
 		"name": "S1596",
@@ -9155,8 +9129,8 @@
 		"stats": []
 	},
 	"S1599": {
-		"name": "S1599",
-		"stats": []
+		"name": "Axe Attack Speed",
+		"stats": ["3% increased Attack Speed with Axes"]
 	},
 	"S1600": {
 		"name": "S1600",
@@ -9167,16 +9141,16 @@
 		"stats": ["12% increased Grenade Area of Effect"]
 	},
 	"S1602": {
-		"name": "S1602",
-		"stats": []
+		"name": "One Handed Damage",
+		"stats": ["10% increased Damage with One Handed Weapons"]
 	},
 	"S1603": {
 		"name": "S1603",
 		"stats": []
 	},
 	"S1604": {
-		"name": "S1604",
-		"stats": []
+		"name": "One Handed Ailment Chance",
+		"stats": ["15% increased Chance to apply Ailments with One-Handed Attacks"]
 	},
 	"S1605": {
 		"name": "S1605",
@@ -9219,8 +9193,8 @@
 		"stats": []
 	},
 	"S1615": {
-		"name": "S1615",
-		"stats": []
+		"name": "Flask Charges Used",
+		"stats": ["5% reduced Flask Charges used"]
 	},
 	"S1616": {
 		"name": "S1616",
@@ -9251,8 +9225,8 @@
 		"stats": []
 	},
 	"S1623": {
-		"name": "S1623",
-		"stats": []
+		"name": "Attack Damage and Accuracy",
+		"stats": ["6% increased Attack Damage", "5% increased Global Accuracy Rating"]
 	},
 	"S1624": {
 		"name": "S1624",
@@ -9311,8 +9285,8 @@
 		"stats": []
 	},
 	"S1638": {
-		"name": "S1638",
-		"stats": []
+		"name": "Projectile Damage",
+		"stats": ["10% increased Projectile Damage"]
 	},
 	"S1639": {
 		"name": "S1639",
@@ -9331,12 +9305,12 @@
 		"stats": ["Regenerate 0.4% of Life per second"]
 	},
 	"S1643": {
-		"name": "S1643",
-		"stats": []
+		"name": "Armour and Evasion",
+		"stats": ["12% increased Armour and Evasion Rating"]
 	},
 	"S1644": {
-		"name": "S1644",
-		"stats": []
+		"name": "Attack Damage",
+		"stats": ["10% increased Attack Damage"]
 	},
 	"S1645": {
 		"name": "Attribute",
@@ -9367,8 +9341,8 @@
 		"stats": []
 	},
 	"S1652": {
-		"name": "S1652",
-		"stats": []
+		"name": "Melee Damage",
+		"stats": ["10% increased Melee Damage"]
 	},
 	"S1653": {
 		"name": "S1653",
@@ -9407,8 +9381,8 @@
 		"stats": []
 	},
 	"S1662": {
-		"name": "S1662",
-		"stats": []
+		"name": "Attack Daamge with nearby Ally",
+		"stats": ["16% increased Attack Damage while you have an Ally in your Presence"]
 	},
 	"S1663": {
 		"name": "S1663",
@@ -9443,20 +9417,20 @@
 		"stats": []
 	},
 	"S1671": {
-		"name": "S1671",
-		"stats": []
+		"name": "Life Leech",
+		"stats": ["10% increased amount of Life Leeched"]
 	},
 	"S1672": {
 		"name": "S1672",
 		"stats": []
 	},
 	"S1673": {
-		"name": "S1673",
-		"stats": []
+		"name": "Melee Damage",
+		"stats": ["10% increased Melee Damage"]
 	},
 	"S1674": {
-		"name": "S1674",
-		"stats": []
+		"name": "Melee Critical Chance",
+		"stats": ["10% increased Melee Critical Hit Chance"]
 	},
 	"S1675": {
 		"name": "S1675",
@@ -9471,12 +9445,12 @@
 		"stats": []
 	},
 	"S1678": {
-		"name": "S1678",
-		"stats": []
+		"name": "Cooldown Recovery Rate",
+		"stats": ["5% increased Cooldown Recovery Rate"]
 	},
 	"S1679": {
-		"name": "S1679",
-		"stats": []
+		"name": "Attack Damage and Accuracy",
+		"stats": ["6% increased Attack Damage", "5% increased Global Accuracy Rating"]
 	},
 	"S1680": {
 		"name": "S1680",
@@ -9503,8 +9477,8 @@
 		"stats": []
 	},
 	"S1686": {
-		"name": "S1686",
-		"stats": []
+		"name": "Mercenaries",
+		"stats": ["Minions deal 10% increased Damage"]
 	},
 	"S1687": {
 		"name": "S1687",
@@ -9543,8 +9517,8 @@
 		"stats": []
 	},
 	"S1696": {
-		"name": "S1696",
-		"stats": []
+		"name": "Cooldown Recovery Rate",
+		"stats": ["5% increased Cooldown Recovery Rate"]
 	},
 	"S1697": {
 		"name": "S1697",
@@ -9575,8 +9549,8 @@
 		"stats": []
 	},
 	"S1704": {
-		"name": "S1704",
-		"stats": []
+		"name": "One Handed Attack Speed",
+		"stats": ["3% increased Attack Speed with One Handed Melee Weapons"]
 	},
 	"S1705": {
 		"name": "S1705",
@@ -9627,8 +9601,8 @@
 		"stats": ["12% increased Stun Threshold"]
 	},
 	"S1717": {
-		"name": "S1717",
-		"stats": []
+		"name": "One Handed Accuracy",
+		"stats": ["12% increased Accuracy with One Handed Melee Weapons"]
 	},
 	"S1718": {
 		"name": "S1718",
@@ -9655,8 +9629,8 @@
 		"stats": []
 	},
 	"S1724": {
-		"name": "S1724",
-		"stats": []
+		"name": "Maximum Lightning Resistance",
+		"stats": ["+1% to Maximum Lightning Resistance"]
 	},
 	"S1725": {
 		"name": "S1725",
@@ -9683,16 +9657,16 @@
 		"stats": []
 	},
 	"S1731": {
-		"name": "S1731",
-		"stats": []
+		"name": "One Handed Attack Speed",
+		"stats": ["3% increased Attack Speed with One Handed Melee Weapons"]
 	},
 	"S1732": {
 		"name": "S1732",
 		"stats": []
 	},
 	"S1733": {
-		"name": "S1733",
-		"stats": []
+		"name": "Maximum Cold Resistance",
+		"stats": ["+1% to Maximum Cold Resistance"]
 	},
 	"S1734": {
 		"name": "Attribute",
@@ -9715,16 +9689,16 @@
 		"stats": ["+5 to any Attribute"]
 	},
 	"S1739": {
-		"name": "S1739",
-		"stats": []
+		"name": "One Handed Attack Speed",
+		"stats": ["3% increased Attack Speed with One Handed Melee Weapons"]
 	},
 	"S1740": {
-		"name": "S1740",
-		"stats": []
+		"name": "One Handed Damage",
+		"stats": ["10% increased Damage with One Handed Weapons"]
 	},
 	"S1741": {
-		"name": "S1741",
-		"stats": []
+		"name": "One Handed Attack Speed",
+		"stats": ["3% increased Attack Speed with One Handed Melee Weapons"]
 	},
 	"S1742": {
 		"name": "Attribute",
@@ -9732,7 +9706,7 @@
 	},
 	"S1743": {
 		"name": "Stun Buildup",
-		"stats": ["15% increased Stun Buildup"]
+		"stats": ["12% increased Stun Buildup"]
 	},
 	"S1744": {
 		"name": "Attribute",
@@ -9743,8 +9717,8 @@
 		"stats": []
 	},
 	"S1746": {
-		"name": "S1746",
-		"stats": []
+		"name": "Herald Reservation",
+		"stats": ["4% reduced Reservation of Herald Skills"]
 	},
 	"S1747": {
 		"name": "S1747",
@@ -9771,8 +9745,8 @@
 		"stats": []
 	},
 	"S1753": {
-		"name": "S1753",
-		"stats": []
+		"name": "Armour and Evasion",
+		"stats": ["12% increased Armour and Evasion Rating"]
 	},
 	"S1754": {
 		"name": "S1754",
@@ -9783,16 +9757,16 @@
 		"stats": []
 	},
 	"S1756": {
-		"name": "S1756",
-		"stats": []
+		"name": "Maximum Fire Resistance",
+		"stats": ["+1% to Maximum Fire Resistance"]
 	},
 	"S1757": {
 		"name": "S1757",
 		"stats": []
 	},
 	"S1758": {
-		"name": "S1758",
-		"stats": []
+		"name": "Elemental Attack Damage",
+		"stats": ["12% increased Elemental Damage with Attack Skills"]
 	},
 	"S1759": {
 		"name": "S1759",
@@ -9803,8 +9777,8 @@
 		"stats": []
 	},
 	"S1761": {
-		"name": "S1761",
-		"stats": []
+		"name": "Stun Buildup",
+		"stats": ["12% increased Stun Buildup"]
 	},
 	"S1762": {
 		"name": "S1762",
@@ -9855,16 +9829,16 @@
 		"stats": []
 	},
 	"S1774": {
-		"name": "S1774",
-		"stats": []
+		"name": "Elemental Attack Damage",
+		"stats": ["12% increased Elemental Damage with Attack Skills"]
 	},
 	"S1775": {
 		"name": "Attribute",
 		"stats": ["+5 to any Attribute"]
 	},
 	"S1776": {
-		"name": "S1776",
-		"stats": []
+		"name": "Armour and Evasion",
+		"stats": ["12% increased Armour and Evasion Rating"]
 	},
 	"S1777": {
 		"name": "S1777",
@@ -9879,20 +9853,20 @@
 		"stats": []
 	},
 	"S1780": {
-		"name": "S1780",
-		"stats": []
+		"name": "Herald Reservation",
+		"stats": ["4% reduced Reservation of Herald Skills"]
 	},
 	"S1781": {
-		"name": "S1781",
-		"stats": []
+		"name": "Herald Damage",
+		"stats": ["Herald Skills deal 20% increased Damage"]
 	},
 	"S1782": {
 		"name": "S1782",
 		"stats": []
 	},
 	"S1783": {
-		"name": "S1783",
-		"stats": []
+		"name": "Armour and Evasion",
+		"stats": ["16% increased Armour and Evasion Rating"]
 	},
 	"S1784": {
 		"name": "S1784",
@@ -9903,12 +9877,12 @@
 		"stats": []
 	},
 	"S1786": {
-		"name": "S1786",
-		"stats": []
+		"name": "Armour and Evasion",
+		"stats": ["16% increased Armour and Evasion Rating"]
 	},
 	"S1787": {
-		"name": "S1787",
-		"stats": []
+		"name": "Herald Damage",
+		"stats": ["Herald Skills deal 20% increased Damage"]
 	},
 	"S1788": {
 		"name": "Attribute",
@@ -9927,8 +9901,8 @@
 		"stats": []
 	},
 	"S1792": {
-		"name": "S1792",
-		"stats": []
+		"name": "Warcry Speed",
+		"stats": ["16% increased Warcry Speed"]
 	},
 	"S1793": {
 		"name": "S1793",
@@ -9951,16 +9925,16 @@
 		"stats": []
 	},
 	"S1798": {
-		"name": "S1798",
-		"stats": []
+		"name": "Warcry Speed",
+		"stats": ["16% increased Warcry Speed"]
 	},
 	"S1799": {
 		"name": "S1799",
 		"stats": []
 	},
 	"S1800": {
-		"name": "S1800",
-		"stats": []
+		"name": "Chaining Projectiles",
+		"stats": ["Projectiles have 15% chance to Chain an additional time from terrain"]
 	},
 	"S1801": {
 		"name": "S1801",
@@ -9975,24 +9949,24 @@
 		"stats": ["+5 to any Attribute"]
 	},
 	"S1804": {
-		"name": "S1804",
-		"stats": []
+		"name": "Chaining Projectiles",
+		"stats": ["Projectiles have 15% chance to Chain an additional time from terrain"]
 	},
 	"S1805": {
 		"name": "S1805",
 		"stats": []
 	},
 	"S1806": {
-		"name": "S1806",
-		"stats": []
+		"name": "Area Damage",
+		"stats": ["12% increased Attack Area Damage"]
 	},
 	"S1807": {
-		"name": "S1807",
-		"stats": []
+		"name": "Warcry Cooldown",
+		"stats": ["10% increased Warcry Cooldown Recovery Rate"]
 	},
 	"S1808": {
-		"name": "S1808",
-		"stats": []
+		"name": "Block Recovery",
+		"stats": ["25% increased Block Recovery"]
 	},
 	"S1809": {
 		"name": "S1809",
@@ -10015,8 +9989,8 @@
 		"stats": []
 	},
 	"S1814": {
-		"name": "S1814",
-		"stats": []
+		"name": "Area Damage and Armour Break",
+		"stats": ["Break 10% increased Armour",	"8% increased Attack Area Damage"]
 	},
 	"S1815": {
 		"name": "S1815",
@@ -10027,24 +10001,24 @@
 		"stats": []
 	},
 	"S1817": {
-		"name": "S1817",
-		"stats": []
+		"name": "Electrocute Buildup",
+		"stats": ["15% increased Electrocute Buildup"]
 	},
 	"S1818": {
 		"name": "S1818",
 		"stats": []
 	},
 	"S1819": {
-		"name": "S1819",
-		"stats": []
+		"name": "Area Damage",
+		"stats": ["12% increased Attack Area Damage"]
 	},
 	"S1820": {
 		"name": "S1820",
 		"stats": []
 	},
 	"S1821": {
-		"name": "S1821",
-		"stats": []
+		"name": "Area Damage and Armour Break",
+		"stats": ["Break 10% increased Armour", "8% increased Attack Area Damage"]
 	},
 	"S1822": {
 		"name": "S1822",
@@ -10095,8 +10069,8 @@
 		"stats": []
 	},
 	"S1834": {
-		"name": "S1834",
-		"stats": []
+		"name": "Attack Area",
+		"stats": ["8% increased Area of Effect for Attacks"]
 	},
 	"S1835": {
 		"name": "S1835",
@@ -10115,20 +10089,20 @@
 		"stats": ["+5 to any Attribute"]
 	},
 	"S1839": {
-		"name": "S1839",
-		"stats": []
+		"name": "Attack Area",
+		"stats": ["8% increased Area of Effect for Attacks"]
 	},
 	"S1840": {
 		"name": "S1840",
 		"stats": []
 	},
 	"S1841": {
-		"name": "S1841",
-		"stats": []
+		"name": "Life Flasks",
+		"stats": ["10% increased Life Recovery from Flasks"]
 	},
 	"S1842": {
-		"name": "S1842",
-		"stats": []
+		"name": "Life Flasks",
+		"stats": ["10% increased Life Recovery from Flasks"]
 	},
 	"S1843": {
 		"name": "Bleeding Chance",
@@ -10139,8 +10113,8 @@
 		"stats": ["+5 to any Attribute"]
 	},
 	"S1845": {
-		"name": "S1845",
-		"stats": []
+		"name": "Life Leech",
+		"stats": ["10% increased amount of Life Leeched"]
 	},
 	"S1846": {
 		"name": "S1846",
@@ -10151,12 +10125,12 @@
 		"stats": []
 	},
 	"S1848": {
-		"name": "S1848",
-		"stats": []
+		"name": "Life Flasks",
+		"stats": ["10% increased Life Recovery from Flasks"]
 	},
 	"S1849": {
-		"name": "S1849",
-		"stats": []
+		"name": "Attack Area",
+    	"stats": ["8% increased Area of Effect for Attacks"]
 	},
 	"S1850": {
 		"name": "S1850",
@@ -10191,28 +10165,28 @@
 		"stats": []
 	},
 	"S1858": {
-		"name": "S1858",
-		"stats": []
+		"name": "Attack Speed",
+		"stats": ["3% increased Attack Speed"]
 	},
 	"S1859": {
-		"name": "S1859",
-		"stats": []
+		"name": "Attack Damage vs Bleeding Enemies",
+		"stats": ["20% increased Attack Damage against Bleeding Enemies"]
 	},
 	"S1860": {
-		"name": "S1860",
-		"stats": []
+		"name": "Accuracy",
+		"stats": ["8% increased Global Accuracy Rating"]
 	},
 	"S1861": {
-		"name": "S1861",
-		"stats": []
+		"name": "Bleeding Damage",
+		"stats": ["10% increased Effect of Bleeding"]
 	},
 	"S1862": {
-		"name": "S1862",
-		"stats": []
+		"name": "Life Leech and Physical Damage",
+    	"stats": ["10% increased amount of Life Leeched", "10% increased Physical Damage"]
 	},
 	"S1863": {
-		"name": "S1863",
-		"stats": []
+		"name": "Life Flask Charges",
+    	"stats": ["Life Flasks gain 0.1 charges per Second"]
 	},
 	"S1864": {
 		"name": "S1864",
@@ -10247,20 +10221,20 @@
 		"stats": []
 	},
 	"S1872": {
-		"name": "S1872",
-		"stats": []
+		"name": "Accuracy and Attack Critical Chance",
+    	"stats": ["8% increased Critical Hit Chance for Attacks", "6% increased Global Accuracy Rating"]
 	},
 	"S1873": {
 		"name": "S1873",
 		"stats": []
 	},
 	"S1874": {
-		"name": "S1874",
-		"stats": []
+		"name": "Accuracy and Attack Critical Chance",
+    	"stats": ["8% increased Critical Hit Chance for Attacks", "6% increased Global Accuracy Rating"]
 	},
 	"S1875": {
-		"name": "S1875",
-		"stats": []
+		"name": "Life Leech",
+    	"stats": ["10% increased amount of Life Leeched"]
 	},
 	"S1876": {
 		"name": "S1876",
@@ -10279,24 +10253,24 @@
 		"stats": []
 	},
 	"S1880": {
-		"name": "S1880",
-		"stats": []
+		"name": "All Attributes",
+    	"stats": ["+3 to all Attributes"]
 	},
 	"S1881": {
-		"name": "S1881",
-		"stats": []
+		"name": "Attack Damage",
+    	"stats": ["16% increased Attack Damage against Rare or Unique Enemies"]
 	},
 	"S1882": {
 		"name": "S1882",
 		"stats": []
 	},
 	"S1883": {
-		"name": "S1883",
-		"stats": []
+		"name": "Crossbow Damage",
+    	"stats": ["12% increased Damage with Crossbows"]
 	},
 	"S1884": {
-		"name": "S1884",
-		"stats": []
+		"name": "Armour and Evasion",
+    	"stats": ["12% increased Armour and Evasion Rating"]
 	},
 	"S1885": {
 		"name": "S1885",
@@ -10311,20 +10285,20 @@
 		"stats": []
 	},
 	"S1888": {
-		"name": "S1888",
-		"stats": []
+		"name": "Crossbow Damage",
+    	"stats": ["12% increased Damage with Crossbows"]
 	},
 	"S1889": {
 		"name": "S1889",
 		"stats": []
 	},
 	"S1890": {
-		"name": "S1890",
-		"stats": []
+		"name": "Attack Damage",
+    	"stats": ["16% increased Attack Damage against Rare or Unique Enemies"]
 	},
 	"S1891": {
-		"name": "S1891",
-		"stats": []
+		"name": "Armour and Evasion",
+    	"stats": ["12% increased Armour and Evasion Rating"]
 	},
 	"S1892": {
 		"name": "S1892",
@@ -10343,20 +10317,20 @@
 		"stats": []
 	},
 	"S1896": {
-		"name": "S1896",
-		"stats": []
+		"name": "All Attributes",
+    	"stats": ["+3 to all Attributes"]
 	},
 	"S1897": {
-		"name": "S1897",
-		"stats": []
+		"name": "All Attributes",
+    	"stats": ["+3 to all Attributes"]
 	},
 	"S1898": {
 		"name": "S1898",
 		"stats": []
 	},
 	"S1899": {
-		"name": "S1899",
-		"stats": []
+		"name": "Attack Speed",
+    	"stats": ["4% increased Attack Speed while a Rare or Unique Enemy is Nearby"]
 	},
 	"S1900": {
 		"name": "S1900",
@@ -10375,28 +10349,28 @@
 		"stats": []
 	},
 	"S1904": {
-		"name": "S1904",
-		"stats": []
+		"name": "Armour and Evasion",
+    	"stats": ["12% increased Armour and Evasion Rating"]
 	},
 	"S1905": {
-		"name": "S1905",
-		"stats": []
+		"name": "Attack Speed",
+    	"stats": ["4% increased Attack Speed while a Rare or Unique Enemy is Nearby"]
 	},
 	"S1906": {
-		"name": "S1906",
-		"stats": []
+		"name": "Reduced Attribute Requirements",
+    	"stats": ["Items and Gems have 5% reduced Attribute Requirements"]
 	},
 	"S1907": {
-		"name": "S1907",
-		"stats": []
+		"name": "Reduced Attribute Requirements",
+		"stats": ["Items and Gems have 5% reduced Attribute Requirements"]
 	},
 	"S1908": {
-		"name": "S1908",
-		"stats": []
+		"name": "Sword Damage",
+		"stats": ["10% increased Damage with Swords"]
 	},
 	"S1909": {
-		"name": "S1909",
-		"stats": []
+		"name": "Sword Speed",
+		"stats": ["3% increased Attack Speed with Swords"]
 	},
 	"S1910": {
 		"name": "S1910",
@@ -10407,8 +10381,8 @@
 		"stats": []
 	},
 	"S1912": {
-		"name": "S1912",
-		"stats": []
+		"name": "Reduced Attribute Requirements",
+		"stats": ["Items and Gems have 5% reduced Attribute Requirements"]
 	},
 	"S1913": {
 		"name": "S1913",
