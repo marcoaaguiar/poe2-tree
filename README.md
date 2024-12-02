@@ -72,13 +72,6 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
 	<tbody>
 		<tr>
             <td align="center">
-                <a href="https://github.com/Alexis-Pannetier">
-                    <img src="https://avatars.githubusercontent.com/u/35290061?v=4" width="100;" alt="Alexis-Pannetier"/>
-                    <br />
-                    <sub><b>Alexis Pannetier</b></sub>
-                </a>
-            </td>
-            <td align="center">
                 <a href="https://github.com/marcoaaguiar">
                     <img src="https://avatars.githubusercontent.com/u/7772685?v=4" width="100;" alt="marcoaaguiar"/>
                     <br />
@@ -113,8 +106,6 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                     <sub><b>Daru</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/meatwallace">
                     <img src="https://avatars.githubusercontent.com/u/3013783?v=4" width="100;" alt="meatwallace"/>
@@ -122,6 +113,8 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                     <sub><b>Geoff Whatley</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/azadix">
                     <img src="https://avatars.githubusercontent.com/u/3746879?v=4" width="100;" alt="azadix"/>
@@ -157,8 +150,6 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                     <sub><b>Darxo</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/theshannon">
                     <img src="https://avatars.githubusercontent.com/u/33788533?v=4" width="100;" alt="theshannon"/>
@@ -166,6 +157,8 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                     <sub><b>Shannon Pereira</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/Bolado">
                     <img src="https://avatars.githubusercontent.com/u/74077743?v=4" width="100;" alt="Bolado"/>
@@ -201,8 +194,6 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                     <sub><b>Márton Vincze</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/Saullasky">
                     <img src="https://avatars.githubusercontent.com/u/100862483?v=4" width="100;" alt="Saullasky"/>
@@ -210,11 +201,20 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                     <sub><b>GregoireS</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/MrCatFace515">
                     <img src="https://avatars.githubusercontent.com/u/48973217?v=4" width="100;" alt="MrCatFace515"/>
                     <br />
                     <sub><b>MrCatFace515</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/Alexis-Pannetier">
+                    <img src="https://avatars.githubusercontent.com/u/35290061?v=4" width="100;" alt="Alexis-Pannetier"/>
+                    <br />
+                    <sub><b>Alexis Pannetier</b></sub>
                 </a>
             </td>
             <td align="center">
