@@ -10441,9 +10441,28 @@
     ]
   },
   "AN1": {
-    "name": "AN1",
+    "name": "Sanguimancy",
     "stats": [
-      "Bloodmage notable"
+      "Grants Skill: Life Remnants",
+      "Skills gain a Base Life Cost equal to Base Mana Cost"
+    ]
+  },
+  "AN2": {
+    "name": "Crimson Power",
+    "stats": [
+      "Gain Energy Shield from equipped Body Armour as extra maximum Life"
+    ]
+  },
+  "AN3": {
+    "name": "Vitality Siphon",
+    "stats": [
+      "10% of Spell Damage Leeched as Life"
+    ]
+  },
+  "AN4": {
+    "name": "Gore Spike",
+    "stats": [
+      "1% increased Critical Damage Bonus per 20 Life"
     ]
   },
   "AS11": {
@@ -10453,9 +10472,32 @@
     ]
   },
   "AN11": {
-    "name": "AN11",
+    "name": "Loyal Hellhound",
     "stats": [
-      "Infernalist notable"
+      "Grants Skill: Summon Infernal Hound",
+      "20% of Damage from Hits is taken from your Hellhound´s Life before you"
+    ]
+  },
+  "AN12": {
+    "name": "Demonic Possession",
+    "stats": [
+      "Grants Skill: Demon Form"
+    ]
+  },
+  "AN13": {
+    "name": "Pyromantic Pact",
+    "stats": [
+      "Maximum Mana is replaced by Maximum Infernal Flame",
+      "Gain Infernal Flame instead of spending Mana for Skill costs",
+      "Take maximum Life and Energy Shield as Fire Damage when Infernal flame reaches maximum",
+      "Lose all Infernal Flame on reaching maximum Infernal Flame",
+      "10% of Infernal Flame lost per second if none was gained in the past 2 seconds"
+    ]
+  },
+  "AN14": {
+    "name": "Bringer of Flame",
+    "stats": [
+      "While not on Low Infernal Flame, all Damage from you and your Minions contributes to Ignite Chance and Magnitude"
     ]
   },
   "AS21": {
@@ -10465,9 +10507,23 @@
     ]
   },
   "AN21": {
-    "name": "AN21",
+    "name": "Tempest Caller",
     "stats": [
-      "Stormweaver notable"
+      "Grants Skill: Elemental Storm",
+      "Trigger Elemental Storm on Critical Hit with Spells"
+    ]
+  },
+  "AN22": {
+    "name": "Strike Twice",
+    "stats": [
+      "Targets can be affected by two of your Shocks at the same time",
+      "50% less Shock Duration"
+    ]
+  },
+  "AN23": {
+    "name": "Shaper of Storms",
+    "stats": [
+      "All Damage from Hits Contributes to Shock Chance"
     ]
   },
   "AS31": {
@@ -10477,9 +10533,21 @@
     ]
   },
   "AN31": {
-    "name": "AN31",
+    "name": "Footprints in the Sand",
     "stats": [
-      "Chronomancer notable"
+      "Grants Skill: Temporal Rift"
+    ]
+  },
+  "AN32": {
+    "name": "Ultimate Command",
+    "stats": [
+      "Grants Skill: Time Freeze"
+    ]
+  },
+  "AN33": {
+    "name": "Unbound Encore",
+    "stats": [
+      "Grants Skill: Time Snap"
     ]
   },
   "AS41": {
@@ -10489,9 +10557,36 @@
     ]
   },
   "AN41": {
-    "name": "AN41",
+    "name": "Faith is a Choice",
     "stats": [
-      "Invoker notable"
+      "Grants Skill: Meditate"
+    ]
+  },
+  "AN42": {
+    "name": "I am the Blizzard...",
+    "stats": [
+      "Gain 10% of Damage as Extra Cold Damage",
+      "On Freezing Enemies create Chilled Ground"
+    ]
+  },
+  "AN43": {
+    "name": "I am the Thunder...",
+    "stats": [
+      "Gain 10% of Damage as Extra Lightning Damage",
+      "25% chance on Shocking Enemies to create Shocked Ground"
+    ]
+  },
+  "AN44": {
+    "name": "...and I Shall Rage",
+    "stats": [
+      "Grants Skill: Unbound Avatar"
+    ]
+  },
+  "AN45": {
+    "name": "...and Scatter Them to the Winds",
+    "stats": [
+      "Grants Skill: Elemental Expression",
+      "Trigger Elemental Expression on Meele Critical Hit"
     ]
   },
   "AS51": {
@@ -10501,9 +10596,35 @@
     ]
   },
   "AN51": {
-    "name": "AN51",
+    "name": "Chayula´s Gift",
     "stats": [
-      "Acolyte notable"
+      "+10% to Maximum Chaos Resistance",
+      "Chaos Resistance is doubled"
+    ]
+  },
+  "AN52": {
+    "name": "Ravenous Doubts",
+    "stats": [
+      "Mana Leech is instant"
+    ]
+  },
+  "AN53": {
+    "name": "Consuming Questions",
+    "stats": [
+      "You cannot Recharge Energy Shield",
+      "Mana Leech effects also Recover Energy Shield"
+    ]
+  },
+  "AN54": {
+    "name": "Waking Dream",
+    "stats": [
+      "Grants Skill: Into the Breach"
+    ]
+  },
+  "AN55": {
+    "name": "Grasp of the Void",
+    "stats": [
+      "Gain 1% of Damage as Extra Chaos Damage per 20 Unreserved Darkness"
     ]
   },
   "AS61": {
