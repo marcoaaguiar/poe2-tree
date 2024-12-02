@@ -32,13 +32,13 @@
 	const minScale = 0.5; // Minimum zoom out level
 	const maxScale = 3; // Maximum zoom in level
 
-	// Base size for nodes
-	const baseNodeSize = 20; // Adjust as needed
-
 	// State for search
 	let searchTerm = '';
 	let searchInputEl: HTMLInputElement | null = null;
 	let searchResults: string[] = [];
+
+	// State for ascendancy selection
+	let selectedAscendancy = 'gemling';
 
 	// State for selected nodes
 	let selectedNodes: string[] = [];
@@ -48,6 +48,8 @@
 
 	// Load saved selected nodes from localStorage on component initialization
 	if (browser) {
+		selectedAscendancy = localStorage.getItem('selectedAscendancy') || 'gemling';
+
 		const savedSelectedNodes = localStorage.getItem('selectedSkillNodes');
 
 		if (savedSelectedNodes) {
@@ -62,10 +64,8 @@
 	// Reactive statement to save selected nodes to localStorage whenever they change
 	$: if (browser) {
 		localStorage.setItem('selectedSkillNodes', JSON.stringify(selectedNodes));
+		localStorage.setItem('selectedAscendancy', selectedAscendancy);
 	}
-
-	// Ascendancy selection
-	let selectedAscendancy = 'bloodmage';
 
 	// State for filters
 	let highlightKeystones = false;
@@ -78,21 +78,27 @@
 	// Reactive statement for search
 	$: handleSearch(searchTerm);
 
+	// handler for removing selected nodes when our ascendancy changes
+	$: handleAscendancyChange(selectedAscendancy);
+
+	function handleAscendancyChange(ascendancy: string) {
+		selectedNodes = selectedNodes.filter((nodeId) => nodes[nodeId].class === ascendancy);
+	}
+
 	// composable filter functions
 	function filterSmallNodes(node: TreeNodeData) {
 		return !hideSmall || node.type !== 'small';
 	}
 
 	function filterUnselectedNodes(node: TreeNodeData) {
-		return !hideUnselected || !selectedNodes.includes(node.id);
+		return !hideUnselected || selectedNodes.includes(node.id);
 	}
 
 	function filterUnidentifiedNodes(node: TreeNodeData) {
 		return !hideUnidentified || node.description.length > 0;
 	}
 
-	//TODO: move ascandency filter logic to loadData and fix reloading ascendancies on change
-	function filterAscendancyNodes(node: TreeNodeData) {
+	function filterSelectedAscendancyNodes(node: TreeNodeData) {
 		return !node.class || node.class === selectedAscendancy;
 	}
 
@@ -100,7 +106,7 @@
 		filterSmallNodes,
 		filterUnselectedNodes,
 		filterUnidentifiedNodes,
-		filterAscendancyNodes
+		filterSelectedAscendancyNodes
 	];
 
 	// filter nodes using active filters
@@ -446,18 +452,18 @@
 								id="asc-select"
 								bind:value={selectedAscendancy}
 							>
-								<option value="bloodmage" selected>Witch - Bloodmage</option>
-								<option value="infernalist">With - Infernalist</option>
-								<option value="stormweaver">Sorc - Stormweaver</option>
-								<option value="chronomancer">Sorc - Chronomancer</option>
-								<option value="invoker">Monk - Invoker</option>
+								<option value="gemling" selected>Mercenary - Gemling Legionnaire</option>
+								<option value="witchhunter">Mercenary - Witchhunter</option>
 								<option value="acolyte">Monk - Acolyte of Chayula</option>
-								<option value="titan">Warrior - Titan</option>
-								<option value="warbringer">Warrior - Warbringer</option>
+								<option value="invoker">Monk - Invoker</option>
+								<option value="chronomancer">Sorceress - Chronomancer</option>
+								<option value="stormweaver">Sorceress - Stormweaver</option>
 								<option value="deadeye">Ranger - Deadeye</option>
 								<option value="pathfinder">Ranger - Pathfinder</option>
-								<option value="witchhunter">Mercenary - Witchhunter</option>
-								<option value="legionnaire">Mercenary - Gem. Legionnaire</option>
+								<option value="titan">Warrior - Titan</option>
+								<option value="warbringer">Warrior - Warbringer</option>
+								<option value="bloodmage">Witch - Bloodmage</option>
+								<option value="infernalist">Witch - Infernalist</option>
 							</select>
 						</div>
 					</div>

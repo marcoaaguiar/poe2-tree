@@ -116,13 +116,6 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
 		</tr>
 		<tr>
             <td align="center">
-                <a href="https://github.com/Chizinha">
-                    <img src="https://avatars.githubusercontent.com/u/16880563?v=4" width="100;" alt="Chizinha"/>
-                    <br />
-                    <sub><b>Chizinha</b></sub>
-                </a>
-            </td>
-            <td align="center">
                 <a href="https://github.com/meatwallace">
                     <img src="https://avatars.githubusercontent.com/u/3013783?v=4" width="100;" alt="meatwallace"/>
                     <br />
@@ -130,10 +123,17 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/Darxo">
-                    <img src="https://avatars.githubusercontent.com/u/2252464?v=4" width="100;" alt="Darxo"/>
+                <a href="https://github.com/Chizinha">
+                    <img src="https://avatars.githubusercontent.com/u/16880563?v=4" width="100;" alt="Chizinha"/>
                     <br />
-                    <sub><b>Darxo</b></sub>
+                    <sub><b>Chizinha</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/mortslhawmit">
+                    <img src="https://avatars.githubusercontent.com/u/30402832?v=4" width="100;" alt="mortslhawmit"/>
+                    <br />
+                    <sub><b>mortslhawmit</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -144,10 +144,10 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/mortslhawmit">
-                    <img src="https://avatars.githubusercontent.com/u/30402832?v=4" width="100;" alt="mortslhawmit"/>
+                <a href="https://github.com/Darxo">
+                    <img src="https://avatars.githubusercontent.com/u/2252464?v=4" width="100;" alt="Darxo"/>
                     <br />
-                    <sub><b>mortslhawmit</b></sub>
+                    <sub><b>Darxo</b></sub>
                 </a>
             </td>
             <td align="center">
