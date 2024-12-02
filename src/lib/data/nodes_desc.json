@@ -10679,8 +10679,29 @@
 		"stats": ["Witchhunter small"]
 	},
 	"AN101": {
-		"name": "AN101",
-		"stats": ["Witchhunter notable"]
+		"name": "Obssesive Rituals",
+		"stats": ["Grants Skill: Sorcery Ward", "50% les Armour and Evasion Rating"]
+	},
+	"AN102": {
+		"name": "Witchbane",
+		"stats": [
+			"Enemies Maximum Concentration equal to 40% of their Maximum Life",
+			"Break enemy Concentration on Hit equal to 100% of Damage Dealt",
+			"Enemies regain 10% of Concentration every second if they haven't lost concentration in the",
+			"past 5 seconds"
+		]
+	},
+	"AN103": {
+		"name": "Judge, Jury, and Executionner",
+		"stats": ["Decimating Strike", "(First hit chunks enemy)"]
+	},
+	"AN104": {
+		"name": "Zealous inquisition",
+		"stats": [
+			"10% chance for Enemies you Kill to Explode, dealing 100%",
+			"of their Maximum Life as Physical Damage",
+			"Chance is doubled against Undead and Demons"
+		]
 	},
 	"AS111": {
 		"name": "AS111",
