@@ -69,17 +69,8 @@
 			try {
 				const bitString = LZString.decompressFromEncodedURIComponent(compressed);
 				const bitArray = Uint8Array.from(bitString.split('').map((c) => c.charCodeAt(0)));
-				const selectedIndices = [];
 
-				for (let index = 0; index < totalNodes; index++) {
-					const byteIndex = Math.floor(index / 8);
-					const bitIndex = index % 8;
-					if (bitArray[byteIndex] & (1 << bitIndex)) {
-						selectedIndices.push(index);
-					}
-				}
-
-				selectedNodes = selectedIndices.map((index) => nodeIdList[index]);
+				selectedNodes = nodeIdList.filter((_, index) => isBitSet(bitArray, index));
 			} catch (error) {
 				console.error('Error parsing selected nodes from URL:', error);
 			}
@@ -91,9 +82,7 @@
 		const bitArray = new Uint8Array(Math.ceil(totalNodes / 8));
 
 		selectedIndices.forEach((index) => {
-			const byteIndex = Math.floor(index / 8);
-			const bitIndex = index % 8;
-			bitArray[byteIndex] |= 1 << bitIndex;
+			setBit(bitArray, index);
 		});
 
 		const bitString = String.fromCharCode(...bitArray);
@@ -103,6 +92,18 @@
 		params.set('p', compressed);
 		const newUrl = window.location.pathname + '?' + params.toString();
 		window.history.replaceState({}, '', newUrl);
+	}
+
+	function isBitSet(bitArray: Uint8Array, index: number): boolean {
+		const byteIndex = Math.floor(index / 8);
+		const bitIndex = index % 8;
+		return (bitArray[byteIndex] & (1 << bitIndex)) !== 0;
+	}
+
+	function setBit(bitArray: Uint8Array, index: number): void {
+		const byteIndex = Math.floor(index / 8);
+		const bitIndex = index % 8;
+		bitArray[byteIndex] |= 1 << bitIndex;
 	}
 
 	// composable filter functions
