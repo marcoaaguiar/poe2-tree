@@ -1,11 +1,11 @@
 <script lang="ts">
-	import type { TreeNode } from '$lib';
+	import type { TreeNodeData } from '$lib';
 	import { base } from '$app/paths';
 
 	let {
 		node
 	}: {
-		node: TreeNode;
+		node: TreeNodeData;
 	} = $props();
 </script>
 
