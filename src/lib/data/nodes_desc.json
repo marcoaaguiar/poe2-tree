@@ -1782,7 +1782,7 @@
 	},
 	"N374": {
 		"name": "Mass Hysteria",
-		"stats": ["Allies in your Presence have 6% increased Attack Speed"]
+		"stats": ["6% increased Attack Speed", "Allies in your Presence have 6% increased Attack Speed"]
 	},
 	"N375": {
 		"name": "Unforgiving",
@@ -7383,8 +7383,8 @@
 		"stats": []
 	},
 	"S1156": {
-		"name": "S1156",
-		"stats": []
+		"name": "Armour and Evasion",
+		"stats": ["+10 to Armour", "+8 to Evasion Rating"]
 	},
 	"S1157": {
 		"name": "S1157",
@@ -7427,12 +7427,12 @@
 		"stats": []
 	},
 	"S1167": {
-		"name": "S1167",
-		"stats": []
+		"name": "Attack Speed",
+		"stats": ["3% increased Attack Speed"]
 	},
 	"S1168": {
-		"name": "S1168",
-		"stats": []
+		"name": "Attack Speed",
+		"stats": ["3% increased Attack Speed"]
 	},
 	"S1169": {
 		"name": "S1169",
@@ -7451,8 +7451,8 @@
 		"stats": []
 	},
 	"S1173": {
-		"name": "S1173",
-		"stats": []
+		"name": "Armour and Evasion",
+		"stats": ["12% increased Armour and Evasion"]
 	},
 	"S1174": {
 		"name": "Attribute",
@@ -7535,8 +7535,8 @@
 		"stats": ["10% increased Projectile Damage"]
 	},
 	"S1194": {
-		"name": "S1194",
-		"stats": []
+		"name": "Armour and Evasion",
+		"stats": ["12% increased Armour and Evasion"]
 	},
 	"S1195": {
 		"name": "S1195",
@@ -7647,8 +7647,8 @@
 		"stats": []
 	},
 	"S1222": {
-		"name": "S1222",
-		"stats": []
+		"name": "Attack Speed",
+		"stats": ["3% increased Attack Speed"]
 	},
 	"S1223": {
 		"name": "S1223",
@@ -7695,12 +7695,12 @@
 		"stats": []
 	},
 	"S1234": {
-		"name": "S1234",
-		"stats": []
+		"name": "Armour and Evasion",
+		"stats": ["12% increased Armour and Evasion"]
 	},
 	"S1235": {
-		"name": "S1235",
-		"stats": []
+		"name": "Armour and Evasion",
+		"stats": ["12% increased Armour and Evasion"]
 	},
 	"S1236": {
 		"name": "S1236",
@@ -7799,12 +7799,12 @@
 		"stats": ["+5 to any Attribute"]
 	},
 	"S1260": {
-		"name": "S1260",
-		"stats": []
+		"name": "Attack Speed",
+		"stats": ["3% increased Attack Speed"]
 	},
 	"S1261": {
-		"name": "S1261",
-		"stats": []
+		"name": "Attack Speed",
+		"stats": ["3% increased Attack Speed"]
 	},
 	"S1262": {
 		"name": "S1262",
@@ -7847,8 +7847,8 @@
 		"stats": []
 	},
 	"S1272": {
-		"name": "S1272",
-		"stats": []
+		"name": "Melee Damage",
+		"stats": ["8% increased Melee Damage"]
 	},
 	"S1273": {
 		"name": "Attribute",
@@ -7883,8 +7883,8 @@
 		"stats": ["10% increased Projectile Damage"]
 	},
 	"S1281": {
-		"name": "S1281",
-		"stats": []
+		"name": "Attack Speed",
+		"stats": ["3% increased Attack Speed"]
 	},
 	"S1282": {
 		"name": "S1282",
@@ -7931,8 +7931,8 @@
 		"stats": []
 	},
 	"S1293": {
-		"name": "S1293",
-		"stats": []
+		"name": "Melee Damage",
+		"stats": ["10% increased Melee Damage"]
 	},
 	"S1294": {
 		"name": "S1294",
@@ -9527,8 +9527,8 @@
 		"stats": []
 	},
 	"S1692": {
-		"name": "S1692",
-		"stats": []
+		"name": "Ailment Threshold",
+		"stats": ["15% increased Elemental Ailment Threshold"]
 	},
 	"S1693": {
 		"name": "S1693",
@@ -9595,8 +9595,8 @@
 		"stats": []
 	},
 	"S1709": {
-		"name": "S1709",
-		"stats": []
+		"name": "Mercenaries",
+		"stats": ["Minions deal 10% increased Damage"]
 	},
 	"S1710": {
 		"name": "S1710",
@@ -9771,8 +9771,8 @@
 		"stats": []
 	},
 	"S1753": {
-		"name": "S1753",
-		"stats": []
+		"name": "Armour and Evasion",
+		"stats": ["12% increased Armour and Evasion"]
 	},
 	"S1754": {
 		"name": "S1754",
@@ -9807,8 +9807,8 @@
 		"stats": []
 	},
 	"S1762": {
-		"name": "S1762",
-		"stats": []
+		"name": "Armour and Evasion",
+		"stats": ["12% increased Armour and Evasion"]
 	},
 	"S1763": {
 		"name": "S1763",
@@ -9863,8 +9863,8 @@
 		"stats": ["+5 to any Attribute"]
 	},
 	"S1776": {
-		"name": "S1776",
-		"stats": []
+		"name": "Armour and Evasion",
+		"stats": ["12% increased Armour and Evasion"]
 	},
 	"S1777": {
 		"name": "S1777",
@@ -9891,8 +9891,8 @@
 		"stats": []
 	},
 	"S1783": {
-		"name": "S1783",
-		"stats": []
+		"name": "Armour and Evasion",
+		"stats": ["16% increased Armour and Evasion"]
 	},
 	"S1784": {
 		"name": "S1784",
@@ -9903,8 +9903,8 @@
 		"stats": []
 	},
 	"S1786": {
-		"name": "S1786",
-		"stats": []
+		"name": "Armour and Evasion",
+		"stats": ["16% increased Armour and Evasion"]
 	},
 	"S1787": {
 		"name": "S1787",

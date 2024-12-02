@@ -58,6 +58,7 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
 - [Dreamcore - Dex/Str Area](https://www.youtube.com/watch?v=YOQlMiDNpyQ)
 - [Bajheera - Str/Dex Area](https://www.youtube.com/watch?v=Ec_06V4NOWc)
 - [Blupa - Figma Tree](https://www.figma.com/design/RDJYoGyidY3Xsc21HjcY31/Figma-basics)
+- [Havoc - Mercenary Gameplay](https://www.youtube.com/watch?v=MLUfCNS7Pgo)
 - [Moxsy - Int/Dex Area](https://youtu.be/LRL30Ib9RIU?si=EWwrFOF-s8jizDtI&t=1149)
 - [Ziggyd - Mercenary Showcase](https://www.youtube.com/watch?v=fLP1oODaZTE)
 - [Open World Games - Reveal](https://www.youtube.com/watch?v=-v2UqGMmldc)
