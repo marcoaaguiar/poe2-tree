@@ -72,6 +72,13 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
 	<tbody>
 		<tr>
             <td align="center">
+                <a href="https://github.com/azadix">
+                    <img src="https://avatars.githubusercontent.com/u/3746879?v=4" width="100;" alt="azadix"/>
+                    <br />
+                    <sub><b>Azadi</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/marcoaaguiar">
                     <img src="https://avatars.githubusercontent.com/u/7772685?v=4" width="100;" alt="marcoaaguiar"/>
                     <br />
@@ -104,13 +111,6 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                     <img src="https://avatars.githubusercontent.com/u/137759704?v=4" width="100;" alt="neo-daru"/>
                     <br />
                     <sub><b>Daru</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/azadix">
-                    <img src="https://avatars.githubusercontent.com/u/3746879?v=4" width="100;" alt="azadix"/>
-                    <br />
-                    <sub><b>Azadi</b></sub>
                 </a>
             </td>
 		</tr>
