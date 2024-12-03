@@ -291,6 +291,25 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 </a>
             </td>
 		</tr>
+        <tr>
+            <td align="center">
+                <a href="https://github.com/anatol-karlinski">
+                    <img src="https://avatars.githubusercontent.com/u/5665846?s=400&u=8900a92aec8486e527b42bb9e47fb1949fb8d1eb&v=4" width="100;" alt="anatol-karlinski"/>
+                    <br />
+                    <sub><b>Anatol Karliński</b></sub>
+                </a>
+            </td>
+            <td align="center">
+            </td>
+            <td align="center">
+            </td>
+            <td align="center">
+            </td>
+            <td align="center">
+            </td>
+            <td align="center">
+            </td>
+        </tr>
 	<tbody>
 </table>
 <!-- readme: collaborators,contributors -end -->
