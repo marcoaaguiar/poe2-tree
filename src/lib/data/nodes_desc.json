@@ -567,7 +567,7 @@
 	},
 	"N102": {
 		"name": "Gravedigger",
-		"stats": ["Minions reviver 25% faster", "You gain 3% Life when one of your Minions is revived"]
+		"stats": ["Minions revive 25% faster", "You gain 3% Life when one of your Minions is revived"]
 	},
 	"N103": {
 		"name": "N103",
@@ -651,7 +651,7 @@
 		"name": "Growing Swarm",
 		"stats": [
 			"Minions have 25% increased Area of Effect",
-			"Minion have 25% reduced Enemy Stun Threshold"
+			"Minions have 25% reduced Enemy Stun Threshold"
 		]
 	},
 	"N121": {
@@ -706,7 +706,7 @@
 	},
 	"N132": {
 		"name": "Exploit the Elements",
-		"stats": ["40% increased Damage with Hits agains Enemies affected by Elemental Ailments"]
+		"stats": ["40% increased Damage with Hits against Enemies affected by Elemental Ailments"]
 	},
 	"N133": {
 		"name": "N133",
@@ -970,7 +970,7 @@
 	},
 	"N192": {
 		"name": "Immortal Thirst",
-		"stats": ["25% increased ammount of Mana Leeched"]
+		"stats": ["25% increased amount of Mana Leeched"]
 	},
 	"N193": {
 		"name": "Rattling Ball",
@@ -1074,7 +1074,7 @@
 	},
 	"N214": {
 		"name": "Tenfold Attack",
-		"stats": ["10% increased Attack speed"]
+		"stats": ["10% increased Attack Speed"]
 	},
 	"N215": {
 		"name": "N215",
@@ -1389,7 +1389,7 @@
 	"N284": {
 		"name": "One with the Storm",
 		"stats": [
-			"Querterstaff Skills that consume Power Charges count as consuming an additional Power Charge"
+			"Quarterstaff Skills that consume Power Charges count as consuming an additional Power Charge"
 		]
 	},
 	"N285": {
@@ -1488,13 +1488,13 @@
 	},
 	"N307": {
 		"name": "Honed Instincts",
-		"stats": ["8% increased Projectile Seed", "8% increased Attack Speed", "+10 to Dexterity"]
+		"stats": ["8% increased Projectile Speed", "8% increased Attack Speed", "+10 to Dexterity"]
 	},
 	"N308": {
 		"name": "Smash",
 		"stats": [
 			"20% increased Melee Damage",
-			"40% increased Melee Damage against Heavy Stunned ennemies"
+			"40% increased Melee Damage against Heavy Stunned enemies"
 		]
 	},
 	"N309": {
@@ -1612,7 +1612,7 @@
 		"stats": []
 	},
 	"N336": {
-		"name": "Outmanouver",
+		"name": "Outmaneuver",
 		"stats": ["20% increased Stun buildup", "20% increased Freeze Buildup"]
 	},
 	"N337": {
@@ -1751,7 +1751,7 @@
 	"N366": {
 		"name": "Mass Rejuvenation",
 		"stats": [
-			"Regenarate 1% of Life per second",
+			"Regenerate 1% of Life per second",
 			"Allies in your Presence Regenerate 2% of your Maximum Life per second"
 		]
 	},
@@ -2065,7 +2065,7 @@
 	"N429": {
 		"name": "Internal Bleeding",
 		"stats": [
-			"25% chance to Aggravate Bleedind on targets you Hit with Empowered Attacks",
+			"25% chance to Aggravate Bleeding on targets you Hit with Empowered Attacks",
 			"Empowered Attacks deal 35% increased Damage"
 		]
 	},
@@ -2648,7 +2648,7 @@
 		"name": "Full Salvo",
 		"stats": [
 			"25% Increased Damage with Crossbows for each type of Ammunition fired in the past 10",
-			"secondes"
+			"seconds"
 		]
 	},
 	"N559": {
@@ -5146,7 +5146,7 @@
 	},
 	"S598": {
 		"name": "Life on Kill",
-		"stats": ["Recpver 1% Life on Kill"]
+		"stats": ["Recover 1% Life on Kill"]
 	},
 	"S599": {
 		"name": "S599",
@@ -5593,7 +5593,7 @@
 	},
 	"S708": {
 		"name": "Attack Speed",
-		"stats": ["3% increased Attack speed"]
+		"stats": ["3% increased Attack Speed"]
 	},
 	"S709": {
 		"name": "Spell Damage/Spell and Minion Damage",
@@ -9419,7 +9419,7 @@
 		"stats": []
 	},
 	"S1662": {
-		"name": "Attack Daamge with nearby Ally",
+		"name": "Attack Damage with nearby Ally",
 		"stats": ["16% increased Attack Damage while you have an Ally in your Presence"]
 	},
 	"S1663": {
