@@ -10618,28 +10618,37 @@
 		]
 	},
 	"AN15": {
-		"name": "AN15",
-		"stats": ["Infernalist notable"]
+		"name": "Grinning Immolation",
+		"stats": [
+			"Become Ignited when you deal a Critical Hit, taking 15% of your Life and Energy Shield as Fire Damage per second",
+			"30% mode Critical Damage Bonus"
+		]
 	},
 	"AN16": {
-		"name": "AN16",
-		"stats": ["Infernalist notable"]
+		"name": "Mastered Darkness",
+		"stats": ["Maximum 10 Demonflame"]
 	},
 	"AN17": {
-		"name": "AN17",
-		"stats": ["Infernalist notable"]
+		"name": "Altered Flesh",
+		"stats": [
+			"20% of Cold Damage taken as Fire Damage",
+			"20% of Lightning Damage taken as Fire Damage",
+			"20% of Physical Damage taken as Chaos Damage"
+		]
 	},
 	"AN18": {
-		"name": "AN18",
-		"stats": ["Infernalist notable"]
+		"name": "Seething Body",
+		"stats": [
+			"While on High Infernal Flame, you and Allies in your Presence Gain 20% of Damage as Fire Damage"
+		]
 	},
 	"AN19": {
-		"name": "AN19",
-		"stats": ["Infernalist notable"]
+		"name": "Beidat's Hand",
+		"stats": ["Reserves 25% of Life", "+1 to Maximum Energy Shield per 4 Maximum Life"]
 	},
 	"AN20": {
-		"name": "AN20",
-		"stats": ["Infernalist notable"]
+		"name": "Beidat's Will",
+		"stats": ["Reserves 25% of Life", "+1 to Maximum Spirit per 25 Maximum Life"]
 	},
 	"AS21": {
 		"name": "AS21",
