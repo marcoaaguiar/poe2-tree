@@ -50,6 +50,7 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
 
 # Mapped Sources
 
+- [Dreamcore - Corrupting Cry Theorycraft](https://www.youtube.com/watch?v=qljbdX5HyYQ)
 - [Dreamcore - Int Area](https://www.youtube.com/watch?v=tI0xJb1HEYw)
 - [Dreamcore - Int/Dex Area](https://www.youtube.com/watch?v=aTi9fF6fU24)
 - [Dreamcore - Str Area](https://www.youtube.com/watch?v=yPh98i0-oHs)

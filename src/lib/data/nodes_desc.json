@@ -1190,8 +1190,11 @@
 		]
 	},
 	"N241": {
-		"name": "N241",
-		"stats": []
+		"name": "Guttural Roar",
+		"stats": [
+			"30% increased Warcry Speed",
+			"Warcry Skills have 30% increased Area of Effect"
+		]
 	},
 	"N242": {
 		"name": "N242",
@@ -1829,8 +1832,12 @@
 		"stats": []
 	},
 	"N383": {
-		"name": "N383",
-		"stats": []
+		"name": "Titanic",
+		"stats": [
+            		"30% increased Stun Buildup",
+		        "30% increased Stun Threshold",
+		        "5% increased Strength"
+		]
 	},
 	"N384": {
 		"name": "N384",
@@ -2003,8 +2010,8 @@
 		]
 	},
 	"N417": {
-		"name": "N417",
-		"stats": []
+		"name": "Beef",
+		"stats": ["+25 to Strength"]
 	},
 	"N418": {
 		"name": "Prolonged Fury",
@@ -2405,8 +2412,11 @@
 		]
 	},
 	"N506": {
-		"name": "N506",
-		"stats": []
+		"name": "Escalation",
+		"stats": [
+			"25% increased Warcry Speed",
+			"15% increased Damage for each time you've Warcried Recently"
+		]
 	},
 	"N507": {
 		"name": "Volatile Grenades",
