@@ -72,13 +72,6 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
 	<tbody>
 		<tr>
             <td align="center">
-                <a href="https://github.com/azadix">
-                    <img src="https://avatars.githubusercontent.com/u/3746879?v=4" width="100;" alt="azadix"/>
-                    <br />
-                    <sub><b>Azadi</b></sub>
-                </a>
-            </td>
-            <td align="center">
                 <a href="https://github.com/marcoaaguiar">
                     <img src="https://avatars.githubusercontent.com/u/7772685?v=4" width="100;" alt="marcoaaguiar"/>
                     <br />
@@ -113,8 +106,6 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                     <sub><b>Daru</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/meatwallace">
                     <img src="https://avatars.githubusercontent.com/u/3013783?v=4" width="100;" alt="meatwallace"/>
@@ -132,14 +123,6 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/lfmnovaes">
-                    <img src="https://avatars.githubusercontent.com/u/13990675?v=4" width="100;" alt="lfmnovaes"/>
-                    <br />
-                    <sub><b>Luís Fernando Novaes</b></sub>
-                </a>
-            </td>
-            <td align="center">
-
                 <a href="https://github.com/Chizinha">
                     <img src="https://avatars.githubusercontent.com/u/16880563?v=4" width="100;" alt="Chizinha"/>
                     <br />
@@ -150,7 +133,7 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 <a href="https://github.com/Darxo">
                     <img src="https://avatars.githubusercontent.com/u/2252464?v=4" width="100;" alt="Darxo"/>
                     <br />
-                    <sub><b>mortslhawmit</b></sub>
+                    <sub><b>Darxo</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -161,10 +144,17 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/Darxo">
-                    <img src="https://avatars.githubusercontent.com/u/2252464?v=4" width="100;" alt="Darxo"/>
+                <a href="https://github.com/mortslhawmit">
+                    <img src="https://avatars.githubusercontent.com/u/30402832?v=4" width="100;" alt="mortslhawmit"/>
                     <br />
-                    <sub><b>Darxo</b></sub>
+                    <sub><b>mortslhawmit</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/Bolado">
+                    <img src="https://avatars.githubusercontent.com/u/74077743?v=4" width="100;" alt="Bolado"/>
+                    <br />
+                    <sub><b>Igor</b></sub>
                 </a>
             </td>
 		</tr>
@@ -177,10 +167,10 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/Bolado">
-                    <img src="https://avatars.githubusercontent.com/u/74077743?v=4" width="100;" alt="Bolado"/>
+                <a href="https://github.com/Alexis-Pannetier">
+                    <img src="https://avatars.githubusercontent.com/u/35290061?v=4" width="100;" alt="Alexis-Pannetier"/>
                     <br />
-                    <sub><b>Igor</b></sub>
+                    <sub><b>Alexis Pannetier</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -191,10 +181,10 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/Alexis-Pannetier">
-                    <img src="https://avatars.githubusercontent.com/u/35290061?v=4" width="100;" alt="Alexis-Pannetier"/>
+                <a href="https://github.com/lfmnovaes">
+                    <img src="https://avatars.githubusercontent.com/u/13990675?v=4" width="100;" alt="lfmnovaes"/>
                     <br />
-                    <sub><b>Alexis Pannetier</b></sub>
+                    <sub><b>Luís Fernando Novaes</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -228,31 +218,31 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/korcsogb">
-                    <img src="https://avatars.githubusercontent.com/u/50313809?v=4" width="100;" alt="korcsogb"/>
+                <a href="https://github.com/timwahlstrom">
+                    <img src="https://avatars.githubusercontent.com/u/121232783?v=4" width="100;" alt="timwahlstrom"/>
                     <br />
-                    <sub><b>Balazs Korcsog</b></sub>
+                    <sub><b>timwahlstrom</b></sub>
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/hueb1337">
-                    <img src="https://avatars.githubusercontent.com/u/53821392?v=4" width="100;" alt="hueb1337"/>
+                <a href="https://github.com/moethelion">
+                    <img src="https://avatars.githubusercontent.com/u/41308628?v=4" width="100;" alt="moethelion"/>
                     <br />
-                    <sub><b>Fabian Hueber</b></sub>
+                    <sub><b>moethelion</b></sub>
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/Gardien1">
-                    <img src="https://avatars.githubusercontent.com/u/43163679?v=4" width="100;" alt="Gardien1"/>
+                <a href="https://github.com/Xeko-92">
+                    <img src="https://avatars.githubusercontent.com/u/123136614?v=4" width="100;" alt="Xeko-92"/>
                     <br />
-                    <sub><b>Gardien1</b></sub>
+                    <sub><b>Xeko</b></sub>
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/JaredRabie">
-                    <img src="https://avatars.githubusercontent.com/u/20741149?v=4" width="100;" alt="JaredRabie"/>
+                <a href="https://github.com/tungchui">
+                    <img src="https://avatars.githubusercontent.com/u/15983523?v=4" width="100;" alt="tungchui"/>
                     <br />
-                    <sub><b>JaredRabie</b></sub>
+                    <sub><b>Tung Chui</b></sub>
                 </a>
             </td>
 		</tr>
@@ -265,31 +255,31 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/tungchui">
-                    <img src="https://avatars.githubusercontent.com/u/15983523?v=4" width="100;" alt="tungchui"/>
+                <a href="https://github.com/JaredRabie">
+                    <img src="https://avatars.githubusercontent.com/u/20741149?v=4" width="100;" alt="JaredRabie"/>
                     <br />
-                    <sub><b>Tung Chui</b></sub>
+                    <sub><b>JaredRabie</b></sub>
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/Xeko-92">
-                    <img src="https://avatars.githubusercontent.com/u/123136614?v=4" width="100;" alt="Xeko-92"/>
+                <a href="https://github.com/Gardien1">
+                    <img src="https://avatars.githubusercontent.com/u/43163679?v=4" width="100;" alt="Gardien1"/>
                     <br />
-                    <sub><b>Xeko</b></sub>
+                    <sub><b>Gardien1</b></sub>
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/moethelion">
-                    <img src="https://avatars.githubusercontent.com/u/41308628?v=4" width="100;" alt="moethelion"/>
+                <a href="https://github.com/hueb1337">
+                    <img src="https://avatars.githubusercontent.com/u/53821392?v=4" width="100;" alt="hueb1337"/>
                     <br />
-                    <sub><b>moethelion</b></sub>
+                    <sub><b>Fabian Hueber</b></sub>
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/timwahlstrom">
-                    <img src="https://avatars.githubusercontent.com/u/121232783?v=4" width="100;" alt="timwahlstrom"/>
+                <a href="https://github.com/korcsogb">
+                    <img src="https://avatars.githubusercontent.com/u/50313809?v=4" width="100;" alt="korcsogb"/>
                     <br />
-                    <sub><b>timwahlstrom</b></sub>
+                    <sub><b>Balazs Korcsog</b></sub>
                 </a>
             </td>
 		</tr>
