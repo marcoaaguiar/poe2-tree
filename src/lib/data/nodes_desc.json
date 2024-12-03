@@ -10661,6 +10661,34 @@
 		"name": "Gathering Winds",
 		"stats": ["Gain Tailwind on Skill use", "Lose all Tailwind when Hit"]
 	},
+	"AN84": {
+		"name": "Projectile Proximity Specialisation",
+		"stats": [
+			"(Choice node)",
+			"Far Shot: Projectiles gain Damage as they travel farther, dealing up to 20% more damage with Hits to targets.",
+			"Point Blank: Projectile Hits deal up tp 20% more Damage to targets at the start of their movement, losing the damage bonus as the projectile travels farther."
+		]
+	},
+	"AN85": {
+		"name": "Wind Ward",
+		"stats": ["3% less damage taken per Tailwind."]
+	},
+	"AN86": {
+		"name": "Called Shots",
+		"stats": ["You can apply an additional Mark."]
+	},
+	"AN87": {
+		"name": "Avidity",
+		"stats": [
+			"30% chance that if you gain Frenzy Charges, you instead gain up to your maximum number of Frenzy Charges."
+		]
+	},
+	"AN88": {
+		"name": "Thrilling Chase",
+		"stats": [
+			"Benefits from consuming Frenzy Charges for your skills have 50% chance to be doubled."
+		]
+	},
 	"AS91": {
 		"name": "AS91",
 		"stats": ["Pathffinder small"]
