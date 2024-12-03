@@ -10670,15 +10670,15 @@
 	},
 	"AN18": {
 		"name": "Beidat's Gaze",
-		"stats": ["Reserves 25% of Life", "+1 to Maximum Mana per 6 Maximum Life"]
+		"stats": ["Reserves 25% of Life", "+1 Maximum Mana per 6 Maximum Life"]
 	},
 	"AN19": {
 		"name": "Beidat's Will",
-		"stats": ["Reserves 25% of Life", "+1 to Maximum Spirit per 25 Maximum Life"]
+		"stats": ["Reserves 25% of Life", "+1 Maximum Spirit per 25 Maximum Life"]
 	},
 	"AN20": {
 		"name": "Beidat's Hand",
-		"stats": ["Reserves 25% of Life", "+1 to Maximum Energy Shield per 4 Maximum Life"]
+		"stats": ["Reserves 25% of Life", "+1 Maximum Energy Shield per 4 Maximum Life"]
 	},
 	"AS21": {
 		"name": "AS21",
