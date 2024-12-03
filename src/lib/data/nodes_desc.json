@@ -10957,12 +10957,12 @@
 		"stats": ["Gemling small"]
 	},
 	"AN111": {
-		"name": "AN111",
-		"stats": ["Gemling notable"]
-	},
-	"AN112": {
 		"name": "Crystalline Potential",
 		"stats": ["+12% to Quality of all Skill Gems"]
+	},
+	"AN112": {
+		"name": "Implanted Gems",
+		"stats": ["+1 to Level of all Skills"]
 	},
 	"AN113": {
 		"name": "Integrated Efficiency",
@@ -10979,5 +10979,13 @@
 	"AN115": {
 		"name": "Adaptive Capability",
 		"stats": ["Attribute Requirements of Gems can be satisfied by your highest Attribute"]
+	},
+	"AN116": {
+		"name": "Enhanced Effectiveness",
+		"stats": ["Inherent bonuses from Intelligence Strength ans Dexterity are doubled"]
+	},
+	"AN117": {
+		"name": "Advanced Thaumaturgy",
+		"stats": ["30% less Cost of skills", "Skill Gems have 30% more Attribute Requirements"]
 	}
 }
