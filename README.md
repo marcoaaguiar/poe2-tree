@@ -169,17 +169,17 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/Bolado">
-                    <img src="https://avatars.githubusercontent.com/u/74077743?v=4" width="100;" alt="Bolado"/>
-                    <br />
-                    <sub><b>Igor</b></sub>
-                </a>
-            </td>
-            <td align="center">
                 <a href="https://github.com/Alexis-Pannetier">
                     <img src="https://avatars.githubusercontent.com/u/35290061?v=4" width="100;" alt="Alexis-Pannetier"/>
                     <br />
                     <sub><b>Alexis Pannetier</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/Bolado">
+                    <img src="https://avatars.githubusercontent.com/u/74077743?v=4" width="100;" alt="Bolado"/>
+                    <br />
+                    <sub><b>Igor</b></sub>
                 </a>
             </td>
             <td align="center">
