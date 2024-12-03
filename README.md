@@ -101,24 +101,24 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/meatwallace">
+                    <img src="https://avatars.githubusercontent.com/u/3013783?v=4" width="100;" alt="meatwallace"/>
+                    <br />
+                    <sub><b>Geoff Whatley</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/neo-daru">
                     <img src="https://avatars.githubusercontent.com/u/137759704?v=4" width="100;" alt="neo-daru"/>
                     <br />
                     <sub><b>Daru</b></sub>
                 </a>
             </td>
-            <td align="center">
-                <a href="https://github.com/azadix">
-                    <img src="https://avatars.githubusercontent.com/u/3746879?v=4" width="100;" alt="azadix"/>
-                    <br />
-                    <sub><b>Geoff Whatley</b></sub>
-                </a>
-            </td>
 		</tr>
 		<tr>
             <td align="center">
-                <a href="https://github.com/meatwallace">
-                    <img src="https://avatars.githubusercontent.com/u/3013783?v=4" width="100;" alt="meatwallace"/>
+                <a href="https://github.com/azadix">
+                    <img src="https://avatars.githubusercontent.com/u/3746879?v=4" width="100;" alt="azadix"/>
                     <br />
                     <sub><b>Geoff Whatley</b></sub>
                 </a>
