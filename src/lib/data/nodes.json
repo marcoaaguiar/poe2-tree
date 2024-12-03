@@ -15508,6 +15508,34 @@
 			"class": "pathfinder"
 		},
 		{
+			"id": "AN95",
+			"x": 0.481,
+			"y": 0.541,
+			"kind": "notable",
+			"class": "pathfinder"
+		},
+		{
+			"id": "AN96",
+			"x": 0.5265,
+			"y": 0.49,
+			"kind": "notable",
+			"class": "pathfinder"
+		},
+		{
+			"id": "AN97",
+			"x": 0.555,
+			"y": 0.51056,
+			"kind": "notable",
+			"class": "pathfinder"
+		},
+		{
+			"id": "AN98",
+			"x": 0.5495,
+			"y": 0.48476,
+			"kind": "notable",
+			"class": "pathfinder"
+		},
+		{
 			"id": "AS101",
 			"x": 0.5009545454545455,
 			"y": 0.5459614525139665,
