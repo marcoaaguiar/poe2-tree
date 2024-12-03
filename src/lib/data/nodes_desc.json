@@ -1190,8 +1190,11 @@
 		]
 	},
 	"N241": {
-		"name": "N241",
-		"stats": []
+		"name": "Guttural Roar",
+		"stats": [
+			"30% increased Warcry Speed",
+			"Warcry Skills have 30% increased Area of Effect"
+		]
 	},
 	"N242": {
 		"name": "N242",
@@ -1829,8 +1832,12 @@
 		"stats": []
 	},
 	"N383": {
-		"name": "N383",
-		"stats": []
+		"name": "Titanic",
+		"stats": [
+            		"30% increased Stun Buildup",
+		        "30% increased Stun Threshold",
+		        "5% increased Strength"
+		]
 	},
 	"N384": {
 		"name": "N384",
@@ -2003,8 +2010,8 @@
 		]
 	},
 	"N417": {
-		"name": "N417",
-		"stats": []
+		"name": "Beef",
+		"stats": ["+25 to Strength"]
 	},
 	"N418": {
 		"name": "Prolonged Fury",
@@ -2405,8 +2412,11 @@
 		]
 	},
 	"N506": {
-		"name": "N506",
-		"stats": []
+		"name": "Escalation",
+		"stats": [
+			"25% increased Warcry Speed",
+			"15% increased Damage for each time you've Warcried Recently"
+		]
 	},
 	"N507": {
 		"name": "Volatile Grenades",
@@ -10550,6 +10560,25 @@
 		"name": "Gore Spike",
 		"stats": ["1% increased Critical Damage Bonus per 20 Life"]
 	},
+	"AN5": {
+		"name": "Grasping Wounds",
+		"stats": ["25% of Life Lose from Damaging Hits is lost over 4 seconds instead"]
+	},
+	"AN6": {
+		"name": "Blood Barbs",
+		"stats": [
+			"Gain 10% of Damage as Extra Physical Damage",
+			"Elemental Damage can inflict Bleeding"
+		]
+	},
+	"AN7": {
+		"name": "Open Sores",
+		"stats": ["Your Curses have inifinite Duration"]
+	},
+	"AN8": {
+		"name": "Sunder the Flesh",
+		"stats": ["Base Critical Hit Chance for Spells is 15%"]
+	},
 	"AS11": {
 		"name": "AS11",
 		"stats": ["Infernalist small"]
@@ -10618,27 +10647,35 @@
 		]
 	},
 	"AN15": {
-		"name": "AN15",
-		"stats": ["Infernalist notable"]
+		"name": "Grinning Immolation",
+		"stats": [
+			"Become Ignited when you deal a Critical Hit, taking 15% of your Life and Energy Shield as Fire",
+			"Damage per second",
+			"30% more Critical Damage Bonus"
+		]
 	},
 	"AN16": {
-		"name": "AN16",
-		"stats": ["Infernalist notable"]
+		"name": "Mastered Darkness",
+		"stats": ["Maximum 10 Demonflame"]
 	},
 	"AN17": {
-		"name": "AN17",
-		"stats": ["Infernalist notable"]
+		"name": "Altered Flesh",
+		"stats": [
+			"20% of Cold Damage taken as Fire Damage",
+			"20% of Lightning Damage taken as Fire Damage",
+			"20% of Physical Damage taken as Chaos Damage"
+		]
 	},
 	"AN18": {
-		"name": "AN18",
-		"stats": ["Infernalist notable"]
+		"name": "Beidat's Hand",
+		"stats": ["Reserves 25% of Life", "+1 Maximum Energy Shield per 4 maximum Life"]
 	},
 	"AN19": {
-		"name": "AN19",
-		"stats": ["Infernalist notable"]
+		"name": "Beidat's Will",
+		"stats": ["Reserves 25% of Life", "+1 Maximum Spirit per 25 maximum Life"]
 	},
 	"AN20": {
-		"name": "AN20",
+		"name": "AN17",
 		"stats": ["Infernalist notable"]
 	},
 	"AS21": {
@@ -10930,12 +10967,12 @@
 		"stats": ["Gemling small"]
 	},
 	"AN111": {
-		"name": "AN111",
-		"stats": ["Gemling notable"]
-	},
-	"AN112": {
 		"name": "Crystalline Potential",
 		"stats": ["+12% to Quality of all Skill Gems"]
+	},
+	"AN112": {
+		"name": "Implanted Gems",
+		"stats": ["+1 to Level of all Skills"]
 	},
 	"AN113": {
 		"name": "Integrated Efficiency",
@@ -10952,5 +10989,13 @@
 	"AN115": {
 		"name": "Adaptive Capability",
 		"stats": ["Attribute Requirements of Gems can be satisfied by your highest Attribute"]
+	},
+	"AN116": {
+		"name": "Enhanced Effectiveness",
+		"stats": ["Inherent bonuses from Intelligence Strength ans Dexterity are doubled"]
+	},
+	"AN117": {
+		"name": "Advanced Thaumaturgy",
+		"stats": ["30% less Cost of skills", "Skill Gems have 30% more Attribute Requirements"]
 	}
 }
