@@ -1,20 +1,23 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import { type TreeNode, loadData } from '$lib';
+	import { type TreeNodeData, loadData } from '$lib';
 	import { onMount, tick } from 'svelte';
 	import { browser } from '$app/environment';
+	import { Header } from '$lib/components/ui/header';
+	import { TreeNodeTooltip } from '$lib/components/ui/tree-node-tooltip/index.js';
+	import TreeNode from '$lib/components/ui/tree-node/tree-node.svelte';
+	import LZString from 'lz-string';
 
 	let { nodes } = loadData();
 
 	let containerEl: HTMLDivElement | null = null;
 	let imageEl: HTMLImageElement | null = null;
+	let ascImageEl: HTMLImageElement | null = null;
 	let imageWrapperEl: HTMLDivElement | null = null; // Reference to the image wrapper
 	let tooltipEl: HTMLDivElement | null = null; // Reference to the tooltip element
 	let hasLoaded = false;
-	import { t } from 'svelte-i18n';
-	// Load translation messages
 
-	let tooltipNode: TreeNode | null = null;
+	let tooltipNode: TreeNodeData | null = null;
 	let tooltipX = 0;
 	let tooltipY = 0;
 
@@ -30,33 +33,19 @@
 	const minScale = 0.5; // Minimum zoom out level
 	const maxScale = 3; // Maximum zoom in level
 
-	// Base size for nodes
-	const baseNodeSize = 20; // Adjust as needed
-
 	// State for search
 	let searchTerm = '';
+	let searchInputEl: HTMLInputElement | null = null;
 	let searchResults: string[] = [];
+
+	// State for ascendancy selection
+	let selectedAscendancy = 'gemling';
 
 	// State for selected nodes
 	let selectedNodes: string[] = [];
 
-	// Load saved selected nodes from localStorage on component initialization
-	if (browser) {
-		const savedSelectedNodes = localStorage.getItem('selectedSkillNodes');
-
-		if (savedSelectedNodes) {
-			try {
-				selectedNodes = JSON.parse(savedSelectedNodes);
-			} catch (error) {
-				console.error('Error parsing saved selected nodes:', error);
-			}
-		}
-	}
-
-	// Reactive statement to save selected nodes to localStorage whenever they change
-	$: if (browser) {
-		localStorage.setItem('selectedSkillNodes', JSON.stringify(selectedNodes));
-	}
+	// State for sidebar menu show/hide toggle
+	let sidebarVisable = true;
 
 	// State for filters
 	let highlightKeystones = false;
@@ -66,55 +55,78 @@
 	let hideUnselected = false;
 	let hideSmall = false;
 
-	// State for selected nodes display
-	let showSelectedNodesDisplay = false;
-	let isSelectedNodesDisplayPinned = false;
-
-	let selectedNodesDisplayEl: HTMLDivElement | null = null;
-	let selectedNodesSpanEl: HTMLSpanElement | null = null;
-
-	// State for search results display
-	let showSearchResultsDisplay = false;
-	let isSearchResultsDisplayPinned = false;
-
-	let searchResultsDisplayEl: HTMLDivElement | null = null;
-	let searchResultsSpanEl: HTMLSpanElement | null = null;
-
 	// Reactive statement for search
 	$: handleSearch(searchTerm);
 
+	if (browser) {
+		const params = new URLSearchParams(window.location.search);
+		const asc = params.get('a');
+		const passivesCompressed = params.get('p');
+
+		if (asc) {
+			selectedAscendancy = asc;
+		}
+
+		if (passivesCompressed) {
+			try {
+				const decompressed = LZString.decompressFromEncodedURIComponent(passivesCompressed);
+				selectedNodes = decompressed ? decompressed.split(',') : [];
+			} catch (error) {
+				console.error('Error parsing selected nodes from URL:', error);
+			}
+		}
+	}
+
+	$: if (browser) {
+		const nodeIdsString = selectedNodes.join(',');
+		const passivesCompressed = LZString.compressToEncodedURIComponent(nodeIdsString);
+
+		const params = new URLSearchParams(window.location.search);
+		params.set('a', selectedAscendancy);
+		params.set('p', passivesCompressed);
+
+		const newUrl = window.location.pathname + '?' + params.toString();
+		window.history.replaceState({}, '', newUrl);
+	}
+
+	let prevSelectedAscendancy = selectedAscendancy;
+
+	$: if (selectedAscendancy !== prevSelectedAscendancy) {
+		// Remove Ascendancy nodes from selectedNodes when changing between ascendancies
+		selectedNodes = selectedNodes.filter((id) => !id.startsWith('A'));
+		prevSelectedAscendancy = selectedAscendancy;
+	}
+
 	// composable filter functions
-	function filterSmallNodes(node: TreeNode) {
+	function filterSmallNodes(node: TreeNodeData) {
 		return !hideSmall || node.type !== 'small';
 	}
 
-	function filterUnselectedNodes(node: TreeNode) {
-		return !hideUnselected || !selectedNodes.includes(node.id);
+	function filterUnselectedNodes(node: TreeNodeData) {
+		return !hideUnselected || selectedNodes.includes(node.id);
 	}
 
-	function filterUnidentifiedNodes(node: TreeNode) {
+	function filterUnidentifiedNodes(node: TreeNodeData) {
 		return !hideUnidentified || node.description.length > 0;
 	}
 
-	const filterFns = [filterSmallNodes, filterUnselectedNodes, filterUnidentifiedNodes];
+	function filterSelectedAscendancyNodes(node: TreeNodeData) {
+		return !node.class || node.class === selectedAscendancy;
+	}
+
+	const filterFns = [
+		filterSmallNodes,
+		filterUnselectedNodes,
+		filterUnidentifiedNodes,
+		filterSelectedAscendancyNodes
+	];
 
 	// filter nodes using active filters
-	function filterNodes(node: TreeNode) {
+	function filterNodes(node: TreeNodeData) {
 		return filterFns.every((filterFn) => filterFn(node));
 	}
 
-	const NODE_SIZE = {
-		notable: 20,
-		small: 10,
-		keystone: 24
-	};
-
-	// calculate node size in pixels based on type
-	function getNodeSize(node: TreeNode) {
-		return NODE_SIZE[node.type];
-	}
-
-	async function activateTooltip(node: TreeNode) {
+	async function activateTooltip(node: TreeNodeData) {
 		tooltipNode = node;
 
 		if (!imageEl || !containerEl) return;
@@ -172,7 +184,7 @@
 		}
 	}
 
-	function toggleNodeSelection(node: TreeNode) {
+	function toggleNodeSelection(node: TreeNodeData) {
 		if (selectedNodes.includes(node.id)) {
 			// Deselect node
 			selectedNodes = selectedNodes.filter((id) => id !== node.id);
@@ -196,7 +208,7 @@
 		}
 	}
 
-	function handleMouseEnter(node: TreeNode) {
+	function handleMouseEnter(node: TreeNodeData) {
 		if (!isPanning) {
 			activateTooltip(node);
 		}
@@ -235,6 +247,64 @@
 		}
 	}
 
+	let startX = 0;
+	let startY = 0;
+	let isZooming = false;
+	let lastDistance = 0;
+	function handleTouchStart(event: TouchEvent) {
+		if (event.touches.length === 1) {
+			isPanning = true;
+			startX = event.touches[0].clientX - panOffsetX;
+			startY = event.touches[0].clientY - panOffsetY;
+		} else if (event.touches.length === 2) {
+			isZooming = true;
+		}
+	}
+
+	function handleTouchEnd(event: TouchEvent) {
+		if (event.touches.length === 0) {
+			isPanning = false;
+			isZooming = false;
+			lastDistance = 0;
+		}
+	}
+
+	function handleTouchMove(event: TouchEvent) {
+		event.preventDefault();
+		if (!isPanning) return;
+		if (!isZooming && event.touches.length === 1) {
+			panOffsetX = event.touches[0].clientX - startX;
+			panOffsetY = event.touches[0].clientY - startY;
+			clampPanOffsets();
+		}
+		if (isZooming && event.touches.length === 2) {
+			const zoomIntensity = 0.1;
+			const oldScale = scale;
+			const distance = Math.hypot(
+				event.touches[0].clientX - event.touches[1].clientX,
+				event.touches[0].clientY - event.touches[1].clientY
+			);
+			const direction = lastDistance < distance ? 1 : -1;
+			lastDistance = distance;
+			scale += direction * zoomIntensity * scale;
+			scale = Math.max(minScale, Math.min(maxScale, scale));
+
+			if (containerEl && imageEl) {
+				const rect = containerEl.getBoundingClientRect();
+				const mouseX = event.touches[0].clientX - rect.left;
+				const mouseY = event.touches[0].clientY - rect.top;
+
+				const nodeX = (mouseX - panOffsetX) / oldScale;
+				const nodeY = (mouseY - panOffsetY) / oldScale;
+
+				panOffsetX = mouseX - nodeX * scale;
+				panOffsetY = mouseY - nodeY * scale;
+
+				clampPanOffsets();
+			}
+		}
+	}
+
 	function handleImageLoad() {
 		hasLoaded = true;
 
@@ -260,6 +330,7 @@
 		searchResults = Object.entries(nodes)
 			.filter(
 				([_, values]) =>
+					values.id.includes(search) ||
 					values.name.toLowerCase().includes(search) ||
 					values.description.some((value) => value.toLowerCase().includes(search))
 			)
@@ -292,15 +363,22 @@
 
 	function clearSelectedNodes() {
 		selectedNodes = [];
+	}
 
-		// Clear localStorage when all nodes are cleared
-		if (browser) {
-			localStorage.removeItem('selectedSkillNodes');
-		}
+	function toggleSidebar() {
+		sidebarVisable = !sidebarVisable;
 	}
 
 	// Add event listeners for global mouse events to handle panning
 	onMount(() => {
+		const checkScreenSize = () => {
+			if (window.innerWidth <= 768) {
+				sidebarVisable = false;
+			} else {
+				sidebarVisable = true;
+			}
+		};
+
 		const handleMove = (event: MouseEvent) => {
 			if (isPanning) {
 				handleMouseMove(event);
@@ -315,560 +393,298 @@
 
 		window.addEventListener('mousemove', handleMove);
 		window.addEventListener('mouseup', handleUp);
+		if (imageWrapperEl) {
+			imageWrapperEl.addEventListener('touchmove', handleTouchMove);
+			imageWrapperEl.addEventListener('touchstart', handleTouchStart);
+			imageWrapperEl.addEventListener('touchend', handleTouchEnd);
+			imageWrapperEl.addEventListener('touchcancel', handleTouchEnd);
+		}
 
-		// Handle clicks outside the selected nodes and search results display
-		const handleClickOutside = (event: MouseEvent) => {
-			const clickedOutsideSelectedNodes =
-				isSelectedNodesDisplayPinned &&
-				!selectedNodesDisplayEl?.contains(event.target as Node) &&
-				!selectedNodesSpanEl?.contains(event.target as Node);
-
-			const clickedOutsideSearchResults =
-				isSearchResultsDisplayPinned &&
-				!searchResultsDisplayEl?.contains(event.target as Node) &&
-				!searchResultsSpanEl?.contains(event.target as Node);
-
-			if (clickedOutsideSelectedNodes) {
-				isSelectedNodesDisplayPinned = false;
-				showSelectedNodesDisplay = false;
-			}
-
-			if (clickedOutsideSearchResults) {
-				isSearchResultsDisplayPinned = false;
-				showSearchResultsDisplay = false;
-			}
-		};
-
-		document.addEventListener('click', handleClickOutside);
+		checkScreenSize();
+		window.addEventListener('resize', checkScreenSize);
 
 		return () => {
 			window.removeEventListener('mousemove', handleMove);
 			window.removeEventListener('mouseup', handleUp);
-			document.removeEventListener('click', handleClickOutside);
+
+			if (imageWrapperEl) {
+				imageWrapperEl.removeEventListener('touchmove', handleTouchMove);
+				imageWrapperEl.removeEventListener('touchstart', handleTouchStart);
+				imageWrapperEl.removeEventListener('touchend', handleTouchEnd);
+				imageWrapperEl.removeEventListener('touchcancel', handleTouchEnd);
+			}
+			window.removeEventListener('resize', checkScreenSize);
 		};
 	});
 
-	function handleSelectedNodesMouseEnter() {
-		showSelectedNodesDisplay = true;
+	function clearSearchTerm() {
+		searchTerm = '';
+		searchInputEl?.focus();
 	}
 
-	function handleSelectedNodesMouseLeave() {
-		if (!isSelectedNodesDisplayPinned) {
-			showSelectedNodesDisplay = false;
+	function handleKeydown(event: KeyboardEvent) {
+		if (event.key === 'Escape') {
+			clearSearchTerm();
 		}
-	}
-
-	function handleSelectedNodesClick(event: MouseEvent) {
-		isSelectedNodesDisplayPinned = !isSelectedNodesDisplayPinned;
-		if (!isSelectedNodesDisplayPinned) {
-			showSelectedNodesDisplay = false;
-		} else {
-			showSelectedNodesDisplay = true;
-		}
-		event.stopPropagation();
-	}
-
-	function handleSearchResultsMouseEnter() {
-		showSearchResultsDisplay = true;
-	}
-
-	function handleSearchResultsMouseLeave() {
-		if (!isSearchResultsDisplayPinned) {
-			showSearchResultsDisplay = false;
-		}
-	}
-
-	function handleSearchResultsClick(event: MouseEvent) {
-		isSearchResultsDisplayPinned = !isSearchResultsDisplayPinned;
-		if (!isSearchResultsDisplayPinned) {
-			showSearchResultsDisplay = false;
-		} else {
-			showSearchResultsDisplay = true;
-		}
-		event.stopPropagation();
 	}
 </script>
 
-<!-- Top Bar Section -->
-<div class="top-bar">
-	<!-- GitHub link to the top-right corner -->
-	<div class="github-text">
-		<p>Check out the Github repository</p>
-		<p>to see how to contribute to this project</p>
-	</div>
-	<div class="github-link">
-		<a href="https://github.com/marcoaaguiar/poe2-tree" target="_blank" rel="noopener noreferrer">
-			<!-- GitHub SVG Icon -->
-			<svg height="32" viewBox="0 0 16 16" width="32" aria-hidden="true">
-				<path
-					fill-rule="evenodd"
-					d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
-					  0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52
-					  0-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
-					  0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.22 2.2.82a7.65 7.65 0 012 0c1.53-1.04
-					  2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15
-					  0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48
-					  0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8 8 0 0016 8c0-4.42-3.58-8-8-8z"
-				>
-				</path>
-			</svg>
-		</a>
-	</div>
-
-	<h1>Path of Exile 2 Skill Tree Preview</h1>
-
-	<!-- Filters -->
-	<div class="filters">
-		<p><b>Highlight:</b></p>
-		<label><input type="checkbox" bind:checked={highlightKeystones} />Keystones</label>
-		<label><input type="checkbox" bind:checked={highlightNotables} />Notables</label>
-		<label><input type="checkbox" bind:checked={highlightSmalls} />Smalls</label>
-	</div>
-	<div class="filters">
-		<p><b>Hide:</b></p>
-		<label><input type="checkbox" bind:checked={hideUnidentified} />Unidentified</label>
-		<label><input type="checkbox" bind:checked={hideUnselected} />Unselected</label>
-		<label><input type="checkbox" bind:checked={hideSmall} />Smalls</label>
-	</div>
-</div>
-
-<!-- Search and Filter Section -->
-<div class="search-bar">
-	<input type="text" placeholder="Search..." bind:value={searchTerm} />
-	<span
-		bind:this={searchResultsSpanEl}
-		onmouseenter={handleSearchResultsMouseEnter}
-		onmouseleave={handleSearchResultsMouseLeave}
-		onclick={handleSearchResultsClick}
-		style="cursor: pointer; margin-right: 10px;">Search Results: {searchResults.length}</span
+<!-- page layout -->
+<div class="grid grid-cols-1 grid-rows-[auto_1fr] h-dvh">
+	<Header />
+	<!-- Tree -->
+	<div
+		class={`grid grid-rows-1 ${sidebarVisable ? 'grid-cols-[20rem_1fr]' : 'grid-cols-1'} min-h-0`}
 	>
-
-	<!-- Search Results Display -->
-	{#if showSearchResultsDisplay}
-		<div class="info-display" bind:this={searchResultsDisplayEl}>
-			{#if searchResults.length > 0}
-				<ul>
-					{#each searchResults as nodeId}
-						<li>
-							<strong>{nodes[nodeId].name}</strong>
-							<ul>
-								{#each nodes[nodeId].description as description}
-									<li>{description}</li>
-								{/each}
-							</ul>
-						</li>
-					{/each}
-				</ul>
-			{:else}
-				<p>No search results.</p>
-			{/if}
-		</div>
-	{/if}
-
-	<span
-		bind:this={selectedNodesSpanEl}
-		onmouseenter={handleSelectedNodesMouseEnter}
-		onmouseleave={handleSelectedNodesMouseLeave}
-		onclick={handleSelectedNodesClick}
-		style="cursor: pointer;">Selected Nodes: {selectedNodes.length}/122</span
-	>
-
-	<!-- Selected Nodes Display -->
-	{#if showSelectedNodesDisplay}
-		<div class="info-display" bind:this={selectedNodesDisplayEl}>
-			{#if selectedNodes.length > 0}
-				<button onclick={clearSelectedNodes}>Clear Selected Nodes</button>
-				<ul>
-					<!-- Only display non small nodes -->
-					{#each selectedNodes as nodeId}
-						{#if !nodeId.startsWith('S')}
+		<!-- Left Sidebar -->
+		<aside
+			class={`h-full grid grid-cols-1  ${sidebarVisable ? 'bg-[#111]' : 'absolute'} grid-rows-[auto_auto_auto_1fr] gap-2 p-2  min-h-0`}
+		>
+			<!-- Toggle Button for Aside -->
+			<button
+				class="flex md:hidden z-10 p-2 bg-[#333] text-white rounded-md hover:bg-[#444]"
+				onclick={toggleSidebar}
+			>
+				<h2 class="-mt-1 text-2xl">{sidebarVisable ? '<' : '>'}</h2>
+			</button>
+			{#if sidebarVisable}
+				<!-- Toggleable -->
+				<div class="space-y-4">
+					<div>
+						<b class="block underline underline-offset-2">Ascendancy:</b>
+						<div class="flex flex-row flex-wrap text-black">
+							<select
+								class="w-full px-1 h-6"
+								name="ascendancies"
+								id="asc-select"
+								bind:value={selectedAscendancy}
+							>
+								<option value="gemling">Mercenary - Gemling Legionnaire</option>
+								<option value="witchhunter">Mercenary - Witchhunter</option>
+								<option value="acolyte">Monk - Acolyte of Chayula</option>
+								<option value="invoker">Monk - Invoker</option>
+								<option value="chronomancer">Sorceress - Chronomancer</option>
+								<option value="stormweaver">Sorceress - Stormweaver</option>
+								<option value="deadeye">Ranger - Deadeye</option>
+								<option value="pathfinder">Ranger - Pathfinder</option>
+								<option value="titan">Warrior - Titan</option>
+								<option value="warbringer">Warrior - Warbringer</option>
+								<option value="bloodmage">Witch - Bloodmage</option>
+								<option value="infernalist">Witch - Infernalist</option>
+							</select>
+						</div>
+					</div>
+					<div>
+						<b class="block underline underline-offset-2">Highlight:</b>
+						<div class="flex flex-row gap-2 flex-wrap">
+							<label class="whitespace-nowrap">
+								<input type="checkbox" bind:checked={highlightKeystones} />
+								<span>Keystones</span>
+							</label>
+							<label class="whitespace-nowrap">
+								<input type="checkbox" bind:checked={highlightNotables} />
+								<span>Notables</span>
+							</label>
+							<label class="whitespace-nowrap">
+								<input type="checkbox" bind:checked={highlightSmalls} />
+								<span>Smalls</span>
+							</label>
+						</div>
+					</div>
+					<div>
+						<b class="block underline underline-offset-2">Hide:</b>
+						<div class="flex flex-row gap-2 flex-wrap">
+							<label class="whitespace-nowrap">
+								<input type="checkbox" bind:checked={hideUnidentified} />
+								<span>Unidentified</span>
+							</label>
+							<label class="whitespace-nowrap">
+								<input type="checkbox" bind:checked={hideUnselected} />
+								<span>Unselected</span>
+							</label>
+							<label class="whitespace-nowrap">
+								<input type="checkbox" bind:checked={hideSmall} />
+								<span>Smalls</span>
+							</label>
+						</div>
+					</div>
+				</div>
+				<!-- Search -->
+				<div class="min-h-0 grid grid-cols-1 grid-rows-[auto_auto_auto_1fr]">
+					<b class="block underline underline-offset-2">Search:</b>
+					<!-- Search Input Container -->
+					<div class="relative inline-block">
+						<input
+							class="block w-full rounded px-2 pr-10 text-black"
+							type="text"
+							placeholder="Search..."
+							bind:value={searchTerm}
+							bind:this={searchInputEl}
+							onkeydown={handleKeydown}
+						/>
+						{#if searchTerm}
+							<button
+								class="absolute right-2 top-1/2 -translate-y-1/2 transform p-1 rounded-full flex items-center justify-center cursor-pointer transition-colors duration-200 ease-in-out hover:bg-black/10"
+								onclick={clearSearchTerm}
+								aria-label="Clear search"
+							>
+								<svg class="w-4 h-4 pointer-events-none" viewBox="0 0 20 20" aria-hidden="true">
+									<path
+										d="M4 4 L16 16 M16 4 L4 16"
+										stroke="#000"
+										stroke-width="2"
+										stroke-linecap="round"
+										fill="none"
+									/>
+								</svg>
+							</button>
+						{/if}
+					</div>
+					<span>Found: {searchResults.length}</span>
+					<ul class="block min-h-0 overflow-y-auto">
+						{#each searchResults as nodeId}
 							<li>
 								<strong>{nodes[nodeId].name}</strong>
 								<ul>
 									{#each nodes[nodeId].description as description}
-										<li>{description}</li>
+										<li class="text-sm text-[#7d7aad]">{description}</li>
 									{/each}
 								</ul>
 							</li>
-						{/if}
-					{/each}
-				</ul>
-			{:else}
-				<p>No nodes selected.</p>
+						{/each}
+					</ul>
+				</div>
+				<!-- Selected -->
+				<div class="min-h-0 grid grid-cols-1 grid-rows-[auto_auto_auto_1fr]">
+					<b class="underline underline-offset-2">Selected:</b>
+					<div class="flex flex-row justify-between">
+						<button
+							class="px-4 border rounded border-white border-solid"
+							onclick={clearSelectedNodes}
+							>Clear
+						</button>
+						<span
+							>Selected:
+							{selectedNodes.length} / {Object.entries(nodes).filter(
+								([_, n]) => n.description.length > 0
+							).length}
+						</span>
+					</div>
+					<ul class="block min-h-0 overflow-y-auto">
+						{#each selectedNodes as nodeId}
+							{#if !nodeId.startsWith('S')}
+								<li>
+									<strong>{nodes[nodeId].name}</strong>
+									<ul>
+										{#each nodes[nodeId].description as description}
+											<li class="text-sm text-[#7d7aad]">{description}</li>
+										{/each}
+									</ul>
+								</li>
+							{/if}
+						{/each}
+					</ul>
+				</div>
 			{/if}
-		</div>
-	{/if}
-</div>
-
-<!-- Skill Tree Container -->
-<!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
-<div
-	bind:this={containerEl}
-	class="image-container"
-	role="application"
-	tabindex="-1"
-	onmousedown={handleContainerMousedown}
-	onwheel={handleWheel}
->
-	<div
-		bind:this={imageWrapperEl}
-		class="image-wrapper"
-		style="
+		</aside>
+		<!-- Tree View -->
+		<div class="bg-black">
+			<!-- Skill Tree Container -->
+			<!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
+			<div
+				bind:this={containerEl}
+				class="overflow-hidden relative block w-full h-full outline-none"
+				role="application"
+				tabindex="-1"
+				onmousedown={handleContainerMousedown}
+				onwheel={handleWheel}
+			>
+				<div
+					bind:this={imageWrapperEl}
+					class="absolute top-0 left-0"
+					style="
 			  width: {imageEl ? imageEl.naturalWidth * scale + 'px' : 'auto'};
 			  height: {imageEl ? imageEl.naturalHeight * scale + 'px' : 'auto'};
 			  transform: translate({panOffsetX}px, {panOffsetY}px);
 			  user-select: none;
-			  cursor: {isPanning ? 'grabbing' : 'grab'};
+			  cursor: {isPanning ? 'grabbing' : 'point'};
 		  "
-	>
-		<img
-			bind:this={imageEl}
-			onload={handleImageLoad}
-			src="{base}/skill-tree.png"
-			alt="Interactive"
-			draggable="false"
-			style="
-				  pointer-events: none;
-				  max-width: none;
+				>
+					<img
+						class="pointer-events-none max-w-none"
+						bind:this={imageEl}
+						onload={handleImageLoad}
+						src="{base}/skill-tree.png"
+						alt="Interactive"
+						draggable="false"
+						style="
 				  width: {imageEl ? imageEl.naturalWidth * scale + 'px' : 'auto'};
 				  height: {imageEl ? imageEl.naturalHeight * scale + 'px' : 'auto'};
 			  "
-		/>
+					/>
 
-		<!-- Display hoverable regions with lighter color -->
-		{#if hasLoaded}
-			{#each Object.values(nodes).filter(filterNodes) as node}
-				<!-- svelte-ignore a11y_no_static_element_interactions -->
-				<!-- svelte-ignore a11y_click_events_have_key_events -->
-				<div
-					class:keystone={node.type === 'keystone'}
-					class:notable={node.type === 'notable'}
-					class:small={node.type === 'small'}
-					class:unidentified={node.description.length === 0}
-					class:search-result={searchResults.includes(node.id)}
-					class:selected={selectedNodes.includes(node.id)}
-					class:highlighted-keystone={highlightKeystones && node.type === 'keystone'}
-					class:highlighted-notable={highlightNotables && node.type === 'notable'}
-					class:highlighted-small={highlightSmalls && node.type === 'small'}
-					style="
-						height: {getNodeSize(node) * scale}px;
-						width: {getNodeSize(node) * scale}px;
-						left: {node.position.x * imageEl.naturalWidth * scale - (getNodeSize(node) * scale) / 2}px;
-						top: {node.position.y * imageEl.naturalHeight * scale - (getNodeSize(node) * scale) / 2}px;
-					"
-					onmousedown={(event) => event.stopPropagation()}
-					onclick={() => toggleNodeSelection(node)}
-					onmouseenter={() => handleMouseEnter(node)}
-					onmouseleave={handleMouseLeave}
-				></div>
-			{/each}
-		{/if}
-	</div>
+					<img
+						class="pointer-events-none absolute"
+						bind:this={ascImageEl}
+						src="{base}/ascendancies/{selectedAscendancy}.png"
+						alt="Interactive"
+						draggable="false"
+						style="
+				  width: {320 * scale + 'px'};
+				  top: 50%;
+				  left: 50%;
+				  margin-top: -{320 * scale * 0.46 + 'px'};
+				  margin-left: -{320 * scale * 0.487 + 'px'};
+				  height: {320 * scale + 'px'};
+			  "
+					/>
 
-	<!-- Tooltip displayed when a region is hovered -->
-	{#if tooltipNode != null}
-		<div bind:this={tooltipEl} class="tooltip" style="left: {tooltipX}px; top: {tooltipY}px;">
-			<div class="title" style={`background-image: url('${base}/tooltip-header.png');`}>
-				{$t(`${tooltipNode.id}.name`)}
-			</div>
-			<div class="body">
-				{#each tooltipNode.description as _, i}
-					<p class="description-line">{$t(`${tooltipNode.id}.stats.${i}`)}</p>
-				{/each}
-			</div>
-			<div class="footer">
-				<span class="node-id">{tooltipNode.id}</span>
+					<!-- {#if tooltipNode != null}
+					<div bind:this={tooltipEl} class="tooltip" style="left: {tooltipX}px; top: {tooltipY}px;">
+						<div class="title" style={`background-image: url('${base}/tooltip-header.png');`}>
+							{$t(`${tooltipNode.id}.name`)}
+						</div>
+						<div class="body">
+							{#each tooltipNode.description as _, i}
+								<p class="description-line">{$t(`${tooltipNode.id}.stats.${i}`)}</p>
+							{/each}
+						</div>
+						<div class="footer">
+							<span class="node-id">{tooltipNode.id}</span> -->
+
+					<!-- Display hoverable regions with lighter color -->
+					{#if hasLoaded}
+						{#each Object.values(nodes).filter(filterNodes) as node}
+							<TreeNode
+								{node}
+								{scale}
+								baseImageRelativeSizeX={imageEl.naturalWidth * scale}
+								baseImageRelativeSizeY={imageEl.naturalHeight * scale}
+								isSearchResults={searchResults.includes(node.id)}
+								selected={selectedNodes.includes(node.id)}
+								highlighted={(highlightKeystones && node.type === 'keystone') ||
+									(highlightNotables && node.type === 'notable') ||
+									(highlightSmalls && node.type === 'small')}
+								onclick={toggleNodeSelection}
+								onmouseenter={handleMouseEnter}
+								onmouseleave={handleMouseLeave}
+							/>
+						{/each}
+					{/if}
+				</div>
+
+				<!-- Tooltip displayed when a region is hovered -->
+				{#if tooltipNode != null}
+					<!-- Tooltip wrapper for absolute position -->
+					<div
+						bind:this={tooltipEl}
+						class="absolute w-[400px] pointer-events-none"
+						style="left: {tooltipX}px; top: {tooltipY}px;"
+					>
+						<TreeNodeTooltip node={tooltipNode} />
+					</div>
+				{/if}
 			</div>
 		</div>
-	{/if}
+	</div>
 </div>
-
-<style>
-	.top-bar {
-		position: relative;
-		padding: 10px;
-		background-color: #000;
-		color: #fff;
-	}
-
-	.top-bar h1 {
-		margin: 10px 0;
-		font-size: 24px;
-		text-align: center;
-	}
-
-	.top-bar p {
-		margin: 5px 0;
-		font-size: 16px;
-		text-align: center;
-	}
-
-	.github-text {
-		position: absolute;
-		top: 10px;
-		right: 10px;
-		text-wrap: balance;
-	}
-
-	.github-link {
-		position: absolute;
-		top: 80px;
-		right: 140px;
-	}
-
-	.github-link a {
-		color: #fff;
-		text-decoration: none;
-	}
-
-	.github-link svg {
-		fill: #fff;
-		transition: fill 0.3s;
-	}
-
-	.github-link svg:hover {
-		fill: #4078c0;
-	}
-
-	.search-bar {
-		text-align: center;
-		margin-bottom: 10px;
-		position: relative;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		gap: 10px;
-	}
-
-	.search-bar input {
-		padding: 5px;
-		font-size: 16px;
-	}
-
-	.search-bar span {
-		font-size: 16px;
-		cursor: pointer;
-		position: relative;
-	}
-
-	.filters {
-		display: inline-block;
-		margin-top: 10px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.filters label {
-		margin-right: 10px;
-		font-size: 14px;
-	}
-
-	.image-container {
-		position: relative;
-		display: block;
-		overflow: hidden;
-		outline: none;
-		width: 100vw;
-		height: calc(100vh - 200px); /* Adjust based on top bar height */
-	}
-
-	.image-wrapper {
-		position: absolute;
-		top: 0;
-		left: 0;
-	}
-
-	.small,
-	.notable,
-	.keystone {
-		position: absolute;
-		border-radius: 50%;
-		pointer-events: auto;
-	}
-
-	.notable {
-		background-color: rgba(255, 255, 0, 0.2);
-	}
-
-	.notable.unidentified {
-		background-color: rgba(255, 100, 100, 0.2);
-		border-color: rgba(255, 100, 100, 1);
-	}
-
-	.keystone {
-		background-color: rgba(100, 255, 100, 0.2);
-	}
-
-	.keystone.unidentified {
-		background-color: rgba(255, 0, 100, 0.2);
-		border-color: rgba(255, 0, 100, 1);
-	}
-
-	.small {
-		background-color: rgba(255, 255, 255, 0.2);
-	}
-
-	.small.unidentified {
-		background-color: rgba(255, 255, 255, 0.2);
-		border-color: rgba(255, 100, 100, 1);
-	}
-
-	.notable.selected {
-		background-color: rgba(255, 255, 0, 0.6);
-	}
-
-	.keystone.selected {
-		background-color: rgba(0, 255, 0, 0.6);
-	}
-
-	.small.selected {
-		background-color: rgba(255, 255, 255, 0.6);
-	}
-
-	.highlighted-keystone {
-		border: 2px solid green;
-	}
-
-	.highlighted-notable {
-		border: 1px solid yellow;
-	}
-	.highlighted-small {
-		border: 1px solid yellow;
-	}
-	@keyframes glow {
-		0% {
-			box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
-		}
-		50% {
-			box-shadow: 0 0 15px rgba(255, 0, 0, 1);
-		}
-		100% {
-			box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
-		}
-	}
-
-	.search-result {
-		border: 3px solid rgba(255, 0, 0, 0.8);
-		animation: glow 2s infinite;
-	}
-
-	.tooltip {
-		position: absolute;
-		min-width: 300px;
-		max-width: 400px;
-		border-radius: 8px;
-		background-color: black; /* Slightly lighter background for the box */
-		box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); /* Subtle shadow */
-		opacity: 0.9;
-		z-index: 1000; /* Ensure tooltip appears above other elements */
-		pointer-events: none; /* Allow clicks to pass through the tooltip */
-
-		/* Title style */
-		.title {
-			font-size: 1.5rem;
-			color: #f0e7e5; /* Light gold for the title text */
-			text-align: center;
-			margin-bottom: 8px;
-			background-size: cover; /* Ensure the image covers the entire title area */
-			background-position: center; /* Center the background image */
-			border-radius: 8px; /* Rounded corners */
-			padding: 10px 0; /* Space inside the title */
-			text-shadow: 0 0 5px rgba(255, 255, 255, 0.2); /* Subtle glow effect */
-			display: inline-block; /* Shrinks to fit the content */
-			width: 100%; /* Adjust to content size */
-		}
-
-		/* Body text style */
-		.body {
-			font-family: 'Fontin SmallCaps', sans-serif;
-			font-size: 16px;
-			line-height: 1.5; /* Improve readability */
-			color: #7d7aad; /* Light blue for body text */
-			margin-bottom: 8px; /* Spacing below body */
-			padding: 8px 20px 0;
-
-			.description-line {
-				margin: 0 auto;
-			}
-		}
-
-		.footer {
-			display: flex;
-			font-family: 'Fontin SmallCaps', sans-serif;
-			color: #7d7aad;
-			margin-bottom: 8px;
-			margin-left: 8px;
-			margin-right: 8px;
-
-			.node-id {
-				color: #888;
-				font-size: 12px;
-				margin-left: auto;
-			}
-		}
-	}
-
-	.info-display {
-		position: absolute;
-		top: 100%;
-		left: 50%;
-		transform: translateX(-50%);
-		background-color: rgba(0, 0, 0, 0.9);
-		border: 1px solid #444;
-		z-index: 100;
-		padding: 10px;
-		max-height: 300px;
-		overflow-y: auto;
-		width: 300px;
-		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-		color: #fff;
-		border-radius: 8px;
-	}
-
-	.info-display ul {
-		list-style: none;
-		padding: 0;
-		margin: 0;
-	}
-
-	.info-display li {
-		margin-bottom: 10px;
-	}
-
-	.info-display strong {
-		font-size: 16px;
-		color: #f0e7e5;
-	}
-
-	.info-display ul ul {
-		margin-top: 5px;
-		margin-left: 15px;
-	}
-
-	.info-display ul ul li {
-		font-size: 14px;
-		color: #7d7aad;
-	}
-
-	.info-display p {
-		color: #7d7aad;
-		font-size: 14px;
-	}
-
-	/* Style for the clear button */
-	.info-display button {
-		background-color: rgba(0, 0, 0, 0.9);
-		color: white;
-		border: 1px solid #444;
-		padding: 5px 10px;
-		margin-bottom: 10px;
-		cursor: pointer;
-		border-radius: 4px;
-		font-family: 'Fontin SmallCaps', sans-serif;
-	}
-
-	.info-display button:hover {
-		background-color: #c9302c;
-	}
-</style>

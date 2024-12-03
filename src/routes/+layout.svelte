@@ -1,30 +1,32 @@
 <script lang="ts">
-	import { init, locale, addMessages, getLocaleFromNavigator } from 'svelte-i18n';
-
-	// Register translation files
-	import en from '../lib/data/nodes_desc.json';
-	import sv from '../locales/sv.json';
-
-	addMessages('en', en);
-	addMessages('sv', sv);
-	let lang = getLocaleFromNavigator() || 'en';
-	// Initialize i18n
-	init({
-		fallbackLocale: 'en',
-		initialLocale: getLocaleFromNavigator()
-	});
-
-	// // Helper to switch locales
-	function changeLocale(): void {
-		console.log('aafsdfd', lang)
-		locale.set(lang);
-		localStorage.setItem('locale', lang); // Persist selection
-	}
-
+	import '../app.pcss';
 	let { children } = $props();
+
+// 	import { init, locale, addMessages, getLocaleFromNavigator } from 'svelte-i18n';
+
+// // Register translation files
+// import en from '../lib/data/nodes_desc.json';
+// import sv from '../locales/sv.json';
+
+// addMessages('en', en);
+// addMessages('sv', sv);
+// let lang = getLocaleFromNavigator() || 'en';
+// // Initialize i18n
+// init({
+// 	fallbackLocale: 'en',
+// 	initialLocale: getLocaleFromNavigator()
+// });
+
+// // // Helper to switch locales
+// function changeLocale(): void {
+// 	console.log('aafsdfd', lang)
+// 	locale.set(lang);
+// 	localStorage.setItem('locale', lang); // Persist selection
+// }
+
 </script>
 
-<nav>
+<!-- <nav>
 	<select bind:value={lang} onchange={changeLocale}>
 		{#each ['en', 'sv'] as lang}
 			<option style="" value={lang}>
@@ -32,7 +34,7 @@
 			</option>
 		{/each}
 	</select>
-</nav>
+</nav> -->
 {@render children()}
 
 <style>
