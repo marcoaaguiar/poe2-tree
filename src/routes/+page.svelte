@@ -607,7 +607,7 @@
 			  height: {imageEl ? imageEl.naturalHeight * scale + 'px' : 'auto'};
 			  transform: translate({panOffsetX}px, {panOffsetY}px);
 			  user-select: none;
-			  cursor: {isPanning ? 'grabbing' : 'point'};
+			  cursor: {isPanning ? 'grabbing' : tooltipNode != null ? 'pointer' : 'default'};
 		  "
 				>
 					<img
