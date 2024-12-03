@@ -249,6 +249,13 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
 		</tr>
 		<tr>
             <td align="center">
+                <a href="https://github.com/ryanlee-ei">
+                    <img src="https://avatars.githubusercontent.com/u/72424672?v=4" width="100;" alt="ryanlee-ei"/>
+                    <br />
+                    <sub><b>ryanlee-ei</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/midastouchprd">
                     <img src="https://avatars.githubusercontent.com/u/18386032?v=4" width="100;" alt="midastouchprd"/>
                     <br />
@@ -283,6 +290,8 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                     <sub><b>Gardien1</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/hueb1337">
                     <img src="https://avatars.githubusercontent.com/u/53821392?v=4" width="100;" alt="hueb1337"/>
@@ -290,8 +299,6 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                     <sub><b>Fabian Hueber</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/korcsogb">
                     <img src="https://avatars.githubusercontent.com/u/50313809?v=4" width="100;" alt="korcsogb"/>
