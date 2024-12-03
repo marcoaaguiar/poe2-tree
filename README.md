@@ -161,13 +161,6 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
 		</tr>
 		<tr>
             <td align="center">
-                <a href="https://github.com/theshannon">
-                    <img src="https://avatars.githubusercontent.com/u/33788533?v=4" width="100;" alt="theshannon"/>
-                    <br />
-                    <sub><b>Shannon Pereira</b></sub>
-                </a>
-            </td>
-            <td align="center">
                 <a href="https://github.com/Bolado">
                     <img src="https://avatars.githubusercontent.com/u/74077743?v=4" width="100;" alt="Bolado"/>
                     <br />
@@ -175,10 +168,10 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/Yamarin">
-                    <img src="https://avatars.githubusercontent.com/u/6870612?v=4" width="100;" alt="Yamarin"/>
+                <a href="https://github.com/theshannon">
+                    <img src="https://avatars.githubusercontent.com/u/33788533?v=4" width="100;" alt="theshannon"/>
                     <br />
-                    <sub><b>Yamarin</b></sub>
+                    <sub><b>Shannon Pereira</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -186,6 +179,13 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                     <img src="https://avatars.githubusercontent.com/u/35290061?v=4" width="100;" alt="Alexis-Pannetier"/>
                     <br />
                     <sub><b>Alexis Pannetier</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/Yamarin">
+                    <img src="https://avatars.githubusercontent.com/u/6870612?v=4" width="100;" alt="Yamarin"/>
+                    <br />
+                    <sub><b>Yamarin</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -219,61 +219,10 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/korcsogb">
-                    <img src="https://avatars.githubusercontent.com/u/50313809?v=4" width="100;" alt="korcsogb"/>
+                <a href="https://github.com/timwahlstrom">
+                    <img src="https://avatars.githubusercontent.com/u/121232783?v=4" width="100;" alt="timwahlstrom"/>
                     <br />
-                    <sub><b>Balazs Korcsog</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/hueb1337">
-                    <img src="https://avatars.githubusercontent.com/u/53821392?v=4" width="100;" alt="hueb1337"/>
-                    <br />
-                    <sub><b>Fabian Hueber</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/Gardien1">
-                    <img src="https://avatars.githubusercontent.com/u/43163679?v=4" width="100;" alt="Gardien1"/>
-                    <br />
-                    <sub><b>Gardien1</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/JaredRabie">
-                    <img src="https://avatars.githubusercontent.com/u/20741149?v=4" width="100;" alt="JaredRabie"/>
-                    <br />
-                    <sub><b>JaredRabie</b></sub>
-                </a>
-            </td>
-		</tr>
-		<tr>
-            <td align="center">
-                <a href="https://github.com/mmhchan">
-                    <img src="https://avatars.githubusercontent.com/u/18507372?v=4" width="100;" alt="mmhchan"/>
-                    <br />
-                    <sub><b>Michael Chan</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/midastouchprd">
-                    <img src="https://avatars.githubusercontent.com/u/18386032?v=4" width="100;" alt="midastouchprd"/>
-                    <br />
-                    <sub><b>Tosin Awofeso</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/tungchui">
-                    <img src="https://avatars.githubusercontent.com/u/15983523?v=4" width="100;" alt="tungchui"/>
-                    <br />
-                    <sub><b>Tung Chui</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/Xeko-92">
-                    <img src="https://avatars.githubusercontent.com/u/123136614?v=4" width="100;" alt="Xeko-92"/>
-                    <br />
-                    <sub><b>Xeko</b></sub>
+                    <sub><b>timwahlstrom</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -284,10 +233,70 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/timwahlstrom">
-                    <img src="https://avatars.githubusercontent.com/u/121232783?v=4" width="100;" alt="timwahlstrom"/>
+                <a href="https://github.com/Xeko-92">
+                    <img src="https://avatars.githubusercontent.com/u/123136614?v=4" width="100;" alt="Xeko-92"/>
                     <br />
-                    <sub><b>timwahlstrom</b></sub>
+                    <sub><b>Xeko</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/tungchui">
+                    <img src="https://avatars.githubusercontent.com/u/15983523?v=4" width="100;" alt="tungchui"/>
+                    <br />
+                    <sub><b>Tung Chui</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/midastouchprd">
+                    <img src="https://avatars.githubusercontent.com/u/18386032?v=4" width="100;" alt="midastouchprd"/>
+                    <br />
+                    <sub><b>Tosin Awofeso</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/mmhchan">
+                    <img src="https://avatars.githubusercontent.com/u/18507372?v=4" width="100;" alt="mmhchan"/>
+                    <br />
+                    <sub><b>Michael Chan</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/JaredRabie">
+                    <img src="https://avatars.githubusercontent.com/u/20741149?v=4" width="100;" alt="JaredRabie"/>
+                    <br />
+                    <sub><b>JaredRabie</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/GVonB">
+                    <img src="https://avatars.githubusercontent.com/u/36426938?v=4" width="100;" alt="GVonB"/>
+                    <br />
+                    <sub><b>Gunnar Von Bergen</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/Gardien1">
+                    <img src="https://avatars.githubusercontent.com/u/43163679?v=4" width="100;" alt="Gardien1"/>
+                    <br />
+                    <sub><b>Gardien1</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/hueb1337">
+                    <img src="https://avatars.githubusercontent.com/u/53821392?v=4" width="100;" alt="hueb1337"/>
+                    <br />
+                    <sub><b>Fabian Hueber</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/korcsogb">
+                    <img src="https://avatars.githubusercontent.com/u/50313809?v=4" width="100;" alt="korcsogb"/>
+                    <br />
+                    <sub><b>Balazs Korcsog</b></sub>
                 </a>
             </td>
 		</tr>
