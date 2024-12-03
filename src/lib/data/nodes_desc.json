@@ -10688,10 +10688,10 @@
 		"stats": ["Witchhunter small"]
 	},
 	"AN101": {
-    "name": "Weapon Master",
-    "stats": [
-      "Grants 20 Weapon Set Skill Points"
-    ]
+		"name": "Weapon Master",
+		"stats": [
+		"Grants 20 Weapon Set Skill Points"
+		]
 	},
 	"AN102": {
 		"name": "Pitless Killer",
