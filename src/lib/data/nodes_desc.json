@@ -5621,9 +5621,7 @@
 	},
 	"S714": {
 		"name": "Dagger Speed",
-		"stats": [
-			"3% increased Attack Speed with Daggers"
-		]
+		"stats": ["3% increased Attack Speed with Daggers"]
 	},
 	"S715": {
 		"name": "Attribute",
@@ -5679,9 +5677,7 @@
 	},
 	"S728": {
 		"name": "Quarterstaff Damage",
-		"stats": [
-			"8% increased Damage with Staves"
-		]
+		"stats": ["8% increased Damage with Staves"]
 	},
 	"S729": {
 		"name": "S729",
@@ -5717,9 +5713,7 @@
 	},
 	"S737": {
 		"name": "Dagger Speed",
-		"stats": [
-			"3% increased Attack Speed with Daggers"
-		]
+		"stats": ["3% increased Attack Speed with Daggers"]
 	},
 	"S738": {
 		"name": "S738",
@@ -5907,9 +5901,7 @@
 	},
 	"S783": {
 		"name": "Stun Threshold while on Full Life",
-		"stats": [
-			"15% increased Stun Threshold if you haven't been Stunned Recently"
-		]
+		"stats": ["15% increased Stun Threshold if you haven't been Stunned Recently"]
 	},
 	"S784": {
 		"name": "S784",
@@ -6025,9 +6017,7 @@
 	},
 	"S812": {
 		"name": "Power Charge Duration",
-		"stats": [
-			"10% increased Power Charge Duration"
-		]
+		"stats": ["10% increased Power Charge Duration"]
 	},
 	"S813": {
 		"name": "S813",
@@ -6035,9 +6025,7 @@
 	},
 	"S814": {
 		"name": "Energy Shield Delay",
-		"stats": [
-			"10% faster start of Energy Shield Recharge"
-		]
+		"stats": ["10% faster start of Energy Shield Recharge"]
 	},
 	"S815": {
 		"name": "S815",
@@ -6085,9 +6073,7 @@
 	},
 	"S826": {
 		"name": "Power Charge Duration",
-		"stats": [
-			"10% increased Power Charge Duration"
-		]
+		"stats": ["10% increased Power Charge Duration"]
 	},
 	"S827": {
 		"name": "Attribute",
@@ -6167,9 +6153,7 @@
 	},
 	"S846": {
 		"name": "Power Charge Duration",
-		"stats": [
-			"10% increased Power Charge Duration"
-		]
+		"stats": ["10% increased Power Charge Duration"]
 	},
 	"S847": {
 		"name": "S847",
@@ -10570,6 +10554,42 @@
 		"name": "AS11",
 		"stats": ["Infernalist small"]
 	},
+	"AS12": {
+		"name": "AS12",
+		"stats": ["Infernalist small"]
+	},
+	"AS13": {
+		"name": "AS13",
+		"stats": ["Infernalist small"]
+	},
+	"AS14": {
+		"name": "AS14",
+		"stats": ["Infernalist small"]
+	},
+	"AS15": {
+		"name": "AS15",
+		"stats": ["Infernalist small"]
+	},
+	"AS16": {
+		"name": "AS16",
+		"stats": ["Infernalist small"]
+	},
+	"AS17": {
+		"name": "AS17",
+		"stats": ["Infernalist small"]
+	},
+	"AS18": {
+		"name": "AS18",
+		"stats": ["Infernalist small"]
+	},
+	"AS19": {
+		"name": "AS19",
+		"stats": ["Infernalist small"]
+	},
+	"AS20": {
+		"name": "AS20",
+		"stats": ["Infernalist small"]
+	},
 	"AN11": {
 		"name": "Loyal Hellhound",
 		"stats": [
@@ -10596,6 +10616,30 @@
 		"stats": [
 			"While not on Low Infernal Flame, all Damage from you and your Minions contributes to Ignite Chance and Magnitude"
 		]
+	},
+	"AN15": {
+		"name": "AN15",
+		"stats": ["Infernalist notable"]
+	},
+	"AN16": {
+		"name": "AN16",
+		"stats": ["Infernalist notable"]
+	},
+	"AN17": {
+		"name": "AN17",
+		"stats": ["Infernalist notable"]
+	},
+	"AN18": {
+		"name": "AN18",
+		"stats": ["Infernalist notable"]
+	},
+	"AN19": {
+		"name": "AN19",
+		"stats": ["Infernalist notable"]
+	},
+	"AN20": {
+		"name": "AN20",
+		"stats": ["Infernalist notable"]
 	},
 	"AS21": {
 		"name": "AS21",
@@ -10842,55 +10886,43 @@
 	},
 	"AN101": {
 		"name": "Weapon Master",
-		"stats": [
-		"Grants 20 Weapon Set Skill Points"
-		]
+		"stats": ["Grants 20 Weapon Set Skill Points"]
 	},
 	"AN102": {
 		"name": "Pitless Killer",
-		"stats": [
-		"Culling Strike"
-		]
+		"stats": ["Culling Strike"]
 	},
 	"AN103": {
 		"name": "Decimating Strike",
 		"stats": [
-		"Hits against Full Life Enemies removes between 5% and 30% of Life, before the damage of the Hit is applied"
+			"Hits against Full Life Enemies removes between 5% and 30% of Life, before the damage of the Hit is applied"
 		]
 	},
 	"AN104": {
 		"name": "Witchbane",
 		"stats": [
-		"Enemies have Maximum Concentration equal to 40% of their Maximum Life",
-		"Break enemy Concentration on Hit equal to 100% of Damage Dealt",
-		"Enemies regain 10% of Concentration every second if they haven't lost Concentration for the past 5 seconds"
+			"Enemies have Maximum Concentration equal to 40% of their Maximum Life",
+			"Break enemy Concentration on Hit equal to 100% of Damage Dealt",
+			"Enemies regain 10% of Concentration every second if they haven't lost Concentration for the past 5 seconds"
 		]
 	},
 	"AN105": {
 		"name": "No Mercy",
-		"stats": [
-		"Deal up to 30% more Damage to Enemies based on their missing Concentration"
-		]
+		"stats": ["Deal up to 30% more Damage to Enemies based on their missing Concentration"]
 	},
 	"AN106": {
 		"name": "Obsessive Rituals",
-		"stats": [
-		"Grants Skills: Sorcery Ward",
-		"50% less Armour and Evasion Rating"
-		]
+		"stats": ["Grants Skills: Sorcery Ward", "50% less Armour and Evasion Rating"]
 	},
 	"AN107": {
 		"name": "Ceremonial Ablution",
-		"stats": [
-		"50% increased effect of Sorcery Ward",
-		"Sorcery Ward recovers 50% faster"
-		]
+		"stats": ["50% increased effect of Sorcery Ward", "Sorcery Ward recovers 50% faster"]
 	},
 	"AN108": {
 		"name": "Zealous Inquisition",
 		"stats": [
-		"10% chance for Enemies you Kill to Explode, dealing 100% of their maximum Life as Physical Damage",
-		"Chance is doubled against Undead and Demons"
+			"10% chance for Enemies you Kill to Explode, dealing 100% of their maximum Life as Physical Damage",
+			"Chance is doubled against Undead and Demons"
 		]
 	},
 	"AS111": {
