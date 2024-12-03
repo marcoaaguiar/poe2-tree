@@ -10550,6 +10550,25 @@
 		"name": "Gore Spike",
 		"stats": ["1% increased Critical Damage Bonus per 20 Life"]
 	},
+	"AN5": {
+		"name": "Grasping Wounds",
+		"stats": ["25% of Life Lose from Damaging Hits is lost over 4 seconds instead"]
+	},
+	"AN6": {
+		"name": "Blood Barbs",
+		"stats": [
+			"Gain 10% of Damage as Extra Physical Damage",
+			"Elemental Damage can inflict Bleeding"
+		]
+	},
+	"AN7": {
+		"name": "Open Sores",
+		"stats": ["Your Curses have inifinite Duration"]
+	},
+	"AN8": {
+		"name": "Sunder the Flesh",
+		"stats": ["Base Critical Hit Chance for Spells is 15%"]
+	},
 	"AS11": {
 		"name": "AS11",
 		"stats": ["Infernalist small"]
