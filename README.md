@@ -161,13 +161,6 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
 		</tr>
 		<tr>
             <td align="center">
-                <a href="https://github.com/theshannon">
-                    <img src="https://avatars.githubusercontent.com/u/33788533?v=4" width="100;" alt="theshannon"/>
-                    <br />
-                    <sub><b>Shannon Pereira</b></sub>
-                </a>
-            </td>
-            <td align="center">
                 <a href="https://github.com/Bolado">
                     <img src="https://avatars.githubusercontent.com/u/74077743?v=4" width="100;" alt="Bolado"/>
                     <br />
@@ -175,10 +168,10 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/Yamarin">
-                    <img src="https://avatars.githubusercontent.com/u/6870612?v=4" width="100;" alt="Yamarin"/>
+                <a href="https://github.com/theshannon">
+                    <img src="https://avatars.githubusercontent.com/u/33788533?v=4" width="100;" alt="theshannon"/>
                     <br />
-                    <sub><b>Yamarin</b></sub>
+                    <sub><b>Shannon Pereira</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -186,6 +179,13 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                     <img src="https://avatars.githubusercontent.com/u/35290061?v=4" width="100;" alt="Alexis-Pannetier"/>
                     <br />
                     <sub><b>Alexis Pannetier</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/Yamarin">
+                    <img src="https://avatars.githubusercontent.com/u/6870612?v=4" width="100;" alt="Yamarin"/>
+                    <br />
+                    <sub><b>Yamarin</b></sub>
                 </a>
             </td>
             <td align="center">
