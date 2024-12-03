@@ -6675,8 +6675,8 @@
 		"stats": ["+1% to Maximum Cold Resistance"]
 	},
 	"S979": {
-		"name": "S979",
-		"stats": []
+		"name": "Ignite Chance",
+		"stats": ["20% increased chance to Ignite"]
 	},
 	"S980": {
 		"name": "S980",
@@ -6787,8 +6787,8 @@
 		"stats": ["+5 to any Attribute"]
 	},
 	"S1007": {
-		"name": "S1007",
-		"stats": []
+		"name": "Melee Damage",
+		"stats": ["10% increased Melee Damage"]
 	},
 	"S1008": {
 		"name": "S1008",
@@ -6807,16 +6807,16 @@
 		"stats": []
 	},
 	"S1012": {
-		"name": "S1012",
-		"stats": []
+		"name": "Melee Damage",
+		"stats": ["10% increased Melee Damage"]
 	},
 	"S1013": {
 		"name": "Area Damage",
 		"stats": ["12% increased Attack Area Damage"]
 	},
 	"S1014": {
-		"name": "S1014",
-		"stats": []
+		"name": "Melee Damage",
+		"stats": ["8% increased Melee Damage"]
 	},
 	"S1015": {
 		"name": "S1015",
@@ -6867,8 +6867,8 @@
 		"stats": []
 	},
 	"S1027": {
-		"name": "S1027",
-		"stats": []
+		"name": "Melee Damage",
+		"stats": ["10% increased Melee Damage"]
 	},
 	"S1028": {
 		"name": "Attribute",
@@ -6895,8 +6895,8 @@
 		"stats": ["+16 to Evasion Rating"]
 	},
 	"S1034": {
-		"name": "S1034",
-		"stats": []
+		"name": "Melee Damage",
+		"stats": ["8% increased Melee Damage"]
 	},
 	"S1035": {
 		"name": "S1035",
@@ -6987,8 +6987,8 @@
 		"stats": []
 	},
 	"S1057": {
-		"name": "S1057",
-		"stats": []
+		"name": "Stun Buildup",
+		"stats": ["12% increased Stun Buildup"]
 	},
 	"S1058": {
 		"name": "S1058",
@@ -7043,8 +7043,8 @@
 		"stats": ["12% increased Stun Buildup"]
 	},
 	"S1071": {
-		"name": "S1071",
-		"stats": []
+		"name": "Stun Buildup",
+		"stats": ["12% increased Stun Buildup"]
 	},
 	"S1072": {
 		"name": "S1072",
@@ -7095,8 +7095,8 @@
 		"stats": []
 	},
 	"S1084": {
-		"name": "S1084",
-		"stats": []
+		"name": "Armour",
+		"stats": ["+20 to Armour"]
 	},
 	"S1085": {
 		"name": "S1085",
@@ -7151,8 +7151,8 @@
 		"stats": []
 	},
 	"S1098": {
-		"name": "S1098",
-		"stats": []
+		"name": "Armour",
+		"stats": ["15% increased Armour"]
 	},
 	"S1099": {
 		"name": "S1099",
@@ -7183,12 +7183,12 @@
 		"stats": ["8% increased Area of Effect for Attacks"]
 	},
 	"S1106": {
-		"name": "S1106",
-		"stats": []
+		"name": "Life Regeneration",
+		"stats": ["Regenerate 0.4% of Life per second"]
 	},
 	"S1107": {
-		"name": "S1107",
-		"stats": []
+		"name": "Stun Threshold",
+		"stats": ["12% increased Stun Threshold"]
 	},
 	"S1108": {
 		"name": "Attribute",
@@ -7251,8 +7251,8 @@
 		"stats": ["10% increased Warcry Cooldown Recovery Rate"]
 	},
 	"S1123": {
-		"name": "S1123",
-		"stats": []
+		"name": "Armour",
+		"stats": ["15% increased Armour"]
 	},
 	"S1124": {
 		"name": "S1124",
@@ -7279,8 +7279,8 @@
 		"stats": []
 	},
 	"S1130": {
-		"name": "S1130",
-		"stats": []
+		"name": "Stun Threshold",
+		"stats": ["12% increased Stun Threshold"]
 	},
 	"S1131": {
 		"name": "Immobilise Buildup",
@@ -7371,8 +7371,8 @@
 		"stats": ["+5 to any Attribute"]
 	},
 	"S1153": {
-		"name": "S1153",
-		"stats": []
+		"name": "Block",
+		"stats": ["5% increased Chance to Block"]
 	},
 	"S1154": {
 		"name": "S1154",
