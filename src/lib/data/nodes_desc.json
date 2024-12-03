@@ -10688,28 +10688,56 @@
 		"stats": ["Witchhunter small"]
 	},
 	"AN101": {
-		"name": "Obssesive Rituals",
-		"stats": ["Grants Skill: Sorcery Ward", "50% les Armour and Evasion Rating"]
+		"name": "Weapon Master",
+		"stats": [
+		"Grants 20 Weapon Set Skill Points"
+		]
 	},
 	"AN102": {
-		"name": "Witchbane",
+		"name": "Pitless Killer",
 		"stats": [
-			"Enemies Maximum Concentration equal to 40% of their Maximum Life",
-			"Break enemy Concentration on Hit equal to 100% of Damage Dealt",
-			"Enemies regain 10% of Concentration every second if they haven't lost concentration in the",
-			"past 5 seconds"
+		"Culling Strike"
 		]
 	},
 	"AN103": {
-		"name": "Judge, Jury, and Executionner",
-		"stats": ["Decimating Strike", "(First hit chunks enemy)"]
+		"name": "Decimating Strike",
+		"stats": [
+		"Hits against Full Life Enemies removes between 5% and 30% of Life, before the damage of the Hit is applied"
+		]
 	},
 	"AN104": {
-		"name": "Zealous inquisition",
+		"name": "Witchbane",
 		"stats": [
-			"10% chance for Enemies you Kill to Explode, dealing 100%",
-			"of their Maximum Life as Physical Damage",
-			"Chance is doubled against Undead and Demons"
+		"Enemies ahve Maximum Concentration equal to 40% of their Maximum Life",
+		"Break enemy Concentration on Hit equal to 100% of Damage Dealt",
+		"Enemies regain 10% of Concentration every second if they havent´t lost Concentration for the past 5 seconds"
+		]
+	},
+	"AN105": {
+		"name": "No Mercy",
+		"stats": [
+		"Deal up to 30% more Damage to Enemies based on their missing Concentration"
+		]
+	},
+	"AN106": {
+		"name": "Obsessive Rituals",
+		"stats": [
+		"Grants Skills: Sorcery Ward",
+		"50% less Armour and Evasion Rating"
+		]
+	},
+	"AN107": {
+		"name": "Ceremonial Ablution",
+		"stats": [
+		"50% increased effect of Sorcery Ward",
+		"Sorcery Ward recovers 50% faster"
+		]
+	},
+	"AN108": {
+		"name": "Zealous Inquisition",
+		"stats": [
+		"10% chance for Enemies you Kill to Explode, dealing 100% of their maximum Life as Physical Damage",
+		"Chance is doubled against Undead and Demons"
 		]
 	},
 	"AS111": {
