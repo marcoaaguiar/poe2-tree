@@ -167,6 +167,10 @@
 			if (tooltipTopInContainer < 0) {
 				tooltipY += -tooltipTopInContainer + 20;
 			}
+
+			if (tooltipRect.x >= containerRect.x) {
+				tooltipX = 0;
+			}
 		}
 	}
 
@@ -372,7 +376,7 @@
 	// Add event listeners for global mouse events to handle panning
 	onMount(() => {
 		const checkScreenSize = () => {
-			if (window.innerWidth <= 768) {
+			if (window.innerWidth < 768) {
 				sidebarVisable = false;
 			} else {
 				sidebarVisable = true;
@@ -438,7 +442,7 @@
 	>
 		<!-- Left Sidebar -->
 		<aside
-			class={`h-full grid grid-cols-1  ${sidebarVisable ? 'bg-[#111]' : 'absolute'} grid-rows-[auto_auto_auto_1fr] gap-2 p-2  min-h-0`}
+			class={`h-full grid grid-cols-1  ${sidebarVisable ? 'bg-[#111]' : 'absolute'} grid-rows-[auto_auto_auto_1fr] gap-2 p-2  min-h-0 z-20`}
 		>
 			<!-- Toggle Button for Aside -->
 			<button
@@ -587,6 +591,15 @@
 				</div>
 			{/if}
 		</aside>
+		{#if sidebarVisable}
+			<button
+				class="md:hidden fixed h-svh w-svw outline-none border-none z-10"
+				aria-label="collapse sidebar alt"
+				onclick={() => {
+					sidebarVisable = false;
+				}}
+			></button>
+		{/if}
 		<!-- Tree View -->
 		<div class="bg-black">
 			<!-- Skill Tree Container -->
@@ -666,7 +679,7 @@
 					<div
 						bind:this={tooltipEl}
 						class="absolute w-[400px] pointer-events-none"
-						style="left: {tooltipX}px; top: {tooltipY}px;"
+						style="left: {tooltipX}px; top: {tooltipY}px; max-width: calc(100%-40px)"
 					>
 						<TreeNodeTooltip node={tooltipNode} />
 					</div>
