@@ -10692,26 +10692,26 @@
     "stats": [
       "Grants 20 Weapon Set Skill Points"
     ]
-  },
-  "AN102": {
-    "name": "Pitless Killer",
-    "stats": [
-      "Culling Strike"
-    ]
-  },
-  "AN103": {
-    "name": "Decimating Strike",
-    "stats": [
-      "Hits against Full Life Enemies removes between 5% and 30% of Life, before the damage of the Hit is applied"
-    ]
-  },
-  "AN104": {
-    "name": "Witchbane",
-    "stats": [
-      "Enemies ahve Maximum Concentration equal to 40% of their Maximum Life",
-      "Break enemy Concentration on Hit equal to 100% of Damage Dealt",
-      "Enemies regain 10% of Concentration every second if they havent´t lost Concentration for the past 5 seconds"
-    ]
+	},
+	"AN102": {
+		"name": "Pitless Killer",
+		"stats": [
+		"Culling Strike"
+		]
+	},
+	"AN103": {
+		"name": "Decimating Strike",
+		"stats": [
+		"Hits against Full Life Enemies removes between 5% and 30% of Life, before the damage of the Hit is applied"
+		]
+	},
+	"AN104": {
+		"name": "Witchbane",
+		"stats": [
+		"Enemies ahve Maximum Concentration equal to 40% of their Maximum Life",
+		"Break enemy Concentration on Hit equal to 100% of Damage Dealt",
+		"Enemies regain 10% of Concentration every second if they havent´t lost Concentration for the past 5 seconds"
+		]
 	},
 	"AN105": {
 		"name": "No Mercy",
