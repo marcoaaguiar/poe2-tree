@@ -577,12 +577,18 @@
 					<ul class="block min-h-0 overflow-y-auto">
 						{#each searchResults as nodeId}
 							<li>
-								<button onclick={() => panToNode(nodeId)}>{nodes[nodeId].name}</button>
-								<ul>
-									{#each nodes[nodeId].description as description}
-										<li class="text-sm text-[#7d7aad]">{description}</li>
-									{/each}
-								</ul>
+								<button
+									onclick={() => panToNode(nodeId)}
+									class="cursor-pointer hover:bg-slate-400/15 w-full transition-color duration-300"
+									title={`Pan view to node ${nodes[nodeId].name}`}
+								>
+									<strong>{nodes[nodeId].name}</strong>
+									<ul>
+										{#each nodes[nodeId].description as description}
+											<li class="text-sm text-[#7d7aad]">{description}</li>
+										{/each}
+									</ul>
+								</button>
 							</li>
 						{/each}
 					</ul>
