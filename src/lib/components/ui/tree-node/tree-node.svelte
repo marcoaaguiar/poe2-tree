@@ -78,7 +78,6 @@
 	.notable.unidentified,
 	.ascendancy.unidentified {
 		background-color: rgba(255, 100, 100, 0.2);
-		border-color: rgba(255, 100, 100, 1);
 	}
 
 	.keystone {
@@ -87,7 +86,6 @@
 
 	.keystone.unidentified {
 		background-color: rgba(255, 0, 100, 0.2);
-		border-color: rgba(255, 0, 100, 1);
 	}
 
 	.small {
@@ -95,8 +93,7 @@
 	}
 
 	.small.unidentified {
-		background-color: rgba(255, 255, 255, 0.2);
-		border-color: rgba(255, 100, 100, 1);
+		background-color: rgba(255, 0, 100, 0.2);
 	}
 
 	.notable.selected {
@@ -121,6 +118,10 @@
 
 	.small.highlighted {
 		border: 1px solid yellow;
+	}
+
+	.unidentified.highlighted {
+		border: 1px solid red;
 	}
 
 	@keyframes glow {

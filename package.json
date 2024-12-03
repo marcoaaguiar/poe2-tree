@@ -36,5 +36,8 @@
 	},
 	"lint-staged": {
 		"*.{ts,json,css,svelte,md}": "prettier --write"
+	},
+	"dependencies": {
+		"lz-string": "^1.5.0"
 	}
 }
