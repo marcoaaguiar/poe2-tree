@@ -145,26 +145,26 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/theshannon">
-                    <img src="https://avatars.githubusercontent.com/u/33788533?v=4" width="100;" alt="theshannon"/>
-                    <br />
-                    <sub><b>Shannon Pereira</b></sub>
-                </a>
-            </td>
-            <td align="center">
                 <a href="https://github.com/mizm0">
                     <img src="https://avatars.githubusercontent.com/u/190132103?v=4" width="100;" alt="mizm0"/>
                     <br />
                     <sub><b>mizm0</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/mortslhawmit">
                     <img src="https://avatars.githubusercontent.com/u/30402832?v=4" width="100;" alt="mortslhawmit"/>
                     <br />
                     <sub><b>mortslhawmit</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/theshannon">
+                    <img src="https://avatars.githubusercontent.com/u/33788533?v=4" width="100;" alt="theshannon"/>
+                    <br />
+                    <sub><b>Shannon Pereira</b></sub>
                 </a>
             </td>
             <td align="center">
