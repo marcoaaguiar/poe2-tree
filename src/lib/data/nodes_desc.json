@@ -10736,9 +10736,9 @@
 	"AN104": {
 		"name": "Witchbane",
 		"stats": [
-		"Enemies ahve Maximum Concentration equal to 40% of their Maximum Life",
+		"Enemies have Maximum Concentration equal to 40% of their Maximum Life",
 		"Break enemy Concentration on Hit equal to 100% of Damage Dealt",
-		"Enemies regain 10% of Concentration every second if they havent´t lost Concentration for the past 5 seconds"
+		"Enemies regain 10% of Concentration every second if they haven't lost Concentration for the past 5 seconds"
 		]
 	},
 	"AN105": {
