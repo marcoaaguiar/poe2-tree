@@ -108,8 +108,8 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/meatwallace">
-                    <img src="https://avatars.githubusercontent.com/u/3013783?v=4" width="100;" alt="meatwallace"/>
+                <a href="https://github.com/azadix">
+                    <img src="https://avatars.githubusercontent.com/u/3746879?v=4" width="100;" alt="azadix"/>
                     <br />
                     <sub><b>Geoff Whatley</b></sub>
                 </a>
@@ -117,8 +117,8 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
 		</tr>
 		<tr>
             <td align="center">
-                <a href="https://github.com/azadix">
-                    <img src="https://avatars.githubusercontent.com/u/3746879?v=4" width="100;" alt="azadix"/>
+                <a href="https://github.com/meatwallace">
+                    <img src="https://avatars.githubusercontent.com/u/3013783?v=4" width="100;" alt="meatwallace"/>
                     <br />
                     <sub><b>Geoff Whatley</b></sub>
                 </a>
@@ -253,6 +253,13 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                     <img src="https://avatars.githubusercontent.com/u/18507372?v=4" width="100;" alt="mmhchan"/>
                     <br />
                     <sub><b>Michael Chan</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/midastouchprd">
+                    <img src="https://avatars.githubusercontent.com/u/18386032?v=4" width="100;" alt="midastouchprd"/>
+                    <br />
+                    <sub><b>Tosin Awofeso</b></sub>
                 </a>
             </td>
             <td align="center">
