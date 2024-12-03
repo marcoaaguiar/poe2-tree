@@ -10711,6 +10711,31 @@
 		"name": "Relentless Pursuit",
 		"stats": ["You gain immunity to slows from enemies"]
 	},
+	"AN95": {
+		"name": "Traveller's Wisdom",
+		"stats": ["Grants 5 Passive Skill Points"]
+	},
+	"AN96": {
+		"name": "Brew Concoction",
+		"stats": [
+			"Grants the following skills:",
+			"Bleeding Concoction",
+			"Explosive Concoction",
+			"Shattering Concoction",
+			"Fulminating Concoction",
+			"Poisonous Concoction"
+		]
+	},
+	"AN97": {
+		"name": "Connected Chemistry",
+		"stats": ["Flask Charges gained are doubled."]
+	},
+	"AN98": {
+		"name": "Enduring Elixirs",
+		"stats": [
+			"Life Flask Effects are not removed when Unreserved Life is Filled. Life Flask Effects do not queue."
+		]
+	},
 	"AS101": {
 		"name": "AS101",
 		"stats": ["Witchhunter small"]
