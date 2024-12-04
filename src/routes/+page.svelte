@@ -6,6 +6,7 @@
 	import { Header } from '$lib/components/ui/header';
 	import { TreeNodeTooltip } from '$lib/components/ui/tree-node-tooltip/index.js';
 	import TreeNode from '$lib/components/ui/tree-node/tree-node.svelte';
+	import NodeListItem from '$lib/components/ui/node-list-item/node-list-item.svelte';
 	import LZString from 'lz-string';
 
 	let { nodes } = loadData();
@@ -581,18 +582,7 @@
 					<ul class="block min-h-0 overflow-y-auto">
 						{#each searchResults as nodeId}
 							<li>
-								<button
-									onclick={() => panToNode(nodeId)}
-									class="cursor-pointer hover:bg-slate-400/15 w-full transition-color duration-300"
-									title={`Pan view to node ${nodes[nodeId].name}`}
-								>
-									<strong>{nodes[nodeId].name}</strong>
-									<ul>
-										{#each nodes[nodeId].description as description}
-											<li class="text-sm text-[#7d7aad]">{description}</li>
-										{/each}
-									</ul>
-								</button>
+								<NodeListItem {nodeId} {nodes} onClick={panToNode} />
 							</li>
 						{/each}
 					</ul>
@@ -617,12 +607,7 @@
 						{#each selectedNodes as nodeId}
 							{#if !nodeId.startsWith('S')}
 								<li>
-									<strong>{nodes[nodeId].name}</strong>
-									<ul>
-										{#each nodes[nodeId].description as description}
-											<li class="text-sm text-[#7d7aad]">{description}</li>
-										{/each}
-									</ul>
+									<NodeListItem {nodeId} {nodes} onClick={panToNode} />
 								</li>
 							{/if}
 						{/each}
