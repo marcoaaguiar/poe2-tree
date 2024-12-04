@@ -66,6 +66,7 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
 - [Open World Games - Reveal](https://www.youtube.com/watch?v=-v2UqGMmldc)
 - [GGG - Endgame Reveal](https://www.youtube.com/watch?v=ZpIbaTXJD4g&t=1356s)
 - [GGG - Exilecon](https://www.youtube.com/watch?v=y8OL9qqnhDo)
+- [GGG - Ascendancy Reveal](https://www.pathofexile.com/forum/view-thread/3592012)
 
 # Contributors
 

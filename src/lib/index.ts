@@ -41,6 +41,12 @@ export function loadData(): TreeData {
 	];
 
 	const nodes = flattenedNodePositions.reduce((acc, node) => {
+		if (!(nodeData as NodeDataJSON)[node.id]) {
+			console.warn(`No data found for node ${node.id}`);
+
+			return acc;
+		}
+
 		const { name, stats: description } = (nodeData as NodeDataJSON)[node.id];
 
 		return {

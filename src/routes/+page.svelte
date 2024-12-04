@@ -189,6 +189,19 @@
 		}
 	}
 
+	// utility for manually adding new nodes to the graph
+	function handleImageClick(event: MouseEvent) {
+		if (imageEl && import.meta.env.DEV) {
+			console.log({
+				id: 'ANX',
+				x: event.offsetX / scale / imageEl.naturalWidth,
+				y: event.offsetY / scale / imageEl.naturalHeight,
+				kind: 'notable',
+				class: selectedAscendancy
+			});
+		}
+	}
+
 	function toggleNodeSelection(node: TreeNodeData) {
 		if (selectedNodes.includes(node.id)) {
 			// Deselect node
@@ -645,7 +658,8 @@
 			  transform: translate({panOffsetX}px, {panOffsetY}px);
 			  user-select: none;
 			  cursor: {isPanning ? 'grabbing' : tooltipNode != null ? 'pointer' : 'default'};
-		  "
+			"
+					onclick={handleImageClick}
 				>
 					<img
 						class="pointer-events-none max-w-none"

@@ -10551,11 +10551,13 @@
 	},
 	"AN4": {
 		"name": "Gore Spike",
-		"stats": ["1% increased Critical Damage Bonus per 20 Life"]
+		"stats": ["1% increased Critical Damage Bonus per 40 Life"]
 	},
 	"AN5": {
 		"name": "Grasping Wounds",
-		"stats": ["25% of Life Lose from Damaging Hits is lost over 4 seconds instead"]
+		"stats": [
+			"25% of Life Lose from Damaging Hits is prevented, then that much Life is lost over 4 seconds instead"
+		]
 	},
 	"AN6": {
 		"name": "Blood Barbs",
@@ -10786,7 +10788,7 @@
 	},
 	"AN62": {
 		"name": "Mysterious Lineage",
-		"stats": ["20% more Maximum Life"]
+		"stats": ["15% more Maximum Life"]
 	},
 	"AN63": {
 		"name": "Ancestral Empowerment",
@@ -10893,7 +10895,7 @@
 	},
 	"AN94": {
 		"name": "Relentless Pursuit",
-		"stats": ["You gain immunity to slows from enemies"]
+		"stats": ["Your speed is unaffected by Slows"]
 	},
 	"AN95": {
 		"name": "Traveller's Wisdom",
@@ -10912,7 +10914,7 @@
 	},
 	"AN97": {
 		"name": "Connected Chemistry",
-		"stats": ["Flask Charges gained are doubled."]
+		"stats": ["50% more Flask Charges gained"]
 	},
 	"AN98": {
 		"name": "Enduring Elixirs",
@@ -10984,9 +10986,9 @@
 	"AN114": {
 		"name": "Thaumaturgical Infusion",
 		"stats": [
-			"+1% to Maximum Cold Resistance per 3 Blue Support Gems Socketed anywhere",
-			"+1% to Maximum Fire Resistance per 3 Red Support Gems Socketed anywhere",
-			"+1% to Maximum Lightning Resistance per 3 Green Support Gems Socketed anywhere"
+			"+1% to Maximum Cold Resistance per 4 Blue Support Gems Socketed",
+			"+1% to Maximum Fire Resistance per 4 Red Support Gems Socketed",
+			"+1% to Maximum Lightning Resistance per 4 Green Support Gems Socketed"
 		]
 	},
 	"AN115": {
@@ -11000,5 +11002,131 @@
 	"AN117": {
 		"name": "Advanced Thaumaturgy",
 		"stats": ["30% less Cost of skills", "Skill Gems have 30% more Attribute Requirements"]
+	},
+	"AN118": {
+		"name": "Inner Silence",
+		"stats": ["50% reduced Darkness Reservation Duration"]
+	},
+	"AN119": {
+		"name": "Lucid Dreaming",
+		"stats": ["Effect and Duration of Flames of Chayula on You is Double"]
+	},
+	"AN120": {
+		"name": "Embrace the Darkness",
+		"stats": [
+			"Removes all Spirit",
+			"Base Maximum Darkness is 100",
+			"Damage taken is Reserved from Darkness before being taken from Life or Energy Shield",
+			"Darkness Reservation lasts for 10 seconds",
+			"+5 to Maximum Darkness per Level"
+		]
+	},
+	"AN121": {
+		"name": "Reality Rending",
+		"stats": [
+			"23% chance to Gain 25% of Damage with Hits as Extra Chaos Damage",
+			"13% chance to gain 50% of Damage with Hits as Extra Chaos Damage",
+			"7% chance to Gain 100% of Damage with Hits as Extra Chaos Damage"
+		]
+	},
+	"AN122": {
+		"name": "Lead me through Grace...",
+		"stats": [
+			"Gain 1 Spirit for every 6 Energy Shield on equipped Body Armour",
+			"Gain 1 Spirit for every 15 Evasion Rating on equipped Body Armour",
+			"Cannot gain Spirit from Equipment"
+		]
+	},
+	"AN123": {
+		"name": "...and Protect me from Harm",
+		"stats": ["Evasion Rating also grants Physical Damage Reduction", "40% less Evasion Rating"]
+	},
+	"AN124": {
+		"name": "The Soul Springs Eternal",
+		"stats": ["Meta Skills gain 35% more Energy"]
+	},
+	"AN125": {
+		"name": "Sunder my Enemies...",
+		"stats": ["Critical Hits ignore non negative Enemy Monster Elemental Resistances"]
+	},
+	"AN126": {
+		"name": "Now and Again",
+		"stats": ["Skills have 33% chance to not consume a Cooldown when used"]
+	},
+	"AN127": {
+		"name": "Apex of the Moment",
+		"stats": ["Enemies in your PResence are Slowed by 20%"]
+	},
+	"AN128": {
+		"name": "The Rapid River",
+		"stats": ["Recoup Effects instead occur over 4 seconds"]
+	},
+	"AN129": {
+		"name": "Circular Heartbeat",
+		"stats": ["30% of Damage taken Recouped as Life"]
+	},
+	"AN130": {
+		"name": "Quicksand Hourglass",
+		"stats": ["Every 12 seconds, gain 50% more Cast Speed for 4 seconds"]
+	},
+	"AN131": {
+		"name": "Heart of the Storm",
+		"stats": ["40% of Elemental Damage taken Recouped as Energy Shield"]
+	},
+	"AN132": {
+		"name": "Scouring Winds",
+		"stats": ["Exposure you inflict lowers the affected Resistance by an additional 20%"]
+	},
+	"AN133": {
+		"name": "Heavy Snows",
+		"stats": [
+			"Targets can be affected by two of your Chills at the same time",
+			"Your chills reduce Action Speed by up to a maximum of 35%",
+			"25% less Magnitude of Chill you inflict"
+		]
+	},
+	"AN134": {
+		"name": "Shaper of Winter",
+		"stats": ["All Damage from Hits Contributes to chill Magnitude"]
+	},
+	"AN135": {
+		"name": "Rain Dancer",
+		"stats": ["Elemental Storm has 150% more Cooldown Recovery Rate"]
+	},
+	"AN136": {
+		"name": "Constant Gale",
+		"stats": ["You have Arcane Surge"]
+	},
+	"AN137": {
+		"name": "Force of Will",
+		"stats": ["1% increased Effect of Arcane Surge on you per 15 maximum Mana"]
+	},
+	"AN138": {
+		"name": "Stone Skin",
+		"stats": ["50% more Armour from Equipped Body Armour"]
+	},
+	"AN139": {
+		"name": "Hulking Form",
+		"stats": ["50% increased effect of Small Passive Skills"]
+	},
+	"AN140": {
+		"name": "Anvil's Weight",
+		"stats": ["Break Armour equal to 10% of Hit Damage dealt"]
+	},
+	"AN141": {
+		"name": "Imploding Impacts",
+		"stats": ["You can Break Enemy Armour to below 0"]
+	},
+	"AN142": {
+		"name": "Wooden Wall",
+		"stats": ["20% of Damage from Hits is taken from your nearest Totem's Life before you"]
+	},
+	"AN143": {
+		"name": "Renly's Charm",
+		"stats": ["Gain 40% Base Chance to Block from Equipped Shield instead of Shield's value"]
+	},
+	"AN144": {
+		"name": "Turtle Charm",
+		"stats": ["35% less Block chance", "Can Block Damage from all Hits while Shield is not Raised"]
 	}
 }
