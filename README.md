@@ -96,6 +96,13 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/lfmnovaes">
+                    <img src="https://avatars.githubusercontent.com/u/13990675?v=4" width="100;" alt="lfmnovaes"/>
+                    <br />
+                    <sub><b>Luís Fernando Novaes</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/Kehrweek">
                     <img src="https://avatars.githubusercontent.com/u/37820515?v=4" width="100;" alt="Kehrweek"/>
                     <br />
@@ -109,20 +116,13 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                     <sub><b>Geoff Whatley</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/neo-daru">
                     <img src="https://avatars.githubusercontent.com/u/137759704?v=4" width="100;" alt="neo-daru"/>
                     <br />
                     <sub><b>Daru</b></sub>
-                </a>
-            </td>
-		</tr>
-		<tr>
-            <td align="center">
-                <a href="https://github.com/lfmnovaes">
-                    <img src="https://avatars.githubusercontent.com/u/13990675?v=4" width="100;" alt="lfmnovaes"/>
-                    <br />
-                    <sub><b>Luís Fernando Novaes</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -286,14 +286,21 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/josephjaniga">
+                    <img src="https://avatars.githubusercontent.com/u/4117680?v=4" width="100;" alt="josephjaniga"/>
+                    <br />
+                    <sub><b>Joe</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
+            <td align="center">
                 <a href="https://github.com/Trifall">
                     <img src="https://avatars.githubusercontent.com/u/13270623?v=4" width="100;" alt="Trifall"/>
                     <br />
                     <sub><b>Jerren T</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/JaredRabie">
                     <img src="https://avatars.githubusercontent.com/u/20741149?v=4" width="100;" alt="JaredRabie"/>
