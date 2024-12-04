@@ -10959,12 +10959,15 @@
 	},
 	"AN102": {
 		"name": "Pitless Killer",
-		"stats": ["Culling Strike"]
+		"stats": [
+			"Culling Strike",
+			"Culling Strikes kill Normal enemies if their Life is at 30% or below. Magic enemies are instead killed at 20%, Rare at 10% and Unique at 5%. These thresholds are checked before the damage of the Hit is applied."
+		]
 	},
 	"AN103": {
 		"name": "Decimating Strike",
 		"stats": [
-			"Hits against Full Life Enemies removes between 5% and 30% of Life, before the damage of the Hit is applied"
+			"Hits against Full Life Enemies remove between 5% and 30% of Life, before the damage of the Hit is applied"
 		]
 	},
 	"AN104": {
@@ -10972,7 +10975,8 @@
 		"stats": [
 			"Enemies have Maximum Concentration equal to 40% of their Maximum Life",
 			"Break enemy Concentration on Hit equal to 100% of Damage Dealt",
-			"Enemies regain 10% of Concentration every second if they haven't lost Concentration for the past 5 seconds"
+			"Enemies regain 10% of Concentration every second if they haven't lost Concentration in the past 5 seconds",
+			"Enemies have less Cooldown Recovery Rate the lower their Concentration, scaling down to 50% less Cooldown Recovery Rate when Concentration is 0%."
 		]
 	},
 	"AN105": {
@@ -10994,13 +10998,17 @@
 			"Chance is doubled against Undead and Demons"
 		]
 	},
+	"AN110": {
+		"name": "Gem Studded",
+		"stats": ["You can use two copies of the same Support Gem in different Skills"]
+	},
 	"AS111": {
 		"name": "AS111",
 		"stats": ["Gemling small"]
 	},
 	"AN111": {
 		"name": "Crystalline Potential",
-		"stats": ["+12% to Quality of all Skill Gems"]
+		"stats": ["+10% to Quality of all Skills"]
 	},
 	"AN112": {
 		"name": "Implanted Gems",
@@ -11024,11 +11032,11 @@
 	},
 	"AN116": {
 		"name": "Enhanced Effectiveness",
-		"stats": ["Inherent bonuses from Intelligence Strength and Dexterity are doubled"]
+		"stats": ["Inherent bonuses from Intelligence, Strength and Dexterity are doubled"]
 	},
 	"AN117": {
 		"name": "Advanced Thaumaturgy",
-		"stats": ["30% less Cost of skills", "Skill Gems have 30% more Attribute Requirements"]
+		"stats": ["30% less Cost of Skills", "Skill Gems have 30% more Attribute Requirements"]
 	},
 	"AN118": {
 		"name": "Inner Silence",
