@@ -690,6 +690,19 @@
 			  "
 					/>
 
+					<!-- {#if tooltipNode != null}
+					<div bind:this={tooltipEl} class="tooltip" style="left: {tooltipX}px; top: {tooltipY}px;">
+						<div class="title" style={`background-image: url('${base}/tooltip-header.png');`}>
+							{$t(`${tooltipNode.id}.name`)}
+						</div>
+						<div class="body">
+							{#each tooltipNode.description as _, i}
+								<p class="description-line">{$t(`${tooltipNode.id}.stats.${i}`)}</p>
+							{/each}
+						</div>
+						<div class="footer">
+							<span class="node-id">{tooltipNode.id}</span> -->
+
 					<!-- Display hoverable regions with lighter color -->
 					{#if hasLoaded}
 						{#each Object.values(nodes).filter(filterNodes) as node}
