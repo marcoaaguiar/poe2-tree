@@ -10806,8 +10806,8 @@
 		"stats": ["Gain 1% of Damage as Extra Chaos Damage per 20 Unreserved Darkness"]
 	},
 	"AS61": {
-		"name": "AS61",
-		"stats": ["Titan small"]
+		"name": "Strength",
+		"stats": ["4% increased Strength"]
 	},
 	"AN61": {
 		"name": "Colossal Capacity",
