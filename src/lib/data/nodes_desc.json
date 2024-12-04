@@ -10829,6 +10829,14 @@
 		"name": "Greatwolf´s Howl",
 		"stats": ["Ignore Warcry Cooldowns"]
 	},
+	"AN75": {
+		"name": "Turtle Charm",
+		"stats": ["Can BLock Damage from all Hits while Shield is not Raised"]
+	},
+	"AN76": {
+		"name": "Renly's Training",
+		"stats": ["Gain 50% of Base Chance to Block from Equipped Shield instead of the Shield's value"]
+	},
 	"AS81": {
 		"name": "AS81",
 		"stats": ["Deadeye small"]
