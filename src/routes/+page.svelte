@@ -649,6 +649,8 @@
 				onmousedown={handleContainerMousedown}
 				onwheel={handleWheel}
 			>
+				<!-- svelte-ignore a11y_no_static_element_interactions -->
+				<!-- svelte-ignore a11y_click_events_have_key_events -->
 				<div
 					bind:this={imageWrapperEl}
 					class="absolute top-0 left-0"
@@ -673,23 +675,26 @@
 				  height: {imageEl ? imageEl.naturalHeight * scale + 'px' : 'auto'};
 			  "
 					/>
-
-					<img
-						class="pointer-events-none absolute"
-						bind:this={ascImageEl}
-						src="{base}/ascendancies/{selectedAscendancy}.png"
-						alt="Interactive"
-						draggable="false"
-						style="
-				  width: {320 * scale + 'px'};
-				  top: 50%;
-				  left: 50%;
-				  margin-top: -{320 * scale * 0.46 + 'px'};
-				  margin-left: -{320 * scale * 0.487 + 'px'};
-				  height: {320 * scale + 'px'};
-			  "
-					/>
-
+					<picture>
+						<!-- Attempt to load the .webp version -->
+						<source srcset="{base}/ascendancies/{selectedAscendancy}.webp" type="image/webp" />
+						<!-- Fallback to the .png version -->
+						<img
+							class="pointer-events-none absolute"
+							bind:this={ascImageEl}
+							src="{base}/ascendancies/{selectedAscendancy}.png"
+							alt="Interactive"
+							draggable="false"
+							style="
+                width: {320 * scale + 'px'};
+                top: 50%;
+                left: 50%;
+                margin-top: -{320 * scale * 0.46 + 'px'};
+                margin-left: -{320 * scale * 0.487 + 'px'};
+                height: {320 * scale + 'px'};
+              "
+						/>
+					</picture>
 					<!-- Display hoverable regions with lighter color -->
 					{#if hasLoaded}
 						{#each Object.values(nodes).filter(filterNodes) as node}
