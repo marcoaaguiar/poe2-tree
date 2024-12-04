@@ -118,17 +118,17 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
 		</tr>
 		<tr>
             <td align="center">
-                <a href="https://github.com/azadix">
-                    <img src="https://avatars.githubusercontent.com/u/3746879?v=4" width="100;" alt="azadix"/>
-                    <br />
-                    <sub><b>Geoff Whatley</b></sub>
-                </a>
-            </td>
-            <td align="center">
                 <a href="https://github.com/lfmnovaes">
                     <img src="https://avatars.githubusercontent.com/u/13990675?v=4" width="100;" alt="lfmnovaes"/>
                     <br />
                     <sub><b>Luís Fernando Novaes</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/azadix">
+                    <img src="https://avatars.githubusercontent.com/u/3746879?v=4" width="100;" alt="azadix"/>
+                    <br />
+                    <sub><b>Geoff Whatley</b></sub>
                 </a>
             </td>
             <td align="center">
