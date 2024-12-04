@@ -10732,6 +10732,41 @@
 		"name": "Shaper of Storms",
 		"stats": ["All Damage from Hits Contributes to Shock Chance"]
 	},
+	"AN24": {
+		"name": "Heart of the Storm",
+		"stats": ["40% of Elemental Damage taken Recouped as Energy Shield"]
+	},
+	"AN25": {
+		"name": "Scouring Winds",
+		"stats": ["Exposure you inflict lowers the affected Resistance by an additional 20%"]
+	},
+	"AN26": {
+		"name": "Heavy Snows",
+		"stats": [
+			"Targets can be affected by two of your Chills at the same time",
+			"Your chills reduce Action Speed by up to a maximum of 35%",
+			"25% less Magnitude of Chill you inflict"
+		]
+	},
+	"AN27": {
+		"name": "Shaper of Winter",
+		"stats": ["All Damage from Hits Contributes to chill Magnitude"]
+	},
+	"AN28": {
+		"name": "Rain Dancer",
+		"stats": ["Elemental Storm has 150% more Cooldown Recovery Rate"]
+	},
+	"AN29": {
+		"name": "Constant Gale",
+		"stats": [
+			"You have Arcane Surge",
+			"Arcane Surge grants 10% more Cast Speed and 20% more Mana Regeneration Rate."
+		]
+	},
+	"AN30": {
+		"name": "Force of Will",
+		"stats": ["1% increased Effect of Arcane Surge on you per 15 maximum Mana"]
+	},
 	"AS31": {
 		"name": "AS31",
 		"stats": ["Chronomancer small"]
@@ -10747,6 +10782,26 @@
 	"AN33": {
 		"name": "Unbound Encore",
 		"stats": ["Grants Skill: Time Snap"]
+	},
+	"AN34": {
+		"name": "Now and Again",
+		"stats": ["Skills have 33% chance to not consume a Cooldown when used"]
+	},
+	"AN35": {
+		"name": "Apex of the Moment",
+		"stats": ["Enemies in your Presence are Slowed by 20%"]
+	},
+	"AN36": {
+		"name": "The Rapid River",
+		"stats": ["Recoup Effects instead occur over 4 seconds"]
+	},
+	"AN37": {
+		"name": "Circular Heartbeat",
+		"stats": ["30% of Damage taken Recouped as Life"]
+	},
+	"AN38": {
+		"name": "Quicksand Hourglass",
+		"stats": ["Every 12 seconds, gain 50% more Cast Speed for 4 seconds"]
 	},
 	"AS41": {
 		"name": "AS41",
@@ -11083,61 +11138,6 @@
 	"AN125": {
 		"name": "Sunder my Enemies...",
 		"stats": ["Critical Hits ignore non negative Enemy Monster Elemental Resistances"]
-	},
-	"AN126": {
-		"name": "Now and Again",
-		"stats": ["Skills have 33% chance to not consume a Cooldown when used"]
-	},
-	"AN127": {
-		"name": "Apex of the Moment",
-		"stats": ["Enemies in your Presence are Slowed by 20%"]
-	},
-	"AN128": {
-		"name": "The Rapid River",
-		"stats": ["Recoup Effects instead occur over 4 seconds"]
-	},
-	"AN129": {
-		"name": "Circular Heartbeat",
-		"stats": ["30% of Damage taken Recouped as Life"]
-	},
-	"AN130": {
-		"name": "Quicksand Hourglass",
-		"stats": ["Every 12 seconds, gain 50% more Cast Speed for 4 seconds"]
-	},
-	"AN131": {
-		"name": "Heart of the Storm",
-		"stats": ["40% of Elemental Damage taken Recouped as Energy Shield"]
-	},
-	"AN132": {
-		"name": "Scouring Winds",
-		"stats": ["Exposure you inflict lowers the affected Resistance by an additional 20%"]
-	},
-	"AN133": {
-		"name": "Heavy Snows",
-		"stats": [
-			"Targets can be affected by two of your Chills at the same time",
-			"Your chills reduce Action Speed by up to a maximum of 35%",
-			"25% less Magnitude of Chill you inflict"
-		]
-	},
-	"AN134": {
-		"name": "Shaper of Winter",
-		"stats": ["All Damage from Hits Contributes to chill Magnitude"]
-	},
-	"AN135": {
-		"name": "Rain Dancer",
-		"stats": ["Elemental Storm has 150% more Cooldown Recovery Rate"]
-	},
-	"AN136": {
-		"name": "Constant Gale",
-		"stats": [
-			"You have Arcane Surge",
-			"Arcane Surge grants 10% more Cast Speed and 20% more Mana Regeneration Rate."
-		]
-	},
-	"AN137": {
-		"name": "Force of Will",
-		"stats": ["1% increased Effect of Arcane Surge on you per 15 maximum Mana"]
 	},
 	"AN138": {
 		"name": "Stone Skin",
