@@ -10867,39 +10867,43 @@
 		"stats": ["Skills fire an additional Projectile"]
 	},
 	"AN82": {
-		"name": "Eagle eyes",
+		"name": "Eagle Eyes",
 		"stats": ["You have no Accuracy Penalty at Distance"]
 	},
 	"AN83": {
 		"name": "Gathering Winds",
-		"stats": ["Gain Tailwind on Skill use", "Lose all Tailwind when Hit"]
+		"stats": [
+			"Gain Tailwind on Skill use",
+			"Lose all Tailwind when Hit",
+			"Tailwind is a stacking Buff which grants 1% increased Movement Speed, 3% increased Skill Speed, and 15% increased Evasion Rating per stack for 10 seconds, refreshing whenever you gain another stack. Maximum 10 stacks."
+		]
 	},
 	"AN84": {
 		"name": "Projectile Proximity Specialisation",
 		"stats": [
 			"(Choice node)",
-			"Far Shot: Projectiles gain Damage as they travel farther, dealing up to 20% more damage with Hits to targets.",
-			"Point Blank: Projectile Hits deal up tp 20% more Damage to targets at the start of their movement, losing the damage bonus as the projectile travels farther."
+			"Far Shot: Projectile deal 0% more Hits Damage to targets in the first 3.5 metres of their movement, scaling up with distance travelled to reach 20% after 7 meters",
+			"Point Blank: Projectile deal 20% more Hits Damage to targets in the first 3.5 metres of their movement, scaling down with distance travelled to reach 0% after 7 meters"
 		]
 	},
 	"AN85": {
 		"name": "Wind Ward",
-		"stats": ["3% less damage taken per Tailwind."]
+		"stats": ["3% less Damage taken per Tailwind"]
 	},
 	"AN86": {
 		"name": "Called Shots",
-		"stats": ["You can apply an additional Mark."]
+		"stats": ["You can apply an additional Mark"]
 	},
 	"AN87": {
 		"name": "Avidity",
 		"stats": [
-			"30% chance that if you gain Frenzy Charges, you instead gain up to your maximum number of Frenzy Charges."
+			"30% chance that if you would gain Frenzy Charges, you instead gain up to your maximum number of Frenzy Charges"
 		]
 	},
 	"AN88": {
 		"name": "Thrilling Chase",
 		"stats": [
-			"Benefits from consuming Frenzy Charges for your skills have 50% chance to be doubled."
+			"Benefits from consuming Frenzy Charges for your Skills have 50% chance to be doubled"
 		]
 	},
 	"AS91": {
@@ -10931,12 +10935,12 @@
 	"AN96": {
 		"name": "Brew Concoction",
 		"stats": [
-			"Grants the following skills:",
-			"Bleeding Concoction",
-			"Explosive Concoction",
-			"Shattering Concoction",
-			"Fulminating Concoction",
-			"Poisonous Concoction"
+			"(Choice node) Consume charges from your Mana Flask to throw a bottle that explodes, dealing unarmed attack damage in an area. The effect depends on the chosen skill:",
+			"Poisonous Concoction: Chaos attack damage with increased Poison effect.",
+			"Fulminating Concoction: Lightning attack damage and applies Lightning Exposure.",
+			"Shattering Concoction: Cold attack damage and applies Cold Exposure.",
+			"Explosive Concoction: Fire attack damage and applies Fire Exposure.",
+			"Bleeding Concoction: Physical attack damage with increased Bleeding effect."
 		]
 	},
 	"AN97": {
@@ -10946,7 +10950,8 @@
 	"AN98": {
 		"name": "Enduring Elixirs",
 		"stats": [
-			"Life Flask Effects are not removed when Unreserved Life is Filled. Life Flask Effects do not queue."
+			"Life Flask Effects are not removed when Unreserved Life is Filled",
+			"Life Flask Effects do not Queue"
 		]
 	},
 	"AS101": {
