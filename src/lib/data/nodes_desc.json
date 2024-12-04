@@ -10537,6 +10537,34 @@
 		"name": "AS1",
 		"stats": ["Bloodmage small"]
 	},
+	"AS2": {
+		"name": "AS2",
+		"stats": ["Bloodmage small"]
+	},
+	"AS3": {
+		"name": "AS3",
+		"stats": ["Bloodmage small"]
+	},
+	"AS4": {
+		"name": "AS4",
+		"stats": ["Bloodmage small"]
+	},
+	"AS5": {
+		"name": "AS5",
+		"stats": ["Bloodmage small"]
+	},
+	"AS6": {
+		"name": "AS6",
+		"stats": ["Bloodmage small"]
+	},
+	"AS7": {
+		"name": "AS7",
+		"stats": ["Bloodmage small"]
+	},
+	"AS8": {
+		"name": "AS8",
+		"stats": ["Bloodmage small"]
+	},
 	"AN1": {
 		"name": "Sanguimancy",
 		"stats": ["Grants Skill: Life Remnants", "Skills gain a Base Life Cost equal to Base Mana Cost"]
@@ -10556,14 +10584,14 @@
 	"AN5": {
 		"name": "Grasping Wounds",
 		"stats": [
-			"25% of Life Lose from Damaging Hits is prevented, then that much Life is lost over 4 seconds instead"
+			"25% of Life Loss from Hits is prevented, then that much Life is lost over 4 seconds instead"
 		]
 	},
 	"AN6": {
 		"name": "Blood Barbs",
 		"stats": [
 			"Gain 10% of Damage as Extra Physical Damage",
-			"Elemental Damage can inflict Bleeding"
+			"Elemental Damage also Contributes to Bleeding Magnitude"
 		]
 	},
 	"AN7": {
@@ -10628,7 +10656,7 @@
 		"name": "Loyal Hellhound",
 		"stats": [
 			"Grants Skill: Summon Infernal Hound",
-			"20% of Damage from Hits is taken from your Hellhound´s Life before you"
+			"20% of Damage from Hits is taken from your Hellhound's Life before you"
 		]
 	},
 	"AN12": {
@@ -10640,7 +10668,7 @@
 		"stats": [
 			"Maximum Mana is replaced by Maximum Infernal Flame",
 			"Gain Infernal Flame instead of spending Mana for Skill costs",
-			"Take maximum Life and Energy Shield as Fire Damage when Infernal flame reaches maximum",
+			"Take maximum Life and Energy Shield as Fire Damage when Infernal Flame reaches maximum",
 			"Lose all Infernal Flame on reaching maximum Infernal Flame",
 			"10% of Infernal Flame lost per second if none was gained in the past 2 seconds"
 		]
@@ -10648,14 +10676,13 @@
 	"AN14": {
 		"name": "Bringer of Flame",
 		"stats": [
-			"While not on Low Infernal Flame, all Damage from you and your Minions contributes to Ignite Chance and Magnitude"
+			"While not on Low Infernal Flame, all Damage from you and Allies in your Presence contributes to Ignite Chance and Magnitude"
 		]
 	},
 	"AN15": {
 		"name": "Grinning Immolation",
 		"stats": [
-			"Become Ignited when you deal a Critical Hit, taking 15% of your Life and Energy Shield as Fire",
-			"Damage per second",
+			"Become Ignited when you deal a Critical Hit, taking 15% of your Life and Energy Shield as Fire Damage per second",
 			"30% more Critical Damage Bonus"
 		]
 	},
