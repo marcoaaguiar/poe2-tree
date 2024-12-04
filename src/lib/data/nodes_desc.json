@@ -1191,10 +1191,7 @@
 	},
 	"N241": {
 		"name": "Guttural Roar",
-		"stats": [
-			"30% increased Warcry Speed",
-			"Warcry Skills have 30% increased Area of Effect"
-		]
+		"stats": ["30% increased Warcry Speed", "Warcry Skills have 30% increased Area of Effect"]
 	},
 	"N242": {
 		"name": "N242",
@@ -1833,11 +1830,7 @@
 	},
 	"N383": {
 		"name": "Titanic",
-		"stats": [
-            		"30% increased Stun Buildup",
-		        "30% increased Stun Threshold",
-		        "5% increased Strength"
-		]
+		"stats": ["30% increased Stun Buildup", "30% increased Stun Threshold", "5% increased Strength"]
 	},
 	"N384": {
 		"name": "N384",
@@ -10579,45 +10572,55 @@
 		"name": "Sunder the Flesh",
 		"stats": ["Base Critical Hit Chance for Spells is 15%"]
 	},
+	"AS10": {
+		"name": "Mana",
+		"stats": ["4% increased maximum Mana"]
+	},
 	"AS11": {
-		"name": "AS11",
-		"stats": ["Infernalist small"]
+		"name": "Life",
+		"stats": ["3% increased maximum Life"]
 	},
 	"AS12": {
-		"name": "AS12",
-		"stats": ["Infernalist small"]
+		"name": "Spell Damage",
+		"stats": ["12% increased Spell Damage"]
 	},
 	"AS13": {
-		"name": "AS13",
-		"stats": ["Infernalist small"]
+		"name": "Mana",
+		"stats": ["4% increased maximum Mana"]
 	},
 	"AS14": {
-		"name": "AS14",
-		"stats": ["Infernalist small"]
+		"name": "Minion Life",
+		"stats": ["Minions have 12% increased maximum Life"]
 	},
 	"AS15": {
-		"name": "AS15",
-		"stats": ["Infernalist small"]
+		"name": "Critical Chance",
+		"stats": ["12% increased Critical Hit Chance"]
 	},
 	"AS16": {
-		"name": "AS16",
-		"stats": ["Infernalist small"]
+		"name": "Mana",
+		"stats": ["4% increased maximum Mana"]
 	},
 	"AS17": {
-		"name": "AS17",
-		"stats": ["Infernalist small"]
+		"name": "Spell Damage",
+		"stats": ["12% increased Spell Damage"]
 	},
 	"AS18": {
-		"name": "AS18",
-		"stats": ["Infernalist small"]
+		"name": "Life",
+		"stats": ["3% increased maximum Life"]
 	},
 	"AS19": {
-		"name": "AS19",
-		"stats": ["Infernalist small"]
+		"name": "Life",
+		"stats": ["3% increased maximum Life"]
 	},
 	"AS20": {
-		"name": "AS20",
-		"stats": ["Infernalist small"]
+		"name": "Life",
+		"stats": ["3% increased maximum Life"]
+	},
+	"AN10": {
+		"name": "Seething Body",
+		"stats": [
+			"While on High Infernal Flame, you and Allies in your Presence Gain 20% of Damage as Fire Damage"
+		]
 	},
 	"AN11": {
 		"name": "Loyal Hellhound",
@@ -10667,16 +10670,16 @@
 		]
 	},
 	"AN18": {
-		"name": "Beidat's Hand",
-		"stats": ["Reserves 25% of Life", "+1 Maximum Energy Shield per 4 maximum Life"]
+		"name": "Beidat's Gaze",
+		"stats": ["Reserves 25% of Life", "+1 Maximum Mana per 6 Maximum Life"]
 	},
 	"AN19": {
 		"name": "Beidat's Will",
-		"stats": ["Reserves 25% of Life", "+1 Maximum Spirit per 25 maximum Life"]
+		"stats": ["Reserves 25% of Life", "+1 Maximum Spirit per 25 Maximum Life"]
 	},
 	"AN20": {
-		"name": "AN17",
-		"stats": ["Infernalist notable"]
+		"name": "Beidat's Hand",
+		"stats": ["Reserves 25% of Life", "+1 Maximum Energy Shield per 4 Maximum Life"]
 	},
 	"AS21": {
 		"name": "AS21",
