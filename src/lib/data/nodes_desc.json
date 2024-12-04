@@ -10778,7 +10778,7 @@
 		"name": "...and Scatter Them to the Winds",
 		"stats": [
 			"Grants Skill: Elemental Expression",
-			"Trigger Elemental Expression on Meele Critical Hit"
+			"Trigger Elemental Expression on Melee Critical Hit"
 		]
 	},
 	"AS51": {
@@ -11049,9 +11049,9 @@
 	"AN120": {
 		"name": "Embrace the Darkness",
 		"stats": [
-			"Removes all Spirit",
+			"Remove all Spirit",
 			"Base Maximum Darkness is 100",
-			"Damage taken is Reserved from Darkness before being taken from Life or Energy Shield",
+			"For each Life or Energy Shield lost to Damage, reserve 1 Darkness instead if possible",
 			"Darkness Reservation lasts for 10 seconds",
 			"+5 to Maximum Darkness per Level"
 		]
@@ -11060,7 +11060,7 @@
 		"name": "Reality Rending",
 		"stats": [
 			"23% chance to Gain 25% of Damage with Hits as Extra Chaos Damage",
-			"13% chance to gain 50% of Damage with Hits as Extra Chaos Damage",
+			"13% chance to Gain 50% of Damage with Hits as Extra Chaos Damage",
 			"7% chance to Gain 100% of Damage with Hits as Extra Chaos Damage"
 		]
 	},
@@ -11082,7 +11082,7 @@
 	},
 	"AN125": {
 		"name": "Sunder my Enemies...",
-		"stats": ["Critical Hits ignore non negative Enemy Monster Elemental Resistances"]
+		"stats": ["Critical Hits ignore non-negative Enemy Monster Elemental Resistances"]
 	},
 	"AN126": {
 		"name": "Now and Again",
@@ -11166,5 +11166,9 @@
 	"AN144": {
 		"name": "Turtle Charm",
 		"stats": ["35% less Block chance", "Can Block Damage from all Hits while Shield is not Raised"]
+	},
+	"AN145": {
+		"name": "Inner Silence",
+		"stats": ["50% reduced Darkness Reservation Duration"]
 	}
 }
