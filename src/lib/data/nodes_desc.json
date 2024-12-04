@@ -10708,7 +10708,7 @@
 	},
 	"AN20": {
 		"name": "Beidat's Hand",
-		"stats": ["Reserves 25% of Life", "+1 Maximum Energy Shield per 4 Maximum Life"]
+		"stats": ["Reserves 25% of Life", "+1 Maximum Energy Shield per 8 Maximum Life"]
 	},
 	"AS21": {
 		"name": "AS21",
@@ -11090,7 +11090,7 @@
 	},
 	"AN127": {
 		"name": "Apex of the Moment",
-		"stats": ["Enemies in your PResence are Slowed by 20%"]
+		"stats": ["Enemies in your Presence are Slowed by 20%"]
 	},
 	"AN128": {
 		"name": "The Rapid River",
@@ -11130,7 +11130,10 @@
 	},
 	"AN136": {
 		"name": "Constant Gale",
-		"stats": ["You have Arcane Surge"]
+		"stats": [
+			"You have Arcane Surge",
+			"Arcane Surge grants 10% more Cast Speed and 20% more Mana Regeneration Rate."
+		]
 	},
 	"AN137": {
 		"name": "Force of Will",
