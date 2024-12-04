@@ -89,17 +89,17 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/thorgalti">
-                    <img src="https://avatars.githubusercontent.com/u/190164545?v=4" width="100;" alt="thorgalti"/>
-                    <br />
-                    <sub><b>thorgalti</b></sub>
-                </a>
-            </td>
-            <td align="center">
                 <a href="https://github.com/lfmnovaes">
                     <img src="https://avatars.githubusercontent.com/u/13990675?v=4" width="100;" alt="lfmnovaes"/>
                     <br />
                     <sub><b>Luís Fernando Novaes</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/thorgalti">
+                    <img src="https://avatars.githubusercontent.com/u/190164545?v=4" width="100;" alt="thorgalti"/>
+                    <br />
+                    <sub><b>thorgalti</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -214,6 +214,13 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/wow-thats-amazing">
+                    <img src="https://avatars.githubusercontent.com/u/190570153?v=4" width="100;" alt="wow-thats-amazing"/>
+                    <br />
+                    <sub><b>wow-thats-amazing</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/MrCatFace515">
                     <img src="https://avatars.githubusercontent.com/u/48973217?v=4" width="100;" alt="MrCatFace515"/>
                     <br />
@@ -241,6 +248,8 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                     <sub><b>Conrad</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/timwahlstrom">
                     <img src="https://avatars.githubusercontent.com/u/121232783?v=4" width="100;" alt="timwahlstrom"/>
@@ -248,8 +257,6 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                     <sub><b>timwahlstrom</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/moethelion">
                     <img src="https://avatars.githubusercontent.com/u/41308628?v=4" width="100;" alt="moethelion"/>
@@ -269,13 +276,6 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                     <img src="https://avatars.githubusercontent.com/u/100503676?v=4" width="100;" alt="kky1997"/>
                     <br />
                     <sub><b>Kai</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/wow-thats-amazing">
-                    <img src="https://avatars.githubusercontent.com/u/190570153?v=4" width="100;" alt="wow-thats-amazing"/>
-                    <br />
-                    <sub><b>wow-thats-amazing</b></sub>
                 </a>
             </td>
             <td align="center">
