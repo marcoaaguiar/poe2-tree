@@ -9,7 +9,7 @@
 	},
 	"K3": {
 		"name": "Eldritch Battery",
-		"stats": ["Converts all Energy Shield to Mana", "Confirmed to not be this in EA"]
+		"stats": ["Converts all Energy Shield to Mana", "(Confirmed to not be this in EA but still present in CBT)"]
 	},
 	"K4": {
 		"name": "Chaos Inoculation",
@@ -65,7 +65,7 @@
 	},
 	"K13": {
 		"name": "Blood Magic",
-		"stats": ["Removes all Mana", "Skills Cost Life instead of Mana"]
+		"stats": ["Removes all Mana", "Skills Mana Costs Converted to Life Costs"]
 	},
 	"K14": {
 		"name": "Acrobatics",
@@ -99,7 +99,7 @@
 		"name": "Giant's Blood",
 		"stats": [
 			"You Can wield Two-Handed Axes, Maces and Swords in one hand",
-			"Double Attribute requirements of weapons"
+			"Triple Attribute requirements of weapons"
 		]
 	},
 	"K21": {
@@ -121,49 +121,53 @@
 			"Take 30% less Damage from Hits while Dodge Rolling"
 		]
 	},
+	"K25": {
+		"name": "Dance with death",
+		"stats": ["25% more Skill speed while Off Hand is empty and you have a One-Handed Martial Weapon equipped in your Main Hand"]
+	},
 	"N1": {
 		"name": "Pure Power",
 		"stats": ["2% increased Lightning Damage per 10 Intelligence"]
 	},
 	"N2": {
-		"name": "N2",
-		"stats": []
+		"name": "Volcanic Skin",
+		"stats": ["Gain 8% of Damage as Extra Fire Damage", "+20% to Fire Resistance"]
 	},
 	"N3": {
 		"name": "Lord of Horrors",
 		"stats": ["Minions have 12% reduced Reservation"]
 	},
 	"N4": {
-		"name": "N4",
-		"stats": []
+		"name": "Inescapable Cold",
+		"stats": ["40% increased Freeze Buildup", "20% increased Freeze Duration on Enemies"]
 	},
 	"N5": {
 		"name": "Endless Blizzard",
 		"stats": ["+1 to Level of all Cold Skills"]
 	},
 	"N6": {
-		"name": "N6",
-		"stats": []
+		"name": "Cremation",
+		"stats": ["Damage Penetrates 18% Fire Resistance", "25% increased Fire Exposure Effect"]
 	},
 	"N7": {
 		"name": "Burnout",
 		"stats": ["Ignites you inflict deal Damage 15% faster"]
 	},
 	"N8": {
-		"name": "N8",
-		"stats": []
+		"name": "Chilled to the Bones",
+		"stats": ["20% increased Chill Duration on Enemies", "30 % increased Magnitude of Chill you inflict"]
 	},
 	"N9": {
-		"name": "N9",
-		"stats": []
+		"name": "Glaciation",
+		"stats": ["damage Penetrates 18% Cold Resistance", "25% increased Cold Exposure Effect"]
 	},
 	"N10": {
-		"name": "N10",
-		"stats": []
+		"name": "Power Conduction",
+		"stats": ["25% increased Shock duration", "25% increased Magnitude of Shock you inflict"]
 	},
 	"N11": {
-		"name": "N11",
-		"stats": []
+		"name": "Controlling Magic",
+		"stats": ["25% increased Critical Hit Chance for Spells", "Hits have 25% reduced Critical Hit Chance against you"]
 	},
 	"N12": {
 		"name": "Patient Barrier",
@@ -177,16 +181,16 @@
 		]
 	},
 	"N14": {
-		"name": "N14",
-		"stats": []
+		"name": "Turn the Clock Back",
+		"stats": ["20% reduced Projectile Speed for Spell Skills"]
 	},
 	"N15": {
 		"name": "Enhanced Barrier",
 		"stats": ["25% increased maximum Energy Shield", "+1% to all maximum Elemental Resistances"]
 	},
 	"N16": {
-		"name": "N16",
-		"stats": []
+		"name": "Ingenuity",
+		"stats": ["+25 to Intelligence"]
 	},
 	"N17": {
 		"name": "Right Hand of Darkness",
@@ -203,12 +207,12 @@
 		]
 	},
 	"N19": {
-		"name": "N19",
-		"stats": []
+		"name": "Turn the Clock Forward",
+		"stats": ["20% increased Projectile Speed for Spell Skills"]
 	},
 	"N20": {
-		"name": "N20",
-		"stats": []
+		"name": "Dead can Dance",
+		"stats": ["Minions have 25% increased Evasion Rating", "Your Dexterity is added to your Minions"]
 	},
 	"N21": {
 		"name": "Arcane Intensity",
@@ -222,12 +226,12 @@
 		]
 	},
 	"N23": {
-		"name": "N23",
-		"stats": []
+		"name": "Glazed Flesh",
+		"stats": ["3% of Damage Taken Recouped as Life, Mana and Energy shield"]
 	},
 	"N24": {
 		"name": "Energise",
-		"stats": ["35% chance for Trigger skills to refund half of Energy Spent"]
+		"stats": ["25% chance for Trigger skills to refund half of Energy Spent"]
 	},
 	"N25": {
 		"name": "Eldritch Will",
@@ -241,24 +245,24 @@
 		"stats": ["18% increased maximum Mana", "10% increased Mana Cost of Skills"]
 	},
 	"N27": {
-		"name": "N27",
-		"stats": []
+		"name": "Ether Flow",
+		"stats": ["25% reduced Mana Regeneration Rate while stationary", "50% increased Mana Regeneration Rate while moving"]
 	},
 	"N28": {
-		"name": "N28",
-		"stats": []
+		"name": "Necrotic Touch",
+		"stats": ["Minions have 40% increased Critical Hit Chance"]
 	},
 	"N29": {
-		"name": "N29",
-		"stats": []
+		"name": "Living Death",
+		"stats": ["Minions have +22% to all Elemental Resistances", "Minions have +3% to all Maximum Elemental Resistances"]
 	},
 	"N30": {
-		"name": "N30",
-		"stats": []
+		"name": "Master of Hexes",
+		"stats": ["25% reduced Curse Duration", "18% increased Effect of your Curses"]
 	},
 	"N31": {
-		"name": "N31",
-		"stats": []
+		"name": "Cut to the Bone",
+		"stats": ["Break Armour on Critical Hit with spells equal to 10% of Physical Damage dealt", "10% chance to inflict Bleeding on Hit", "20% increased Physical Damage"]
 	},
 	"N32": {
 		"name": "Convalescence",
@@ -268,52 +272,52 @@
 		]
 	},
 	"N33": {
-		"name": "N33",
-		"stats": []
+		"name": "Warding Fetish",
+		"stats": ["30% increased Damage per Curse on you", "30% reduced effect of Curses on you", "60% increased Energy Shield from Equipped Focus"]
 	},
 	"N34": {
-		"name": "N34",
-		"stats": []
+		"name": "Lingering Whispers",
+		"stats": ["40% increased Curse Duration", "10% increased Effect of your Curses"]
 	},
 	"N35": {
-		"name": "N35",
-		"stats": []
+		"name": "Final Barrage",
+		"stats": ["20% increased Cast speed when on Low Life", "10% reduced Cast Speed when on Full Life"]
 	},
 	"N36": {
-		"name": "N36",
-		"stats": []
+		"name": "Lust for Sacrifice",
+		"stats": ["40% increased Minion Damage while you have at least two different active Offerings"]
 	},
 	"N37": {
-		"name": "N37",
-		"stats": []
+		"name": "Blood Tearing",
+		"stats": ["15% increased Magniture of Bleeding you inflict", "25% increased Physical Damage"]
 	},
 	"N38": {
-		"name": "N38",
-		"stats": []
+		"name": "Invocated Efficiency",
+		"stats": ["Recover 5% of Mana when you Invocate a spell", "Triggered Spells deal 45% increased Spell Damage"]
 	},
 	"N39": {
-		"name": "N39",
-		"stats": []
+		"name": "Stormbreaker",
+		"stats": ["15% increased Damage for each type of Elemental Ailment on Enemy"]
 	},
 	"N40": {
 		"name": "N40",
 		"stats": []
 	},
 	"N41": {
-		"name": "N41",
-		"stats": []
+		"name": "Mental Alacrity",
+		"stats": ["5% increased Cast Speed", "15% increased Mana Regenration Rate", "+10 to Intelligence"]
 	},
 	"N42": {
-		"name": "N42",
-		"stats": []
+		"name": "Shredding Force",
+		"stats": ["15% increased Critical Hit Chance for Spells", "15% increased Critical Hit Damage Bonus", "15% increased Magnitude of damaging Ailments you inflict with Critical Hits"]
 	},
 	"N43": {
-		"name": "N43",
-		"stats": []
+		"name": "Overzealous",
+		"stats": ["16% increased Cast Speed", "15% increased Mana cost of Skills"]
 	},
 	"N44": {
-		"name": "N44",
-		"stats": []
+		"name": "Dreamcatcher",
+		"stats": ["25% increased Spell Damage while on Full Energy Shield", "75% increased Energy Shield from Equipped Focus"]
 	},
 	"N45": {
 		"name": "Climate Change",
@@ -323,36 +327,36 @@
 		]
 	},
 	"N46": {
-		"name": "N46",
-		"stats": []
+		"name": "Touch the Arcane",
+		"stats": ["40% increased effect of Arcane Surge on you"]
 	},
 	"N47": {
-		"name": "N47",
-		"stats": []
+		"name": "Casting Cascade",
+		"stats": ["15% reduced Spell Damage", "6% increased Cast Speed for each different Non-Instant Spell you've Cast Recently"]
 	},
 	"N48": {
 		"name": "N48",
 		"stats": []
 	},
 	"N49": {
-		"name": "Crushing Storms",
-		"stats": ["16% increased Elemental Damage", "Damage Penetrates 5% Elemental Resistances"]
+		"name": "Overexposure",
+		"stats": ["30% increased Cold Exposure Effect", "30% increased Fire Exposure Effect", "30% increased Lightning Exposure Effect"]
 	},
 	"N50": {
-		"name": "N50",
-		"stats": []
+		"name": "Regenerative Flesh",
+		"stats":  ["Minions Recoup 10% of Damage taken as Life"]
 	},
 	"N51": {
 		"name": "N51",
 		"stats": []
 	},
 	"N52": {
-		"name": "N52",
-		"stats": []
+		"name": "Grip of Evil",
+		"stats": ["Minions have 40% increased Critical Damage bonus"]
 	},
 	"N53": {
-		"name": "N53",
-		"stats": []
+		"name": "Entropic Incarnation",
+		"stats": ["Minions have +13% to Chaos Resistance", "Minions gain 8% of Physical Damage as Chaos Damage"]
 	},
 	"N54": {
 		"name": "Wither Away",
@@ -362,12 +366,12 @@
 		]
 	},
 	"N55": {
-		"name": "N55",
-		"stats": []
+		"name": "Adverse Growth",
+		"stats": ["20% reduced Life Regeneration Rate", "20% of Damage is Recouped as Mana"]
 	},
 	"N56": {
-		"name": "N56",
-		"stats": []
+		"name": "Stormcharged",
+		"stats": ["40% increased Elemental Damage if you've dealt a Critical Hit Recently", "20% increased Critical Hit Chance"]
 	},
 	"N57": {
 		"name": "Shattered Crystal",
@@ -381,16 +385,16 @@
 		]
 	},
 	"N59": {
-		"name": "N59",
-		"stats": []
+		"name": "Pure Chaos",
+		"stats": ["Gain 11% of Damage as Extra Chaos Damage"]
 	},
 	"N60": {
 		"name": "Ice Walls",
 		"stats": ["200% increased Ice Crystal Life"]
 	},
 	"N61": {
-		"name": "N61",
-		"stats": []
+		"name": "Breaking Point",
+		"stats": ["10% increased Duration of Elemental Ailments on Enemies", "30% increased Magnitude of Non-Damaging Ailments you inflict"]
 	},
 	"N62": {
 		"name": "N62",
@@ -401,8 +405,8 @@
 		"stats": []
 	},
 	"N64": {
-		"name": "N64",
-		"stats": []
+		"name": "Tempered Mind",
+		"stats": ["20% increased Critical Damage Bonus", "+10 to Strength", "20% increased Physical Damage"]
 	},
 	"N65": {
 		"name": "N65",
@@ -413,8 +417,8 @@
 		"stats": []
 	},
 	"N67": {
-		"name": "N67",
-		"stats": []
+		"name": "All Natural",
+		"stats": ["+5% to all Elemental Resistances", "30% increased Elemental Damage"]
 	},
 	"N68": {
 		"name": "Sudden Escalation",
@@ -436,8 +440,8 @@
 		"stats": ["Spell skills have 30% increased Area of Effect", "10% reduced Spell Area Damage"]
 	},
 	"N72": {
-		"name": "N72",
-		"stats": []
+		"name": "Mental Perseverance",
+		"stats": ["10% of Damage is taken from Mana before Life"]
 	},
 	"N73": {
 		"name": "N73",
@@ -452,8 +456,8 @@
 		"stats": []
 	},
 	"N76": {
-		"name": "N76",
-		"stats": []
+		"name": "Overload",
+		"stats": ["Damage Penetrates 10% of Lightning Resistance if on Low Mana", "Damage Penetrates 15% of Lightning Resistance"]
 	},
 	"N77": {
 		"name": "N77",
@@ -487,16 +491,16 @@
 		]
 	},
 	"N84": {
-		"name": "N84",
-		"stats": []
+		"name": "Erraticism",
+		"stats": ["16% increased Cast Speed if you've dealt a Critical Hit Recently", "10% reduced Critical Hit Chance"]
 	},
 	"N85": {
 		"name": "N85",
 		"stats": []
 	},
 	"N86": {
-		"name": "N86",
-		"stats": []
+		"name": "Ancestral Conduits",
+		"stats": ["12% increased Attack and Cast Speed if you've summoned a totem Recently"]
 	},
 	"N87": {
 		"name": "N87",
@@ -511,24 +515,24 @@
 		]
 	},
 	"N89": {
-		"name": "N89",
-		"stats": []
+		"name": "Pliable Flesh",
+		"stats": ["6% of Damage taken Recouped as Life", "25% increased speed of Recoup Effects"]
 	},
 	"N90": {
-		"name": "N90",
-		"stats": []
+		"name": "Fated End",
+		"stats": ["30% increased Curse Duration", "Enemies Cursed by you have 50% reduced Life Regeneration Rate", "Enemies you Curse cannot recharge energy shield"]
 	},
 	"N91": {
-		"name": "N91",
-		"stats": []
+		"name": "Impending Doom",
+		"stats": ["40% faster Curse Activation", "Your Curses have 20% increased Effect if 50% of Curse Duration expired"]
 	},
 	"N92": {
 		"name": "N92",
 		"stats": []
 	},
 	"N93": {
-		"name": "N93",
-		"stats": []
+		"name": "Austerity Measures",
+		"stats": ["+5 to all Attributes", "Gain 20% of maximum Energy shield as Additional Stun Threshold"]
 	},
 	"N94": {
 		"name": "Relentless Fallen",
@@ -542,16 +546,16 @@
 		"stats": []
 	},
 	"N96": {
-		"name": "N96",
-		"stats": []
+		"name": "Holy Protector",
+		"stats": ["Minions have 25% increased maximum Life"]
 	},
 	"N97": {
 		"name": "N97",
 		"stats": []
 	},
 	"N98": {
-		"name": "N98",
-		"stats": []
+		"name": "Silent Guardian",
+		"stats": ["Minions have +20% to all Elemental Resistances"]
 	},
 	"N99": {
 		"name": "Heavy Buffer",
@@ -594,12 +598,12 @@
 		"stats": []
 	},
 	"N108": {
-		"name": "N108",
-		"stats": []
+		"name": "Bringer of Order",
+		"stats": ["Minions deal 25% increased Damage"]
 	},
 	"N109": {
-		"name": "N109",
-		"stats": []
+		"name": "Desensitisation",
+		"stats": ["25% increased Critical Damage Bonus", "Hits against you have 25% reduced Critical Damage Bonus"]
 	},
 	"N110": {
 		"name": "Crystalline Flesh",
@@ -617,8 +621,8 @@
 		"stats": []
 	},
 	"N113": {
-		"name": "N113",
-		"stats": []
+		"name": "Swift Claw",
+		"stats": ["25% increased Attack Damage"]
 	},
 	"N114": {
 		"name": "N114",
@@ -644,14 +648,14 @@
 		]
 	},
 	"N119": {
-		"name": "N119",
-		"stats": []
+		"name": "Tough Claw",
+		"stats": ["25% increased Attack Damage"]
 	},
 	"N120": {
 		"name": "Growing Swarm",
 		"stats": [
-			"Minions have 25% increased Area of Effect",
-			"Minions have 25% reduced Enemy Stun Threshold"
+			"Minions have 20% increased Area of Effect",
+			"Minions have 20% reduced Enemy Stun Threshold"
 		]
 	},
 	"N121": {
@@ -659,12 +663,12 @@
 		"stats": ["Minions Revive 25% faster"]
 	},
 	"N122": {
-		"name": "N122",
-		"stats": []
+		"name": "Offensive Stance",
+		"stats": ["1% increased Damage per 1% Chance to Block"]
 	},
 	"N123": {
-		"name": "N123",
-		"stats": []
+		"name": "Repulsion",
+		"stats": ["Area Skills have 20% chance to Knock Enemies Back on Hit", "20% increased Spell Area Damage"]
 	},
 	"N124": {
 		"name": "N124",
@@ -675,8 +679,8 @@
 		"stats": []
 	},
 	"N126": {
-		"name": "N126",
-		"stats": []
+		"name": "Sharpened Claw",
+		"stats": ["25% increased Attack Damage"]
 	},
 	"N127": {
 		"name": "Spaghettification",
@@ -713,8 +717,8 @@
 		"stats": []
 	},
 	"N134": {
-		"name": "N134",
-		"stats": []
+		"name": "Aspiring Genius",
+		"stats": ["20% increased Mana Regeneration Rate", "10% chance to Gain Arcane Surge when you deal a Critical Hit"]
 	},
 	"N135": {
 		"name": "N135",
@@ -731,8 +735,8 @@
 		"stats": ["Recover Energy Shield equal to 1% of Armour when you Block"]
 	},
 	"N138": {
-		"name": "N138",
-		"stats": []
+		"name": "Reverberation",
+		"stats": ["Spell Skills have 20% increased Area of Effect"]
 	},
 	"N139": {
 		"name": "N139",
@@ -743,8 +747,8 @@
 		"stats": []
 	},
 	"N141": {
-		"name": "N141",
-		"stats": []
+		"name": "Mind Eraser",
+		"stats": ["10% increased Mana Regeneration Rate", "6% of Damage taken Recouped as Mana"]
 	},
 	"N142": {
 		"name": "Breath of Fire",
@@ -759,8 +763,8 @@
 		"stats": []
 	},
 	"N145": {
-		"name": "N145",
-		"stats": []
+		"name": "Wide Barrier",
+		"stats": ["30% increased Block Chance", "25% reduced Global Defences"]
 	},
 	"N146": {
 		"name": "N146",
@@ -771,8 +775,8 @@
 		"stats": ["100% increased Defences from Equipped Shield"]
 	},
 	"N148": {
-		"name": "N148",
-		"stats": []
+		"name": "Investing Energies",
+		"stats": ["40% increased Mana Regeneration Rate while stationary", "20% reduced Mana Regeneration Rate while moving"]
 	},
 	"N149": {
 		"name": "N149",
@@ -791,12 +795,12 @@
 		"stats": []
 	},
 	"N153": {
-		"name": "N153",
-		"stats": []
+		"name": "Twinned Tethers",
+		"stats": ["Link Skills Link to 1 additional random target"]
 	},
 	"N154": {
-		"name": "N154",
-		"stats": []
+		"name": "spirit Bonds",
+		"stats": ["Link Skills can target Damageable Minions"]
 	},
 	"N155": {
 		"name": "Heart Tissue",
@@ -821,12 +825,12 @@
 		"stats": ["5% reduced Movement Speed", "Regenerate 2% of Life per second while stationary"]
 	},
 	"N159": {
-		"name": "N159",
-		"stats": []
+		"name": "Strong Links",
+		"stats": ["Link Skills have 20% increased Buff Effect", "Link Skills have 20% increased Skill Effect Duration"]
 	},
 	"N160": {
-		"name": "N160",
-		"stats": []
+		"name": "Total Incineration",
+		"stats": ["25% increased Critical Damage Bonus against Burning Enemies", "10% chance to refresh Ignite Duration on Critical Hit"]
 	},
 	"N161": {
 		"name": "Darkness",
@@ -905,8 +909,8 @@
 		]
 	},
 	"N177": {
-		"name": "N177",
-		"stats": []
+		"name": "Ball and Chain",
+		"stats": ["15% increased Damage with Flails", "6% increased Attack Speed with Flails"]
 	},
 	"N178": {
 		"name": "Spell Haste",
@@ -937,8 +941,8 @@
 		"stats": []
 	},
 	"N185": {
-		"name": "N185",
-		"stats": []
+		"name": "Lasting Incantations",
+		"stats": ["20% increased Spell Damage", "20% increased Skill Effect duration"]
 	},
 	"N186": {
 		"name": "Spiral into Depression",
@@ -953,16 +957,16 @@
 		"stats": ["10% increased Cast Speed", "+7% to Chaos Resistance"]
 	},
 	"N188": {
-		"name": "N188",
-		"stats": []
+		"name": "Full Recovery",
+		"stats": ["10% increased Life Regeneration rate", "15% increased Mana Regeneration Rate"]
 	},
 	"N189": {
 		"name": "Immortal Infamy",
 		"stats": ["Recover 2% of Life on Kill"]
 	},
 	"N190": {
-		"name": "N190",
-		"stats": []
+		"name": "Perpetual Freeze",
+		"stats": ["15% increased Freeze Buildup", "15% increased Chill and Freeze Duration on Enemies"]
 	},
 	"N191": {
 		"name": "N191",
@@ -1012,8 +1016,8 @@
 		"stats": []
 	},
 	"N202": {
-		"name": "N202",
-		"stats": []
+		"name": "Anticipation",
+		"stats": ["Skills Supported by Unleash have 25% increased Seal gain frequency"]
 	},
 	"N203": {
 		"name": "Spiked Whip",
@@ -1100,12 +1104,12 @@
 		"stats": ["50% increased Damage with Daggers against Enemies that are on Full Life"]
 	},
 	"N220": {
-		"name": "N220",
-		"stats": []
+		"name": "Equilibrium",
+		"stats": ["30% increased Attack Damage if you've Cast a Spell Recently", "10% increased Cast Speed if you've Attacked Recently"]
 	},
 	"N221": {
-		"name": "N221",
-		"stats": []
+		"name": "Personal Touch",
+		"stats": ["20% increased Melee Damage", "25% increased Melee Damage against Immobilised Enemies"]
 	},
 	"N222": {
 		"name": "Flow State",
@@ -1116,8 +1120,8 @@
 		"stats": []
 	},
 	"N224": {
-		"name": "N224",
-		"stats": []
+		"name": "Viciousness",
+		"stats": ["8% increased Melee Attack Speed", "+10 to Dexterity"]
 	},
 	"N225": {
 		"name": "Bolstering Presence",
@@ -1129,7 +1133,7 @@
 	},
 	"N227": {
 		"name": "Immolation",
-		"stats": ["25% increased Effect of Ignite", "+10 to Strength"]
+		"stats": ["25% increased Magnitude of Ignite you inflict", "+10 to Strength"]
 	},
 	"N228": {
 		"name": "Leeching Toxins",
@@ -1159,16 +1163,16 @@
 		"stats": []
 	},
 	"N234": {
-		"name": "N234",
-		"stats": []
+		"name": "Deafening Cries",
+		"stats": ["25% increased Warcry Cooldown Recovery Rate", "8% increased Damage for each time you've Warcried Recently"]
 	},
 	"N235": {
 		"name": "Resolution",
 		"stats": ["10% increased Global Defences", "25% increased Stun Threshold"]
 	},
 	"N236": {
-		"name": "N236",
-		"stats": []
+		"name": "Fireproof",
+		"stats": ["+15% to Fire Resistance", "25% reduced effect of Ignite on you"]
 	},
 	"N237": {
 		"name": "N237",
@@ -1179,8 +1183,8 @@
 		"stats": []
 	},
 	"N239": {
-		"name": "N239",
-		"stats": []
+		"name": "Hulking Smash",
+		"stats": ["30% increased Stun Buildup", "+15 to Strength"]
 	},
 	"N240": {
 		"name": "Shimmering",
@@ -1226,7 +1230,7 @@
 	},
 	"N248": {
 		"name": "Cold Nature",
-		"stats": ["25% increased Cold Damage", "25% increased Chill Duration on Enemies"]
+		"stats": ["25% increased Cold Damage", "15% increased Chill Duration on Enemies"]
 	},
 	"N249": {
 		"name": "N249",
@@ -1324,44 +1328,44 @@
 		"stats": ["+25% to Critical Strike Multiplier with Staves"]
 	},
 	"N269": {
-		"name": "N269",
-		"stats": []
+		"name": "Sigil of Ice",
+		"stats": ["30% increased Damage with Hits against Chilled Enemies"]
 	},
 	"N270": {
 		"name": "Cold Penetration",
 		"stats": ["Damage Penetrates 10% Cold Resistance"]
 	},
 	"N271": {
-		"name": "N271",
-		"stats": []
+		"name": "Bestial Rage",
+		"stats": ["25% increased Attack Damage"]
 	},
 	"N272": {
-		"name": "N272",
-		"stats": []
+		"name": "Feral Force",
+		"stats": ["25% increased Attack Damage"]
 	},
 	"N273": {
-		"name": "N273",
-		"stats": []
+		"name": "Battle Fever",
+		"stats": ["5% increased Attack and Cast Speed", "25% increased Physical Damage"]
 	},
 	"N274": {
-		"name": "N274",
-		"stats": []
+		"name": "Sigil of Lightning",
+		"stats": ["30% increased Damage with Hits against Shocked Enemies"]
 	},
 	"N275": {
-		"name": "N275",
-		"stats": []
+		"name": "Electrifying Nature",
+		"stats": ["25% increased Lightning Damage", "15% increased Shock Duration"]
 	},
 	"N276": {
-		"name": "N276",
-		"stats": []
+		"name": "Ancestral Reach",
+		"stats": ["25% increased Totem Placement speed", "50% increased Totem Placement range"]
 	},
 	"N277": {
 		"name": "Siphon",
 		"stats": ["Recover 2% of Mana on Kill", "25% increased amount of Mana Leeched"]
 	},
 	"N278": {
-		"name": "N278",
-		"stats": []
+		"name": "Burning Nature",
+		"stats": ["25% increased Fire Damage", "15% increased Ignite Duration on Enemies"]
 	},
 	"N279": {
 		"name": "N279",
@@ -1397,27 +1401,24 @@
 		"stats": []
 	},
 	"N286": {
-		"name": "Life on Kill Notable",
-		"stats": ["Gain 20 Life per Enemy Killed"]
+		"name": "Taste for Blood",
+		"stats": ["Gain 20 Life per Enemy Killed", "2% chance to Recover all Life when you Kill an Enemy"]
 	},
 	"N287": {
-		"name": "Critical Damage Bonus Notable",
-		"stats": ["15% increased Critical Damage Bonus"]
+		"name": "Preemptive Strike",
+		"stats": ["100% increased Critical Damage Bonus against Enemies that are on Full Life"]
 	},
 	"N288": {
-		"name": "N288",
-		"stats": []
+		"name": "Tides of Change",
+		"stats": ["25% increased Skill Effect Duration"]
 	},
 	"N289": {
-		"name": "N289",
-		"stats": []
+		"name": "Burn Away",
+		"stats": ["15% increased Fire Damage", "Damage Penetrates 10% Fire resistance", "10% increased Magnitude of Ignite you inflict"]
 	},
 	"N290": {
-		"name": "Heartstopper",
-		"stats": [
-			"Take 75% less Damage over Time if you've started taking Damage over Time in the past second",
-			"Take 50% more Damage over Time if you haven't started taking Damage over Time in the past second"
-		]
+		"name": "Pocket Sand",
+		"stats": ["50% increased Blind Effect"]
 	},
 	"N291": {
 		"name": "Stand Ground",
@@ -1427,40 +1428,40 @@
 		]
 	},
 	"N292": {
-		"name": "Armor Break",
-		"stats": ["Overwhelm 10% Physical Damage Reduction"]
+		"name": "Breakage",
+		"stats": ["Break 60% increased Armour", "10% chance to Defend woth 200% of Armour"]
 	},
 	"N293": {
-		"name": "N293",
-		"stats": []
+		"name": "Ancestral Alacrity",
+		"stats": ["30% increased Totem Placement speed", "8% increased Attack and Cast Speed if you've summoned a Totem Recently"]
 	},
 	"N294": {
-		"name": "N294",
-		"stats": []
+		"name": "Far Sighted",
+		"stats": ["30% reduced penalty to Accuracy Rating at range"]
 	},
 	"N295": {
-		"name": "N295",
-		"stats": []
+		"name": "Enhanced Reflexes",
+		"stats": ["30% increased Evasion Rating", "8% increased Dexterity"]
 	},
 	"N296": {
-		"name": "N296",
-		"stats": []
+		"name": "Staunching",
+		"stats": ["Life Flasks gain 0.2 charges per Second", "+10 to Strength"]
 	},
 	"N297": {
-		"name": "N297",
-		"stats": []
+		"name": "Snowpiercer",
+		"stats": ["Damage Penetrates 15% Cold Resistance", "+10 to Intelligence"]
 	},
 	"N298": {
 		"name": "Evasion and Energy Shield",
 		"stats": ["15% increased Evasion Rating", "15% increased maximum Energy Shield"]
 	},
 	"N299": {
-		"name": "Blinding Strike",
-		"stats": ["24% increased Attack Damage", "10% chance to Blind Enemies on Hit with Attacks"]
+		"name": "High Alert",
+		"stats": ["50% increased Evasion Rating when on Full Life", "25% increased Stun Threshold while on Full Life"]
 	},
 	"N300": {
-		"name": "N300",
-		"stats": []
+		"name": "Near Sighted",
+		"stats": ["60% increased Accuracy Rating at Close Range"]
 	},
 	"N301": {
 		"name": "Prism Guard",
@@ -1468,23 +1469,23 @@
 	},
 	"N302": {
 		"name": "Low Tolerance",
-		"stats": ["60% increased Effect of Poison against Enemies that are not Poisoned"]
+		"stats": ["60% increased Effect of Poison you inflict on targets that are not Poisoned"]
 	},
 	"N303": {
-		"name": "N303",
-		"stats": []
+		"name": "Revenge",
+		"stats": ["12% increased Attack Speed if you've been Hit Recently"]
 	},
 	"N304": {
-		"name": "N304",
-		"stats": []
+		"name": "Price of Freedom",
+		"stats": ["10% reduced Mana Cost of Attacks", "18% of Skill Mana Costs Converted to Life Costs"]
 	},
 	"N305": {
-		"name": "N305",
-		"stats": []
+		"name": "Impact Area",
+		"stats": ["15% increased Area of Effect if you have Stunned an Enemy Recently", "15% increased Area of Effect for Attacks"]
 	},
 	"N306": {
-		"name": "N306",
-		"stats": []
+		"name": "Frenetic",
+		"stats": ["5% chance that if you would gain Frenzy charges, you instead gain up to your Maximum number of Frenzy Charges", "+1 to Maximum Frenzy Charges"]
 	},
 	"N307": {
 		"name": "Honed Instincts",
@@ -1498,20 +1499,20 @@
 		]
 	},
 	"N309": {
-		"name": "N309",
-		"stats": []
+		"name": "Vengeful Fury",
+		"stats": ["Gain 5 Rage when Hit by an Enemy", "Every Rage also grants 1% increased Armour"]
 	},
 	"N310": {
 		"name": "Impact Force",
 		"stats": ["20% increased Stun Buildup", "25% increased Attack Area Damage"]
 	},
 	"N311": {
-		"name": "N311",
-		"stats": []
+		"name": "Proficiency",
+		"stats": ["+25 to Dexterity"]
 	},
 	"N312": {
 		"name": "Brutal",
-		"stats": ["10% increased Stun Buildup", "10% increased Melee Damage", "+10 to Strength"]
+		"stats": ["10% increased Stun Buildup", "16% increased Melee Damage", "+10 to Strength"]
 	},
 	"N313": {
 		"name": "Clean Shot",
@@ -1522,20 +1523,20 @@
 		"stats": ["Break 50% of Armour on Heavy Stunning an Enemy"]
 	},
 	"N315": {
-		"name": "N315",
-		"stats": []
+		"name": "Crippling Toxins",
+		"stats": ["25% chance for Attacks to Maim on Hit against Poisoned Enemies", "25% increased Magnitude of Poison you inflict"]
 	},
 	"N316": {
-		"name": "Elemental Notable",
-		"stats": ["25% increased Elemental Damage"]
+		"name": "Harness the Elements",
+		"stats": ["15% increased Damage for each type of Elemental Ailment on Enemy"]
 	},
 	"N317": {
 		"name": "Falcon Technique",
 		"stats": ["1% increased Attack Speed per 15 Dexterity"]
 	},
 	"N318": {
-		"name": "Wellspring",
-		"stats": ["25% increased Mana Recovery from Flasks"]
+		"name": "Combat Alchemy",
+		"stats": ["10% chance for Flasks you use to not consume Charges", "20% increased Life and Mana Recovery from Flasks"]
 	},
 	"N319": {
 		"name": "Bolstering Yell",
@@ -1546,7 +1547,7 @@
 	},
 	"N320": {
 		"name": "Retaliation",
-		"stats": ["75% of Damage taken reflected to Melee Attackers"]
+		"stats": ["40% increased Thorns damage"]
 	},
 	"N321": {
 		"name": "Flip the Script",
@@ -1561,15 +1562,15 @@
 	},
 	"N323": {
 		"name": "No Escape",
-		"stats": ["30% increased Skill Effect Duration"]
+		"stats": ["Mark Skills have 60% increased Skill Effect Duration"]
 	},
 	"N324": {
-		"name": "Blur",
-		"stats": ["4% increased Movement Speed", "16% increased Evasion Rating", "+10 to Dexterity"]
+		"name": "Eagle Eye",
+		"stats": ["+30 to Accuracy Rating", "10% increased Global Accuracy Rating"]
 	},
 	"N325": {
-		"name": "Hale Traveller",
-		"stats": ["25% increased Life Recovery from Flasks"]
+		"name": "Blur",
+		"stats": ["4% increased Movement Speed", "20% increased Evasion Rating", "+10 to Dexterity"]
 	},
 	"N326": {
 		"name": "Admonisher",
@@ -1580,52 +1581,52 @@
 		"stats": ["Break 25% increased Armour", "16% increased Area of Effect for Attacks"]
 	},
 	"N328": {
-		"name": "N328",
-		"stats": []
+		"name": "Beastial Skin",
+		"stats": ["100% increased Evasion rating from Equipped Body Armour"]
 	},
 	"N329": {
 		"name": "Sturdy Metal",
 		"stats": ["80% increased Armour from Equipped Body Armour"]
 	},
 	"N330": {
-		"name": "N330",
-		"stats": []
+		"name": "Coming Calamity",
+		"stats": ["50% increased Cold Damage while afected by Herald of Ice", "50% increased Fire Damage while afected by Herald of Ash", "50% increased Lightning Damage while afected by Herald of Thunder"]
 	},
 	"N331": {
 		"name": "Trick Shot",
-		"stats": ["Projectiles have 50% chance to Chain an additional time from terrain"]
+		"stats": ["Projectiles have 25% chance to Chain an additional time from terrain"]
 	},
 	"N332": {
-		"name": "N332",
-		"stats": []
+		"name": "Spiked Armour",
+		"stats": ["40% increased Thorns damage"]
 	},
 	"N333": {
-		"name": "N333",
-		"stats": []
+		"name": "Towering Shield",
+		"stats": ["50% increased Defences from Equipped Shield", "25% increased Chance to Block if you(ve Blocked with Active Block Recently"]
 	},
 	"N334": {
-		"name": "Mark Cast Speed",
-		"stats": ["Mark Skills have 10% increased Cast Speed"]
+		"name": "Hold Focus",
+		"stats": ["15% increased Effect of your Mark Skills"]
 	},
 	"N335": {
-		"name": "N335",
-		"stats": []
+		"name": "Unsight",
+		"stats": ["Enemies near Enemies you Mark are Blinded", "Enemies you Mark cannot deal Critical Hits"]
 	},
 	"N336": {
-		"name": "Outmaneuver",
-		"stats": ["20% increased Stun buildup", "20% increased Freeze Buildup"]
+		"name": "Cautious Concoctions",
+		"stats": ["15% increased Flask Effect Duration", "15% increased Flask Charges gained"]
 	},
 	"N337": {
 		"name": "Relentless",
 		"stats": ["15% increased Armour", "Regenerate 1% of life per second", "+10 to Strength"]
 	},
 	"N338": {
-		"name": "N338",
-		"stats": []
+		"name": "Greatest Defence",
+		"stats": ["2% increased Attack Damage per 75 Armour or Evasion Rating on Shield"]
 	},
 	"N339": {
-		"name": "N339",
-		"stats": []
+		"name": "Surging Currents",
+		"stats": ["Damage Penetrates 15% Lightning Resistance", "+10 to Dexterity"]
 	},
 	"N340": {
 		"name": "Break Focus",
@@ -1644,12 +1645,12 @@
 		"stats": ["40% increased Aftershock Area of Effect"]
 	},
 	"N344": {
-		"name": "N344",
-		"stats": []
+		"name": "Master Fletching",
+		"stats": ["30% increased bonuses gained from Equipped Quiver"]
 	},
 	"N345": {
-		"name": "N345",
-		"stats": []
+		"name": "Catlike Agility",
+		"stats": ["25% increased Evasion Rating", "25% increased Evasion Rating if you've Doge Rolled Recently"]
 	},
 	"N346": {
 		"name": "Defender's Resolve",
@@ -1659,28 +1660,28 @@
 		]
 	},
 	"N347": {
-		"name": "N347",
-		"stats": []
+		"name": "Unimpeded",
+		"stats": ["24% reduced Slowing Potency of Debuffs on You"]
 	},
 	"N348": {
-		"name": "N348",
-		"stats": []
+		"name": "Protraction",
+		"stats": ["20% increased Skill Effect Duration", "15% increased Duration of Damaging Ailments on Enemies"]
 	},
 	"N349": {
 		"name": "Piercing Shot",
 		"stats": ["50% chance to Pierce an Enemy"]
 	},
 	"N350": {
-		"name": "N350",
-		"stats": []
+		"name": "Reaching Strike",
+		"stats": ["25% increased Melee Damage", "+2 to Melee Strike Range"]
 	},
 	"N351": {
-		"name": "N351",
-		"stats": []
+		"name": "Fulmination",
+		"stats": ["40% increased chance to Ignite", "40% increased Damage with Hits against Ignited Enemies"]
 	},
 	"N352": {
 		"name": "Stacking Toxins",
-		"stats": ["Can Poison enemies an additional time", "20% reduced Effect of Poison"]
+		"stats": ["Targets can be affected by +1 of your Poisons at the same time", "20% reduced Magnitude of Poison you inflict"]
 	},
 	"N353": {
 		"name": "Impair",
@@ -1690,8 +1691,8 @@
 		]
 	},
 	"N354": {
-		"name": "N354",
-		"stats": []
+		"name": "Burning Strikes",
+		"stats": ["Gain 12% of Physical Damage as Extra Fire Damage"]
 	},
 	"N355": {
 		"name": "Guts",
@@ -1701,24 +1702,24 @@
 		]
 	},
 	"N356": {
-		"name": "N356",
-		"stats": []
+		"name": "Hearstopping",
+		"stats": ["+10 Intelligence", "25% increased Critical Hit Chance"]
 	},
 	"N357": {
-		"name": "N357",
-		"stats": []
+		"name": "Overheating Blow",
+		"stats": ["Hits that Heavy Stun inflict Fire Exposure"]
 	},
 	"N358": {
 		"name": "Reaving",
 		"stats": ["8% increased Attack Speed with One Handed Weapons", "+15 to Dexterity"]
 	},
 	"N359": {
-		"name": "N359",
-		"stats": []
+		"name": "Rapid Strike",
+		"stats": ["+30 to accuracy Rating", "8% increased Melee Attack Speed"]
 	},
 	"N360": {
 		"name": "Titan's Determination",
-		"stats": ["25% increased Stun Threshold", "Regenerate 1,5% of Life per second while moving"]
+		"stats": ["25% increased Stun Threshold", "Regenerate 1.5% of Life per second while moving"]
 	},
 	"N361": {
 		"name": "Battle-hardened",
@@ -1738,15 +1739,15 @@
 	},
 	"N363": {
 		"name": "Flashy Deflection",
-		"stats": ["Prevent +3% of Deflected Attack Damage", "20% increased chance to Deflect"]
+		"stats": ["12% increased Block Chance", "40% increased Defences from Equipped Shield"]
 	},
 	"N364": {
-		"name": "N364",
-		"stats": []
+		"name": "Lasting Toxins",
+		"stats": ["10% increased Skill Effect Duration", "50% increased Poison Duration"]
 	},
 	"N365": {
-		"name": "N365",
-		"stats": []
+		"name": "Heartbreaking",
+		"stats": ["35% increased Critical Damage Bonus", "+10 to Strength"]
 	},
 	"N366": {
 		"name": "Mass Rejuvenation",
@@ -1767,12 +1768,12 @@
 		"stats": ["20% increased Armour and Evasion Rating", "20% increased Stun Threshold"]
 	},
 	"N369": {
-		"name": "N369",
-		"stats": []
+		"name": "Struck Through",
+		"stats": ["Attacks have +1% to Critical Hit Chance"]
 	},
 	"N370": {
 		"name": "Careful Aim",
-		"stats": ["16% increased Projectile Damage", "+5 to Dexterity"]
+		"stats": ["16% increased Projectile Damage", "40% increased Accuracy Rating at Close Range"]
 	},
 	"N371": {
 		"name": "Unbending",
@@ -1787,19 +1788,19 @@
 	},
 	"N373": {
 		"name": "Heavy Ammunition",
-		"stats": ["15% increased Stun Buildup"]
+		"stats": ["8% reduced Attack Speed", "40% Projectile Damage", "40% increased Projectile Stun Buildup"]
 	},
 	"N374": {
 		"name": "Mass Hysteria",
-		"stats": ["6% increased Attack Speed", "Allies in your Presence have 6% increased Attack Speed"]
+		"stats": ["Allies in your Presence have 6% increased Attack Speed", "6% increased Attack Speed"]
 	},
 	"N375": {
 		"name": "Unforgiving",
 		"stats": ["+4 to Maximum Rage", "Inherent Rage Loss starts 1 second later"]
 	},
 	"N376": {
-		"name": "Evasion Notable",
-		"stats": ["25% increased Evasion Rating"]
+		"name": "Escape Velocity",
+		"stats": ["3% increased Movement Speed", "30% increased Evasion Rating"]
 	},
 	"N377": {
 		"name": "Breaking Blows",
@@ -1809,36 +1810,36 @@
 		]
 	},
 	"N378": {
-		"name": "N378",
-		"stats": []
+		"name": "Electrocution",
+		"stats": ["enemies you Electrocute have 20% increased Damage taken"]
 	},
 	"N379": {
-		"name": "N379",
-		"stats": []
+		"name": "Smooth Buckler",
+		"stats": ["12% increased Block chance", "10 Mana gained when you Block"]
 	},
 	"N380": {
-		"name": "Lasting Concoctions",
-		"stats": ["25% increased Flask Effect Duration", "25% increased Flask Charges gained"]
+		"name": "Potent Concoctions",
+		"stats": ["Flasks applied to you have 25% increased Effect"]
 	},
 	"N381": {
-		"name": "N381",
-		"stats": []
+		"name": "Arcane Alchemy",
+		"stats": ["Mana Flasks gain 0.2 charges per second", "+10 to Intelligence"]
 	},
 	"N382": {
-		"name": "N382",
-		"stats": []
+		"name": "Fervour",
+		"stats": ["+2 to Maximum Frenzy Charges"]
 	},
 	"N383": {
 		"name": "Titanic",
 		"stats": ["30% increased Stun Buildup", "30% increased Stun Threshold", "5% increased Strength"]
 	},
 	"N384": {
-		"name": "N384",
-		"stats": []
+		"name": "Lasting Concoctions",
+		"stats": ["25% increased Flask Effect Duration", "25% increased Flask Charges gained"]
 	},
 	"N385": {
-		"name": "N385",
-		"stats": []
+		"name": "Shedding skin",
+		"stats": ["40% increased Elemental Ailment Threshold", "10% reduced Duration of Ailments on you"]
 	},
 	"N386": {
 		"name": "Unerring Impact",
@@ -1853,18 +1854,18 @@
 		"stats": ["Defend with 200% of Armour against Critical Hits", "+15 to Strength"]
 	},
 	"N388": {
-		"name": "N388",
-		"stats": []
+		"name": "Savagery",
+		"stats": ["50% increased Evasion Rating if you've consumed a Frenzy Charge Recently", "+1 to Maximum Frenzy Charge"]
 	},
 	"N389": {
-		"name": "N389",
-		"stats": []
+		"name": "Deft Recovery",
+		"stats": ["30% increased Stun Recovery", "30% increased Stun Threshold if you haven't been Stunned Recently"]
 	},
 	"N390": {
 		"name": "Cacophony",
 		"stats": [
-			"5% chance to deal Double Damage if you've Warcried in the past 8 seconds",
-			"40% increased Damage with Warcry"
+			"40% increased Damage with Warcries",
+			"Warcry Skills have 25% increased Area of Effect"
 		]
 	},
 	"N391": {
@@ -1886,8 +1887,8 @@
 		"stats": ["15% increased Attack Area Damage", "15% increased Area of Effect for Attacks"]
 	},
 	"N394": {
-		"name": "N394",
-		"stats": []
+		"name": "Pinned Down",
+		"stats": ["Enemies are Maimed for 4 seconds after becoming Unpinned", "40% increased Pin buildup"]
 	},
 	"N395": {
 		"name": "Heavy Weaponry",
@@ -1924,20 +1925,20 @@
 		"stats": ["Warcries Empower an additional Attack"]
 	},
 	"N401": {
-		"name": "N401",
-		"stats": []
+		"name": "Cooked",
+		"stats": ["50% increased Critical Damage Bonus during any Flask Effect"]
 	},
 	"N402": {
-		"name": "N402",
-		"stats": []
+		"name": "Backup Plan",
+		"stats": ["40% increased Evasion Rating if you have been Hit Recently", "40% increased Armour if you haven't been Hit Recently"]
 	},
 	"N403": {
 		"name": "Bloodletting",
 		"stats": ["40% increased Bleeding Duration", "20% chance to inflict Bleeding on Hit"]
 	},
 	"N404": {
-		"name": "Evasion Notable",
-		"stats": ["25% increased Evasion Rating"]
+		"name": "Freedom of Movement",
+		"stats": ["30% increased Evasion Rating", "30% increased Evasion Rating if you've Dodge Rolled Recently"]
 	},
 	"N405": {
 		"name": "Grit",
@@ -1965,8 +1966,8 @@
 		]
 	},
 	"N409": {
-		"name": "N409",
-		"stats": []
+		"name": "Prolonged Assault",
+		"stats": ["16% increased Attack damage", "16% increased Skill Effect Duration", "Buffs on you expire 10% slower"]
 	},
 	"N410": {
 		"name": "Skullcrusher",
@@ -1984,16 +1985,16 @@
 		"stats": ["12% increased Chance to Block", "10 Life gained when you Block"]
 	},
 	"N413": {
-		"name": "N413",
-		"stats": []
+		"name": "Maiming Strike",
+		"stats": ["25% increased Attack Damage", "Attacks have 25% chance to Maim on hit"]
 	},
 	"N414": {
-		"name": "N414",
-		"stats": []
+		"name": "Feathered Fletching",
+		"stats": ["Increases and Reductions to Projectile Speed also apply to Damage with Bows"]
 	},
 	"N415": {
-		"name": "N415",
-		"stats": []
+		"name": "Thnderstruck",
+		"stats": ["50% increased Electrocute Buildup against Shocked Enemies", "50% increased Shock Chance against Electrocuted Enemies"]
 	},
 	"N416": {
 		"name": "Desperate Times",
@@ -2011,8 +2012,8 @@
 		"stats": ["Inherent loss of Rage is 25% slower"]
 	},
 	"N419": {
-		"name": "N419",
-		"stats": []
+		"name": "Stimulants",
+		"stats": ["12% increased Attack Speed during any Flask Effect"]
 	},
 	"N420": {
 		"name": "Heavy Draught",
@@ -2029,16 +2030,16 @@
 		]
 	},
 	"N422": {
-		"name": "N422",
-		"stats": []
+		"name": "Catapult",
+		"stats": ["15% increased Projectile Speed", "15% increased Area of Effect for Attacks"]
 	},
 	"N423": {
-		"name": "N423",
-		"stats": []
+		"name": "Spreading Shocks",
+		"stats": ["Shocking Hits have 5°% chance to also Shock enemies in a 1.5 metre radius"]
 	},
 	"N424": {
-		"name": "N424",
-		"stats": []
+		"name": "Pierce the Heart",
+		"stats": ["Arrows Pierce an additional Target"]
 	},
 	"N425": {
 		"name": "Stand and Deliver",
@@ -2065,13 +2066,13 @@
 	"N429": {
 		"name": "Internal Bleeding",
 		"stats": [
-			"25% chance to Aggravate Bleeding on targets you Hit with Empowered Attacks",
-			"Empowered Attacks deal 35% increased Damage"
+			"20% chance to Aggravate Bleeding on targets you Hit with Empowered Attacks",
+			"Empowered Attacks deal 30% increased Damage"
 		]
 	},
 	"N430": {
-		"name": "N430",
-		"stats": []
+		"name": "Blurred Motion",
+		"stats": ["5% increased Attack Speed", "10% increased Global Accuracy Rating", "5% increased Dexterity"]
 	},
 	"N431": {
 		"name": "Colossal Weapon",
@@ -2087,8 +2088,8 @@
 	"N433": {
 		"name": "Split the Earth",
 		"stats": [
-			"15% chance to Aftershock for Slam Skills you use with Maces",
-			"15% chance to Aftershock for Strike Skills you use with Maces"
+			"10% chance to Aftershock for Slam Skills you use with Maces",
+			"10% chance to Aftershock for Strike Skills you use with Maces"
 		]
 	},
 	"N434": {
@@ -2096,28 +2097,28 @@
 		"stats": []
 	},
 	"N435": {
-		"name": "N435",
-		"stats": []
+		"name": "Sniper",
+		"stats": ["Arrows gain Critical Hit Chance as they travel farther, up to 60% increased Critical Hit chance"]
 	},
 	"N436": {
-		"name": "N436",
-		"stats": []
+		"name": "Rattled",
+		"stats": ["+20 to Maximum Mana", "50% increased Shock Duration"]
 	},
 	"N437": {
-		"name": "N437",
-		"stats": []
+		"name": "Locked On",
+		"stats": ["15% increased Critical Hit chance for Attacks", "15% increased Global Accuracy Rating"]
 	},
 	"N438": {
-		"name": "N438",
-		"stats": []
+		"name": "Wasting",
+		"stats": ["15% increased Duration of Damaging Ailments on Enemies", "30% increased Daamge with Hits against Enemies affected by Ailments"]
 	},
 	"N439": {
 		"name": "N439",
 		"stats": []
 	},
 	"N440": {
-		"name": "N440",
-		"stats": []
+		"name": "Heavy Contact",
+		"stats": ["Hits that Heavy Stun Enemies have Culling Strike"]
 	},
 	"N441": {
 		"name": "Blade Flurry",
@@ -2142,12 +2143,12 @@
 		"stats": ["20% increased Accuracy Rating with Two Handed Melee Weapons", "+10 to Dexterity"]
 	},
 	"N445": {
-		"name": "N445",
-		"stats": []
+		"name": "Stars Aligned",
+		"stats": ["Damage with Hits is Lucky against Enemies that are on Low Life"]
 	},
 	"N446": {
-		"name": "N446",
-		"stats": []
+		"name": "Reinvigoration",
+		"stats": ["Regenerate 2% of Life per Second if you(ve used a Life Flask in the past 10 seconds"]
 	},
 	"N447": {
 		"name": "N447",
@@ -2166,20 +2167,20 @@
 		]
 	},
 	"N450": {
-		"name": "N450",
-		"stats": []
+		"name": "Frazzled",
+		"stats": ["15 increased Mana Regeneration Rate", "30% increased Magnitude of Shock you inflict"]
 	},
 	"N451": {
 		"name": "Lay Siege",
 		"stats": ["1% increased Damage per 1% Chance to Block"]
 	},
 	"N452": {
-		"name": "N452",
-		"stats": []
+		"name": "Fast Acting Toxins",
+		"stats": ["Damaging Ailments deal damage 12% faster"]
 	},
 	"N453": {
-		"name": "N453",
-		"stats": []
+		"name": "Deflection",
+		"stats": ["30% increased Block Chance", "You take 10% of Damage from Blocked Hits"]
 	},
 	"N454": {
 		"name": "Heatproofing",
@@ -2197,40 +2198,40 @@
 		]
 	},
 	"N457": {
-		"name": "N457",
-		"stats": []
+		"name": "Finishing Blows",
+		"stats": ["60% increased Damage with Hits against Enemies that are on Low Life", "30% increased Stun Buildup against Enemies that are on Low Life"]
 	},
 	"N458": {
 		"name": "Pile On",
 		"stats": ["60% increased Damage against Enemies with Fully Broken Armour"]
 	},
 	"N459": {
-		"name": "N459",
-		"stats": []
+		"name": "Heavy Drinker",
+		"stats": ["30% increased Flask Effect Duration", "20% increased Life Recovery from Flasks", "Recover 5% of Life when you use a Life Flask while on Low Life"]
 	},
 	"N460": {
-		"name": "N460",
-		"stats": []
+		"name": "Acceleration",
+		"stats": ["3% increased Movement Speed", "10% increased Skill Speed"]
 	},
 	"N461": {
-		"name": "N461",
-		"stats": []
+		"name": "Cranial Impact",
+		"stats": ["30% increased Stun Buildup", "Gain an Endurance Charge when you Heavy Stun a Rare or Unique Enemy"]
 	},
 	"N462": {
-		"name": "N462",
-		"stats": []
+		"name": "Reprisal",
+		"stats": ["Attack Skills deal 25% increased Damage while holding a Shield", "75% increased Evasion from Equipped Shield"]
 	},
 	"N463": {
 		"name": "Vengeance",
-		"stats": ["60% of Damage taken reflected to Melee Attackers"]
+		"stats": ["40% increased Thorns Damage"]
 	},
 	"N464": {
-		"name": "N464",
-		"stats": []
+		"name": "Escape Strategy",
+		"stats": ["100% increased Evasion Rating if you have been Hit Recently", "30% reduced Evasion Rating if you haven't been Hit Recently"]
 	},
 	"N465": {
-		"name": "N465",
-		"stats": []
+		"name": "Careful Consideration",
+		"stats": ["30% reduced Evasion Rating if you have been Hit Recently", "100% increased Evasion Rating if you haven't been Hit Recently"]
 	},
 	"N466": {
 		"name": "N466",
@@ -2241,12 +2242,12 @@
 		"stats": []
 	},
 	"N468": {
-		"name": "N468",
-		"stats": []
+		"name": "Determined Precision",
+		"stats": ["30% increased Accuracy Rating at Close Range", "+10 to Dexterity"]
 	},
 	"N469": {
-		"name": "N469",
-		"stats": []
+		"name": "Perforation",
+		"stats": ["20% chance for Bleeding to be Aggravated when Inflicted againt Enemies on Jagged Ground", "40% increased Jagged Ground Duration"]
 	},
 	"N470": {
 		"name": "Coated Arms",
@@ -2264,40 +2265,40 @@
 		"stats": ["50% increased Grenade Duration", "Grenade Skills Fire an additional Projectile"]
 	},
 	"N473": {
-		"name": "N473",
-		"stats": []
+		"name": "Exploit",
+		"stats": ["25% increased Damage with Hits against Enemies affected by Elemental Ailments", "15% increased Duration of Ignite, Shock and Chill on Enemies"]
 	},
 	"N474": {
 		"name": "Falcon Dive",
 		"stats": ["1% increased Attack Speed per 250 Accuracy Rating"]
 	},
 	"N475": {
-		"name": "N475",
-		"stats": []
+		"name": "Waters of Life",
+		"stats": ["Recover 3% of Life when you use a Mana Flask", "Mana Flasks gain 0.2 charges per second"]
 	},
 	"N476": {
-		"name": "N476",
-		"stats": []
+		"name": "Precise Point",
+		"stats": ["25% increased Damage with Spears"]
 	},
 	"N477": {
 		"name": "Spike Pit",
-		"stats": ["Jagged Ground you create applies 10% increased Damage taken to Enemies"]
+		"stats": ["Enemies in Jagged Ground you create take 10% increased Damage"]
 	},
 	"N478": {
 		"name": "Whirling Onslaught",
 		"stats": ["50% chance to gain Onslaught on Killing Blow with Axes"]
 	},
 	"N479": {
-		"name": "N479",
-		"stats": []
+		"name": "Afterimage",
+		"stats": ["8% more chance to Evade Melee Attacks"]
 	},
 	"N480": {
-		"name": "N480",
-		"stats": []
+		"name": "Defiance",
+		"stats": ["80% increased Armour and Evasion Rating when on Low Life"]
 	},
 	"N481": {
-		"name": "N481",
-		"stats": []
+		"name": "Impenetrable Shell",
+		"stats": ["Defend with 150% of Armour against Attacks from further than 6m"]
 	},
 	"N482": {
 		"name": "Close Confines",
@@ -2308,16 +2309,16 @@
 		"stats": ["10% increased Attack Damage", "Gain Accuracy Rating equal to your Strength"]
 	},
 	"N484": {
-		"name": "N484",
-		"stats": []
+		"name": "Roll and Strike",
+		"stats": ["25% increased Damage with Spears"]
 	},
 	"N485": {
-		"name": "N485",
-		"stats": []
+		"name": "Short Shot",
+		"stats": ["15% reduced Projectile Speed", "20% increased Projectile Damage"]
 	},
 	"N486": {
-		"name": "N486",
-		"stats": []
+		"name": "Efficient Alchemy",
+		"stats": ["20% increased Flask and Charm Charges gained", "40% increased Life and Mana Recovery from Flasks while you have an active Charm"]
 	},
 	"N487": {
 		"name": "Initiative",
@@ -2334,12 +2335,12 @@
 		]
 	},
 	"N489": {
-		"name": "N489",
-		"stats": []
+		"name": "Swift Skewering",
+		"stats": ["8% increased Attack Speed with Spears"]
 	},
 	"N490": {
-		"name": "N490",
-		"stats": []
+		"name": "Pressure Points",
+		"stats": ["35% increased Stun Buildup", "35% increased Freeze Buildup"]
 	},
 	"N491": {
 		"name": "Hale Heart",
@@ -2350,40 +2351,40 @@
 		"stats": ["+10 to Maximum Rage while wielding an Axe"]
 	},
 	"N493": {
-		"name": "N493",
-		"stats": []
+		"name": "Ancestral Artifice",
+		"stats": ["attack Skills have +1 to maximum number of Summoned Totems", "20% increased Totem Placement range"]
 	},
 	"N494": {
-		"name": "N494",
-		"stats": []
+		"name": "Ancestral Mending",
+		"stats": ["Regenerate 2% of Life per second while you have a Totem", "totems Regenerate 3% of Life per second"]
 	},
 	"N495": {
-		"name": "N495",
-		"stats": []
+		"name": "Ancestral Unity",
+		"stats": ["Totems have 4% increased Attack Speed per Summoned Totem"]
 	},
 	"N496": {
-		"name": "N496",
-		"stats": []
+		"name": "Time Manipulation",
+		"stats": ["Debuffs you inflict have 15% increased Slow Magnitude", "Debuffs on you expire 20% faster"]
 	},
 	"N497": {
-		"name": "N497",
-		"stats": []
+		"name": "Perfectly Placed Knife",
+		"stats": ["30% increased Critical Hit Chance against Bleeding Enemies", "20% chance to Aggravate Bleeding on targets you Critically Hit with Attacks"]
 	},
 	"N498": {
 		"name": "Deadly Flourish",
 		"stats": ["20% increased Melee Critical Hit Chance"]
 	},
 	"N499": {
-		"name": "N499",
-		"stats": []
+		"name": "Endurance",
+		"stats": ["+2 to Maximum Endurance Charges"]
 	},
 	"N500": {
-		"name": "N500",
-		"stats": []
+		"name": "Javelin",
+		"stats": ["25% increased Damage with Spears"]
 	},
 	"N501": {
-		"name": "N501",
-		"stats": []
+		"name": "Bravado",
+		"stats": ["Empowered Attcks have 50% increased Stun Buildup","100% increased Stun Threshold during Empowered Attacks"]
 	},
 	"N502": {
 		"name": "Multitasking",
@@ -2408,7 +2409,7 @@
 		"name": "Escalation",
 		"stats": [
 			"25% increased Warcry Speed",
-			"15% increased Damage for each time you've Warcried Recently"
+			"20% increased Damage for each different Warcry you've used Recently"
 		]
 	},
 	"N507": {
@@ -2420,12 +2421,12 @@
 		"stats": ["Minions deal 25% increased Damage"]
 	},
 	"N509": {
-		"name": "N509",
-		"stats": []
+		"name": "Marked for Sickness",
+		"stats": ["Enemies you Mark take 10% increased Damage"]
 	},
 	"N510": {
-		"name": "N510",
-		"stats": []
+		"name": "Finality",
+		"stats": ["120% increased Damage with Hits against Enemies that are on Low Life", "5% increased Damage taken while on Low Life"]
 	},
 	"N511": {
 		"name": "Versatile Arms",
@@ -2440,8 +2441,8 @@
 		"stats": ["+3 to Stun Threshold per Strength"]
 	},
 	"N513": {
-		"name": "N513",
-		"stats": []
+		"name": "Ignore Pain",
+		"stats": ["Gain 3 Rage when Hit by an Enemy", "every Rage also grants 2% increased Stun Threshold"]
 	},
 	"N514": {
 		"name": "Emboldened Avatar",
@@ -2453,16 +2454,16 @@
 		]
 	},
 	"N515": {
-		"name": "N515",
-		"stats": []
+		"name": "Marked Agility",
+		"stats": ["30% reduced Mana Cost of Mark Skills", "4% increased Movement Speed if you'be cast a Mark Spell Recently"]
 	},
 	"N516": {
-		"name": "N516",
-		"stats": []
+		"name": "Marked for Death",
+		"stats": ["Culling Strike against Enemies you Mark"]
 	},
 	"N517": {
 		"name": "Unnatural Resilience",
-		"stats": ["2% to Maximum fire Resistance for each 40% Uncapped Fire Resistance"]
+		"stats": ["2% to Maximum Fire Resistance for each 40% Uncapped Fire Resistance"]
 	},
 	"N518": {
 		"name": "Crystal Elixir",
@@ -2476,8 +2477,8 @@
 		]
 	},
 	"N520": {
-		"name": "N520",
-		"stats": []
+		"name": "Vale Shelter",
+		"stats": ["Charms gain 0.4 charges per Second"]
 	},
 	"N521": {
 		"name": "Forces of Nature",
@@ -2486,49 +2487,49 @@
 	"N522": {
 		"name": "Perfect Opportunity",
 		"stats": [
-			"25% increased Stun Buildup",
+			"30% increased Stun Buildup",
 			"Damage with Hits is Lucky against Heavy Stunned Enemies"
 		]
 	},
 	"N523": {
-		"name": "N523",
-		"stats": []
+		"name": "Doomsayer",
+		"stats": ["Herald Skills have 30% increased Area of Effect", "Herald Skills deal 30% increased Damage"]
 	},
 	"N524": {
-		"name": "N524",
-		"stats": []
+		"name": "Push the Advantage",
+		"stats": ["40% increased Critical Damage bonus with One Handed Melee Weapons"]
 	},
 	"N525": {
-		"name": "N525",
-		"stats": []
+		"name": "In the Thick of It",
+		"stats": ["Regenerate 5% of Life per second while Surrounded"]
 	},
 	"N526": {
 		"name": "N526",
 		"stats": []
 	},
 	"N527": {
-		"name": "N527",
-		"stats": []
+		"name": "Aggravation",
+		"stats": ["10% chance to Aggravate Bleeding on targets you Hit with Attacks"]
 	},
 	"N528": {
-		"name": "N528",
-		"stats": []
+		"name": "Deep wounds",
+		"stats": ["Attack Hits Aggravate any Bleeding on targets which is older than 4 seconds"]
 	},
 	"N529": {
 		"name": "Strong Chin",
 		"stats": ["Gain Stun Threshold equal to the lowest of Evasion and Armour on your Helmet"]
 	},
 	"N530": {
-		"name": "N530",
-		"stats": []
+		"name": "Battle Trance",
+		"stats": ["+8 to Maximum Rage"]
 	},
 	"N531": {
 		"name": "N531",
 		"stats": []
 	},
 	"N532": {
-		"name": "N532",
-		"stats": []
+		"name": "Thrill of Battle",
+		"stats": ["20% increased Attack Speed while Surrounded"]
 	},
 	"N533": {
 		"name": "Insulated Treads",
@@ -2555,50 +2556,50 @@
 	"N537": {
 		"name": "Urgent Call",
 		"stats": [
-			"Recover 3% of Life and Mana when you use a Warcry",
+			"Recover 2% of Life and Mana when you use a Warcry",
 			"24% increased Warcry Speed",
 			"18% increased Warcry Cooldown Recovery Rate"
 		]
 	},
 	"N538": {
-		"name": "N538",
-		"stats": []
+		"name": "Flash Storm",
+		"stats": ["30% increased chance to Shock", "Damage Penetrates 15% Lightning Resistance"]
 	},
 	"N539": {
 		"name": "Advanced Munitions",
 		"stats": ["25% increased chance to inflict Ailments with Projectiles"]
 	},
 	"N540": {
-		"name": "N540",
-		"stats": []
+		"name": "Resourceful Ally",
+		"stats": ["Minions deal 25% increased Damage"]
 	},
 	"N541": {
-		"name": "N541",
-		"stats": []
+		"name": "Sturdy Ally",
+		"stats": ["Minions have 25% increased Maxiumum Life"]
 	},
 	"N542": {
-		"name": "N542",
-		"stats": []
+		"name": "Lightning Rod",
+		"stats": ["Lightning Damage with Non-Critical Hits is Lucky"]
 	},
 	"N543": {
 		"name": "Crushing Judgement",
 		"stats": ["25% increased Armour Break Duration", "25% increased Attack Area Damage"]
 	},
 	"N544": {
-		"name": "N544",
-		"stats": []
+		"name": "Incendiary",
+		"stats": ["30% increased chance to Ignite", "30% increased Damage with Hits against Burning Enemies"]
 	},
 	"N545": {
-		"name": "N545",
-		"stats": []
+		"name": "Watchtowers",
+		"stats": ["Attack Skills have +1 to maximum number of Summoned totems", "Skills that would Summon a totem have 20% chance to Summon two Totems instead"]
 	},
 	"N546": {
-		"name": "N546",
-		"stats": []
+		"name": "Coursing Energy",
+		"stats": ["40% increased Electrocute Buildup", "30% increased Shock Chance against Electrocuted Enemies"]
 	},
 	"N547": {
-		"name": "N547",
-		"stats": []
+		"name": "Smoke Inhalation",
+		"stats": ["Damage Penetrates 15% Fire Resistance", "15% increased Duration of Damaging Ailments on Enemies"]
 	},
 	"N548": {
 		"name": "Authority",
@@ -2609,16 +2610,16 @@
 		"stats": ["20% increased Blind Effect", "Blind Enemies when they Stun you"]
 	},
 	"N550": {
-		"name": "Levitation",
-		"stats": ["Unaffected by Enemy Ground Effects for 1 second after stepping on them"]
+		"name": "Tainted Strike",
+		"stats": ["25% increased Critical Hit chance for Attacks", "30% increased Magnitude of Non-Damaging Ailments you inflict with Critical Hits"]
 	},
 	"N551": {
-		"name": "N551",
-		"stats": []
+		"name": "Succour",
+		"stats": ["25% increased Life Regeneration rate during Effect of any Life Flask"]
 	},
 	"N552": {
-		"name": "Against All Odds",
-		"stats": ["2% increased Attack Speed per Enemy in Close Range"]
+		"name": "Sand in the Eyes",
+		"stats": ["10% increased Attack Speed", "15% chance to Blind Enemies on Hit with Attaacks"]
 	},
 	"N553": {
 		"name": "Refills",
@@ -2656,7 +2657,7 @@
 	},
 	"N559": {
 		"name": "Apocalypse",
-		"stats": ["40% reduced Damage", "Herald Skills deal 200% increased Damage"]
+		"stats": ["40% reduced Damage", "+6% to Critical Chance of Herald Skills"]
 	},
 	"N560": {
 		"name": "Fate Finding",
@@ -2668,7 +2669,7 @@
 	},
 	"N562": {
 		"name": "Reusable Ammunition",
-		"stats": ["25% chance for Crossbow Attacks to not consume a bolt"]
+		"stats": ["15% chance for Crossbow Attacks to not consume a bolt"]
 	},
 	"N563": {
 		"name": "Giantslayer",
@@ -2697,7 +2698,7 @@
 	"N568": {
 		"name": "Power Shots",
 		"stats": [
-			"10% reduced Attack Speed with Crossbows",
+			"15% reduced Attack Speed with Crossbows",
 			"80% increased Critical Damage Bonus with Crossbows"
 		]
 	},
@@ -2757,7 +2758,7 @@
 	},
 	"N582": {
 		"name": "Savoured Blood",
-		"stats": ["50% increased amount of Life Leeched", "Leech Life 20% slower"]
+		"stats": ["35% increased amount of Life Leeched", "Leech Life 20% slower"]
 	},
 	"S1": {
 		"name": "Lightning Damage",
@@ -7399,8 +7400,8 @@
 		"stats": ["+10 to Armour", "+8 to Evasion Rating"]
 	},
 	"S1157": {
-		"name": "S1157",
-		"stats": []
+		"name": "Projectile Damage",
+		"stats": ["10% increased Projectile Damage"]
 	},
 	"S1158": {
 		"name": "S1158",
@@ -7455,8 +7456,8 @@
 		"stats": []
 	},
 	"S1171": {
-		"name": "S1171",
-		"stats": []
+		"name": "Projectile Damage",
+		"stats": ["10% increased Projectile Damage"]
 	},
 	"S1172": {
 		"name": "S1172",
@@ -7464,7 +7465,7 @@
 	},
 	"S1173": {
 		"name": "Armour and Evasion",
-		"stats": ["12% increased Armour and Evasion"]
+		"stats": ["12% increased Armour and Evasion Rating"]
 	},
 	"S1174": {
 		"name": "Attribute",
@@ -7548,7 +7549,7 @@
 	},
 	"S1194": {
 		"name": "Armour and Evasion",
-		"stats": ["12% increased Armour and Evasion"]
+		"stats": ["12% increased Armour and Evasion Rating"]
 	},
 	"S1195": {
 		"name": "S1195",
@@ -7611,12 +7612,12 @@
 		"stats": []
 	},
 	"S1210": {
-		"name": "S1210",
-		"stats": []
+		"name": "Life Regeneration",
+		"stats": ["Regenerate 0.4% of Life per second"]
 	},
 	"S1211": {
-		"name": "S1211",
-		"stats": []
+		"name": "Life Regeneration",
+		"stats": ["Regenerate 0.4% of Life per second"]
 	},
 	"S1212": {
 		"name": "S1212",
@@ -7712,7 +7713,7 @@
 	},
 	"S1235": {
 		"name": "Armour and Evasion",
-		"stats": ["12% increased Armour and Evasion"]
+		"stats": ["12% increased Armour and Evasion Rating"]
 	},
 	"S1236": {
 		"name": "S1236",
@@ -7731,8 +7732,8 @@
 		"stats": ["+5 to any Attribute"]
 	},
 	"S1240": {
-		"name": "S1240",
-		"stats": []
+		"name": "Life Regeneration",
+		"stats": ["Regenerate 0.4% of Life per second"]
 	},
 	"S1241": {
 		"name": "Attribute",
@@ -7767,8 +7768,8 @@
 		"stats": []
 	},
 	"S1249": {
-		"name": "S1249",
-		"stats": []
+		"name": "Life Regeneration",
+		"stats": ["Regenerate 0.4% of Life per second"]
 	},
 	"S1250": {
 		"name": "Armour",
@@ -7887,8 +7888,8 @@
 		"stats": []
 	},
 	"S1279": {
-		"name": "S1279",
-		"stats": []
+		"name": "Ailment Chance",
+		"stats": ["10% increased chance to inflict Ailments"]
 	},
 	"S1280": {
 		"name": "Projectile Damage",
@@ -8019,8 +8020,8 @@
 		"stats": ["+5 to any Attribute"]
 	},
 	"S1312": {
-		"name": "S1312",
-		"stats": []
+		"name": "Ailment Chance",
+		"stats": ["10% increased chance to inflict Ailments"]
 	},
 	"S1313": {
 		"name": "Projectile Damage",
@@ -8123,8 +8124,8 @@
 		"stats": ["20% increased Melee Damage against Immobilised Enemies"]
 	},
 	"S1338": {
-		"name": "S1338",
-		"stats": []
+		"name": "Armour and Evasion",
+		"stats": ["12% increased Armour and Evasion Rating"]
 	},
 	"S1339": {
 		"name": "S1339",
@@ -8175,8 +8176,8 @@
 		"stats": []
 	},
 	"S1351": {
-		"name": "S1351",
-		"stats": []
+		"name": "Life Regeneration",
+		"stats": ["Regenerate 0.4% of Life per second"]
 	},
 	"S1352": {
 		"name": "Cooldown Recovery Rate",
@@ -8184,7 +8185,7 @@
 	},
 	"S1353": {
 		"name": "Ailment Chance",
-		"stats": ["16% increased chance to inflict Ailments"]
+		"stats": ["10% increased chance to inflict Ailments"]
 	},
 	"S1354": {
 		"name": "Projectile Damage",
@@ -8230,16 +8231,16 @@
 		"stats": []
 	},
 	"S1364": {
-		"name": "S1364",
-		"stats": []
+		"name": "Armour and Evasion",
+		"stats": ["12% increased Armour and Evasion Rating"]
 	},
 	"S1365": {
 		"name": "S1365",
 		"stats": []
 	},
 	"S1366": {
-		"name": "S1366",
-		"stats": []
+		"name": "Bleeding Damage",
+		"stats": ["10% increased Magnitude of Bleeding you inflict"]
 	},
 	"S1367": {
 		"name": "Attribute",
@@ -8258,8 +8259,8 @@
 		"stats": ["+5 to any Attribute"]
 	},
 	"S1371": {
-		"name": "S1371",
-		"stats": []
+		"name": "Armour and Evasion",
+		"stats": ["12% increased Armour and Evasion Rating"]
 	},
 	"S1372": {
 		"name": "S1372",
@@ -8314,12 +8315,12 @@
 		"stats": []
 	},
 	"S1385": {
-		"name": "S1385",
-		"stats": []
+		"name": "Bleeding Damage",
+		"stats": ["10% increased Magnitude of Bleeding you inflict"]
 	},
 	"S1386": {
 		"name": "Bleeding Chance",
-		"stats": ["10% chance to inflict Bleeding on Hit"]
+		"stats": ["5% chance to inflict Bleeding on Hit"]
 	},
 	"S1387": {
 		"name": "S1387",
@@ -8370,8 +8371,8 @@
 		"stats": ["+5 to any Attribute"]
 	},
 	"S1399": {
-		"name": "S1399",
-		"stats": []
+		"name": "Bleeding Chance",
+		"stats": ["5% chance to inflict Bleeding on Hit"]
 	},
 	"S1400": {
 		"name": "S1400",
@@ -8654,8 +8655,8 @@
 		"stats": []
 	},
 	"S1470": {
-		"name": "S1470",
-		"stats": []
+		"name": "Accuracy",
+		"stats": ["8% increased Global Accuracy Rating"]
 	},
 	"S1471": {
 		"name": "S1471",
@@ -8778,8 +8779,8 @@
 		"stats": []
 	},
 	"S1501": {
-		"name": "S1501",
-		"stats": []
+		"name": "Shield Damage",
+		"stats": ["Attack Skills deal 10% increased Damage while holding a Shield"]
 	},
 	"S1502": {
 		"name": "Attribute",
@@ -8798,8 +8799,8 @@
 		"stats": []
 	},
 	"S1506": {
-		"name": "S1506",
-		"stats": []
+		"name": "Shield Damage",
+		"stats": ["Attack Skills deal 10% increased Damage while holding a Shield"]
 	},
 	"S1507": {
 		"name": "Shield Block",
@@ -8918,8 +8919,8 @@
 		"stats": []
 	},
 	"S1536": {
-		"name": "S1536",
-		"stats": []
+		"name": "Shield Damage",
+		"stats": ["Attack Skills deal 10% increased Damage while holding a Shield"]
 	},
 	"S1537": {
 		"name": "Shield Block",
@@ -9823,7 +9824,7 @@
 	},
 	"S1762": {
 		"name": "Armour and Evasion",
-		"stats": ["12% increased Armour and Evasion"]
+		"stats": ["12% increased Armour and Evasion Rating"]
 	},
 	"S1763": {
 		"name": "S1763",
@@ -10219,7 +10220,7 @@
 	},
 	"S1861": {
 		"name": "Bleeding Damage",
-		"stats": ["10% increased Effect of Bleeding"]
+		"stats": ["10% increased Magnitude of Bleeding you inflict"]
 	},
 	"S1862": {
 		"name": "Life Leech and Physical Damage",
