@@ -29,7 +29,6 @@
 			const params = new URLSearchParams();
 			params.set('a', selectedBuild.ascendancy);
 			params.set('p', selectedBuild.passivesCompressed);
-			params.set('loadFromSave', 'true');
 
 			if (!selectedBuild?.ascendancy || !selectedBuild.passivesCompressed || !selectedBuild.title) {
 				console.error('Invalid build data');
@@ -43,7 +42,7 @@
 	}
 </script>
 
-<div class="rounded-md bg-[#1a1a1a] text-white w-full p-8">
+<div class="rounded-md bg-[#1a1a1a] text-white w-full p-8 space-y-2">
 	<h2 class="font-bold my-4 text-2xl">Load Build</h2>
 	<table class="table-auto border-collapse text-sm w-full">
 		<thead>
