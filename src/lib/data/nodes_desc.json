@@ -10866,7 +10866,7 @@
 	},
 	"AN61": {
 		"name": "Colossal Capacity",
-		"stats": ["Equip a Chest which has 20 Inventory Slots"]
+		"stats": ["Carry a Chest which adds 20 Inventory Slots"]
 	},
 	"AN62": {
 		"name": "Mysterious Lineage",
@@ -10874,19 +10874,31 @@
 	},
 	"AN63": {
 		"name": "Ancestral Empowerment",
-		"stats": ["Every second Slam Skill you use yourself is Ancestrally Boosted"]
+		"stats": [
+			"Every second Slam Skill you use yourself is Ancestrally Boosted",
+			"An Ancestrally Boosted Slam has 20% more damage and area of effect."
+		]
 	},
 	"AN64": {
 		"name": "Earthbreaker",
-		"stats": ["20% chance for Slam Skills you use yourself to cause Aftershocks"]
+		"stats": [
+			"20% chance for Slam Skills you use yourself to cause Aftershocks",
+			"Aftershocks are bursts of area damage that occur after the initial impact of the skill causing them. If not otherwise specified, the Aftershock will deal the same damage as the initial impact, in the same area."
+		]
 	},
 	"AN65": {
 		"name": "Crushing Impacts",
-		"stats": ["Your Hits are Crushing Blows"]
+		"stats": [
+			"Your Hits are Crushing Blows",
+			"Crushing Blows cause a Heavy Stun on enemies that are Primed for Stun."
+		]
 	},
 	"AN66": {
-		"name": "Surprising strength",
-		"stats": ["40% more Damage against Heavy Stunned Enemies"]
+		"name": "Surprising Strength",
+		"stats": [
+			"40% more Damage against Heavy Stunned Enemies",
+			"Heavy Stunned enemies cannot act and count as Immobilised. Physical and Melee Damage each cause 50% more Heavy Stun buildup, which is multiplicative with each other."
+		]
 	},
 	"AS71": {
 		"name": "AS71",
@@ -10904,13 +10916,13 @@
 		"stats": ["Grants Skill: Encased in Jade", "Gain a stack of Jade every second"]
 	},
 	"AN73": {
-		"name": "Warcallers´s Bellow",
+		"name": "Warcaller’s Bellow",
 		"stats": [
-			"Corpses in your Presence Explode when you Warcry dealing 25% of their Life as Physical Damage"
+			"Corpses in your Presence Explode when you Warcry, dealing 25% of their Life as Physical Damage"
 		]
 	},
 	"AN74": {
-		"name": "Greatwolf´s Howl",
+		"name": "Greatwolf’s Howl",
 		"stats": ["Ignore Warcry Cooldowns"]
 	},
 	"AS81": {
@@ -11165,8 +11177,8 @@
 		"stats": ["20% of Damage from Hits is taken from your nearest Totem's Life before you"]
 	},
 	"AN143": {
-		"name": "Renly's Charm",
-		"stats": ["Gain 40% Base Chance to Block from Equipped Shield instead of Shield's value"]
+		"name": "Renly’s Training",
+		"stats": ["Gain 40% Base Chance to Block from Equipped Shield instead of the Shield's value"]
 	},
 	"AN144": {
 		"name": "Turtle Charm",
