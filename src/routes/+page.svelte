@@ -8,6 +8,7 @@
 	import TreeNode from '$lib/components/ui/tree-node/tree-node.svelte';
 	import NodeListItem from '$lib/components/ui/node-list-item/node-list-item.svelte';
 	import LZString from 'lz-string';
+	import { SaveAndLoadModal } from '$lib/components/save-and-load';
 
 	let { nodes } = loadData();
 
@@ -751,4 +752,6 @@
 			</div>
 		</div>
 	</div>
+
+	<SaveAndLoadModal />
 </div>

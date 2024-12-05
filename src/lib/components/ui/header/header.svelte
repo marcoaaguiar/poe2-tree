@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { LoadModalBtn, SaveModalBtn } from '$lib/components/save-and-load';
 </script>
 
 <div class="flex flex-row gap-4 items-center w-full bg-[#1a1a1a] p-2 h-16">
@@ -9,6 +10,8 @@
 	<!-- Middle Part -->
 	<nav class="hidden md:flex flex-row items-center gap-4 flex-1">
 		<!-- Something here? -->
+		<SaveModalBtn />
+		<LoadModalBtn />
 	</nav>
 	<!-- GitHub -->
 	<nav class="flex flex-row items-center gap-4">
