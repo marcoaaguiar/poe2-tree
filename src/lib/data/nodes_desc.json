@@ -10890,7 +10890,8 @@
 		"name": "Crushing Impacts",
 		"stats": [
 			"Your Hits are Crushing Blows",
-			"Crushing Blows cause a Heavy Stun on enemies that are Primed for Stun."
+			"Crushing Blows cause a Heavy Stun on enemies that are Primed for Stun.",
+			"Normal enemies are Primed for Stun when they have at least 40% Heavy Stun buildup. Magic enemies are instead Primed at 60% buildup, Rare at 70%, and Unique at 80%."
 		]
 	},
 	"AN66": {
@@ -10913,7 +10914,11 @@
 	},
 	"AN72": {
 		"name": "Jade Heritage",
-		"stats": ["Grants Skill: Encased in Jade", "Gain a stack of Jade every second"]
+		"stats": [
+			"Grants Skill: Encased in Jade",
+			"Gain a stack of Jade every second",
+			"Consumes all stacks of Jade to grant a Buff for a duration that absorbs all Damage from Hits, up to a maximum based on the amount of Jade consumed. While encased you cannot move or perform actions."
+		]
 	},
 	"AN73": {
 		"name": "Warcaller’s Bellow",
@@ -10975,7 +10980,7 @@
 	},
 	"AS91": {
 		"name": "AS91",
-		"stats": ["Pathffinder small"]
+		"stats": ["Pathfinder small"]
 	},
 	"AN91": {
 		"name": "Contagious Contamination",
@@ -11027,10 +11032,10 @@
 	},
 	"AN101": {
 		"name": "Weapon Master",
-		"stats": ["Grants 20 Weapon Set Skill Points"]
+		"stats": ["20 Passive Skill Points become Weapon Set Skill Points"]
 	},
 	"AN102": {
-		"name": "Pitless Killer",
+		"name": "Pitiless Killer",
 		"stats": [
 			"Culling Strike",
 			"Culling Strikes kill Normal enemies if their Life is at 30% or below. Magic enemies are instead killed at 20%, Rare at 10% and Unique at 5%. These thresholds are checked before the damage of the Hit is applied."
@@ -11057,7 +11062,7 @@
 	},
 	"AN106": {
 		"name": "Obsessive Rituals",
-		"stats": ["Grants Skills: Sorcery Ward", "50% less Armour and Evasion Rating"]
+		"stats": ["Grants Skill: Sorcery Ward", "50% less Armour and Evasion Rating"]
 	},
 	"AN107": {
 		"name": "Ceremonial Ablution",

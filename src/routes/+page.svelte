@@ -169,7 +169,7 @@
 				tooltipY += -tooltipTopInContainer + 20;
 			}
 
-			if (tooltipRect.x >= containerRect.x) {
+			if (tooltipRect.width >= containerRect.width) {
 				tooltipX = 0;
 			}
 		}
@@ -722,7 +722,7 @@
 					<div
 						bind:this={tooltipEl}
 						class="absolute w-[400px] pointer-events-none"
-						style="left: {tooltipX}px; top: {tooltipY}px; max-width: calc(100%-40px)"
+						style="left: {tooltipX}px; top: {tooltipY}px; max-width: 100svw"
 					>
 						<TreeNodeTooltip node={tooltipNode} />
 					</div>
