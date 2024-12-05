@@ -57,6 +57,9 @@
 	let hideUnselected = false;
 	let hideSmall = false;
 
+	// State for Regex Search toggle
+	let isRegexSearch = false;
+
 	// Reactive statement for search
 	$: handleSearch(searchTerm);
 
@@ -346,14 +349,31 @@
 
 		const search = text.toLowerCase();
 
-		searchResults = Object.entries(nodes)
-			.filter(
-				([_, values]) =>
-					values.id.includes(search) ||
-					values.name.toLowerCase().includes(search) ||
-					values.description.some((value) => value.toLowerCase().includes(search))
-			)
-			.map(([key, _]) => key);
+		if (isRegexSearch) {
+			try {
+				const regex = new RegExp(search);
+				searchResults = Object.entries(nodes)
+					.filter(
+						([_, values]) =>
+							regex.test(values.id) ||
+							regex.test(values.name.toLowerCase()) ||
+							values.description.some((value) => regex.test(value.toLowerCase()))
+					)
+					.map(([key, _]) => key);
+			} catch (error) {
+				console.error('Invalid regular expression:', error);
+				searchResults = [];
+			}
+		} else {
+			searchResults = Object.entries(nodes)
+				.filter(
+					([_, values]) =>
+						values.id.includes(search) ||
+						values.name.toLowerCase().includes(search) ||
+						values.description.some((value) => value.toLowerCase().includes(search))
+				)
+				.map(([key, _]) => key);
+		}
 	}
 
 	function clampPanOffsets() {
@@ -592,6 +612,13 @@
 							</button>
 						{/if}
 					</div>
+						<!-- Regex Search Toggle Button -->
+						<button
+							class="mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+							onclick={() => (isRegexSearch = !isRegexSearch)}
+						>
+							{isRegexSearch ? 'Disable Regex Search' : 'Enable Regex Search'}
+						</button>
 					<span>Found: {searchResults.length}</span>
 					<ul class="block min-h-0 overflow-y-auto">
 						{#each searchResults as nodeId}
