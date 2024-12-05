@@ -302,10 +302,10 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/ryanlee-ei">
-                    <img src="https://avatars.githubusercontent.com/u/72424672?v=4" width="100;" alt="ryanlee-ei"/>
+                <a href="https://github.com/rxl3">
+                    <img src="https://avatars.githubusercontent.com/u/12152266?v=4" width="100;" alt="rxl3"/>
                     <br />
-                    <sub><b>ryanlee-ei</b></sub>
+                    <sub><b>rxl3</b></sub>
                 </a>
             </td>
             <td align="center">
