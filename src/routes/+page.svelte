@@ -1,14 +1,17 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import { type TreeNodeData, loadData } from '$lib';
+	import { type KeywordBlinker, type SkillBlinker, type TreeNodeData, loadData } from '$lib';
 	import { onMount, tick } from 'svelte';
 	import { browser } from '$app/environment';
 	import { Header } from '$lib/components/ui/header';
 	import { TreeNodeTooltip } from '$lib/components/ui/tree-node-tooltip/index.js';
 	import TreeNode from '$lib/components/ui/tree-node/tree-node.svelte';
 	import NodeListItem from '$lib/components/ui/node-list-item/node-list-item.svelte';
+	import KeywordListItem from '$lib/components/ui/node-list-item/keyword-list-item.svelte';
 	import LZString from 'lz-string';
 	import { SaveAndLoadModal } from '$lib/components/save-and-load';
+	import { getKeywordsForNode, getSkillsForNode, mergeDatas } from '$lib/utils';
+	import SkillListItem from '$lib/components/ui/node-list-item/skill-list-item.svelte';
 
 	let { nodes } = loadData();
 
@@ -45,9 +48,12 @@
 
 	// State for selected nodes
 	let selectedNodes: string[] = [];
+	let keywords: KeywordBlinker[] = [];
+	let skills: SkillBlinker[] = [];
 
 	// State for sidebar menu show/hide toggle
-	let sidebarVisable = true;
+	let leftSidebarVisible = true;
+	let rightSidebarVisible = false;
 
 	// State for filters
 	let highlightKeystones = false;
@@ -126,6 +132,26 @@
 		filterSelectedAscendancyNodes
 	];
 
+	$: if (selectedAscendancy !== prevSelectedAscendancy) {
+		// Remove Ascendancy nodes from selectedNodes when changing between ascendancies
+		selectedNodes = selectedNodes.filter((id) => !id.startsWith('A'));
+		prevSelectedAscendancy = selectedAscendancy;
+	}
+
+	$: {
+		selectedNodes = selectedNodes;
+		const nodess = Object.values(nodes).filter((node) => selectedNodes.includes(node.id));
+		keywords = mergeDatas(nodess.map((node) => getKeywordsForNode(node))).map((k) => ({
+			...k,
+			blinking: false
+		}));
+		skills = mergeDatas(nodess.map((node) => getSkillsForNode(node))).map((s) => ({
+			...s,
+			blinking: false
+		}));
+		debugger;
+	}
+
 	// filter nodes using active filters
 	function filterNodes(node: TreeNodeData) {
 		return filterFns.every((filterFn) => filterFn(node));
@@ -175,6 +201,42 @@
 
 			if (tooltipRect.width >= containerRect.width) {
 				tooltipX = 0;
+			}
+		}
+	}
+
+	function handleBlinker(element: string, type: string) {
+		console.log(element, type);
+
+		if (type === 'keyword') {
+			const keyword = keywords.find((k) => k.name === element);
+			if (keyword) {
+				keyword.blinking = true;
+
+				// Reassign the array to trigger reactivity
+				keywords = [...keywords];
+
+				setTimeout(() => {
+					keyword.blinking = false;
+
+					// Reassign again after update
+					keywords = [...keywords];
+				}, 1000);
+			}
+		} else if (type === 'skill') {
+			const skill = skills.find((k) => k.name === element);
+			if (skill) {
+				skill.blinking = true;
+
+				// Reassign the array to trigger reactivity
+				skills = [...skills];
+
+				setTimeout(() => {
+					skill.blinking = false;
+
+					// Reassign again after update
+					skills = [...skills];
+				}, 1000);
 			}
 		}
 	}
@@ -404,17 +466,23 @@
 		selectedNodes = [];
 	}
 
-	function toggleSidebar() {
-		sidebarVisable = !sidebarVisable;
+	function toggleLeftSidebar() {
+		leftSidebarVisible = !leftSidebarVisible;
+	}
+
+	function toggleRightSidebar() {
+		rightSidebarVisible = !rightSidebarVisible;
 	}
 
 	// Add event listeners for global mouse events to handle panning
 	onMount(() => {
 		const checkScreenSize = () => {
 			if (window.innerWidth < 768) {
-				sidebarVisable = false;
+				leftSidebarVisible = false;
+				rightSidebarVisible = false;
 			} else {
-				sidebarVisable = true;
+				leftSidebarVisible = true;
+				rightSidebarVisible = true;
 			}
 		};
 
@@ -506,20 +574,28 @@
 	<Header />
 	<!-- Tree -->
 	<div
-		class={`grid grid-rows-1 ${sidebarVisable ? 'grid-cols-[20rem_1fr]' : 'grid-cols-1'} min-h-0`}
+		class={`grid grid-rows-1 ${
+			leftSidebarVisible && rightSidebarVisible
+				? 'grid-cols-[20rem_1fr_20rem]'
+				: leftSidebarVisible
+					? 'grid-cols-[20rem_1fr]'
+					: rightSidebarVisible
+						? 'grid-cols-[1fr_20rem]'
+						: 'grid-cols-1'
+		} min-h-0`}
 	>
 		<!-- Left Sidebar -->
 		<aside
-			class={`h-full grid grid-cols-1  ${sidebarVisable ? 'bg-[#111]' : 'absolute'} grid-rows-[auto_auto_auto_1fr] gap-2 p-2  min-h-0 z-20`}
+			class={`h-full grid grid-cols-1  ${leftSidebarVisible ? 'bg-[#111]' : 'absolute'} grid-rows-[auto_auto_auto_1fr] gap-2 p-2  min-h-0 z-20`}
 		>
 			<!-- Toggle Button for Aside -->
 			<button
-				class="flex md:hidden z-10 p-2 bg-[#333] text-white rounded-md hover:bg-[#444]"
-				onclick={toggleSidebar}
+				class="flex z-10 p-2 bg-[#333] text-white rounded-md hover:bg-[#444]"
+				onclick={toggleLeftSidebar}
 			>
-				<h2 class="-mt-1 text-2xl">{sidebarVisable ? '<' : '>'}</h2>
+				<h2 class="-mt-1 text-2xl">{leftSidebarVisible ? '<' : '>'}</h2>
 			</button>
-			{#if sidebarVisable}
+			{#if leftSidebarVisible}
 				<!-- Toggleable -->
 				<div class="space-y-4">
 					<div>
@@ -624,7 +700,7 @@
 					<ul class="block min-h-0 overflow-y-auto">
 						{#each searchResults as nodeId}
 							<li>
-								<NodeListItem {nodeId} {nodes} onClick={panToNode} />
+								<NodeListItem {nodeId} {nodes} {handleBlinker} onClick={panToNode} />
 							</li>
 						{/each}
 					</ul>
@@ -649,23 +725,25 @@
 						{#each selectedNodes as nodeId}
 							{#if !nodeId.startsWith('S')}
 								<li>
-									<NodeListItem {nodeId} {nodes} onClick={panToNode} />
+									<NodeListItem {nodeId} {nodes} {handleBlinker} onClick={panToNode} />
 								</li>
 							{/if}
 						{/each}
 					</ul>
 				</div>
+				<!-- Keywords -->
+				<!--<div class="min-h-0 grid grid-cols-1 grid-rows-[auto_auto_auto_1fr]">
+					<b class="underline underline-offset-2">Keywords:</b>
+					<ul class="block min-h-0 overflow-y-auto">
+						{#each keywords as keyword}
+							<li>
+								<KeywordListItem {keyword} {nodes} onClick={panToNode}/>
+							</li>
+						{/each}
+					</ul>
+				</div>-->
 			{/if}
 		</aside>
-		{#if sidebarVisable}
-			<button
-				class="md:hidden fixed h-svh w-svw outline-none border-none z-10"
-				aria-label="collapse sidebar alt"
-				onclick={() => {
-					sidebarVisable = false;
-				}}
-			></button>
-		{/if}
 		<!-- Tree View -->
 		<div class="bg-[#070b0f]">
 			<!-- Skill Tree Container -->
@@ -779,6 +857,43 @@
 				{/if}
 			</div>
 		</div>
+		<!-- Right Sidebar -->
+		<aside
+			class={`h-full grid grid-cols-1 ${rightSidebarVisible ? 'bg-[#111]' : 'absolute right-2'} grid-rows-[auto_auto_auto_1fr] gap-2 p-2 min-h-0 z-20`}
+		>
+			<!-- Toggle Button for Aside -->
+			<button
+				class="flex z-10 p-2 bg-[#333] text-white rounded-md hover:bg-[#444]"
+				onclick={toggleRightSidebar}
+			>
+				<h2 class="-mt-1 text-2xl">{rightSidebarVisible ? '> Details' : '< Details'}</h2>
+			</button>
+			{#if rightSidebarVisible}
+				<!-- Keywords -->
+				<div class="min-h-0 grid grid-cols-1 grid-rows-[auto_auto_auto_1fr]">
+					<b class="underline underline-offset-2">Keywords:</b>
+					<ul class="block min-h-0 overflow-y-auto">
+						{#each keywords as keyword}
+							<li>
+								<KeywordListItem {keyword} {nodes} onClick={panToNode} />
+							</li>
+						{/each}
+					</ul>
+				</div>
+
+				<!-- Keywords -->
+				<div class="min-h-0 grid grid-cols-1 grid-rows-[auto_auto_auto_1fr]">
+					<b class="underline underline-offset-2">Skills:</b>
+					<ul class="block min-h-0 overflow-y-auto">
+						{#each skills as skill}
+							<li>
+								<SkillListItem {skill} {nodes} onClick={panToNode} />
+							</li>
+						{/each}
+					</ul>
+				</div>
+			{/if}
+		</aside>
 	</div>
 
 	<SaveAndLoadModal />
