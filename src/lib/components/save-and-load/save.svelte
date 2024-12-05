@@ -1,11 +1,9 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { writable } from 'svelte/store';
 	import type { SaveData } from './types';
 	import { showModal } from './store.svelte';
 
-	let savedData = writable<SaveData[]>([]);
-
+	let savedData = $state<SaveData[]>([]);
 	let title = $state<string>('');
 	let description = $state<string>('');
 	let ascendancy = $state<string>('');
@@ -14,7 +12,7 @@
 
 	onMount(() => {
 		const data = JSON.parse(localStorage.getItem('savedData') || '[]');
-		savedData.set(data);
+		savedData = data;
 
 		const params = new URLSearchParams(window.location.search);
 		ascendancy = params.get('a') || '';
@@ -25,15 +23,12 @@
 		e.preventDefault();
 
 		const data = { title, description, ascendancy, passivesCompressed };
-		savedData.update((items) => {
-			if (selectedIndex >= 0) {
-				items[selectedIndex] = data;
-			} else {
-				items.push(data);
-			}
-			localStorage.setItem('savedData', JSON.stringify(items));
-			return items;
-		});
+		if (selectedIndex >= 0) {
+			savedData[selectedIndex] = data;
+		} else {
+			savedData = [...savedData, data];
+		}
+		localStorage.setItem('savedData', JSON.stringify(savedData));
 
 		resetForm();
 
@@ -50,6 +45,27 @@
 <div class="p-4 bg-[#1a1a1a] text-white rounded-md">
 	<h2 class="font-bold my-4 text-2xl">Save Build</h2>
 	<form onsubmit={saveData} class="space-y-6">
+		<div>
+			<label for="saveslot" class="text-sm leading-none block">Select Build</label>
+			<select
+				class="text-black mt-4 px-3 rounded-md h-10"
+				id="saveslot"
+				bind:value={selectedIndex}
+				onchange={() => {
+					if (selectedIndex >= 0) {
+						const selectedBuild = savedData[selectedIndex];
+						title = selectedBuild.title;
+						description = selectedBuild.description;
+					}
+				}}
+			>
+				<option value={-1}>New</option>
+				{#each savedData as entry, index}
+					<option value={index}>{entry.title}</option>
+				{/each}
+			</select>
+		</div>
+
 		<div>
 			<label for="title" class="text-sm leading-none">Title</label>
 			<input
