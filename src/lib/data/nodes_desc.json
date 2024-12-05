@@ -10567,7 +10567,14 @@
 	},
 	"AN1": {
 		"name": "Sanguimancy",
-		"stats": ["Grants Skill: Life Remnants", "Skills gain a Base Life Cost equal to Base Mana Cost"]
+		"stats": [
+			"Grants Skill: Life Remnants",
+			"Skills gain a Base Life Cost equal to Base Mana Cost"
+		],
+		"info": [
+			"title:Life Remnants",
+			"Drinks the blood of your enemies to restore your Life. While active, enemies you kill have a chance to spawn a Life Remnant, and Critically Hitting a target spawns a Life Remnant every few seconds. Picking up a Life Remnant grants you Life which can Overflow maximum Life."
+		]
 	},
 	"AN2": {
 		"name": "Crimson Power",
@@ -10657,11 +10664,19 @@
 		"stats": [
 			"Grants Skill: Summon Infernal Hound",
 			"20% of Damage from Hits is taken from your Hellhound's Life before you"
+		],
+		"info": [
+			"title:Summon Infernal Hound",
+			"Summons a Reviving Infernal Hound which Ignites enemies near it. The Hound takes a portion of damage from Hits for you."
 		]
 	},
 	"AN12": {
 		"name": "Demonic Possession",
-		"stats": ["Grants Skill: Demon Form"]
+		"stats": ["Grants Skill: Demon Form"],
+		"info": [
+			"title: Demon Form",
+			"Shapeshift into a demon, vastly boosting the power of your Spells. You gain Demonflame every second you remain in demon form, causing your Life to be lost at an ever-increasing rate. Revert to human form if you reach 1 Life, use a Skill that isn't a Spell, or reactivate this Skill."
+		]
 	},
 	"AN13": {
 		"name": "Pyromantic Pact",
@@ -10719,6 +10734,10 @@
 		"stats": [
 			"Grants Skill: Elemental Storm",
 			"Trigger Elemental Storm on Critical Hit with Spells"
+		],
+		"info": [
+			"title:Elemental Storm",
+			"Creates a stationary Fire, Cold or Lightning storm at a target location for a duration, based on the highest Elemental Damage type for the Hit that Triggered the storm. Hits which do not deal Elemental Damage will not Trigger the storm."
 		]
 	},
 	"AN22": {
@@ -10758,14 +10777,19 @@
 	},
 	"AN29": {
 		"name": "Constant Gale",
-		"stats": [
-			"You have Arcane Surge",
+		"stats": ["You have Arcane Surge"],
+		"info": [
+			"title:Arcane Surge",
 			"Arcane Surge grants 10% more Cast Speed and 20% more Mana Regeneration Rate."
 		]
 	},
 	"AN30": {
 		"name": "Force of Will",
-		"stats": ["1% increased Effect of Arcane Surge on you per 15 maximum Mana"]
+		"stats": ["1% increased Effect of Arcane Surge on you per 15 maximum Mana"],
+		"info": [
+			"title:Arcane Surge",
+			"Arcane Surge grants 10% more Cast Speed and 20% more Mana Regeneration Rate."
+		]
 	},
 	"AS31": {
 		"name": "AS31",
@@ -10773,15 +10797,24 @@
 	},
 	"AN31": {
 		"name": "Footprints in the Sand",
-		"stats": ["Grants Skill: Temporal Rift"]
+		"stats": ["Grants Skill: Temporal Rift"],
+		"info": [
+			"title:Temporal Rift",
+			"Passively leaves afterimages of your recent past. Cast the Spell to return to the oldest afterimage, teleporting to that location and resetting your Life, Mana and Energy Shield to the values they had at the time."
+		]
 	},
 	"AN32": {
 		"name": "Ultimate Command",
-		"stats": ["Grants Skill: Time Freeze"]
+		"stats": ["Grants Skill: Time Freeze"],
+		"info": [
+			"title:Time Freeze",
+			"Releases a large wave that stops time for all affected enemies for a duration. Duration is lower the more times the enemy has had time stopped for them."
+		]
 	},
 	"AN33": {
 		"name": "Unbound Encore",
-		"stats": ["Grants Skill: Time Snap"]
+		"stats": ["Grants Skill: Time Snap"],
+		"info": ["title:Time Snap", "Manipulates time, resetting the cooldowns of your other Skills."]
 	},
 	"AN34": {
 		"name": "Now and Again",
@@ -10809,7 +10842,11 @@
 	},
 	"AN41": {
 		"name": "Faith is a Choice",
-		"stats": ["Grants Skill: Meditate"]
+		"stats": ["Grants Skill: Meditate"],
+		"info": [
+			"title:Meditate",
+			"Channels to Recharge Energy Shield. Can overcharge your Energy Shield up to double its normal maximum. Channeling ends when you take damage or your Energy Shield is double its normal maximum. This skill cannot be used if your Energy Shield is already double its normal maximum or you have no maximum Energy Shield."
+		]
 	},
 	"AN42": {
 		"name": "I am the Blizzard...",
@@ -10827,13 +10864,21 @@
 	},
 	"AN44": {
 		"name": "...and I Shall Rage",
-		"stats": ["Grants Skill: Unbound Avatar"]
+		"stats": ["Grants Skill: Unbound Avatar"],
+		"info": [
+			"title:Unbound Avatar",
+			"Gane Unbound Fury by inflicting Elemental Ailments with Hits on enemies. Once you reach maximum Unbound Fury, consume it to become Unbound for a duration, vastly augmenting your Elemental prowess."
+		]
 	},
 	"AN45": {
 		"name": "...and Scatter Them to the Winds",
 		"stats": [
 			"Grants Skill: Elemental Expression",
 			"Trigger Elemental Expression on Melee Critical Hit"
+		],
+		"info": [
+			"title:Elemental Expression",
+			"Creates a fiery explosion, an arcing bolt of lightning, or an icy wave of projectiles. The chance for an explosion is propertional to your Strength, for a bolt proportional to your Dexterity, and for a wave proportional to your Intelligence."
 		]
 	},
 	"AS51": {
@@ -10854,7 +10899,16 @@
 	},
 	"AN54": {
 		"name": "Waking Dream",
-		"stats": ["Grants Skill: Into the Breach"]
+		"stats": ["Grants Skill: Into the Breach"],
+		"info": [
+			"title:Into the Breach",
+			"Creates a Breach around you, allowing you to see nearby Flames of Chayula. You are considered to be in a Breach while this skill is active.",
+			"title:Flame of Chayula",
+			"Collecting Flames of Chayula grants the following bonuses:",
+			"Red Flames of Chayula Leech 7% of your maximum Life to you",
+			"Blue Flames of Chayula Leech 7% of your maximum Mana to you",
+			"Purple Flames of Chayula provide a stacking Buff granting 7% of Damage as Chaos damage for 5 seconds, and stacks up to 10 times."
+		]
 	},
 	"AN55": {
 		"name": "Grasp of the Void",
@@ -10874,30 +10928,38 @@
 	},
 	"AN63": {
 		"name": "Ancestral Empowerment",
-		"stats": [
-			"Every second Slam Skill you use yourself is Ancestrally Boosted",
+		"stats": ["Every second Slam Skill you use yourself is Ancestrally Boosted"],
+		"info": [
+			"title:Ancestral Boost",
 			"An Ancestrally Boosted Slam has 20% more damage and area of effect."
 		]
 	},
 	"AN64": {
 		"name": "Earthbreaker",
-		"stats": [
-			"20% chance for Slam Skills you use yourself to cause Aftershocks",
+		"stats": ["20% chance for Slam Skills you use yourself to cause Aftershocks"],
+		"info": [
+			"title:Aftershocks",
 			"Aftershocks are bursts of area damage that occur after the initial impact of the skill causing them. If not otherwise specified, the Aftershock will deal the same damage as the initial impact, in the same area."
 		]
 	},
 	"AN65": {
 		"name": "Crushing Impacts",
-		"stats": [
-			"Your Hits are Crushing Blows",
-			"Crushing Blows cause a Heavy Stun on enemies that are Primed for Stun."
+		"stats": ["Your Hits are Crushing Blows"],
+		"info": [
+			"title:Crushing Blows",
+			"Crushing Blows cause a Heavy Stun on enemies that are Primed for Stun.",
+			"title:Primed for Stun",
+			"Normal enemies are Primed for Stun when they have at least 40% Heavy Stun buildup. Magic enemies are instead Primed at 60% buildup, Rare at 70%, and Unique at 80%."
 		]
 	},
 	"AN66": {
 		"name": "Surprising Strength",
-		"stats": [
-			"40% more Damage against Heavy Stunned Enemies",
-			"Heavy Stunned enemies cannot act and count as Immobilised. Physical and Melee Damage each cause 50% more Heavy Stun buildup, which is multiplicative with each other."
+		"stats": ["40% more Damage against Heavy Stunned Enemies"],
+		"info": [
+			"title:Heavy Stun",
+			"Hitting an enemy builds towards a Heavy Stun based on the damage dealt. Different enemies have different Heavy Stun thresholds and durations, with very large monsters having a high Heavy Stun Threshold. Players cannot be Heavy Stunned.",
+			"While an enemy is Heavy Stunned, they cannot act and count as Immobilised.",
+			"Physical and Melee Damage each cause 50% more Heavy Stun buildup. These bonuses are multiplicative with each other."
 		]
 	},
 	"AS71": {
@@ -10909,11 +10971,19 @@
 		"stats": [
 			"Grants Skill: Ancestral Spirits",
 			"Trigger Ancestral Spirits when you Summon a Totem"
+		],
+		"info": [
+			"title:Ancestral Spirits",
+			"Each of your Totems will summon an Ancestral Spirit Minion to fight for you. If the Totem that summoned the Minion dies then the Ancestral Spirit will too."
 		]
 	},
 	"AN72": {
 		"name": "Jade Heritage",
-		"stats": ["Grants Skill: Encased in Jade", "Gain a stack of Jade every second"]
+		"stats": ["Grants Skill: Encased in Jade", "Gain a stack of Jade every second"],
+		"info": [
+			"title:Encase in Jade",
+			"Consumes all stacks of Jade to grant a Buff for a duration that absorbs all Damage from Hits, up to a maximum based on the amount of Jade consumed. While encased you cannot move or perform actions."
+		]
 	},
 	"AN73": {
 		"name": "Warcaller’s Bellow",
@@ -10939,9 +11009,9 @@
 	},
 	"AN83": {
 		"name": "Gathering Winds",
-		"stats": [
-			"Gain Tailwind on Skill use",
-			"Lose all Tailwind when Hit",
+		"stats": ["Gain Tailwind on Skill use", "Lose all Tailwind when Hit"],
+		"info": [
+			"title:Tailwind",
 			"Tailwind is a stacking Buff which grants 1% increased Movement Speed, 3% increased Skill Speed, and 15% increased Evasion Rating per stack for 10 seconds, refreshing whenever you gain another stack. Maximum 10 stacks."
 		]
 	},
@@ -10975,7 +11045,7 @@
 	},
 	"AS91": {
 		"name": "AS91",
-		"stats": ["Pathffinder small"]
+		"stats": ["Pathfinder small"]
 	},
 	"AN91": {
 		"name": "Contagious Contamination",
@@ -11027,19 +11097,22 @@
 	},
 	"AN101": {
 		"name": "Weapon Master",
-		"stats": ["Grants 20 Weapon Set Skill Points"]
+		"stats": ["20 Passive Skill Points become Weapon Set Skill Points"]
 	},
 	"AN102": {
-		"name": "Pitless Killer",
-		"stats": [
-			"Culling Strike",
+		"name": "Pitiless Killer",
+		"stats": ["Culling Strike"],
+		"info": [
+			"title:Culling Strike",
 			"Culling Strikes kill Normal enemies if their Life is at 30% or below. Magic enemies are instead killed at 20%, Rare at 10% and Unique at 5%. These thresholds are checked before the damage of the Hit is applied."
 		]
 	},
 	"AN103": {
-		"name": "Decimating Strike",
-		"stats": [
-			"Hits against Full Life Enemies remove between 5% and 30% of Life, before the damage of the Hit is applied"
+		"name": "Judge, Jury, and Executioner",
+		"stats": ["Decimating Strike"],
+		"info": [
+			"title:Decimating Strike",
+			"Hits against Full Life Enemies remove between 5% and 30% of Life, before the damage of the Hit is applied."
 		]
 	},
 	"AN104": {
@@ -11047,17 +11120,28 @@
 		"stats": [
 			"Enemies have Maximum Concentration equal to 40% of their Maximum Life",
 			"Break enemy Concentration on Hit equal to 100% of Damage Dealt",
-			"Enemies regain 10% of Concentration every second if they haven't lost Concentration in the past 5 seconds",
+			"Enemies regain 10% of Concentration every second if they haven't lost Concentration in the past 5 seconds"
+		],
+		"info": [
+			"title:Concentration",
 			"Enemies have less Cooldown Recovery Rate the lower their Concentration, scaling down to 50% less Cooldown Recovery Rate when Concentration is 0%."
 		]
 	},
 	"AN105": {
 		"name": "No Mercy",
-		"stats": ["Deal up to 30% more Damage to Enemies based on their missing Concentration"]
+		"stats": ["Deal up to 30% more Damage to Enemies based on their missing Concentration"],
+		"info": [
+			"title:Concentration",
+			"Enemies have less Cooldown Recovery Rate the lower their Concentration, scaling down to 50% less Cooldown Recovery Rate when Concentration is 0%."
+		]
 	},
 	"AN106": {
 		"name": "Obsessive Rituals",
-		"stats": ["Grants Skills: Sorcery Ward", "50% less Armour and Evasion Rating"]
+		"stats": ["Grants Skill: Sorcery Ward", "50% less Armour and Evasion Rating"],
+		"info": [
+			"title:Sorcery Ward",
+			"Passively manifests a protective barrier which takes Elemental Damage from Hits for you until depleted. The barrier instantly recharges to its full value after a short time after it stops taking damage or is fully depleted."
+		]
 	},
 	"AN107": {
 		"name": "Ceremonial Ablution",
@@ -11116,7 +11200,14 @@
 	},
 	"AN119": {
 		"name": "Lucid Dreaming",
-		"stats": ["Effect and Duration of Flames of Chayula on You is Double"]
+		"stats": ["Effect and Duration of Flames of Chayula on You is Double"],
+		"info": [
+			"title:Flame of Chayula",
+			"Collecting Flames of Chayula grants the following bonuses:",
+			"Red Flames of Chayula Leech 7% of your maximum Life to you",
+			"Blue Flames of Chayula Leech 7% of your maximum Mana to you",
+			"Purple Flames of Chayula provide a stacking Buff granting 7% of Damage as Chaos damage for 5 seconds, and stacks up to 10 times."
+		]
 	},
 	"AN120": {
 		"name": "Embrace the Darkness",

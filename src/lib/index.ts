@@ -21,6 +21,7 @@ export interface TreeNodeData {
 	name: string;
 	class: string;
 	description: string[];
+	extraInfo: string[];
 }
 
 export interface NodeMap {
@@ -47,7 +48,7 @@ export function loadData(): TreeData {
 			return acc;
 		}
 
-		const { name, stats: description } = (nodeData as NodeDataJSON)[node.id];
+		const { name, stats: description, info } = (nodeData as NodeDataJSON)[node.id];
 
 		return {
 			...acc,
@@ -60,7 +61,8 @@ export function loadData(): TreeData {
 				position: {
 					x: node.x,
 					y: node.y
-				}
+				},
+				extraInfo: info
 			}
 		};
 	}, {}) as NodeMap;
