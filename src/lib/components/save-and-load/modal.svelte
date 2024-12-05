@@ -29,7 +29,7 @@
 			dialog.close();
 		}
 	}}
-	class="rounded-md shadow-lg w-2/3"
+	class="rounded-md shadow-lg w-2/3 lg:w-1/3"
 >
 	{#if $modalAction === 'save'}
 		<Save />
