@@ -638,7 +638,7 @@
 			></button>
 		{/if}
 		<!-- Tree View -->
-		<div class="bg-black">
+		<div class="bg-[#070b0f]">
 			<!-- Skill Tree Container -->
 			<!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
 			<div
@@ -721,10 +721,31 @@
 					<!-- Tooltip wrapper for absolute position -->
 					<div
 						bind:this={tooltipEl}
-						class="absolute w-[400px] pointer-events-none"
+						class="absolute pointer-events-none flex flex-wrap gap-4"
 						style="left: {tooltipX}px; top: {tooltipY}px; max-width: 100svw"
 					>
 						<TreeNodeTooltip node={tooltipNode} />
+						{#if tooltipNode.extraInfo && tooltipNode.extraInfo.length > 0}
+							<div
+								class="bg-[#0f0f0f] w-[400px] border-2 border-[#595343] p-[10px] text-[#c3b58a] grid gap-2"
+								style="font-family: 'Fontin', sans-serif"
+							>
+								{#each tooltipNode.extraInfo as infoLine}
+									{#if infoLine.startsWith('title:')}
+										<h2
+											class="text-center text-xl text-[#f0e4c2]"
+											style="font-family: 'Fontin SmallCaps', sans-serif"
+										>
+											{infoLine.split('title:')[1]}
+										</h2>
+									{:else}
+										<p>
+											{infoLine}
+										</p>
+									{/if}
+								{/each}
+							</div>
+						{/if}
 					</div>
 				{/if}
 			</div>
