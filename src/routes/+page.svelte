@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import { type TreeNodeData, loadData } from '$lib';
-	import { afterUpdate, onDestroy, onMount, tick } from 'svelte';
+	import { onMount, tick } from 'svelte';
 	import { browser } from '$app/environment';
 	import { Header } from '$lib/components/ui/header';
 	import { TreeNodeTooltip } from '$lib/components/ui/tree-node-tooltip/index.js';
@@ -9,7 +9,6 @@
 	import NodeListItem from '$lib/components/ui/node-list-item/node-list-item.svelte';
 	import LZString from 'lz-string';
 	import { SaveAndLoadModal } from '$lib/components/save-and-load';
-	import { afterNavigate } from '$app/navigation';
 
 	let { nodes } = loadData();
 
