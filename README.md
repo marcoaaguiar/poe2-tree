@@ -251,6 +251,13 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
 		</tr>
 		<tr>
             <td align="center">
+                <a href="https://github.com/PedroSoutoDev">
+                    <img src="https://avatars.githubusercontent.com/u/28992463?v=4" width="100;" alt="PedroSoutoDev"/>
+                    <br />
+                    <sub><b>Pedro Souto</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/wow-thats-amazing">
                     <img src="https://avatars.githubusercontent.com/u/190570153?v=4" width="100;" alt="wow-thats-amazing"/>
                     <br />
@@ -285,6 +292,8 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                     <sub><b>Kai</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/Xeko-92">
                     <img src="https://avatars.githubusercontent.com/u/123136614?v=4" width="100;" alt="Xeko-92"/>
@@ -292,8 +301,6 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                     <sub><b>Xeko</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/tungchui">
                     <img src="https://avatars.githubusercontent.com/u/15983523?v=4" width="100;" alt="tungchui"/>
@@ -329,6 +336,8 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                     <sub><b>Michael Chan</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/Trifall">
                     <img src="https://avatars.githubusercontent.com/u/13270623?v=4" width="100;" alt="Trifall"/>
@@ -336,8 +345,6 @@ The UI/UX is quite basic and can be improved in many ways, if you have any ideas
                     <sub><b>Jerren T</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/JaredRabie">
                     <img src="https://avatars.githubusercontent.com/u/20741149?v=4" width="100;" alt="JaredRabie"/>
