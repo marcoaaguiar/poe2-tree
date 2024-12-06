@@ -37,7 +37,8 @@
 
 			// TODO: switch to sveltekit's goto when +page.svelte is switched to runes.
 			// To many issues without runes and $effect.
-			window.location.href = `/?${params.toString()}`;
+			const baseUrl = `${window.location.origin}${window.location.pathname}`;
+			window.location.href = `${baseUrl}?${params.toString()}`;
 		}
 	}
 </script>
