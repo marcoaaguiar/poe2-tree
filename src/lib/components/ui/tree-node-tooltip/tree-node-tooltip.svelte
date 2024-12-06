@@ -1,11 +1,16 @@
 <script lang="ts">
 	import type { TreeNodeData } from '$lib';
 	import { base } from '$app/paths';
+	import { sanitizeString } from '$lib/utils';
 
 	let {
-		node
+		node,
+		showKeywordDetails,
+		showSkillDetails
 	}: {
 		node: TreeNodeData;
+		showKeywordDetails: Boolean;
+		showSkillDetails: Boolean;
 	} = $props();
 </script>
 
@@ -26,7 +31,7 @@
 	<div class="p-4 pb-2 space-y-2">
 		<div class="grid">
 			{#each node.description as description}
-				<p class="m-0 font-light text-[#7d7aad]">{@html description}</p>
+				<p class="m-0 font-light text-[#9090ff]">{@html sanitizeString(description)}</p>
 			{/each}
 		</div>
 		<footer class="italic">
@@ -34,58 +39,35 @@
 		</footer>
 	</div>
 </div>
-{#if node.skills}
+{#if showSkillDetails && node.skills}
 	{#each node.skills as skill}
-		<div class="flex flex-col bg-black z-[1000] rounded-xl opacity-90 shadow-2xl">
-			<header class="relative text-2xl aspect-[999/131] rounded-xl" style="">
-				<img src="{base}/tooltip-header.png" alt="header" />
-				<div class="absolute inset-0 bg-cyan-500 mix-blend-color pointer-events-none"></div>
-				<h1
-					class="whitespace-nowrap absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-cyan-200"
-				>
-					Skill: {skill.name}
-					<span class="text-cyan-200 text-sm font-medium">{skill.type}</span>
+		<div
+			class="hidden md:grid bg-[#0f0f0f] w-[400px] border-2 border-[#595343] p-[10px] text-cyan-200 gap-2"
+			style="font-family: 'Fontin', sans-serif"
+		>
+			<header class="relative text-2xl rounded-xl grid items-center" style="">
+				<h1 class="whitespace-nowrap relative z-20 text-center px-12">
+					{skill.name} <span class="text-cyan-200 text-sm font-medium"></span>
 				</h1>
 			</header>
-			<div class="p-4 pb-2 space-y-2">
-				<div>
-					{#each skill.description as description}
-						{#if skill}
-							<p class="m-0 font-light text-[#7d7aad]">{@html description}</p>
-						{:else}
-							<p class="m-0 font-light text-[#7d7aad]">{@html description}</p>
-						{/if}
-					{/each}
-				</div>
-				<footer class="italic">
-					<span class="text-[#888] text-xs float-right">{node.id}</span>
-				</footer>
-			</div>
+
+			<p class="m-0 font-light text-[#7d7aad]">{@html sanitizeString(skill.description)}</p>
 		</div>
 	{/each}
 {/if}
-{#if node.keywords}
+{#if showKeywordDetails && node.keywords}
 	{#each node.keywords as keyword}
-		<div class="flex flex-col bg-black z-[1000] rounded-xl opacity-90 shadow-2xl">
-			<header class="relative text-2xl aspect-[999/131] rounded-xl" style="">
-				<img src="{base}/tooltip-header.png" alt="header" />
-				<div class="absolute inset-0 bg-orange-500 mix-blend-color pointer-events-none"></div>
-				<h1
-					class="whitespace-nowrap absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-orange-200"
-				>
-					{keyword.name}
+		<div
+			class="hidden md:grid bg-[#0f0f0f] w-[400px] border-2 border-[#595343] p-[10px] text-orange-200 gap-2"
+			style="font-family: 'Fontin', sans-serif"
+		>
+			<header class="relative text-2xl rounded-xl grid items-center" style="">
+				<h1 class="whitespace-nowrap relative z-20 text-center px-12">
+					{keyword.name} <span class="text-orange-200 text-sm font-medium"></span>
 				</h1>
 			</header>
-			<div class="p-4 pb-2 space-y-2">
-				<div>
-					{#each keyword.description as description}
-						<p class="m-0 font-light text-[#7d7aad]">{description}</p>
-					{/each}
-				</div>
-				<footer class="italic">
-					<span class="text-[#888] text-xs float-right">{node.id}</span>
-				</footer>
-			</div>
+
+			<p class="m-0 font-light text-[#7d7aad]">{@html sanitizeString(keyword.description)}</p>
 		</div>
 	{/each}
 {/if}

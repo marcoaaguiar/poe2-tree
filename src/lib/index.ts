@@ -3,9 +3,11 @@ import nodePositions from '$lib/data/nodes.json';
 import nodeData from '$lib/data/nodes_desc.json';
 import {
 	getKeywordsForDescription,
+	getSkillsAndKeywords,
 	getSkillsForDescription,
 	highlightKeywords,
-	highlightSkills
+	highlightSkills,
+	mergeDatas
 } from './utils';
 
 interface NodeDataJSON {
@@ -24,14 +26,16 @@ export interface NodePosition {
 export interface Skill {
 	name: string;
 	type: string;
-	description: string[];
+	description: string;
+	stats: string[];
 	nodes: string[];
 	icon?: string;
 }
 
 export interface Keyword {
 	name: string;
-	description: string[];
+	description: string;
+	stats: string[];
 	nodes: string[];
 }
 
@@ -42,7 +46,6 @@ export interface TreeNodeData {
 	name: string;
 	class: string;
 	description: string[];
-	extraInfo: string[];
 	skills: Skill[];
 	keywords: Keyword[];
 }
@@ -63,13 +66,6 @@ export interface TreeData {
 	nodes: NodeMap;
 }
 
-export interface Blinker {
-	blinking: Boolean;
-}
-
-export interface KeywordBlinker extends Keyword, Blinker {}
-export interface SkillBlinker extends Skill, Blinker {}
-
 // massage our 2 data sources into a single map of nodes to simplify our usage.
 export function loadData(): TreeData {
 	const flattenedNodePositions = [
@@ -86,17 +82,20 @@ export function loadData(): TreeData {
 			return acc;
 		}
 
-		let { name, stats: description, info } = (nodeData as NodeDataJSON)[node.id];
+		let { name, stats: description } = (nodeData as NodeDataJSON)[node.id];
 
-		const keywords = getKeywordsForDescription(description, node.id);
-
-		const skills = getSkillsForDescription(description, node.id);
-
-		description = description.map((d) => {
-			const skills = highlightSkills(d);
-			const keyword = highlightKeywords(d);
-			return highlightKeywords(highlightSkills(d));
-		});
+		// process NodeData, extract skills and keywords from description
+		let { keywords, skills } = getSkillsAndKeywords(description, node.id);
+		// highlight skills and keywords in the description texts
+		description = description.map((d) => highlightKeywords(highlightSkills(d)));
+		skills = skills.map((s) => ({
+			...s,
+			description: highlightKeywords(highlightSkills(s.stats.join(' ')))
+		}));
+		keywords = keywords.map((k) => ({
+			...k,
+			description: highlightKeywords(highlightSkills(k.stats.join(' ')))
+		}));
 
 		return {
 			...acc,
@@ -111,8 +110,7 @@ export function loadData(): TreeData {
 				position: {
 					x: node.x,
 					y: node.y
-				},
-				extraInfo: info
+				}
 			}
 		};
 	}, {}) as NodeMap;

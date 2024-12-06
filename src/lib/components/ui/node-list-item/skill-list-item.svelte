@@ -1,7 +1,8 @@
 <script lang="ts">
-	import type { SkillBlinker } from '$lib';
+	import type { Skill } from '$lib';
+	import { sanitizeString } from '$lib/utils';
 
-	export let skill: SkillBlinker;
+	export let skill: Skill;
 	export let nodes: Record<
 		string,
 		{
@@ -25,12 +26,8 @@
 	}
 </script>
 
-<strong class={`text-green-100 ${skill.blinking ? 'blink' : ''}`}>{skill.name}</strong>
-<ul>
-	{#each skill.description as description}
-		<li class="text-sm text-[#7d7aad]">{description}</li>
-	{/each}
-</ul>
+<strong class="text-green-100">{skill.name}</strong>
+<p class="text-sm text-[#7d7aad]">{@html sanitizeString(skill.description)}</p>
 From:
 {#each skill.nodes as nodeId}
 	<button
@@ -43,18 +40,3 @@ From:
 		{nodes[nodeId].name}
 	</button>
 {/each}
-
-<style>
-	.blink {
-		animation: blink-animation 0.5s ease-in-out infinite alternate;
-	}
-
-	@keyframes blink-animation {
-		from {
-			opacity: 1;
-		}
-		to {
-			opacity: 0.3;
-		}
-	}
-</style>

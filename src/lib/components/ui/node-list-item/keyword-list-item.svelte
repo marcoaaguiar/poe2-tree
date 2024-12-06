@@ -1,7 +1,8 @@
 <script lang="ts">
-	import type { KeywordBlinker } from '$lib';
+	import type { Keyword } from '$lib';
+	import { sanitizeString } from '$lib/utils';
 
-	export let keyword: KeywordBlinker;
+	export let keyword: Keyword;
 	export let nodes: Record<
 		string,
 		{
@@ -25,12 +26,8 @@
 	}
 </script>
 
-<strong class="text-orange-100" class:blink={keyword.blinking}>{keyword.name}</strong>
-<ul>
-	{#each keyword.description as description}
-		<li class="text-sm text-[#7d7aad]">{description}</li>
-	{/each}
-</ul>
+<strong class="text-orange-100">{keyword.name}</strong>
+<p class="text-sm text-[#7d7aad]">{@html sanitizeString(keyword.description)}</p>
 From:
 {#each keyword.nodes as nodeId}
 	<button
@@ -43,18 +40,3 @@ From:
 		{nodes[nodeId].name}
 	</button>
 {/each}
-
-<style>
-	.blink {
-		animation: blink-animation 0.5s ease-in-out infinite alternate;
-	}
-
-	@keyframes blink-animation {
-		from {
-			opacity: 1;
-		}
-		to {
-			opacity: 0.3;
-		}
-	}
-</style>

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import { type KeywordBlinker, type SkillBlinker, type TreeNodeData, loadData } from '$lib';
+	import { type Keyword, type Skill, type TreeNodeData, loadData } from '$lib';
 	import { onMount, tick } from 'svelte';
 	import { browser } from '$app/environment';
 	import { Header } from '$lib/components/ui/header';
@@ -10,7 +10,7 @@
 	import KeywordListItem from '$lib/components/ui/node-list-item/keyword-list-item.svelte';
 	import LZString from 'lz-string';
 	import { SaveAndLoadModal } from '$lib/components/save-and-load';
-	import { getKeywordsForNode, getSkillsForNode, mergeDatas } from '$lib/utils';
+	import { mergeDatas } from '$lib/utils';
 	import SkillListItem from '$lib/components/ui/node-list-item/skill-list-item.svelte';
 
 	let { nodes } = loadData();
@@ -48,12 +48,16 @@
 
 	// State for selected nodes
 	let selectedNodes: string[] = [];
-	let keywords: KeywordBlinker[] = [];
-	let skills: SkillBlinker[] = [];
+	let keywords: Keyword[] = [];
+	let skills: Skill[] = [];
 
 	// State for sidebar menu show/hide toggle
 	let leftSidebarVisible = true;
 	let rightSidebarVisible = false;
+
+	// State for tooltip details
+	let showKeywordDetails = false;
+	let showSkillDetails = true;
 
 	// State for filters
 	let highlightKeystones = false;
@@ -139,17 +143,15 @@
 	}
 
 	$: {
-		selectedNodes = selectedNodes;
+		// find selected keywords and skills from selectedNodes
 		const nodess = Object.values(nodes).filter((node) => selectedNodes.includes(node.id));
-		keywords = mergeDatas(nodess.map((node) => getKeywordsForNode(node))).map((k) => ({
-			...k,
-			blinking: false
-		}));
-		skills = mergeDatas(nodess.map((node) => getSkillsForNode(node))).map((s) => ({
-			...s,
-			blinking: false
-		}));
-		debugger;
+
+		keywords = nodess
+			.reduce((keywords: Keyword[], n) => mergeDatas([...keywords, ...n.keywords]), [])
+			.map((k) => ({ ...k, blinking: false }));
+		skills = nodess
+			.reduce((k, n) => [...k, ...(n.skills || [])], [] as Skill[])
+			.map((k) => ({ ...k, blinking: false }));
 	}
 
 	// filter nodes using active filters
@@ -201,42 +203,6 @@
 
 			if (tooltipRect.width >= containerRect.width) {
 				tooltipX = 0;
-			}
-		}
-	}
-
-	function handleBlinker(element: string, type: string) {
-		console.log(element, type);
-
-		if (type === 'keyword') {
-			const keyword = keywords.find((k) => k.name === element);
-			if (keyword) {
-				keyword.blinking = true;
-
-				// Reassign the array to trigger reactivity
-				keywords = [...keywords];
-
-				setTimeout(() => {
-					keyword.blinking = false;
-
-					// Reassign again after update
-					keywords = [...keywords];
-				}, 1000);
-			}
-		} else if (type === 'skill') {
-			const skill = skills.find((k) => k.name === element);
-			if (skill) {
-				skill.blinking = true;
-
-				// Reassign the array to trigger reactivity
-				skills = [...skills];
-
-				setTimeout(() => {
-					skill.blinking = false;
-
-					// Reassign again after update
-					skills = [...skills];
-				}, 1000);
 			}
 		}
 	}
@@ -656,6 +622,19 @@
 							</label>
 						</div>
 					</div>
+					<div>
+						<b class="block underline underline-offset-2">Tooltips:</b>
+						<div class="flex flex-row gap-2 flex-wrap">
+							<label class="whitespace-nowrap">
+								<input type="checkbox" bind:checked={showKeywordDetails} />
+								<span>Keyword Details</span>
+							</label>
+							<label class="whitespace-nowrap">
+								<input type="checkbox" bind:checked={showSkillDetails} />
+								<span>Skill Details</span>
+							</label>
+						</div>
+					</div>
 				</div>
 				<!-- Search -->
 				<div class="min-h-0 grid grid-cols-1 grid-rows-[auto_auto_auto_1fr]">
@@ -700,7 +679,7 @@
 					<ul class="block min-h-0 overflow-y-auto">
 						{#each searchResults as nodeId}
 							<li>
-								<NodeListItem {nodeId} {nodes} {handleBlinker} onClick={panToNode} />
+								<NodeListItem {nodeId} {nodes} onClick={panToNode} />
 							</li>
 						{/each}
 					</ul>
@@ -725,7 +704,7 @@
 						{#each selectedNodes as nodeId}
 							{#if !nodeId.startsWith('S')}
 								<li>
-									<NodeListItem {nodeId} {nodes} {handleBlinker} onClick={panToNode} />
+									<NodeListItem {nodeId} {nodes} onClick={panToNode} />
 								</li>
 							{/if}
 						{/each}
@@ -831,28 +810,7 @@
 						class="absolute pointer-events-none flex flex-wrap gap-4"
 						style="left: {tooltipX}px; top: {tooltipY}px; max-width: 100svw"
 					>
-						<TreeNodeTooltip node={tooltipNode} />
-						{#if tooltipNode.extraInfo && tooltipNode.extraInfo.length > 0}
-							<div
-								class="bg-[#0f0f0f] w-[400px] border-2 border-[#595343] p-[10px] text-[#c3b58a] grid gap-2"
-								style="font-family: 'Fontin', sans-serif"
-							>
-								{#each tooltipNode.extraInfo as infoLine}
-									{#if infoLine.startsWith('title:')}
-										<h2
-											class="text-center text-xl text-[#f0e4c2]"
-											style="font-family: 'Fontin SmallCaps', sans-serif"
-										>
-											{infoLine.split('title:')[1]}
-										</h2>
-									{:else}
-										<p>
-											{infoLine}
-										</p>
-									{/if}
-								{/each}
-							</div>
-						{/if}
+						<TreeNodeTooltip node={tooltipNode} {showKeywordDetails} {showSkillDetails} />
 					</div>
 				{/if}
 			</div>
