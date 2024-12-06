@@ -10672,7 +10672,13 @@
 	},
 	"AN12": {
 		"name": "Demonic Possession",
-		"stats": ["Grants Skill: Demon Form"],
+		"stats": [
+			"Grants Skill: Demon Form",
+			"16% increased Cast Speed while in Demon Form",
+			"+4 to Level of all Spell Skills while in Demon Form",
+			"Lose 1% of Life per second per Demonflame",
+			"Deal 10% increased Spell damage per Demonflame"
+		],
 		"info": [
 			"title: Demon Form",
 			"Shapeshift into a demon, vastly boosting the power of your Spells. You gain Demonflame every second you remain in demon form, causing your Life to be lost at an ever-increasing rate. Revert to human form if you reach 1 Life, use a Skill that isn't a Spell, or reactivate this Skill."
