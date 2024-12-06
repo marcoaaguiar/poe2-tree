@@ -1,0 +1,115 @@
+{
+	"Culling Strike": {
+		"name": "Culling Strike",
+		"stats": [
+			"Culling Strikes kill Normal enemies if their life is at 30% or below.",
+			"Magic enemies are instead killed at 20%, Rare at 10% and Unique at 5%.",
+			"These thresholds are checked before the damage of the Hit is applied."
+		],
+		"nodes": []
+	},
+	"Decimating Strike": {
+		"name": "Decimating Strike",
+		"stats": [
+			"Hits against Full Life Enemies remove between 5% and 30% of Life, before the damage of the Hit is applied."
+		],
+		"nodes": []
+	},
+	"Concentration": {
+		"name": "Concentration",
+		"stats": [
+			"Enemies have less Cooldown Recovery Rate the lower their Concentration, scaling down to 50% less Cooldown Recovery Rate when Concentration is 0%."
+		],
+		"nodes": []
+	},
+	"Global Defences": {
+		"name": "Global Defences",
+		"stats": ["Global Defences refers to Armour, Evasion rating, Energy Shield, and Ward."],
+		"nodes": []
+	},
+	"Armour": {
+		"name": "Armour",
+		"stats": ["Armour is a form of defence that mitigates incoming physical damage from hits."],
+		"nodes": []
+	},
+	"Ancestrally Boosted": {
+		"name": "Ancestral Boost",
+		"stats": ["An Ancestrally Boosted Skill has 20% more damage and area of effect."]
+	},
+	"Ancestral Boost": {
+		"name": "Ancestral Boost",
+		"stats": ["An Ancestrally Boosted Skill has 20% more damage and area of effect."]
+	},
+	"Aftershocks": {
+		"name": "Aftershocks",
+		"stats": [
+			"Aftershocks are bursts of area damage that occur after the initial impact of the skill causing them.",
+			"If not otherwise specified, the Aftershock will deal the same damage as the initial impact, in the same area."
+		]
+	},
+	"Crushing Blows": {
+		"name": "Crushing Blows",
+		"stats": ["Crushing Blows cause a Heavy Stun on enemies that are Primed for Stun."]
+	},
+	"Primed for Stun": {
+		"name": "Primed for Stun",
+		"stats": [
+			"Normal enemies are Primed for Stun when they have at least 40% Heavy Stun buildup.",
+			"Magic enemies are instead Primed at 60% buildup, Rare at 70%, and Unique at 80%."
+		]
+	},
+	"Heavy Stun": {
+		"name": "Heavy Stun",
+		"stats": [
+			"Hitting an enemy builds towards a Heavy Stun based on the damage dealt.",
+			"Different enemies have different Heavy Stun thresholds and durations, with very large monsters having a high Heavy Stun Threshold.",
+			"Players cannot be Heavy Stunned.",
+			"While an enemy is Heavy Stunned, they cannot act and count as Immobilised",
+			"Physical damage and Melee Damage each cause 50% more Heavy Stun buildup.",
+			"These bonuses are multiplicative with each other."
+		]
+	},
+	"Heavy Stunned": {
+		"name": "Heavy Stun",
+		"stats": [
+			"Hitting an enemy builds towards a Heavy Stun based on the damage dealt.",
+			"Different enemies have different Heavy Stun thresholds and durations, with very large monsters having a high Heavy Stun Threshold.",
+			"Players cannot be Heavy Stunned.",
+			"While an enemy is Heavy Stunned, they cannot act and count as Immobilised",
+			"Physical damage and Melee Damage each cause 50% more Heavy Stun buildup.",
+			"These bonuses are multiplicative with each other."
+		]
+	},
+	"Arcane Surge": {
+		"name": "Arcane Surge",
+		"stats": ["Arcane Surge grants 10% more Cast Speed and 20% more Mana Regeneration Rate."]
+	},
+	"Tailwind": {
+		"name": "Tailwind",
+		"stats": [
+			"Tailwind is a stacking Buff which grants 1% increased movement speed, 3% increased Skill Speed and 15% increased Evasion Rating per stack for 10 seconds, refreshing whenever you gain another stack.",
+			"Maximum 10 stacks."
+		]
+	},
+	"Far Shot": {
+		"name": "Far Shot",
+		"stats": [
+			"Projectile deal 0% more Hits Damage to targets in the first 3.5 metres of their movement, scaling up with distance travelled to reach 20% after 7 meters."
+		]
+	},
+	"Point Blank": {
+		"name": "Point Blank",
+		"stats": [
+			"Projectile deal 20% more Hits Damage to targets in the first 3.5 metres of their movement, scaling down with distance travelled to reach 0% after 7 meters."
+		]
+	},
+	"Flames of Chayula": {
+		"name": "Flames of Chayula",
+		"stats": [
+			"Collecting Flames of Chayula grants the following bonuses:",
+			"<p>Red Flames of Chayula Leech 7% of your maximum Life to you</p>",
+			"<p>Blue Flames of Chayula Leech 7% of your maximum Mana to you</p>",
+			"<p>Purple Flames of Chayula provide a stacking Buff granting 7% of damage as Chaos damage for 5 seconds, and stacks up to 10 times.</p>"
+		]
+	}
+}

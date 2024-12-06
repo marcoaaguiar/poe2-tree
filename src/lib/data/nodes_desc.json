@@ -9,7 +9,10 @@
 	},
 	"K3": {
 		"name": "Eldritch Battery",
-		"stats": ["Converts all Energy Shield to Mana", "(Confirmed to not be this in EA but still present in CBT)"]
+		"stats": [
+			"Converts all Energy Shield to Mana",
+			"(Confirmed to not be this in EA but still present in CBT)"
+		]
 	},
 	"K4": {
 		"name": "Chaos Inoculation",
@@ -123,7 +126,9 @@
 	},
 	"K25": {
 		"name": "Dance with death",
-		"stats": ["25% more Skill speed while Off Hand is empty and you have a One-Handed Martial Weapon equipped in your Main Hand"]
+		"stats": [
+			"25% more Skill speed while Off Hand is empty and you have a One-Handed Martial Weapon equipped in your Main Hand"
+		]
 	},
 	"N1": {
 		"name": "Pure Power",
@@ -155,7 +160,10 @@
 	},
 	"N8": {
 		"name": "Chilled to the Bones",
-		"stats": ["20% increased Chill Duration on Enemies", "30 % increased Magnitude of Chill you inflict"]
+		"stats": [
+			"20% increased Chill Duration on Enemies",
+			"30 % increased Magnitude of Chill you inflict"
+		]
 	},
 	"N9": {
 		"name": "Glaciation",
@@ -167,7 +175,10 @@
 	},
 	"N11": {
 		"name": "Controlling Magic",
-		"stats": ["25% increased Critical Hit Chance for Spells", "Hits have 25% reduced Critical Hit Chance against you"]
+		"stats": [
+			"25% increased Critical Hit Chance for Spells",
+			"Hits have 25% reduced Critical Hit Chance against you"
+		]
 	},
 	"N12": {
 		"name": "Patient Barrier",
@@ -212,7 +223,10 @@
 	},
 	"N20": {
 		"name": "Dead can Dance",
-		"stats": ["Minions have 25% increased Evasion Rating", "Your Dexterity is added to your Minions"]
+		"stats": [
+			"Minions have 25% increased Evasion Rating",
+			"Your Dexterity is added to your Minions"
+		]
 	},
 	"N21": {
 		"name": "Arcane Intensity",
@@ -246,7 +260,10 @@
 	},
 	"N27": {
 		"name": "Ether Flow",
-		"stats": ["25% reduced Mana Regeneration Rate while stationary", "50% increased Mana Regeneration Rate while moving"]
+		"stats": [
+			"25% reduced Mana Regeneration Rate while stationary",
+			"50% increased Mana Regeneration Rate while moving"
+		]
 	},
 	"N28": {
 		"name": "Necrotic Touch",
@@ -254,7 +271,10 @@
 	},
 	"N29": {
 		"name": "Living Death",
-		"stats": ["Minions have +22% to all Elemental Resistances", "Minions have +3% to all Maximum Elemental Resistances"]
+		"stats": [
+			"Minions have +22% to all Elemental Resistances",
+			"Minions have +3% to all Maximum Elemental Resistances"
+		]
 	},
 	"N30": {
 		"name": "Master of Hexes",
@@ -262,7 +282,11 @@
 	},
 	"N31": {
 		"name": "Cut to the Bone",
-		"stats": ["Break Armour on Critical Hit with spells equal to 10% of Physical Damage dealt", "10% chance to inflict Bleeding on Hit", "20% increased Physical Damage"]
+		"stats": [
+			"Break Armour on Critical Hit with spells equal to 10% of Physical Damage dealt",
+			"10% chance to inflict Bleeding on Hit",
+			"20% increased Physical Damage"
+		]
 	},
 	"N32": {
 		"name": "Convalescence",
@@ -273,7 +297,11 @@
 	},
 	"N33": {
 		"name": "Warding Fetish",
-		"stats": ["30% increased Damage per Curse on you", "30% reduced effect of Curses on you", "60% increased Energy Shield from Equipped Focus"]
+		"stats": [
+			"30% increased Damage per Curse on you",
+			"30% reduced effect of Curses on you",
+			"60% increased Energy Shield from Equipped Focus"
+		]
 	},
 	"N34": {
 		"name": "Lingering Whispers",
@@ -281,7 +309,10 @@
 	},
 	"N35": {
 		"name": "Final Barrage",
-		"stats": ["20% increased Cast speed when on Low Life", "10% reduced Cast Speed when on Full Life"]
+		"stats": [
+			"20% increased Cast speed when on Low Life",
+			"10% reduced Cast Speed when on Full Life"
+		]
 	},
 	"N36": {
 		"name": "Lust for Sacrifice",
@@ -293,7 +324,10 @@
 	},
 	"N38": {
 		"name": "Invocated Efficiency",
-		"stats": ["Recover 5% of Mana when you Invocate a spell", "Triggered Spells deal 45% increased Spell Damage"]
+		"stats": [
+			"Recover 5% of Mana when you Invocate a spell",
+			"Triggered Spells deal 45% increased Spell Damage"
+		]
 	},
 	"N39": {
 		"name": "Stormbreaker",
@@ -305,11 +339,19 @@
 	},
 	"N41": {
 		"name": "Mental Alacrity",
-		"stats": ["5% increased Cast Speed", "15% increased Mana Regenration Rate", "+10 to Intelligence"]
+		"stats": [
+			"5% increased Cast Speed",
+			"15% increased Mana Regenration Rate",
+			"+10 to Intelligence"
+		]
 	},
 	"N42": {
 		"name": "Shredding Force",
-		"stats": ["15% increased Critical Hit Chance for Spells", "15% increased Critical Hit Damage Bonus", "15% increased Magnitude of damaging Ailments you inflict with Critical Hits"]
+		"stats": [
+			"15% increased Critical Hit Chance for Spells",
+			"15% increased Critical Hit Damage Bonus",
+			"15% increased Magnitude of damaging Ailments you inflict with Critical Hits"
+		]
 	},
 	"N43": {
 		"name": "Overzealous",
@@ -317,7 +359,10 @@
 	},
 	"N44": {
 		"name": "Dreamcatcher",
-		"stats": ["25% increased Spell Damage while on Full Energy Shield", "75% increased Energy Shield from Equipped Focus"]
+		"stats": [
+			"25% increased Spell Damage while on Full Energy Shield",
+			"75% increased Energy Shield from Equipped Focus"
+		]
 	},
 	"N45": {
 		"name": "Climate Change",
@@ -332,7 +377,10 @@
 	},
 	"N47": {
 		"name": "Casting Cascade",
-		"stats": ["15% reduced Spell Damage", "6% increased Cast Speed for each different Non-Instant Spell you've Cast Recently"]
+		"stats": [
+			"15% reduced Spell Damage",
+			"6% increased Cast Speed for each different Non-Instant Spell you've Cast Recently"
+		]
 	},
 	"N48": {
 		"name": "N48",
@@ -340,11 +388,15 @@
 	},
 	"N49": {
 		"name": "Overexposure",
-		"stats": ["30% increased Cold Exposure Effect", "30% increased Fire Exposure Effect", "30% increased Lightning Exposure Effect"]
+		"stats": [
+			"30% increased Cold Exposure Effect",
+			"30% increased Fire Exposure Effect",
+			"30% increased Lightning Exposure Effect"
+		]
 	},
 	"N50": {
 		"name": "Regenerative Flesh",
-		"stats":  ["Minions Recoup 10% of Damage taken as Life"]
+		"stats": ["Minions Recoup 10% of Damage taken as Life"]
 	},
 	"N51": {
 		"name": "N51",
@@ -356,7 +408,10 @@
 	},
 	"N53": {
 		"name": "Entropic Incarnation",
-		"stats": ["Minions have +13% to Chaos Resistance", "Minions gain 8% of Physical Damage as Chaos Damage"]
+		"stats": [
+			"Minions have +13% to Chaos Resistance",
+			"Minions gain 8% of Physical Damage as Chaos Damage"
+		]
 	},
 	"N54": {
 		"name": "Wither Away",
@@ -371,7 +426,10 @@
 	},
 	"N56": {
 		"name": "Stormcharged",
-		"stats": ["40% increased Elemental Damage if you've dealt a Critical Hit Recently", "20% increased Critical Hit Chance"]
+		"stats": [
+			"40% increased Elemental Damage if you've dealt a Critical Hit Recently",
+			"20% increased Critical Hit Chance"
+		]
 	},
 	"N57": {
 		"name": "Shattered Crystal",
@@ -394,7 +452,10 @@
 	},
 	"N61": {
 		"name": "Breaking Point",
-		"stats": ["10% increased Duration of Elemental Ailments on Enemies", "30% increased Magnitude of Non-Damaging Ailments you inflict"]
+		"stats": [
+			"10% increased Duration of Elemental Ailments on Enemies",
+			"30% increased Magnitude of Non-Damaging Ailments you inflict"
+		]
 	},
 	"N62": {
 		"name": "N62",
@@ -406,7 +467,11 @@
 	},
 	"N64": {
 		"name": "Tempered Mind",
-		"stats": ["20% increased Critical Damage Bonus", "+10 to Strength", "20% increased Physical Damage"]
+		"stats": [
+			"20% increased Critical Damage Bonus",
+			"+10 to Strength",
+			"20% increased Physical Damage"
+		]
 	},
 	"N65": {
 		"name": "N65",
@@ -457,7 +522,10 @@
 	},
 	"N76": {
 		"name": "Overload",
-		"stats": ["Damage Penetrates 10% of Lightning Resistance if on Low Mana", "Damage Penetrates 15% of Lightning Resistance"]
+		"stats": [
+			"Damage Penetrates 10% of Lightning Resistance if on Low Mana",
+			"Damage Penetrates 15% of Lightning Resistance"
+		]
 	},
 	"N77": {
 		"name": "N77",
@@ -492,7 +560,10 @@
 	},
 	"N84": {
 		"name": "Erraticism",
-		"stats": ["16% increased Cast Speed if you've dealt a Critical Hit Recently", "10% reduced Critical Hit Chance"]
+		"stats": [
+			"16% increased Cast Speed if you've dealt a Critical Hit Recently",
+			"10% reduced Critical Hit Chance"
+		]
 	},
 	"N85": {
 		"name": "N85",
@@ -520,11 +591,18 @@
 	},
 	"N90": {
 		"name": "Fated End",
-		"stats": ["30% increased Curse Duration", "Enemies Cursed by you have 50% reduced Life Regeneration Rate", "Enemies you Curse cannot recharge energy shield"]
+		"stats": [
+			"30% increased Curse Duration",
+			"Enemies Cursed by you have 50% reduced Life Regeneration Rate",
+			"Enemies you Curse cannot recharge energy shield"
+		]
 	},
 	"N91": {
 		"name": "Impending Doom",
-		"stats": ["40% faster Curse Activation", "Your Curses have 20% increased Effect if 50% of Curse Duration expired"]
+		"stats": [
+			"40% faster Curse Activation",
+			"Your Curses have 20% increased Effect if 50% of Curse Duration expired"
+		]
 	},
 	"N92": {
 		"name": "N92",
@@ -532,7 +610,10 @@
 	},
 	"N93": {
 		"name": "Austerity Measures",
-		"stats": ["+5 to all Attributes", "Gain 20% of maximum Energy shield as Additional Stun Threshold"]
+		"stats": [
+			"+5 to all Attributes",
+			"Gain 20% of maximum Energy shield as Additional Stun Threshold"
+		]
 	},
 	"N94": {
 		"name": "Relentless Fallen",
@@ -603,7 +684,10 @@
 	},
 	"N109": {
 		"name": "Desensitisation",
-		"stats": ["25% increased Critical Damage Bonus", "Hits against you have 25% reduced Critical Damage Bonus"]
+		"stats": [
+			"25% increased Critical Damage Bonus",
+			"Hits against you have 25% reduced Critical Damage Bonus"
+		]
 	},
 	"N110": {
 		"name": "Crystalline Flesh",
@@ -668,7 +752,10 @@
 	},
 	"N123": {
 		"name": "Repulsion",
-		"stats": ["Area Skills have 20% chance to Knock Enemies Back on Hit", "20% increased Spell Area Damage"]
+		"stats": [
+			"Area Skills have 20% chance to Knock Enemies Back on Hit",
+			"20% increased Spell Area Damage"
+		]
 	},
 	"N124": {
 		"name": "N124",
@@ -718,7 +805,10 @@
 	},
 	"N134": {
 		"name": "Aspiring Genius",
-		"stats": ["20% increased Mana Regeneration Rate", "10% chance to Gain Arcane Surge when you deal a Critical Hit"]
+		"stats": [
+			"20% increased Mana Regeneration Rate",
+			"10% chance to Gain Arcane Surge when you deal a Critical Hit"
+		]
 	},
 	"N135": {
 		"name": "N135",
@@ -776,7 +866,10 @@
 	},
 	"N148": {
 		"name": "Investing Energies",
-		"stats": ["40% increased Mana Regeneration Rate while stationary", "20% reduced Mana Regeneration Rate while moving"]
+		"stats": [
+			"40% increased Mana Regeneration Rate while stationary",
+			"20% reduced Mana Regeneration Rate while moving"
+		]
 	},
 	"N149": {
 		"name": "N149",
@@ -826,11 +919,17 @@
 	},
 	"N159": {
 		"name": "Strong Links",
-		"stats": ["Link Skills have 20% increased Buff Effect", "Link Skills have 20% increased Skill Effect Duration"]
+		"stats": [
+			"Link Skills have 20% increased Buff Effect",
+			"Link Skills have 20% increased Skill Effect Duration"
+		]
 	},
 	"N160": {
 		"name": "Total Incineration",
-		"stats": ["25% increased Critical Damage Bonus against Burning Enemies", "10% chance to refresh Ignite Duration on Critical Hit"]
+		"stats": [
+			"25% increased Critical Damage Bonus against Burning Enemies",
+			"10% chance to refresh Ignite Duration on Critical Hit"
+		]
 	},
 	"N161": {
 		"name": "Darkness",
@@ -1105,11 +1204,17 @@
 	},
 	"N220": {
 		"name": "Equilibrium",
-		"stats": ["30% increased Attack Damage if you've Cast a Spell Recently", "10% increased Cast Speed if you've Attacked Recently"]
+		"stats": [
+			"30% increased Attack Damage if you've Cast a Spell Recently",
+			"10% increased Cast Speed if you've Attacked Recently"
+		]
 	},
 	"N221": {
 		"name": "Personal Touch",
-		"stats": ["20% increased Melee Damage", "25% increased Melee Damage against Immobilised Enemies"]
+		"stats": [
+			"20% increased Melee Damage",
+			"25% increased Melee Damage against Immobilised Enemies"
+		]
 	},
 	"N222": {
 		"name": "Flow State",
@@ -1164,7 +1269,10 @@
 	},
 	"N234": {
 		"name": "Deafening Cries",
-		"stats": ["25% increased Warcry Cooldown Recovery Rate", "8% increased Damage for each time you've Warcried Recently"]
+		"stats": [
+			"25% increased Warcry Cooldown Recovery Rate",
+			"8% increased Damage for each time you've Warcried Recently"
+		]
 	},
 	"N235": {
 		"name": "Resolution",
@@ -1402,7 +1510,10 @@
 	},
 	"N286": {
 		"name": "Taste for Blood",
-		"stats": ["Gain 20 Life per Enemy Killed", "2% chance to Recover all Life when you Kill an Enemy"]
+		"stats": [
+			"Gain 20 Life per Enemy Killed",
+			"2% chance to Recover all Life when you Kill an Enemy"
+		]
 	},
 	"N287": {
 		"name": "Preemptive Strike",
@@ -1414,7 +1525,11 @@
 	},
 	"N289": {
 		"name": "Burn Away",
-		"stats": ["15% increased Fire Damage", "Damage Penetrates 10% Fire resistance", "10% increased Magnitude of Ignite you inflict"]
+		"stats": [
+			"15% increased Fire Damage",
+			"Damage Penetrates 10% Fire resistance",
+			"10% increased Magnitude of Ignite you inflict"
+		]
 	},
 	"N290": {
 		"name": "Pocket Sand",
@@ -1433,7 +1548,10 @@
 	},
 	"N293": {
 		"name": "Ancestral Alacrity",
-		"stats": ["30% increased Totem Placement speed", "8% increased Attack and Cast Speed if you've summoned a Totem Recently"]
+		"stats": [
+			"30% increased Totem Placement speed",
+			"8% increased Attack and Cast Speed if you've summoned a Totem Recently"
+		]
 	},
 	"N294": {
 		"name": "Far Sighted",
@@ -1457,7 +1575,10 @@
 	},
 	"N299": {
 		"name": "High Alert",
-		"stats": ["50% increased Evasion Rating when on Full Life", "25% increased Stun Threshold while on Full Life"]
+		"stats": [
+			"50% increased Evasion Rating when on Full Life",
+			"25% increased Stun Threshold while on Full Life"
+		]
 	},
 	"N300": {
 		"name": "Near Sighted",
@@ -1481,11 +1602,17 @@
 	},
 	"N305": {
 		"name": "Impact Area",
-		"stats": ["15% increased Area of Effect if you have Stunned an Enemy Recently", "15% increased Area of Effect for Attacks"]
+		"stats": [
+			"15% increased Area of Effect if you have Stunned an Enemy Recently",
+			"15% increased Area of Effect for Attacks"
+		]
 	},
 	"N306": {
 		"name": "Frenetic",
-		"stats": ["5% chance that if you would gain Frenzy charges, you instead gain up to your Maximum number of Frenzy Charges", "+1 to Maximum Frenzy Charges"]
+		"stats": [
+			"5% chance that if you would gain Frenzy charges, you instead gain up to your Maximum number of Frenzy Charges",
+			"+1 to Maximum Frenzy Charges"
+		]
 	},
 	"N307": {
 		"name": "Honed Instincts",
@@ -1524,7 +1651,10 @@
 	},
 	"N315": {
 		"name": "Crippling Toxins",
-		"stats": ["25% chance for Attacks to Maim on Hit against Poisoned Enemies", "25% increased Magnitude of Poison you inflict"]
+		"stats": [
+			"25% chance for Attacks to Maim on Hit against Poisoned Enemies",
+			"25% increased Magnitude of Poison you inflict"
+		]
 	},
 	"N316": {
 		"name": "Harness the Elements",
@@ -1536,7 +1666,10 @@
 	},
 	"N318": {
 		"name": "Combat Alchemy",
-		"stats": ["10% chance for Flasks you use to not consume Charges", "20% increased Life and Mana Recovery from Flasks"]
+		"stats": [
+			"10% chance for Flasks you use to not consume Charges",
+			"20% increased Life and Mana Recovery from Flasks"
+		]
 	},
 	"N319": {
 		"name": "Bolstering Yell",
@@ -1590,7 +1723,11 @@
 	},
 	"N330": {
 		"name": "Coming Calamity",
-		"stats": ["50% increased Cold Damage while afected by Herald of Ice", "50% increased Fire Damage while afected by Herald of Ash", "50% increased Lightning Damage while afected by Herald of Thunder"]
+		"stats": [
+			"50% increased Cold Damage while afected by Herald of Ice",
+			"50% increased Fire Damage while afected by Herald of Ash",
+			"50% increased Lightning Damage while afected by Herald of Thunder"
+		]
 	},
 	"N331": {
 		"name": "Trick Shot",
@@ -1602,7 +1739,10 @@
 	},
 	"N333": {
 		"name": "Towering Shield",
-		"stats": ["50% increased Defences from Equipped Shield", "25% increased Chance to Block if you(ve Blocked with Active Block Recently"]
+		"stats": [
+			"50% increased Defences from Equipped Shield",
+			"25% increased Chance to Block if you(ve Blocked with Active Block Recently"
+		]
 	},
 	"N334": {
 		"name": "Hold Focus",
@@ -1610,7 +1750,10 @@
 	},
 	"N335": {
 		"name": "Unsight",
-		"stats": ["Enemies near Enemies you Mark are Blinded", "Enemies you Mark cannot deal Critical Hits"]
+		"stats": [
+			"Enemies near Enemies you Mark are Blinded",
+			"Enemies you Mark cannot deal Critical Hits"
+		]
 	},
 	"N336": {
 		"name": "Cautious Concoctions",
@@ -1650,7 +1793,10 @@
 	},
 	"N345": {
 		"name": "Catlike Agility",
-		"stats": ["25% increased Evasion Rating", "25% increased Evasion Rating if you've Doge Rolled Recently"]
+		"stats": [
+			"25% increased Evasion Rating",
+			"25% increased Evasion Rating if you've Doge Rolled Recently"
+		]
 	},
 	"N346": {
 		"name": "Defender's Resolve",
@@ -1665,7 +1811,10 @@
 	},
 	"N348": {
 		"name": "Protraction",
-		"stats": ["20% increased Skill Effect Duration", "15% increased Duration of Damaging Ailments on Enemies"]
+		"stats": [
+			"20% increased Skill Effect Duration",
+			"15% increased Duration of Damaging Ailments on Enemies"
+		]
 	},
 	"N349": {
 		"name": "Piercing Shot",
@@ -1677,11 +1826,17 @@
 	},
 	"N351": {
 		"name": "Fulmination",
-		"stats": ["40% increased chance to Ignite", "40% increased Damage with Hits against Ignited Enemies"]
+		"stats": [
+			"40% increased chance to Ignite",
+			"40% increased Damage with Hits against Ignited Enemies"
+		]
 	},
 	"N352": {
 		"name": "Stacking Toxins",
-		"stats": ["Targets can be affected by +1 of your Poisons at the same time", "20% reduced Magnitude of Poison you inflict"]
+		"stats": [
+			"Targets can be affected by +1 of your Poisons at the same time",
+			"20% reduced Magnitude of Poison you inflict"
+		]
 	},
 	"N353": {
 		"name": "Impair",
@@ -1788,7 +1943,11 @@
 	},
 	"N373": {
 		"name": "Heavy Ammunition",
-		"stats": ["8% reduced Attack Speed", "40% Projectile Damage", "40% increased Projectile Stun Buildup"]
+		"stats": [
+			"8% reduced Attack Speed",
+			"40% Projectile Damage",
+			"40% increased Projectile Stun Buildup"
+		]
 	},
 	"N374": {
 		"name": "Mass Hysteria",
@@ -1839,7 +1998,10 @@
 	},
 	"N385": {
 		"name": "Shedding skin",
-		"stats": ["40% increased Elemental Ailment Threshold", "10% reduced Duration of Ailments on you"]
+		"stats": [
+			"40% increased Elemental Ailment Threshold",
+			"10% reduced Duration of Ailments on you"
+		]
 	},
 	"N386": {
 		"name": "Unerring Impact",
@@ -1855,11 +2017,17 @@
 	},
 	"N388": {
 		"name": "Savagery",
-		"stats": ["50% increased Evasion Rating if you've consumed a Frenzy Charge Recently", "+1 to Maximum Frenzy Charge"]
+		"stats": [
+			"50% increased Evasion Rating if you've consumed a Frenzy Charge Recently",
+			"+1 to Maximum Frenzy Charge"
+		]
 	},
 	"N389": {
 		"name": "Deft Recovery",
-		"stats": ["30% increased Stun Recovery", "30% increased Stun Threshold if you haven't been Stunned Recently"]
+		"stats": [
+			"30% increased Stun Recovery",
+			"30% increased Stun Threshold if you haven't been Stunned Recently"
+		]
 	},
 	"N390": {
 		"name": "Cacophony",
@@ -1888,7 +2056,10 @@
 	},
 	"N394": {
 		"name": "Pinned Down",
-		"stats": ["Enemies are Maimed for 4 seconds after becoming Unpinned", "40% increased Pin buildup"]
+		"stats": [
+			"Enemies are Maimed for 4 seconds after becoming Unpinned",
+			"40% increased Pin buildup"
+		]
 	},
 	"N395": {
 		"name": "Heavy Weaponry",
@@ -1930,7 +2101,10 @@
 	},
 	"N402": {
 		"name": "Backup Plan",
-		"stats": ["40% increased Evasion Rating if you have been Hit Recently", "40% increased Armour if you haven't been Hit Recently"]
+		"stats": [
+			"40% increased Evasion Rating if you have been Hit Recently",
+			"40% increased Armour if you haven't been Hit Recently"
+		]
 	},
 	"N403": {
 		"name": "Bloodletting",
@@ -1938,7 +2112,10 @@
 	},
 	"N404": {
 		"name": "Freedom of Movement",
-		"stats": ["30% increased Evasion Rating", "30% increased Evasion Rating if you've Dodge Rolled Recently"]
+		"stats": [
+			"30% increased Evasion Rating",
+			"30% increased Evasion Rating if you've Dodge Rolled Recently"
+		]
 	},
 	"N405": {
 		"name": "Grit",
@@ -1967,7 +2144,11 @@
 	},
 	"N409": {
 		"name": "Prolonged Assault",
-		"stats": ["16% increased Attack damage", "16% increased Skill Effect Duration", "Buffs on you expire 10% slower"]
+		"stats": [
+			"16% increased Attack damage",
+			"16% increased Skill Effect Duration",
+			"Buffs on you expire 10% slower"
+		]
 	},
 	"N410": {
 		"name": "Skullcrusher",
@@ -1994,7 +2175,10 @@
 	},
 	"N415": {
 		"name": "Thnderstruck",
-		"stats": ["50% increased Electrocute Buildup against Shocked Enemies", "50% increased Shock Chance against Electrocuted Enemies"]
+		"stats": [
+			"50% increased Electrocute Buildup against Shocked Enemies",
+			"50% increased Shock Chance against Electrocuted Enemies"
+		]
 	},
 	"N416": {
 		"name": "Desperate Times",
@@ -2072,7 +2256,11 @@
 	},
 	"N430": {
 		"name": "Blurred Motion",
-		"stats": ["5% increased Attack Speed", "10% increased Global Accuracy Rating", "5% increased Dexterity"]
+		"stats": [
+			"5% increased Attack Speed",
+			"10% increased Global Accuracy Rating",
+			"5% increased Dexterity"
+		]
 	},
 	"N431": {
 		"name": "Colossal Weapon",
@@ -2098,7 +2286,9 @@
 	},
 	"N435": {
 		"name": "Sniper",
-		"stats": ["Arrows gain Critical Hit Chance as they travel farther, up to 60% increased Critical Hit chance"]
+		"stats": [
+			"Arrows gain Critical Hit Chance as they travel farther, up to 60% increased Critical Hit chance"
+		]
 	},
 	"N436": {
 		"name": "Rattled",
@@ -2106,11 +2296,17 @@
 	},
 	"N437": {
 		"name": "Locked On",
-		"stats": ["15% increased Critical Hit chance for Attacks", "15% increased Global Accuracy Rating"]
+		"stats": [
+			"15% increased Critical Hit chance for Attacks",
+			"15% increased Global Accuracy Rating"
+		]
 	},
 	"N438": {
 		"name": "Wasting",
-		"stats": ["15% increased Duration of Damaging Ailments on Enemies", "30% increased Daamge with Hits against Enemies affected by Ailments"]
+		"stats": [
+			"15% increased Duration of Damaging Ailments on Enemies",
+			"30% increased Daamge with Hits against Enemies affected by Ailments"
+		]
 	},
 	"N439": {
 		"name": "N439",
@@ -2199,7 +2395,10 @@
 	},
 	"N457": {
 		"name": "Finishing Blows",
-		"stats": ["60% increased Damage with Hits against Enemies that are on Low Life", "30% increased Stun Buildup against Enemies that are on Low Life"]
+		"stats": [
+			"60% increased Damage with Hits against Enemies that are on Low Life",
+			"30% increased Stun Buildup against Enemies that are on Low Life"
+		]
 	},
 	"N458": {
 		"name": "Pile On",
@@ -2207,7 +2406,11 @@
 	},
 	"N459": {
 		"name": "Heavy Drinker",
-		"stats": ["30% increased Flask Effect Duration", "20% increased Life Recovery from Flasks", "Recover 5% of Life when you use a Life Flask while on Low Life"]
+		"stats": [
+			"30% increased Flask Effect Duration",
+			"20% increased Life Recovery from Flasks",
+			"Recover 5% of Life when you use a Life Flask while on Low Life"
+		]
 	},
 	"N460": {
 		"name": "Acceleration",
@@ -2215,11 +2418,17 @@
 	},
 	"N461": {
 		"name": "Cranial Impact",
-		"stats": ["30% increased Stun Buildup", "Gain an Endurance Charge when you Heavy Stun a Rare or Unique Enemy"]
+		"stats": [
+			"30% increased Stun Buildup",
+			"Gain an Endurance Charge when you Heavy Stun a Rare or Unique Enemy"
+		]
 	},
 	"N462": {
 		"name": "Reprisal",
-		"stats": ["Attack Skills deal 25% increased Damage while holding a Shield", "75% increased Evasion from Equipped Shield"]
+		"stats": [
+			"Attack Skills deal 25% increased Damage while holding a Shield",
+			"75% increased Evasion from Equipped Shield"
+		]
 	},
 	"N463": {
 		"name": "Vengeance",
@@ -2227,11 +2436,17 @@
 	},
 	"N464": {
 		"name": "Escape Strategy",
-		"stats": ["100% increased Evasion Rating if you have been Hit Recently", "30% reduced Evasion Rating if you haven't been Hit Recently"]
+		"stats": [
+			"100% increased Evasion Rating if you have been Hit Recently",
+			"30% reduced Evasion Rating if you haven't been Hit Recently"
+		]
 	},
 	"N465": {
 		"name": "Careful Consideration",
-		"stats": ["30% reduced Evasion Rating if you have been Hit Recently", "100% increased Evasion Rating if you haven't been Hit Recently"]
+		"stats": [
+			"30% reduced Evasion Rating if you have been Hit Recently",
+			"100% increased Evasion Rating if you haven't been Hit Recently"
+		]
 	},
 	"N466": {
 		"name": "N466",
@@ -2247,7 +2462,10 @@
 	},
 	"N469": {
 		"name": "Perforation",
-		"stats": ["20% chance for Bleeding to be Aggravated when Inflicted againt Enemies on Jagged Ground", "40% increased Jagged Ground Duration"]
+		"stats": [
+			"20% chance for Bleeding to be Aggravated when Inflicted againt Enemies on Jagged Ground",
+			"40% increased Jagged Ground Duration"
+		]
 	},
 	"N470": {
 		"name": "Coated Arms",
@@ -2266,7 +2484,10 @@
 	},
 	"N473": {
 		"name": "Exploit",
-		"stats": ["25% increased Damage with Hits against Enemies affected by Elemental Ailments", "15% increased Duration of Ignite, Shock and Chill on Enemies"]
+		"stats": [
+			"25% increased Damage with Hits against Enemies affected by Elemental Ailments",
+			"15% increased Duration of Ignite, Shock and Chill on Enemies"
+		]
 	},
 	"N474": {
 		"name": "Falcon Dive",
@@ -2274,7 +2495,10 @@
 	},
 	"N475": {
 		"name": "Waters of Life",
-		"stats": ["Recover 3% of Life when you use a Mana Flask", "Mana Flasks gain 0.2 charges per second"]
+		"stats": [
+			"Recover 3% of Life when you use a Mana Flask",
+			"Mana Flasks gain 0.2 charges per second"
+		]
 	},
 	"N476": {
 		"name": "Precise Point",
@@ -2318,7 +2542,10 @@
 	},
 	"N486": {
 		"name": "Efficient Alchemy",
-		"stats": ["20% increased Flask and Charm Charges gained", "40% increased Life and Mana Recovery from Flasks while you have an active Charm"]
+		"stats": [
+			"20% increased Flask and Charm Charges gained",
+			"40% increased Life and Mana Recovery from Flasks while you have an active Charm"
+		]
 	},
 	"N487": {
 		"name": "Initiative",
@@ -2352,11 +2579,17 @@
 	},
 	"N493": {
 		"name": "Ancestral Artifice",
-		"stats": ["attack Skills have +1 to maximum number of Summoned Totems", "20% increased Totem Placement range"]
+		"stats": [
+			"attack Skills have +1 to maximum number of Summoned Totems",
+			"20% increased Totem Placement range"
+		]
 	},
 	"N494": {
 		"name": "Ancestral Mending",
-		"stats": ["Regenerate 2% of Life per second while you have a Totem", "totems Regenerate 3% of Life per second"]
+		"stats": [
+			"Regenerate 2% of Life per second while you have a Totem",
+			"totems Regenerate 3% of Life per second"
+		]
 	},
 	"N495": {
 		"name": "Ancestral Unity",
@@ -2364,11 +2597,17 @@
 	},
 	"N496": {
 		"name": "Time Manipulation",
-		"stats": ["Debuffs you inflict have 15% increased Slow Magnitude", "Debuffs on you expire 20% faster"]
+		"stats": [
+			"Debuffs you inflict have 15% increased Slow Magnitude",
+			"Debuffs on you expire 20% faster"
+		]
 	},
 	"N497": {
 		"name": "Perfectly Placed Knife",
-		"stats": ["30% increased Critical Hit Chance against Bleeding Enemies", "20% chance to Aggravate Bleeding on targets you Critically Hit with Attacks"]
+		"stats": [
+			"30% increased Critical Hit Chance against Bleeding Enemies",
+			"20% chance to Aggravate Bleeding on targets you Critically Hit with Attacks"
+		]
 	},
 	"N498": {
 		"name": "Deadly Flourish",
@@ -2384,7 +2623,10 @@
 	},
 	"N501": {
 		"name": "Bravado",
-		"stats": ["Empowered Attcks have 50% increased Stun Buildup","100% increased Stun Threshold during Empowered Attacks"]
+		"stats": [
+			"Empowered Attcks have 50% increased Stun Buildup",
+			"100% increased Stun Threshold during Empowered Attacks"
+		]
 	},
 	"N502": {
 		"name": "Multitasking",
@@ -2426,7 +2668,10 @@
 	},
 	"N510": {
 		"name": "Finality",
-		"stats": ["120% increased Damage with Hits against Enemies that are on Low Life", "5% increased Damage taken while on Low Life"]
+		"stats": [
+			"120% increased Damage with Hits against Enemies that are on Low Life",
+			"5% increased Damage taken while on Low Life"
+		]
 	},
 	"N511": {
 		"name": "Versatile Arms",
@@ -2442,7 +2687,10 @@
 	},
 	"N513": {
 		"name": "Ignore Pain",
-		"stats": ["Gain 3 Rage when Hit by an Enemy", "every Rage also grants 2% increased Stun Threshold"]
+		"stats": [
+			"Gain 3 Rage when Hit by an Enemy",
+			"every Rage also grants 2% increased Stun Threshold"
+		]
 	},
 	"N514": {
 		"name": "Emboldened Avatar",
@@ -2455,7 +2703,10 @@
 	},
 	"N515": {
 		"name": "Marked Agility",
-		"stats": ["30% reduced Mana Cost of Mark Skills", "4% increased Movement Speed if you'be cast a Mark Spell Recently"]
+		"stats": [
+			"30% reduced Mana Cost of Mark Skills",
+			"4% increased Movement Speed if you'be cast a Mark Spell Recently"
+		]
 	},
 	"N516": {
 		"name": "Marked for Death",
@@ -2493,7 +2744,10 @@
 	},
 	"N523": {
 		"name": "Doomsayer",
-		"stats": ["Herald Skills have 30% increased Area of Effect", "Herald Skills deal 30% increased Damage"]
+		"stats": [
+			"Herald Skills have 30% increased Area of Effect",
+			"Herald Skills deal 30% increased Damage"
+		]
 	},
 	"N524": {
 		"name": "Push the Advantage",
@@ -2587,19 +2841,31 @@
 	},
 	"N544": {
 		"name": "Incendiary",
-		"stats": ["30% increased chance to Ignite", "30% increased Damage with Hits against Burning Enemies"]
+		"stats": [
+			"30% increased chance to Ignite",
+			"30% increased Damage with Hits against Burning Enemies"
+		]
 	},
 	"N545": {
 		"name": "Watchtowers",
-		"stats": ["Attack Skills have +1 to maximum number of Summoned totems", "Skills that would Summon a totem have 20% chance to Summon two Totems instead"]
+		"stats": [
+			"Attack Skills have +1 to maximum number of Summoned totems",
+			"Skills that would Summon a totem have 20% chance to Summon two Totems instead"
+		]
 	},
 	"N546": {
 		"name": "Coursing Energy",
-		"stats": ["40% increased Electrocute Buildup", "30% increased Shock Chance against Electrocuted Enemies"]
+		"stats": [
+			"40% increased Electrocute Buildup",
+			"30% increased Shock Chance against Electrocuted Enemies"
+		]
 	},
 	"N547": {
 		"name": "Smoke Inhalation",
-		"stats": ["Damage Penetrates 15% Fire Resistance", "15% increased Duration of Damaging Ailments on Enemies"]
+		"stats": [
+			"Damage Penetrates 15% Fire Resistance",
+			"15% increased Duration of Damaging Ailments on Enemies"
+		]
 	},
 	"N548": {
 		"name": "Authority",
@@ -2611,7 +2877,10 @@
 	},
 	"N550": {
 		"name": "Tainted Strike",
-		"stats": ["25% increased Critical Hit chance for Attacks", "30% increased Magnitude of Non-Damaging Ailments you inflict with Critical Hits"]
+		"stats": [
+			"25% increased Critical Hit chance for Attacks",
+			"30% increased Magnitude of Non-Damaging Ailments you inflict with Critical Hits"
+		]
 	},
 	"N551": {
 		"name": "Succour",
@@ -10568,14 +10837,7 @@
 	},
 	"AN1": {
 		"name": "Sanguimancy",
-		"stats": [
-			"Grants Skill: Life Remnants",
-			"Skills gain a Base Life Cost equal to Base Mana Cost"
-		],
-		"info": [
-			"title:Life Remnants",
-			"Drinks the blood of your enemies to restore your Life. While active, enemies you kill have a chance to spawn a Life Remnant, and Critically Hitting a target spawns a Life Remnant every few seconds. Picking up a Life Remnant grants you Life which can Overflow maximum Life."
-		]
+		"stats": ["Grants Skill: Life Remnants", "Skills gain a Base Life Cost equal to Base Mana Cost"]
 	},
 	"AN2": {
 		"name": "Crimson Power",
@@ -10665,25 +10927,11 @@
 		"stats": [
 			"Grants Skill: Summon Infernal Hound",
 			"20% of Damage from Hits is taken from your Hellhound's Life before you"
-		],
-		"info": [
-			"title:Summon Infernal Hound",
-			"Summons a Reviving Infernal Hound which Ignites enemies near it. The Hound takes a portion of damage from Hits for you."
 		]
 	},
 	"AN12": {
 		"name": "Demonic Possession",
-		"stats": [
-			"Grants Skill: Demon Form",
-			"16% increased Cast Speed while in Demon Form",
-			"+4 to Level of all Spell Skills while in Demon Form",
-			"Lose 1% of Life per second per Demonflame",
-			"Deal 10% increased Spell damage per Demonflame"
-		],
-		"info": [
-			"title: Demon Form",
-			"Shapeshift into a demon, vastly boosting the power of your Spells. You gain Demonflame every second you remain in demon form, causing your Life to be lost at an ever-increasing rate. Revert to human form if you reach 1 Life, use a Skill that isn't a Spell, or reactivate this Skill."
-		]
+		"stats": ["Grants Skill: Demon Form"]
 	},
 	"AN13": {
 		"name": "Pyromantic Pact",
@@ -10741,10 +10989,6 @@
 		"stats": [
 			"Grants Skill: Elemental Storm",
 			"Trigger Elemental Storm on Critical Hit with Spells"
-		],
-		"info": [
-			"title:Elemental Storm",
-			"Creates a stationary Fire, Cold or Lightning storm at a target location for a duration, based on the highest Elemental Damage type for the Hit that Triggered the storm. Hits which do not deal Elemental Damage will not Trigger the storm."
 		]
 	},
 	"AN22": {
@@ -10784,19 +11028,11 @@
 	},
 	"AN29": {
 		"name": "Constant Gale",
-		"stats": ["You have Arcane Surge"],
-		"info": [
-			"title:Arcane Surge",
-			"Arcane Surge grants 10% more Cast Speed and 20% more Mana Regeneration Rate."
-		]
+		"stats": ["You have Arcane Surge"]
 	},
 	"AN30": {
 		"name": "Force of Will",
-		"stats": ["1% increased Effect of Arcane Surge on you per 15 maximum Mana"],
-		"info": [
-			"title:Arcane Surge",
-			"Arcane Surge grants 10% more Cast Speed and 20% more Mana Regeneration Rate."
-		]
+		"stats": ["1% increased Effect of Arcane Surge on you per 15 maximum Mana"]
 	},
 	"AS31": {
 		"name": "AS31",
@@ -10804,24 +11040,15 @@
 	},
 	"AN31": {
 		"name": "Footprints in the Sand",
-		"stats": ["Grants Skill: Temporal Rift"],
-		"info": [
-			"title:Temporal Rift",
-			"Passively leaves afterimages of your recent past. Cast the Spell to return to the oldest afterimage, teleporting to that location and resetting your Life, Mana and Energy Shield to the values they had at the time."
-		]
+		"stats": ["Grants Skill: Temporal Rift"]
 	},
 	"AN32": {
 		"name": "Ultimate Command",
-		"stats": ["Grants Skill: Time Freeze"],
-		"info": [
-			"title:Time Freeze",
-			"Releases a large wave that stops time for all affected enemies for a duration. Duration is lower the more times the enemy has had time stopped for them."
-		]
+		"stats": ["Grants Skill: Time Freeze"]
 	},
 	"AN33": {
 		"name": "Unbound Encore",
-		"stats": ["Grants Skill: Time Snap"],
-		"info": ["title:Time Snap", "Manipulates time, resetting the cooldowns of your other Skills."]
+		"stats": ["Grants Skill: Time Snap"]
 	},
 	"AN34": {
 		"name": "Now and Again",
@@ -10850,10 +11077,7 @@
 	"AN41": {
 		"name": "Faith is a Choice",
 		"stats": ["Grants Skill: Meditate"],
-		"info": [
-			"title:Meditate",
-			"Channels to Recharge Energy Shield. Can overcharge your Energy Shield up to double its normal maximum. Channeling ends when you take damage or your Energy Shield is double its normal maximum. This skill cannot be used if your Energy Shield is already double its normal maximum or you have no maximum Energy Shield."
-		]
+		"skills": ["Meditate"]
 	},
 	"AN42": {
 		"name": "I am the Blizzard...",
@@ -10871,21 +11095,13 @@
 	},
 	"AN44": {
 		"name": "...and I Shall Rage",
-		"stats": ["Grants Skill: Unbound Avatar"],
-		"info": [
-			"title:Unbound Avatar",
-			"Gane Unbound Fury by inflicting Elemental Ailments with Hits on enemies. Once you reach maximum Unbound Fury, consume it to become Unbound for a duration, vastly augmenting your Elemental prowess."
-		]
+		"stats": ["Grants Skill: Unbound Avatar"]
 	},
 	"AN45": {
 		"name": "...and Scatter Them to the Winds",
 		"stats": [
 			"Grants Skill: Elemental Expression",
 			"Trigger Elemental Expression on Melee Critical Hit"
-		],
-		"info": [
-			"title:Elemental Expression",
-			"Creates a fiery explosion, an arcing bolt of lightning, or an icy wave of projectiles. The chance for an explosion is propertional to your Strength, for a bolt proportional to your Dexterity, and for a wave proportional to your Intelligence."
 		]
 	},
 	"AS51": {
@@ -10906,16 +11122,7 @@
 	},
 	"AN54": {
 		"name": "Waking Dream",
-		"stats": ["Grants Skill: Into the Breach"],
-		"info": [
-			"title:Into the Breach",
-			"Creates a Breach around you, allowing you to see nearby Flames of Chayula. You are considered to be in a Breach while this skill is active.",
-			"title:Flame of Chayula",
-			"Collecting Flames of Chayula grants the following bonuses:",
-			"Red Flames of Chayula Leech 7% of your maximum Life to you",
-			"Blue Flames of Chayula Leech 7% of your maximum Mana to you",
-			"Purple Flames of Chayula provide a stacking Buff granting 7% of Damage as Chaos damage for 5 seconds, and stacks up to 10 times."
-		]
+		"stats": ["Grants Skill: Into the Breach"]
 	},
 	"AN55": {
 		"name": "Grasp of the Void",
@@ -10935,39 +11142,19 @@
 	},
 	"AN63": {
 		"name": "Ancestral Empowerment",
-		"stats": ["Every second Slam Skill you use yourself is Ancestrally Boosted"],
-		"info": [
-			"title:Ancestral Boost",
-			"An Ancestrally Boosted Slam has 20% more damage and area of effect."
-		]
+		"stats": ["Every second Slam Skill you use yourself is Ancestrally Boosted"]
 	},
 	"AN64": {
 		"name": "Earthbreaker",
-		"stats": ["20% chance for Slam Skills you use yourself to cause Aftershocks"],
-		"info": [
-			"title:Aftershocks",
-			"Aftershocks are bursts of area damage that occur after the initial impact of the skill causing them. If not otherwise specified, the Aftershock will deal the same damage as the initial impact, in the same area."
-		]
+		"stats": ["20% chance for Slam Skills you use yourself to cause Aftershocks"]
 	},
 	"AN65": {
 		"name": "Crushing Impacts",
-		"stats": ["Your Hits are Crushing Blows"],
-		"info": [
-			"title:Crushing Blows",
-			"Crushing Blows cause a Heavy Stun on enemies that are Primed for Stun.",
-			"title:Primed for Stun",
-			"Normal enemies are Primed for Stun when they have at least 40% Heavy Stun buildup. Magic enemies are instead Primed at 60% buildup, Rare at 70%, and Unique at 80%."
-		]
+		"stats": ["Your Hits are Crushing Blows"]
 	},
 	"AN66": {
 		"name": "Surprising Strength",
-		"stats": ["40% more Damage against Heavy Stunned Enemies"],
-		"info": [
-			"title:Heavy Stun",
-			"Hitting an enemy builds towards a Heavy Stun based on the damage dealt. Different enemies have different Heavy Stun thresholds and durations, with very large monsters having a high Heavy Stun Threshold. Players cannot be Heavy Stunned.",
-			"While an enemy is Heavy Stunned, they cannot act and count as Immobilised.",
-			"Physical and Melee Damage each cause 50% more Heavy Stun buildup. These bonuses are multiplicative with each other."
-		]
+		"stats": ["40% more Damage against Heavy Stunned Enemies"]
 	},
 	"AS71": {
 		"name": "AS71",
@@ -10975,22 +11162,11 @@
 	},
 	"AN71": {
 		"name": "Answered Call",
-		"stats": [
-			"Grants Skill: Ancestral Spirits",
-			"Trigger Ancestral Spirits when you Summon a Totem"
-		],
-		"info": [
-			"title:Ancestral Spirits",
-			"Each of your Totems will summon an Ancestral Spirit Minion to fight for you. If the Totem that summoned the Minion dies then the Ancestral Spirit will too."
-		]
+		"stats": ["Grants Skill: Ancestral Spirits", "Trigger Ancestral Spirits when you Summon a"]
 	},
 	"AN72": {
 		"name": "Jade Heritage",
-		"stats": ["Grants Skill: Encased in Jade", "Gain a stack of Jade every second"],
-		"info": [
-			"title:Encase in Jade",
-			"Consumes all stacks of Jade to grant a Buff for a duration that absorbs all Damage from Hits, up to a maximum based on the amount of Jade consumed. While encased you cannot move or perform actions."
-		]
+		"stats": ["Grants Skill: Encase in Jade", "Gain a stack of Jade every second"]
 	},
 	"AN73": {
 		"name": "Warcaller’s Bellow",
@@ -11016,19 +11192,11 @@
 	},
 	"AN83": {
 		"name": "Gathering Winds",
-		"stats": ["Gain Tailwind on Skill use", "Lose all Tailwind when Hit"],
-		"info": [
-			"title:Tailwind",
-			"Tailwind is a stacking Buff which grants 1% increased Movement Speed, 3% increased Skill Speed, and 15% increased Evasion Rating per stack for 10 seconds, refreshing whenever you gain another stack. Maximum 10 stacks."
-		]
+		"stats": ["Gain Tailwind on Skill use", "Lose all Tailwind when Hit"]
 	},
 	"AN84": {
 		"name": "Projectile Proximity Specialisation",
-		"stats": [
-			"(Choice node)",
-			"Far Shot: Projectile deal 0% more Hits Damage to targets in the first 3.5 metres of their movement, scaling up with distance travelled to reach 20% after 7 meters",
-			"Point Blank: Projectile deal 20% more Hits Damage to targets in the first 3.5 metres of their movement, scaling down with distance travelled to reach 0% after 7 meters"
-		]
+		"stats": ["(Choice node)", "Far Shot", "Point Blank"]
 	},
 	"AN85": {
 		"name": "Wind Ward",
@@ -11107,20 +11275,12 @@
 		"stats": ["20 Passive Skill Points become Weapon Set Skill Points"]
 	},
 	"AN102": {
-		"name": "Pitiless Killer",
-		"stats": ["Culling Strike"],
-		"info": [
-			"title:Culling Strike",
-			"Culling Strikes kill Normal enemies if their Life is at 30% or below. Magic enemies are instead killed at 20%, Rare at 10% and Unique at 5%. These thresholds are checked before the damage of the Hit is applied."
-		]
+		"name": "Pitless Killer",
+		"stats": ["Culling Strike"]
 	},
 	"AN103": {
-		"name": "Judge, Jury, and Executioner",
-		"stats": ["Decimating Strike"],
-		"info": [
-			"title:Decimating Strike",
-			"Hits against Full Life Enemies remove between 5% and 30% of Life, before the damage of the Hit is applied."
-		]
+		"name": "Judge Jury Executioner",
+		"stats": ["Decimating Strike"]
 	},
 	"AN104": {
 		"name": "Witchbane",
@@ -11128,27 +11288,23 @@
 			"Enemies have Maximum Concentration equal to 40% of their Maximum Life",
 			"Break enemy Concentration on Hit equal to 100% of Damage Dealt",
 			"Enemies regain 10% of Concentration every second if they haven't lost Concentration in the past 5 seconds"
-		],
-		"info": [
-			"title:Concentration",
-			"Enemies have less Cooldown Recovery Rate the lower their Concentration, scaling down to 50% less Cooldown Recovery Rate when Concentration is 0%."
 		]
 	},
 	"AN105": {
 		"name": "No Mercy",
-		"stats": ["Deal up to 30% more Damage to Enemies based on their missing Concentration"],
-		"info": [
-			"title:Concentration",
-			"Enemies have less Cooldown Recovery Rate the lower their Concentration, scaling down to 50% less Cooldown Recovery Rate when Concentration is 0%."
-		]
+		"stats": ["Deal up to 30% more Damage to Enemies based on their missing Concentration"]
 	},
 	"AN106": {
 		"name": "Obsessive Rituals",
-		"stats": ["Grants Skill: Sorcery Ward", "50% less Armour and Evasion Rating"],
-		"info": [
-			"title:Sorcery Ward",
-			"Passively manifests a protective barrier which takes Elemental Damage from Hits for you until depleted. The barrier instantly recharges to its full value after a short time after it stops taking damage or is fully depleted."
-		]
+		"stats": ["Grants Skills: Sorcery Ward", "50% less Armour and Evasion Rating"],
+		"skill": {
+			"name": "Sorcery Ward",
+			"type": "Spell",
+			"description": [
+				"Passively manifests a protective barrier which takes Elemental Damage from Hits for you until depleted.",
+				"The barrier instantly recharges to its full value a short time after it stops taking damage or is fully depleted"
+			]
+		}
 	},
 	"AN107": {
 		"name": "Ceremonial Ablution",
@@ -11207,14 +11363,7 @@
 	},
 	"AN119": {
 		"name": "Lucid Dreaming",
-		"stats": ["Effect and Duration of Flames of Chayula on You is Double"],
-		"info": [
-			"title:Flame of Chayula",
-			"Collecting Flames of Chayula grants the following bonuses:",
-			"Red Flames of Chayula Leech 7% of your maximum Life to you",
-			"Blue Flames of Chayula Leech 7% of your maximum Mana to you",
-			"Purple Flames of Chayula provide a stacking Buff granting 7% of Damage as Chaos damage for 5 seconds, and stacks up to 10 times."
-		]
+		"stats": ["Effect and Duration of Flames of Chayula on You is Double"]
 	},
 	"AN120": {
 		"name": "Embrace the Darkness",

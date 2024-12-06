@@ -1,14 +1,17 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import { type TreeNodeData, loadData } from '$lib';
+	import { type Keyword, type Skill, type TreeNodeData, loadData } from '$lib';
 	import { onMount, tick } from 'svelte';
 	import { browser } from '$app/environment';
 	import { Header } from '$lib/components/ui/header';
 	import { TreeNodeTooltip } from '$lib/components/ui/tree-node-tooltip/index.js';
 	import TreeNode from '$lib/components/ui/tree-node/tree-node.svelte';
 	import NodeListItem from '$lib/components/ui/node-list-item/node-list-item.svelte';
+	import KeywordListItem from '$lib/components/ui/node-list-item/keyword-list-item.svelte';
 	import LZString from 'lz-string';
 	import { SaveAndLoadModal } from '$lib/components/save-and-load';
+	import { mergeDatas } from '$lib/utils';
+	import SkillListItem from '$lib/components/ui/node-list-item/skill-list-item.svelte';
 
 	let { nodes } = loadData();
 
@@ -45,9 +48,16 @@
 
 	// State for selected nodes
 	let selectedNodes: string[] = [];
+	let keywords: Keyword[] = [];
+	let skills: Skill[] = [];
 
 	// State for sidebar menu show/hide toggle
-	let sidebarVisable = true;
+	let leftSidebarVisible = true;
+	let rightSidebarVisible = false;
+
+	// State for tooltip details
+	let showKeywordDetails = false;
+	let showSkillDetails = true;
 
 	// State for filters
 	let highlightKeystones = false;
@@ -125,6 +135,24 @@
 		filterUnidentifiedNodes,
 		filterSelectedAscendancyNodes
 	];
+
+	$: if (selectedAscendancy !== prevSelectedAscendancy) {
+		// Remove Ascendancy nodes from selectedNodes when changing between ascendancies
+		selectedNodes = selectedNodes.filter((id) => !id.startsWith('A'));
+		prevSelectedAscendancy = selectedAscendancy;
+	}
+
+	$: {
+		// find selected keywords and skills from selectedNodes
+		const nodess = Object.values(nodes).filter((node) => selectedNodes.includes(node.id));
+
+		keywords = nodess
+			.reduce((keywords: Keyword[], n) => mergeDatas([...keywords, ...n.keywords]), [])
+			.map((k) => ({ ...k, blinking: false }));
+		skills = nodess
+			.reduce((k, n) => [...k, ...(n.skills || [])], [] as Skill[])
+			.map((k) => ({ ...k, blinking: false }));
+	}
 
 	// filter nodes using active filters
 	function filterNodes(node: TreeNodeData) {
@@ -404,17 +432,23 @@
 		selectedNodes = [];
 	}
 
-	function toggleSidebar() {
-		sidebarVisable = !sidebarVisable;
+	function toggleLeftSidebar() {
+		leftSidebarVisible = !leftSidebarVisible;
+	}
+
+	function toggleRightSidebar() {
+		rightSidebarVisible = !rightSidebarVisible;
 	}
 
 	// Add event listeners for global mouse events to handle panning
 	onMount(() => {
 		const checkScreenSize = () => {
 			if (window.innerWidth < 768) {
-				sidebarVisable = false;
+				leftSidebarVisible = false;
+				rightSidebarVisible = false;
 			} else {
-				sidebarVisable = true;
+				leftSidebarVisible = true;
+				rightSidebarVisible = true;
 			}
 		};
 
@@ -506,20 +540,28 @@
 	<Header />
 	<!-- Tree -->
 	<div
-		class={`grid grid-rows-1 ${sidebarVisable ? 'grid-cols-[20rem_1fr]' : 'grid-cols-1'} min-h-0`}
+		class={`grid grid-rows-1 ${
+			leftSidebarVisible && rightSidebarVisible
+				? 'grid-cols-[20rem_1fr_20rem]'
+				: leftSidebarVisible
+					? 'grid-cols-[20rem_1fr]'
+					: rightSidebarVisible
+						? 'grid-cols-[1fr_20rem]'
+						: 'grid-cols-1'
+		} min-h-0`}
 	>
 		<!-- Left Sidebar -->
 		<aside
-			class={`h-full grid grid-cols-1  ${sidebarVisable ? 'bg-[#111]' : 'absolute'} grid-rows-[auto_auto_auto_1fr] gap-2 p-2  min-h-0 z-20`}
+			class={`h-full grid grid-cols-1  ${leftSidebarVisible ? 'bg-[#111]' : 'absolute'} grid-rows-[auto_auto_auto_1fr] gap-2 p-2  min-h-0 z-20`}
 		>
 			<!-- Toggle Button for Aside -->
 			<button
-				class="flex md:hidden z-10 p-2 bg-[#333] text-white rounded-md hover:bg-[#444]"
-				onclick={toggleSidebar}
+				class="flex z-10 p-2 bg-[#333] text-white rounded-md hover:bg-[#444]"
+				onclick={toggleLeftSidebar}
 			>
-				<h2 class="-mt-1 text-2xl">{sidebarVisable ? '<' : '>'}</h2>
+				<h2 class="-mt-1 text-2xl">{leftSidebarVisible ? '<' : '>'}</h2>
 			</button>
-			{#if sidebarVisable}
+			{#if leftSidebarVisible}
 				<!-- Toggleable -->
 				<div class="space-y-4">
 					<div>
@@ -577,6 +619,19 @@
 							<label class="whitespace-nowrap">
 								<input type="checkbox" bind:checked={hideSmall} />
 								<span>Smalls</span>
+							</label>
+						</div>
+					</div>
+					<div>
+						<b class="block underline underline-offset-2">Tooltips:</b>
+						<div class="flex flex-row gap-2 flex-wrap">
+							<label class="whitespace-nowrap">
+								<input type="checkbox" bind:checked={showKeywordDetails} />
+								<span>Keyword Details</span>
+							</label>
+							<label class="whitespace-nowrap">
+								<input type="checkbox" bind:checked={showSkillDetails} />
+								<span>Skill Details</span>
 							</label>
 						</div>
 					</div>
@@ -655,17 +710,19 @@
 						{/each}
 					</ul>
 				</div>
+				<!-- Keywords -->
+				<!--<div class="min-h-0 grid grid-cols-1 grid-rows-[auto_auto_auto_1fr]">
+					<b class="underline underline-offset-2">Keywords:</b>
+					<ul class="block min-h-0 overflow-y-auto">
+						{#each keywords as keyword}
+							<li>
+								<KeywordListItem {keyword} {nodes} onClick={panToNode}/>
+							</li>
+						{/each}
+					</ul>
+				</div>-->
 			{/if}
 		</aside>
-		{#if sidebarVisable}
-			<button
-				class="md:hidden fixed h-svh w-svw outline-none border-none z-10"
-				aria-label="collapse sidebar alt"
-				onclick={() => {
-					sidebarVisable = false;
-				}}
-			></button>
-		{/if}
 		<!-- Tree View -->
 		<div class="bg-[#070b0f]">
 			<!-- Skill Tree Container -->
@@ -753,32 +810,48 @@
 						class="absolute pointer-events-none flex flex-wrap gap-4"
 						style="left: {tooltipX}px; top: {tooltipY}px; max-width: 100svw"
 					>
-						<TreeNodeTooltip node={tooltipNode} />
-						{#if tooltipNode.extraInfo && tooltipNode.extraInfo.length > 0}
-							<div
-								class="bg-[#0f0f0f] w-[400px] border-2 border-[#595343] p-[10px] text-[#c3b58a] grid gap-2"
-								style="font-family: 'Fontin', sans-serif"
-							>
-								{#each tooltipNode.extraInfo as infoLine}
-									{#if infoLine.startsWith('title:')}
-										<h2
-											class="text-center text-xl text-[#f0e4c2]"
-											style="font-family: 'Fontin SmallCaps', sans-serif"
-										>
-											{infoLine.split('title:')[1]}
-										</h2>
-									{:else}
-										<p>
-											{infoLine}
-										</p>
-									{/if}
-								{/each}
-							</div>
-						{/if}
+						<TreeNodeTooltip node={tooltipNode} {showKeywordDetails} {showSkillDetails} />
 					</div>
 				{/if}
 			</div>
 		</div>
+		<!-- Right Sidebar -->
+		<aside
+			class={`h-full grid grid-cols-1 ${rightSidebarVisible ? 'bg-[#111]' : 'absolute right-2'} grid-rows-[auto_auto_auto_1fr] gap-2 p-2 min-h-0 z-20`}
+		>
+			<!-- Toggle Button for Aside -->
+			<button
+				class="flex z-10 p-2 bg-[#333] text-white rounded-md hover:bg-[#444]"
+				onclick={toggleRightSidebar}
+			>
+				<h2 class="-mt-1 text-2xl">{rightSidebarVisible ? '> Details' : '< Details'}</h2>
+			</button>
+			{#if rightSidebarVisible}
+				<!-- Keywords -->
+				<div class="min-h-0 grid grid-cols-1 grid-rows-[auto_auto_auto_1fr]">
+					<b class="underline underline-offset-2">Keywords:</b>
+					<ul class="block min-h-0 overflow-y-auto">
+						{#each keywords as keyword}
+							<li>
+								<KeywordListItem {keyword} {nodes} onClick={panToNode} />
+							</li>
+						{/each}
+					</ul>
+				</div>
+
+				<!-- Keywords -->
+				<div class="min-h-0 grid grid-cols-1 grid-rows-[auto_auto_auto_1fr]">
+					<b class="underline underline-offset-2">Skills:</b>
+					<ul class="block min-h-0 overflow-y-auto">
+						{#each skills as skill}
+							<li>
+								<SkillListItem {skill} {nodes} onClick={panToNode} />
+							</li>
+						{/each}
+					</ul>
+				</div>
+			{/if}
+		</aside>
 	</div>
 
 	<SaveAndLoadModal />

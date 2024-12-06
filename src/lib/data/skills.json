@@ -1,0 +1,99 @@
+{
+	"Meditate": {
+		"name": "Meditate",
+		"type": "Spell",
+		"stats": [
+			"Channels to Recharge Energy Shield. Can overcharge your Energy Shield up to double its normal maximum.",
+			"Channelling ends when you take damage or your Energy Shield is double its normal maximum.",
+			"This skill cannot be used if your Energy Shield is already double its normal maximum or you have no maximum Energy Shield."
+		],
+		"icon": "Meditate.png"
+	},
+	"Unbound Avatar": {
+		"name": "Unbound Avatar",
+		"type": "Buff",
+		"stats": [
+			"Gain Unbound Fury by inflicting Elemental Ailments with Hits on enemies.",
+			"Once you reach maximum Unbound Fury, consume it to become Unbound for a duration, vastly augmenting your Elemental prowess."
+		]
+	},
+	"Elemental Expression": {
+		"name": "Elemental Expression",
+		"type": "Spell",
+		"stats": [
+			"Creates a fiery explosion, an arcing bolt of lightning, or an icy wave of projectiles.",
+			"The chance for an explosion is proportional to your Strength, for a bolt proportional to your Dexterity, and for a wave proportional to your Intelligence."
+		]
+	},
+	"Sorcery Ward": {
+		"name": "Sorcery Ward",
+		"type": "Spell",
+		"stats": [
+			"Channels to Recharge Energy Shield. Can overcharge your Energy Shield up to double its normal maximum.",
+			"Channelling ends when you take damage or your Energy Shield is double its normal maximum.",
+			"This skill cannot be used if your Energy Shield is already double its normal maximum or you have no maximum Energy Shield."
+		]
+	},
+	"Elemental Storm": {
+		"name": "Elemental Storm",
+		"type": "Spell",
+		"stats": [
+			"Creates a stationary Fire, Cold or Lightning storm at a target location for a duration, based on the highest Elemental Damage type for the Hit that Triggered the storm.",
+			"Hits which do not deal Elemental Damage will not Trigger the storm."
+		]
+	},
+	"Time Snap": {
+		"name": "Time Snap",
+		"type": "Spell",
+		"stats": ["Manipulates time, resetting the cooldowns of your other Skills."]
+	},
+	"Time Freeze": {
+		"name": "Time Freeze",
+		"type": "Spell",
+		"stats": [
+			"Releases a large wave that stops time for all affected enemies for a duration.",
+			"Duration is lower the more times the enemy has had time stopped for them."
+		]
+	},
+	"Temporal Rift": {
+		"name": "Temporal Rift",
+		"type": "Spell",
+		"stats": [
+			"Passively leaves afterimages of your recent past.",
+			"Cast the Spell to return to the oldest afterimage, teleporting to that location and resetting your Life, Mana and Energy Shield to the values they had at the time."
+		]
+	},
+	"Life Remnants": {
+		"name": "Life Remnants",
+		"type": "Buff",
+		"stats": [
+			"Drinks the blood of your enemies to restore your Life.",
+			"While active, enemies you kill have a chance to spawn a Life Remnant, and Critically Hitting a target spawns a Life Remnant every few seconds.",
+			"Picking up a Life Remnant grants you Life which can Overflow maximum Life."
+		]
+	},
+	"Encase in Jade": {
+		"name": "Encase in Jade",
+		"type": "Spell",
+		"stats": [
+			"Consumes all stacks of Jade to grant a Buff for a duration that absorbs all Damage from Hits, up to a maximum based on the amount of Jade consumed.",
+			"While encased you cannot move or perform actions."
+		]
+	},
+	"Ancestral Spirits": {
+		"name": "Ancestral Spirits",
+		"type": "Spell",
+		"stats": [
+			"Each of your Totems will summon an Ancestral Spirit Minion to fight for you.",
+			"If the Totem that summoned the Minion dies then the Ancestral Spirit will too."
+		]
+	},
+	"Into the Breach": {
+		"name": "Into The Breach",
+		"type": "Buff",
+		"stats": [
+			"Creates a Breach around you, allowing you to see nearby Flames of Chayula.",
+			"You are considered to be in a Breach while this skill is active."
+		]
+	}
+}
