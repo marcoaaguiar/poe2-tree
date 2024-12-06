@@ -61,7 +61,7 @@
 	let isRegexSearch = false;
 
 	// Reactive statement for search
-	$: handleSearch(searchTerm);
+	$: isRegexSearch && handleSearch(searchTerm);
 
 	if (browser) {
 		const params = new URLSearchParams(window.location.search);
@@ -584,6 +584,11 @@
 				<!-- Search -->
 				<div class="min-h-0 grid grid-cols-1 grid-rows-[auto_auto_auto_1fr]">
 					<b class="block underline underline-offset-2">Search:</b>
+					<!-- Regex Search Checkbox -->
+					<label class="whitespace-nowrap">
+						<input type="checkbox" bind:checked={isRegexSearch} />
+						<span>Regex Mode:</span>
+					</label>
 					<!-- Search Input Container -->
 					<div class="relative inline-block">
 						<input
@@ -612,13 +617,6 @@
 							</button>
 						{/if}
 					</div>
-						<!-- Regex Search Toggle Button -->
-						<button
-							class="mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
-							onclick={() => (isRegexSearch = !isRegexSearch)}
-						>
-							{isRegexSearch ? 'Disable Regex Search' : 'Enable Regex Search'}
-						</button>
 					<span>Found: {searchResults.length}</span>
 					<ul class="block min-h-0 overflow-y-auto">
 						{#each searchResults as nodeId}
