@@ -589,7 +589,7 @@
 						<!-- Regex Search Checkbox -->
 						<label class="whitespace-nowrap flex items-center">
 							<input type="checkbox" bind:checked={isRegexSearch} />
-							<span class="ml-2">Regex Mode:</span>
+							<span class="ml-2">Regex Mode</span>
 						</label>
 					</div>
 					<!-- Search Input Container -->
