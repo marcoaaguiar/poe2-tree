@@ -61,7 +61,7 @@
 	let isRegexSearch = false;
 
 	// Reactive statement for search
-	$: isRegexSearch && handleSearch(searchTerm);
+	$: handleSearch(searchTerm, isRegexSearch);
 
 	if (browser) {
 		const params = new URLSearchParams(window.location.search);
@@ -341,7 +341,7 @@
 		}
 	}
 
-	function handleSearch(text: string) {
+	function handleSearch(text: string, regexMode: boolean) {
 		if (!text) {
 			searchResults = [];
 			return;
@@ -349,7 +349,7 @@
 
 		const search = text.toLowerCase();
 
-		if (isRegexSearch) {
+		if (regexMode) {
 			try {
 				const regex = new RegExp(search);
 				searchResults = Object.entries(nodes)
@@ -583,14 +583,17 @@
 				</div>
 				<!-- Search -->
 				<div class="min-h-0 grid grid-cols-1 grid-rows-[auto_auto_auto_1fr]">
-					<b class="block underline underline-offset-2">Search:</b>
-					<!-- Regex Search Checkbox -->
-					<label class="whitespace-nowrap">
-						<input type="checkbox" bind:checked={isRegexSearch} />
-						<span>Regex Mode:</span>
-					</label>
+					<!-- Search and Regex Toggle Container -->
+					<div class="flex justify-between items-center">
+						<b class="block underline underline-offset-2">Search:</b>
+						<!-- Regex Search Checkbox -->
+						<label class="whitespace-nowrap flex items-center">
+							<input type="checkbox" bind:checked={isRegexSearch} />
+							<span class="ml-2">Regex Mode</span>
+						</label>
+					</div>
 					<!-- Search Input Container -->
-					<div class="relative inline-block">
+					<div class="relative inline-block mt-2">
 						<input
 							class="block w-full rounded px-2 pr-10 text-black"
 							type="text"
