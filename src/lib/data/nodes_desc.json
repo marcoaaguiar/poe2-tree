@@ -9077,8 +9077,8 @@
 		"stats": []
 	},
 	"S1575": {
-		"name": "S1575",
-		"stats": []
+		"name": "Armour and Evasion",
+		"stats": ["12% increased Armour and Evasion Rating"]
 	},
 	"S1576": {
 		"name": "S1576",
@@ -9177,8 +9177,8 @@
 		"stats": ["3% increased Attack Speed with Axes"]
 	},
 	"S1600": {
-		"name": "S1600",
-		"stats": []
+		"name": "Armour and Evasion",
+		"stats": ["12% increased Armour and Evasion Rating"]
 	},
 	"S1601": {
 		"name": "Grenade Area",
@@ -9261,8 +9261,8 @@
 		"stats": ["+5 to any Attribute"]
 	},
 	"S1621": {
-		"name": "S1621",
-		"stats": []
+		"name": "Armour and Evasion",
+		"stats": ["12% increased Armour and Evasion Rating"]
 	},
 	"S1622": {
 		"name": "S1622",
