@@ -9309,8 +9309,8 @@
 		"stats": []
 	},
 	"S1633": {
-		"name": "S1633",
-		"stats": []
+		"name": "Projectile Damage",
+		"stats": ["10% increased Projectile Damage"]
 	},
 	"S1634": {
 		"name": "Attribute",
