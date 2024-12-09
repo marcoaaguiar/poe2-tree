@@ -8563,8 +8563,10 @@
 		"stats": []
 	},
 	"S1447": {
-		"name": "S1447",
-		"stats": []
+		"name": "Armour Break and Physical Damage",
+		"stats": [ "Break 10% Armour",
+			"6% increased Physical Damage" 
+		]
 	},
 	"S1448": {
 		"name": "S1448",
@@ -8671,11 +8673,8 @@
 		"stats": ["+5 to any Attribute"]
 	},
 	"S1474": {
-		"name": "Armour Break and Physical Damage",
-		"stats": [
-			"Break 10% Armour",
-			"6% increased Physical Damage"
-		]
+		"name": "S1474",
+		"stats": []
 	},
 	"S1475": {
 		"name": "S1475",
