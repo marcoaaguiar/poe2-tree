@@ -9041,8 +9041,8 @@
 		"stats": []
 	},
 	"S1566": {
-		"name": "S1566",
-		"stats": []
+		"name": "Accuracy",
+		"stats": ["16% increased Accuracy Rating at Close Range"]
 	},
 	"S1567": {
 		"name": "Grenade Area",
