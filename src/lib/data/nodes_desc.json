@@ -9245,8 +9245,8 @@
 		"stats": []
 	},
 	"S1617": {
-		"name": "S1617",
-		"stats": []
+		"name": "One Handed Damage",
+		"stats": ["10% increased Damage with One Handed Weapons"]
 	},
 	"S1618": {
 		"name": "S1618",
