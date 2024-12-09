@@ -9393,8 +9393,8 @@
 		"stats": []
 	},
 	"S1654": {
-		"name": "S1654",
-		"stats": []
+		"name": "Attack Damage",
+		"stats": ["10% increased Attack Damage while you have an Ally in your Presence"]
 	},
 	"S1655": {
 		"name": "S1655",
