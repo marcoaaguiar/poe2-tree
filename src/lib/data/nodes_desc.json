@@ -8577,8 +8577,8 @@
 		"stats": []
 	},
 	"S1450": {
-		"name": "S1450",
-		"stats": []
+		"name": "Duel Wielding Speed",
+		"stats": ["3% increased Attack Speed while Dule Wielding"]
 	},
 	"S1451": {
 		"name": "Two Handed Damage",
@@ -8617,8 +8617,8 @@
 		"stats": []
 	},
 	"S1460": {
-		"name": "S1460",
-		"stats": []
+		"name": "Duel Wielding Speed",
+		"stats": ["3% increased Attack Speed while Dule Wielding"]
 	},
 	"S1461": {
 		"name": "Dual Wielding Damage",
