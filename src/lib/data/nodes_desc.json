@@ -8585,8 +8585,8 @@
 		"stats": ["12% increased Damage with Two Handed Weapons"]
 	},
 	"S1452": {
-		"name": "S1452",
-		"stats": []
+		"name": "Duel Wielding Damage",
+		"stats": ["12% increased Attack Damage while Dual Wielding"]
 	},
 	"S1453": {
 		"name": "S1453",
@@ -8677,8 +8677,8 @@
 		"stats": []
 	},
 	"S1475": {
-		"name": "S1475",
-		"stats": []
+		"name": "Duel Wielding Damage",
+		"stats": ["12% increased Attack Damage while Dual Wielding"]
 	},
 	"S1476": {
 		"name": "S1476",
