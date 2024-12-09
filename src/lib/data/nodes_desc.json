@@ -9305,8 +9305,8 @@
 		"stats": []
 	},
 	"S1632": {
-		"name": "S1632",
-		"stats": []
+		"name": "Evasion",
+		"stats": ["15% increased Evasion Rating"]
 	},
 	"S1633": {
 		"name": "Projectile Damage",
@@ -9333,8 +9333,8 @@
 		"stats": ["10% increased Projectile Damage"]
 	},
 	"S1639": {
-		"name": "S1639",
-		"stats": []
+		"name": "Evasion",
+		"stats": ["15% increased Evasion Rating"]
 	},
 	"S1640": {
 		"name": "S1640",
