@@ -9001,8 +9001,8 @@
 		"stats": []
 	},
 	"S1556": {
-		"name": "S1556",
-		"stats": []
+		"name": "Accuracy",
+		"stats": ["8% increased Accuracy Rating"]
 	},
 	"S1557": {
 		"name": "S1557",
@@ -9069,8 +9069,8 @@
 		"stats": ["+5 to any Attribute"]
 	},
 	"S1573": {
-		"name": "S1573",
-		"stats": []
+		"name": "Accuracy",
+		"stats": ["8% increased Accuracy Rating"]
 	},
 	"S1574": {
 		"name": "S1574",
@@ -9161,8 +9161,8 @@
 		"stats": ["12% increased Damage with Axes"]
 	},
 	"S1596": {
-		"name": "S1596",
-		"stats": []
+		"name": "Accuracy",
+		"stats": ["8% increased Accuracy Rating"]
 	},
 	"S1597": {
 		"name": "S1597",
