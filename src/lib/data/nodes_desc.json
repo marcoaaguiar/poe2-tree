@@ -8889,8 +8889,8 @@
 		"stats": []
 	},
 	"S1528": {
-		"name": "S1528",
-		"stats": []
+		"name": "Weapon Swap Speed",
+		"stats": ["20% increased Weapon Swap Speed"]
 	},
 	"S1529": {
 		"name": "Knockback",
@@ -8957,8 +8957,8 @@
 		"stats": []
 	},
 	"S1545": {
-		"name": "S1545",
-		"stats": []
+		"name": "Weapon Swap Speed",
+		"stats": ["20% increased Weapon Swap Speed"]
 	},
 	"S1546": {
 		"name": "Knockback",
