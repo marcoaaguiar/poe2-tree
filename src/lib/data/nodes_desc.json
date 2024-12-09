@@ -9081,8 +9081,8 @@
 		"stats": ["12% increased Armour and Evasion Rating"]
 	},
 	"S1576": {
-		"name": "S1576",
-		"stats": []
+		"name": "Armour",
+		"stats": ["15% increased Armour"]
 	},
 	"S1577": {
 		"name": "S1577",
@@ -9113,8 +9113,8 @@
 		"stats": ["15% increased Cooldown Recovery Rate for Grenade Skills"]
 	},
 	"S1584": {
-		"name": "S1584",
-		"stats": []
+		"name": "Armour",
+		"stats": ["15% increased Armour"]
 	},
 	"S1585": {
 		"name": "One Handed Damage",
