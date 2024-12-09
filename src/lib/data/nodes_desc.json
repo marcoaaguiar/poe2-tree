@@ -9225,8 +9225,8 @@
 		"stats": []
 	},
 	"S1612": {
-		"name": "S1612",
-		"stats": []
+		"name": "Projectile Pierce",
+		"stats": ["10% chance for Projectiles to Pierce Enemies within 3m distance of you"]
 	},
 	"S1613": {
 		"name": "S1613",
@@ -9325,8 +9325,8 @@
 		"stats": []
 	},
 	"S1637": {
-		"name": "S1637",
-		"stats": []
+		"name": "Projectile Pierce",
+		"stats": ["10% chance for Projectiles to Pierce Enemies within 3m distance of you"]
 	},
 	"S1638": {
 		"name": "Projectile Damage",
