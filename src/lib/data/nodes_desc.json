@@ -9141,8 +9141,8 @@
 		"stats": ["+5 to any Attribute"]
 	},
 	"S1591": {
-		"name": "S1591",
-		"stats": []
+		"name": "One Handed Ailment Chance",
+		"stats": ["12% increased Chance to inflict Ailments with One-Handed Attacks"]
 	},
 	"S1592": {
 		"name": "Attribute",
