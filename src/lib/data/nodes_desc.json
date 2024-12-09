@@ -8629,8 +8629,8 @@
 		"stats": []
 	},
 	"S1463": {
-		"name": "S1463",
-		"stats": []
+		"name": "Two Handed Damage",
+		"stats": ["12% increased Damage with Two Handed Weapons"]
 	},
 	"S1464": {
 		"name": "Mace Damage",
