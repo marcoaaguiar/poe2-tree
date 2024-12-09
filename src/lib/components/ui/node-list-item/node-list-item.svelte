@@ -1,10 +1,14 @@
 <script lang="ts">
+	import type { Skill } from '$lib';
+	import { sanitizeString } from '$lib/utils';
+
 	export let nodeId: string;
 	export let nodes: Record<
 		string,
 		{
 			name: string;
 			description: string[];
+			skill?: Skill;
 		}
 	>;
 	export let onClick: (nodeId: string) => void;
@@ -38,7 +42,7 @@
 	<strong class={getTitleColor(nodeId)}>{nodes[nodeId].name}</strong>
 	<ul>
 		{#each nodes[nodeId].description as description}
-			<li class="text-sm text-[#7d7aad]">{description}</li>
+			<li class="text-sm text-[#7d7aad]">{@html sanitizeString(description)}</li>
 		{/each}
 	</ul>
 </button>
